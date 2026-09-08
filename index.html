@@ -1,0 +1,1084 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1a1a19">
+<title>MTG Price Watch</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a1a19'/%3E%3Cpath d='M12 44 L24 33 L33 39 L43 21 L54 16' fill='none' stroke='%233987e5' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+/* ---------- design tokens (light default, dark selected) ---------- */
+:root{
+  color-scheme: light;
+  --plane:#f9f9f7; --surface:#fcfcfb; --surface-2:#f2f1ed;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,.10);
+  --s1:#2a78d6; --s2:#eb6834;
+  --good:#0ca30c; --good-text:#006300; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  --radius:12px;
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232322;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10);
+    --s1:#3987e5; --s2:#d95926;
+    --good:#0ca30c; --good-text:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232322;
+  --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10);
+  --s1:#3987e5; --s2:#d95926;
+  --good:#0ca30c; --good-text:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--plane);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.45;
+  -webkit-text-size-adjust:100%; padding-bottom:env(safe-area-inset-bottom)}
+button,input,select{font:inherit;color:inherit}
+a{color:var(--s1)}
+
+.wrap{max-width:940px;margin:0 auto;padding:0 14px 64px}
+
+/* ---------- header ---------- */
+header{position:sticky;top:0;z-index:20;background:var(--plane);border-bottom:1px solid var(--border);
+  padding-top:env(safe-area-inset-top)}
+.hd{max-width:940px;margin:0 auto;padding:12px 14px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-size:17px;font-weight:640;letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.brand .dot{width:10px;height:10px;border-radius:3px;background:var(--s1);display:inline-block}
+.hd .spacer{flex:1}
+.meta{font-size:12.5px;color:var(--muted);white-space:nowrap}
+.btn{background:var(--surface);border:1px solid var(--border);border-radius:9px;padding:7px 13px;
+  cursor:pointer;font-size:13.5px;font-weight:560;transition:background .12s}
+.btn:hover{background:var(--surface-2)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.primary{background:var(--s1);border-color:transparent;color:#fff}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.sm{padding:4px 9px;font-size:12.5px}
+.btn.icon{padding:6px 9px}
+
+nav{max-width:940px;margin:0 auto;padding:10px 14px 0;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{background:none;border:0;border-bottom:2px solid transparent;padding:8px 12px 9px;cursor:pointer;
+  color:var(--ink-2);font-size:14px;font-weight:560;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--s1)}
+nav .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:6px;border-radius:9px;
+  background:var(--s1);color:#fff;font-size:11px;font-weight:640;line-height:17px;text-align:center;vertical-align:1px}
+
+/* ---------- progress ---------- */
+#bar{height:2px;background:transparent}
+#bar>i{display:block;height:2px;width:0;background:var(--s1);transition:width .25s}
+
+/* ---------- panels / cards ---------- */
+.panel{display:none;padding-top:16px}
+.panel.on{display:block}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
+.card+.card{margin-top:12px}
+h2{font-size:15px;font-weight:640;margin:0 0 3px}
+.sub{font-size:12.5px;color:var(--muted);margin:0 0 12px}
+.note{font-size:12.5px;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--border);
+  border-radius:10px;padding:10px 12px;margin-bottom:12px}
+.note strong{color:var(--ink)}
+
+/* ---------- stat tiles ---------- */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:12px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px}
+.tile .k{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.045em;font-weight:600}
+.tile .v{font-size:25px;font-weight:640;letter-spacing:-.02em;margin-top:3px;line-height:1.1}
+.tile .n{font-size:12px;color:var(--ink-2);margin-top:2px}
+
+/* ---------- rows ---------- */
+.rows{border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--surface)}
+.row{display:flex;align-items:center;gap:12px;padding:10px 13px;border-bottom:1px solid var(--border);cursor:pointer}
+.row:last-child{border-bottom:0}
+.row:hover{background:var(--surface-2)}
+.row .nm{flex:1;min-width:0}
+.row .nm b{display:block;font-weight:580;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .nm span{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.row .pr{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.row .pr b{display:block;font-weight:600;font-size:14px}
+.spark{flex:0 0 76px;height:26px}
+.delta{display:inline-flex;align-items:center;gap:3px;font-size:12.5px;font-weight:620;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.delta.up{color:var(--good-text)} .delta.down{color:var(--critical)} .delta.flat{color:var(--muted)}
+.star{flex:0 0 auto;background:none;border:0;cursor:pointer;font-size:17px;line-height:1;padding:4px;color:var(--muted)}
+.star.on{color:var(--warning)}
+
+.empty{padding:26px 14px;text-align:center;color:var(--muted);font-size:13.5px}
+
+/* ---------- form ---------- */
+.field{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--border)}
+.field:last-of-type{border-bottom:0}
+.field label{font-size:13.5px}
+.field label small{display:block;color:var(--muted);font-size:12px;line-height:1.35;margin-top:1px}
+.field input[type=number],.field select{background:var(--surface-2);border:1px solid var(--border);
+  border-radius:8px;padding:6px 9px;width:112px;text-align:right;font-variant-numeric:tabular-nums}
+.field select{text-align:left;width:150px}
+.search{display:flex;gap:8px;margin-bottom:12px}
+.search input{flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:9px;padding:9px 12px}
+
+/* ---------- selettore vista ---------- */
+.seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--border);border-radius:9px;padding:2px;gap:2px}
+.seg button{background:none;border:0;border-radius:7px;padding:4px 11px;cursor:pointer;font-size:12.5px;
+  font-weight:560;color:var(--ink-2);display:inline-flex;align-items:center;gap:5px}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.14)}
+.seg svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.viewbar{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.viewbar .count{font-size:12.5px;color:var(--muted);flex:1}
+
+/* ---------- griglia immagini ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(134px,1fr));gap:13px}
+.gcard{position:relative;cursor:pointer;border-radius:5% / 3.6%;overflow:hidden;background:var(--surface-2);
+  line-height:0;transition:transform .12s}
+.gcard:hover{transform:translateY(-2px)}
+.gcard img{width:100%;aspect-ratio:488/680;display:block;object-fit:cover}
+.gcard .ph{width:100%;aspect-ratio:488/680;display:flex;align-items:center;justify-content:center;
+  padding:10px;line-height:1.3;font-size:11.5px;color:var(--muted);text-align:center;box-sizing:border-box}
+.gcard .cap{position:absolute;left:0;right:0;bottom:0;padding:16px 8px 7px;line-height:1.25;
+  background:linear-gradient(transparent,rgba(0,0,0,.82) 55%);color:#fff}
+.gcard .cap b{display:block;font-size:12.5px;font-weight:620;font-variant-numeric:tabular-nums}
+.gcard .cap span{display:block;font-size:10.5px;opacity:.82;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gcard .star{position:absolute;top:3px;right:3px;font-size:19px;color:#fff;
+  text-shadow:0 1px 3px rgba(0,0,0,.85);padding:3px 5px}
+.gcard .star.on{color:var(--warning)}
+
+/* ---------- detail sheet ---------- */
+#sheet{position:fixed;inset:0;z-index:60;display:none;background:rgba(0,0,0,.5);
+  align-items:flex-end;justify-content:center}
+#sheet.on{display:flex}
+#sheetBox{background:var(--surface);border-radius:16px 16px 0 0;width:100%;max-width:640px;max-height:92vh;
+  overflow:auto;padding:16px 16px calc(20px + env(safe-area-inset-bottom));border:1px solid var(--border)}
+@media(min-width:700px){#sheet{align-items:center}#sheetBox{border-radius:16px;max-height:88vh}}
+.sheetHd{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+.sheetHd img{width:78px;border-radius:6px;flex:0 0 auto;background:var(--surface-2)}
+.sheetHd h3{margin:0;font-size:17px;font-weight:640;letter-spacing:-.01em}
+.sheetHd p{margin:2px 0 0;font-size:12.5px;color:var(--muted)}
+.kv{display:grid;grid-template-columns:1fr auto;gap:2px 12px;font-size:13.5px;margin:12px 0}
+.kv div:nth-child(odd){color:var(--ink-2)}
+.kv div:nth-child(even){font-variant-numeric:tabular-nums;font-weight:580;text-align:right}
+table.prints{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+table.prints th{text-align:left;font-weight:600;color:var(--muted);font-size:11.5px;text-transform:uppercase;
+  letter-spacing:.04em;padding:5px 6px;border-bottom:1px solid var(--border)}
+table.prints td{padding:5px 6px;border-bottom:1px solid var(--grid);font-variant-numeric:tabular-nums}
+table.prints td:last-child,table.prints th:last-child{text-align:right}
+.chartBox{position:relative;margin:6px 0 4px}
+#tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--border);
+  border-radius:8px;padding:6px 9px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.16);display:none;
+  white-space:nowrap;font-variant-numeric:tabular-nums;z-index:2}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--ink-2);margin-top:6px;flex-wrap:wrap}
+.legend i{display:inline-block;width:14px;height:2px;background:var(--s1);vertical-align:3px;margin-right:5px}
+.legend i.dash{background:repeating-linear-gradient(90deg,var(--muted) 0 4px,transparent 4px 7px);height:2px}
+.legend i.band{background:var(--s1);opacity:.14;height:9px;border-radius:2px;vertical-align:-1px}
+
+footer{max-width:940px;margin:0 auto;padding:18px 14px 30px;font-size:11.5px;color:var(--muted);line-height:1.6}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--ink);color:var(--plane);
+  padding:9px 15px;border-radius:9px;font-size:13.5px;z-index:80;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <div class="brand"><span class="dot"></span>MTG Price Watch</div>
+    <div class="spacer"></div>
+    <div class="meta" id="lastSync">mai sincronizzato</div>
+    <button class="btn primary" id="syncBtn">Aggiorna</button>
+  </div>
+  <nav role="tablist">
+    <button role="tab" data-p="movers" aria-selected="true">Movers<span class="badge" id="bMov" hidden>0</span></button>
+    <button role="tab" data-p="fav" aria-selected="false">Preferiti<span class="badge" id="bFav" hidden>0</span></button>
+    <button role="tab" data-p="search" aria-selected="false">Cerca</button>
+    <button role="tab" data-p="settings" aria-selected="false">Impostazioni</button>
+  </nav>
+  <div id="bar"><i></i></div>
+</header>
+
+<div class="wrap">
+
+  <!-- ============ MOVERS ============ -->
+  <section class="panel on" id="p-movers">
+    <div id="storeWarn" class="note" hidden></div>
+    <div class="tiles">
+      <div class="tile"><div class="k">Carte tracciate</div><div class="v" id="tCards">—</div><div class="n" id="tCardsN">nessun rilevamento</div></div>
+      <div class="tile"><div class="k">Giorni di storico</div><div class="v" id="tDays">—</div><div class="n" id="tDaysN">serve più di 1 giorno</div></div>
+      <div class="tile"><div class="k">Segnalazioni</div><div class="v" id="tAlerts">—</div><div class="n" id="tAlertsN">oltre le soglie</div></div>
+      <div class="tile"><div class="k">Mediana watchlist</div><div class="v" id="tMed">—</div><div class="n">mediana dei preferiti</div></div>
+    </div>
+    <div id="movHint" class="note" hidden></div>
+    <div class="card" style="padding:0;overflow:hidden">
+      <div style="padding:14px 14px 10px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap">
+        <div style="flex:1;min-width:180px">
+          <h2>Maggiori movimenti</h2>
+          <p class="sub" style="margin:0">Variazione del prezzo Cardmarket rispetto alla mediana storica del periodo.</p>
+        </div>
+        <select id="movSort" class="btn sm" style="padding:5px 8px">
+          <option value="abs">Movimento maggiore</option>
+          <option value="up">Solo rialzi</option>
+          <option value="down">Solo ribassi</option>
+          <option value="z">Anomalia statistica</option>
+        </select>
+      </div>
+      <div class="rows" id="movRows" style="border:0;border-top:1px solid var(--border);border-radius:0"></div>
+    </div>
+  </section>
+
+  <!-- ============ PREFERITI ============ -->
+  <section class="panel" id="p-fav">
+    <div class="card" style="padding:0;overflow:hidden">
+      <div style="padding:14px 14px 10px">
+        <h2>Preferiti</h2>
+        <p class="sub" style="margin:0">Carte monitorate sempre, indipendentemente dalla soglia di prezzo.</p>
+      </div>
+      <div class="rows" id="favRows" style="border:0;border-top:1px solid var(--border);border-radius:0"></div>
+    </div>
+  </section>
+
+  <!-- ============ CERCA ============ -->
+  <section class="panel" id="p-search">
+    <div class="card">
+      <h2>Cerca una carta</h2>
+      <p class="sub">Nome in inglese. Fonte dati: Scryfall (prezzi Cardmarket in EUR).</p>
+      <div class="search">
+        <input id="q" placeholder="es. Ragavan, Nimble Pilferer" autocomplete="off" list="ac">
+        <datalist id="ac"></datalist>
+        <button class="btn primary" id="qBtn">Cerca</button>
+      </div>
+      <div class="viewbar">
+        <span class="count" id="qCount"></span>
+        <div class="seg" role="group" aria-label="Visualizzazione risultati">
+          <button id="vList" aria-pressed="true" title="Elenco compatto">
+            <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 3.5h10M2 7h10M2 10.5h10"/></svg>Elenco</button>
+          <button id="vGrid" aria-pressed="false" title="Immagini delle carte">
+            <svg viewBox="0 0 14 14" aria-hidden="true"><rect x="1.5" y="1.5" width="4.5" height="4.5" rx="1"/><rect x="8" y="1.5" width="4.5" height="4.5" rx="1"/><rect x="1.5" y="8" width="4.5" height="4.5" rx="1"/><rect x="8" y="8" width="4.5" height="4.5" rx="1"/></svg>Immagini</button>
+        </div>
+      </div>
+      <div id="qRows" class="rows"></div>
+    </div>
+  </section>
+
+  <!-- ============ IMPOSTAZIONI ============ -->
+  <section class="panel" id="p-settings">
+    <div class="card">
+      <h2>Sorgente dei dati</h2>
+      <p class="sub">Il collector è un job pianificato che raccoglie i prezzi ogni giorno anche ad app chiusa: così lo storico non ha buchi nei giorni in cui non apri l'app.</p>
+      <div class="field"><label>Modalità<small id="srcNote">—</small></label>
+        <select id="sSrc">
+          <option value="auto">Collector, poi Scryfall</option>
+          <option value="remote">Solo collector</option>
+          <option value="local">Solo Scryfall</option>
+        </select></div>
+      <div class="field"><label>Indirizzo di history.json<small>Lascia <code>./history.json</code> se apri l'app dallo stesso sito che la pubblica</small></label></div>
+      <input id="sUrl" style="width:100%;background:var(--surface-2);border:1px solid var(--border);border-radius:8px;padding:7px 10px;margin-top:-4px" spellcheck="false">
+    </div>
+    <div class="card">
+      <h2>Universo monitorato</h2>
+      <p class="sub">Ad ogni aggiornamento l'app scarica da Scryfall le stampe sopra la soglia e ne registra il prezzo del giorno.</p>
+      <div class="field"><label>Soglia di prezzo minima<small>Solo carte con prezzo Cardmarket ≥ questo valore</small></label><input type="number" id="sThr" min="0.5" step="0.5"> </div>
+      <div class="field"><label>Carte massime<small>Limita traffico e spazio occupato</small></label><input type="number" id="sMax" min="175" step="175"></div>
+      <div class="field"><label>Giorni di storico conservati<small>I dati più vecchi vengono eliminati</small></label><input type="number" id="sKeep" min="14" step="1"></div>
+    </div>
+    <div class="card">
+      <h2>Soglie di segnalazione</h2>
+      <p class="sub">Una carta viene segnalata se supera almeno una delle due condizioni.</p>
+      <div class="field"><label>Variazione percentuale<small>Scostamento dalla mediana storica</small></label><input type="number" id="sPct" min="1" step="1"></div>
+      <div class="field"><label>Deviazioni robuste (σ)<small>Metodo mediana + MAD, insensibile agli outlier</small></label><input type="number" id="sSig" min="1" step="0.5"></div>
+      <div class="field"><label>Finestra di riferimento<small>Giorni usati per calcolare mediana e σ</small></label><input type="number" id="sWin" min="3" step="1"></div>
+      <div class="field"><label>Rilevamenti minimi<small>Sotto questa soglia la carta non viene valutata</small></label><input type="number" id="sMin" min="3" step="1"></div>
+      <div class="field"><label>Notifiche di sistema<small>Avviso alla fine dell'aggiornamento</small></label><button class="btn sm" id="notifBtn">Attiva</button></div>
+    </div>
+    <div class="card">
+      <h2>Dati</h2>
+      <p class="sub" id="storeInfo">—</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn sm" id="expBtn">Esporta backup</button>
+        <button class="btn sm" id="impBtn">Importa backup</button>
+        <input type="file" id="impFile" accept="application/json" hidden>
+        <button class="btn sm" id="pruneBtn">Compatta storico</button>
+        <button class="btn sm" id="wipeBtn" style="color:var(--critical)">Cancella tutto</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  Dati e immagini forniti da <a href="https://scryfall.com" target="_blank" rel="noopener">Scryfall</a>; i prezzi in EUR provengono da Cardmarket e sono aggiornati circa una volta al giorno.
+  Sono stime a scopo informativo, non quotazioni di vendita. Magic: The Gathering è un marchio di Wizards of the Coast; questa app non è affiliata né a Wizards of the Coast né a Scryfall né a Cardmarket.
+  Tutti i dati restano nel tuo browser: nessun account, nessun server.
+</footer>
+
+<div id="sheet"><div id="sheetBox"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+/* ==================================================================
+   MTG Price Watch — app a file singolo, nessun backend.
+   Fonte: Scryfall API (https://scryfall.com/docs/api)
+   Storage: localStorage, con fallback in memoria.
+   ================================================================== */
+
+/* ---------------- storage ---------------- */
+const MEM = {};
+let STORE_OK = true;
+try { localStorage.setItem("mpw:t","1"); localStorage.removeItem("mpw:t"); }
+catch(e){ STORE_OK = false; }
+
+const store = {
+  get(k, dflt){
+    try{ const v = STORE_OK ? localStorage.getItem("mpw:"+k) : MEM[k];
+      return v == null ? dflt : JSON.parse(v); }catch(e){ return dflt; }
+  },
+  set(k, v){
+    const s = JSON.stringify(v);
+    try{ if(STORE_OK) localStorage.setItem("mpw:"+k, s); else MEM[k]=s; return true; }
+    catch(e){ MEM[k]=s; toast("Spazio esaurito: compatta lo storico dalle impostazioni."); return false; }
+  },
+  bytes(){ let n=0; try{ for(const k in localStorage) if(k.startsWith("mpw:")) n += localStorage[k].length; }catch(e){} return n; }
+};
+
+const DEFAULTS = { thr:3, max:2100, keep:120, pct:20, sigma:2, win:30, minObs:5, view:"list",
+                   src:"auto", srcUrl:"./history.json" };
+let CFG  = Object.assign({}, DEFAULTS, store.get("cfg", {}));
+let FAV  = store.get("fav", {});               // { printId: {n,s,cn,img,oid} }
+let HIST = store.get("hist", { days:[], cards:{} });  // days: ["YYYY-MM-DD"], cards: {id:{n,s,cn,oid,p:[…]}}
+let LAST = store.get("last", null);
+
+const saveCfg  = () => store.set("cfg", CFG);
+const saveFav  = () => store.set("fav", FAV);
+const saveHist = () => store.set("hist", HIST);
+
+/* ---------------- utilità ---------------- */
+const $  = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const today = () => new Date().toISOString().slice(0,10);
+const eur = n => n==null ? "—" : n.toLocaleString("it-IT",{style:"currency",currency:"EUR",
+                  minimumFractionDigits:2, maximumFractionDigits:2});
+const pct = n => (n>0?"+":"") + (n*100).toFixed(1).replace(".",",") + "%";
+const esc = s => String(s??"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const sig1 = z => (z>0?"+":z<0?"-":"") + (Math.abs(z)>=99.5 ? "99+" : Math.abs(z).toFixed(1).replace(".",","));
+
+function toast(msg, ms=2600){
+  const t = $("#toast"); t.textContent = msg; t.classList.add("on");
+  clearTimeout(t._t); t._t = setTimeout(()=>t.classList.remove("on"), ms);
+}
+function progress(f){ $("#bar>i").style.width = (f<=0||f>=1) ? "0" : (f*100)+"%"; }
+
+/* ---------------- statistica robusta ----------------
+   mediana + MAD: la deviazione assoluta mediana non viene
+   trascinata dagli sbalzi singoli, quindi un picco vero
+   resta un picco invece di allargare la banda.            */
+function median(a){
+  if(!a.length) return null;
+  const s = [...a].sort((x,y)=>x-y), m = s.length>>1;
+  return s.length%2 ? s[m] : (s[m-1]+s[m])/2;
+}
+function mad(a, med){
+  if(a.length<2) return 0;
+  return median(a.map(x => Math.abs(x-med)));
+}
+function robustSigma(a, med){ return 1.4826 * mad(a, med); }
+
+/* ---------------- client Scryfall ----------------
+   Regole della casa: max ~10 req/s, quindi 110 ms tra le
+   chiamate, e ritenta con backoff sul 429.                */
+let chain = Promise.resolve();
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+function api(path){
+  const url = path.startsWith("http") ? path : "https://api.scryfall.com" + path;
+  const run = async () => {
+    for(let attempt=0; attempt<4; attempt++){
+      await sleep(110);
+      let r;
+      try{ r = await fetch(url, { headers:{ "Accept":"application/json" } }); }
+      catch(e){ if(attempt===3) throw new Error("Rete non raggiungibile"); await sleep(700*(attempt+1)); continue; }
+      if(r.status === 429){ await sleep(1400*(attempt+1)); continue; }
+      if(r.status === 404) return null;
+      if(!r.ok) throw new Error("Scryfall ha risposto " + r.status);
+      return r.json();
+    }
+    throw new Error("Troppe richieste, riprova tra un minuto");
+  };
+  chain = chain.then(run, run);
+  return chain;
+}
+
+const priceOf = c => {
+  const v = c && c.prices && c.prices.eur;
+  return v == null ? null : parseFloat(v);
+};
+/* le carte a due facce tengono le immagini dentro card_faces */
+const imgOf = (c, size="normal") =>
+  (c && c.image_uris && c.image_uris[size]) ||
+  (c && c.card_faces && c.card_faces[0] && c.card_faces[0].image_uris && c.card_faces[0].image_uris[size]) || null;
+
+/* ---------------- storico ---------------- */
+function dayIndex(d){
+  let i = HIST.days.indexOf(d);
+  if(i === -1){ HIST.days.push(d); HIST.days.sort(); i = HIST.days.indexOf(d);
+    // le carte esistenti vanno ri-allineate se la data si inserisce in mezzo
+    if(i !== HIST.days.length-1)
+      for(const id in HIST.cards){ const p = HIST.cards[id].p; p.splice(i,0,null); }
+  }
+  return i;
+}
+function record(card, day){
+  const price = priceOf(card);
+  if(price == null) return false;
+  const i = dayIndex(day);
+  let e = HIST.cards[card.id];
+  if(!e){ e = HIST.cards[card.id] = { n:card.name, s:card.set.toUpperCase(),
+             cn:card.collector_number, oid:card.oracle_id, p:[] }; }
+  while(e.p.length < HIST.days.length) e.p.push(null);
+  e.p[i] = Math.round(price*100)/100;
+  return true;
+}
+function series(id){
+  const e = HIST.cards[id]; if(!e) return [];
+  const out = [];
+  for(let i=0;i<HIST.days.length;i++) if(e.p[i]!=null) out.push({ d:HIST.days[i], v:e.p[i] });
+  return out;
+}
+
+/* ---------------- valutazione segnalazioni ---------------- */
+function evaluate(id){
+  const s = series(id);
+  if(s.length < 2) return { id, obs:s.length, last: s.length?s[s.length-1].v:null, insufficient:true };
+  const last = s[s.length-1].v;
+  const prev = s[s.length-2].v;
+  const win  = s.slice(-1 - CFG.win, -1).map(x=>x.v);      // esclude il valore corrente
+  const med  = median(win);
+  const sig  = robustSigma(win, med);
+  const dMed = med ? (last - med)/med : 0;
+  const dDay = prev ? (last - prev)/prev : 0;
+  const z    = sig > 0 ? (last - med)/sig : 0;
+  const hitPct = Math.abs(dMed) >= CFG.pct/100;
+  const hitSig = s.length-1 >= CFG.minObs && sig > 0 && Math.abs(z) >= CFG.sigma;
+  return { id, e:HIST.cards[id], obs:s.length, s, last, prev, med, sig, dMed, dDay, z,
+           hitPct, hitSig, alert: hitPct||hitSig, insufficient: s.length-1 < CFG.minObs };
+}
+function allAlerts(){
+  const out = [];
+  for(const id in HIST.cards){
+    const r = evaluate(id);
+    if(r.alert) out.push(r);
+  }
+  return out;
+}
+
+/* ---------------- sorgente remota (collector) ----------------
+   Il job giornaliero pubblica history.json con la stessa forma
+   dell'archivio locale, quindi qui basta fondere le due serie.  */
+let ORIGIN = null;   // "remoto" | "scryfall" | null
+
+function mergeHist(remote){
+  const days = [...new Set([...HIST.days, ...remote.days])].sort();
+  const at = Object.fromEntries(days.map((d,i)=>[d,i]));
+  const cards = {};
+  const absorb = src => {
+    for(const id in src.cards){
+      const e = src.cards[id]; if(!e || !e.p) continue;
+      const t = cards[id] || (cards[id] = { n:e.n, s:e.s, cn:e.cn, oid:e.oid,
+                                            p:new Array(days.length).fill(null) });
+      if(e.n) t.n = e.n; if(e.s) t.s = e.s; if(e.cn) t.cn = e.cn; if(e.oid) t.oid = e.oid;
+      for(let i=0;i<src.days.length;i++){
+        const v = e.p[i];
+        if(v != null) t.p[at[src.days[i]]] = v;
+      }
+    }
+  };
+  absorb(HIST); absorb(remote);   // in caso di conflitto vince il collector
+  HIST = { days, cards };
+}
+
+async function pullRemote(url){
+  const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), { cache:"no-store" });
+  if(!r.ok) throw new Error("history.json non disponibile (" + r.status + ")");
+  const d = await r.json();
+  if(!d || !Array.isArray(d.days) || !d.cards) throw new Error("history.json non valido");
+  mergeHist(d);
+  return d;
+}
+
+/* ---------------- sincronizzazione ---------------- */
+let syncing = false;
+
+async function sync(){
+  if(syncing) return;
+  const mode = CFG.src || "auto";
+  if(mode !== "local"){
+    syncing = true;
+    $("#syncBtn").disabled = true; $("#syncBtn").textContent = "Aggiorno…";
+    try{
+      const d = await pullRemote(CFG.srcUrl || "./history.json");
+      ORIGIN = "remoto";
+      LAST = d.generated || new Date().toISOString();
+      store.set("last", LAST); saveHist();
+      const al = allAlerts(); notify(al);
+      toast(`${Object.keys(d.cards).length} carte dal collector · ${al.length} segnalazioni`);
+      return;
+    }catch(e){
+      if(mode === "remote"){ toast("Collector non raggiungibile: " + e.message, 4200); return; }
+      toast("Collector non raggiungibile, scarico da Scryfall…", 3000);
+    }finally{
+      syncing = false;
+      $("#syncBtn").disabled = false; $("#syncBtn").textContent = "Aggiorna";
+      renderAll();
+    }
+  }
+  return scanScryfall();
+}
+
+async function scanScryfall(){
+  if(syncing) return;
+  syncing = true;
+  $("#syncBtn").disabled = true; $("#syncBtn").textContent = "Aggiorno…";
+  const day = today();
+  let seen = 0;
+  try{
+    // 1. preferiti — sempre, anche sotto soglia
+    const favIds = Object.keys(FAV);
+    for(let i=0;i<favIds.length;i+=75){
+      const chunk = favIds.slice(i, i+75);
+      const r = await fetch("https://api.scryfall.com/cards/collection", {
+        method:"POST", headers:{ "Content-Type":"application/json", "Accept":"application/json" },
+        body: JSON.stringify({ identifiers: chunk.map(id=>({id})) })
+      }).then(x => x.ok ? x.json() : null);
+      if(r && r.data) for(const c of r.data){ if(record(c, day)) seen++; }
+      progress(0.05 + 0.1*(i/Math.max(1,favIds.length)));
+    }
+
+    // 2. universo: stampe sopra soglia, dalla più cara
+    const q = encodeURIComponent(`eur>=${CFG.thr} -is:digital game:paper`);
+    let url = `/cards/search?q=${q}&unique=prints&order=eur&dir=desc`;
+    const cap = Math.max(175, CFG.max);
+    while(url && seen < cap){
+      const page = await api(url);
+      if(!page || !page.data) break;
+      for(const c of page.data){ if(record(c, day)) seen++; if(seen>=cap) break; }
+      progress(0.15 + 0.8*Math.min(1, seen/cap));
+      url = (page.has_more && seen < cap) ? page.next_page : null;
+    }
+
+    prune(false);
+    ORIGIN = "scryfall";
+    LAST = new Date().toISOString();
+    store.set("last", LAST);
+    saveHist();
+
+    const al = allAlerts();
+    notify(al);
+    toast(`${seen} carte rilevate · ${al.length} segnalazioni`);
+  }catch(e){
+    toast("Aggiornamento interrotto: " + e.message, 4200);
+  }finally{
+    progress(0); syncing = false;
+    $("#syncBtn").disabled = false; $("#syncBtn").textContent = "Aggiorna";
+    renderAll();
+  }
+}
+
+function prune(save=true){
+  // 0. allinea tutte le serie alla lista dei giorni
+  for(const id in HIST.cards){
+    const p = HIST.cards[id].p;
+    while(p.length < HIST.days.length) p.push(null);
+    if(p.length > HIST.days.length) p.length = HIST.days.length;
+  }
+  // 1. taglia i giorni oltre il periodo di conservazione
+  const excess = HIST.days.length - CFG.keep;
+  if(excess > 0){
+    HIST.days.splice(0, excess);
+    for(const id in HIST.cards) HIST.cards[id].p.splice(0, excess);
+  }
+  // 2. elimina le carte senza rilevamenti recenti, tenendo i preferiti
+  const tail = Math.min(30, HIST.days.length);
+  for(const id in HIST.cards){
+    if(FAV[id]) continue;
+    const p = HIST.cards[id].p;
+    const recent = p.slice(-tail).some(v => v != null);
+    if(!recent) delete HIST.cards[id];
+  }
+  if(save){ saveHist(); renderAll(); toast("Storico compattato"); }
+}
+
+function notify(al){
+  if(!al.length || !("Notification" in window) || Notification.permission !== "granted") return;
+  const top = al.slice().sort((a,b)=>Math.abs(b.dMed)-Math.abs(a.dMed)).slice(0,3);
+  const body = top.map(r => `${r.e.n}: ${pct(r.dMed)} (${eur(r.last)})`).join("\n");
+  try{ new Notification(`${al.length} carte in movimento`, { body, tag:"mpw" }); }catch(e){}
+}
+
+/* ---------------- grafici ---------------- */
+function sparkline(pts){
+  if(pts.length < 2) return `<svg class="spark" viewBox="0 0 76 26"></svg>`;
+  const vs = pts.map(p=>p.v), lo = Math.min(...vs), hi = Math.max(...vs), span = (hi-lo)||1;
+  const x = i => 2 + i*(72/(pts.length-1));
+  const y = v => 23 - ((v-lo)/span)*20;
+  const d = pts.map((p,i)=>`${i?"L":"M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
+  const up = vs[vs.length-1] >= vs[0];
+  return `<svg class="spark" viewBox="0 0 76 26" aria-hidden="true">
+    <path d="${d}" fill="none" stroke="${up?"var(--good)":"var(--critical)"}" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="${x(pts.length-1).toFixed(1)}" cy="${y(vs[vs.length-1]).toFixed(1)}" r="2.4"
+      fill="${up?"var(--good)":"var(--critical)"}" stroke="var(--surface)" stroke-width="2"/></svg>`;
+}
+
+function lineChart(pts, med, sig){
+  const W=580, H=190, L=46, R=12, T=14, B=26;
+  window.__chartPts = pts;
+  if(pts.length < 2) return `<div class="empty">Servono almeno due rilevamenti per il grafico.</div>`;
+  const vs = pts.map(p=>p.v);
+  const bandLo = sig>0 ? med - CFG.sigma*sig : null;
+  const bandHi = sig>0 ? med + CFG.sigma*sig : null;
+  let lo = Math.min(...vs, bandLo ?? Infinity), hi = Math.max(...vs, bandHi ?? -Infinity);
+  const pad = (hi-lo)*0.12 || Math.max(0.5, hi*0.1); lo -= pad; hi += pad; lo = Math.max(0, lo);
+  const span = (hi-lo)||1;
+  const x = i => L + i*((W-L-R)/(pts.length-1));
+  const y = v => T + (1-(v-lo)/span)*(H-T-B);
+  const line = pts.map((p,i)=>`${i?"L":"M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
+
+  const ticks = [lo, lo+span/2, hi].map(v =>
+    `<line x1="${L}" x2="${W-R}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}" stroke="var(--grid)" stroke-width="1"/>
+     <text x="${L-7}" y="${(y(v)+3.5).toFixed(1)}" text-anchor="end" font-size="10.5" fill="var(--muted)">${v.toFixed(2).replace(".",",")}</text>`
+  ).join("");
+
+  const band = bandLo!=null ?
+    `<rect x="${L}" y="${y(bandHi).toFixed(1)}" width="${W-L-R}" height="${Math.max(1,(y(bandLo)-y(bandHi))).toFixed(1)}"
+       fill="var(--s1)" opacity=".12"/>` : "";
+  const medLine = med!=null ?
+    `<line x1="${L}" x2="${W-R}" y1="${y(med).toFixed(1)}" y2="${y(med).toFixed(1)}"
+       stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 3"/>` : "";
+
+  const first = pts[0].d.slice(8)+"/"+pts[0].d.slice(5,7);
+  const last  = pts[pts.length-1].d.slice(8)+"/"+pts[pts.length-1].d.slice(5,7);
+
+  const hr = Math.max(4, Math.min(11, (W-L-R)/(pts.length-1)/1.6));
+  const hits = pts.map((p,i)=>
+    `<circle class="hit" data-i="${i}" cx="${x(i).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="${hr.toFixed(1)}" fill="transparent"/>`).join("");
+
+  return `<div class="chartBox">
+    <svg id="chart" viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block"
+         data-w="${W}" role="img" aria-label="Andamento del prezzo">
+      ${ticks}${band}${medLine}
+      <line x1="${L}" x2="${W-R}" y1="${H-B}" y2="${H-B}" stroke="var(--axis)" stroke-width="1"/>
+      <text x="${L}" y="${H-8}" font-size="10.5" fill="var(--muted)">${first}</text>
+      <text x="${W-R}" y="${H-8}" font-size="10.5" fill="var(--muted)" text-anchor="end">${last}</text>
+      <path d="${line}" fill="none" stroke="var(--s1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="${x(pts.length-1).toFixed(1)}" cy="${y(vs[vs.length-1]).toFixed(1)}" r="4"
+        fill="var(--s1)" stroke="var(--surface)" stroke-width="2"/>
+      <line id="cross" x1="0" x2="0" y1="${T}" y2="${H-B}" stroke="var(--axis)" stroke-width="1" style="display:none"/>
+      ${hits}
+    </svg>
+    <div id="tip"></div>
+    <div class="legend">
+      <span><i></i>prezzo Cardmarket</span>
+      <span><i class="dash"></i>mediana ${CFG.win} gg</span>
+      ${bandLo!=null?`<span><i class="band"></i>banda ±${CFG.sigma}σ robusta</span>`:""}
+    </div>
+  </div>`;
+}
+
+/* ---------------- righe ---------------- */
+function deltaTag(r){
+  if(r.dMed == null || !isFinite(r.dMed)) return `<span class="delta flat">—</span>`;
+  const cls = r.dMed > 0.005 ? "up" : r.dMed < -0.005 ? "down" : "flat";
+  const arrow = cls==="up" ? "▲" : cls==="down" ? "▼" : "▬";
+  return `<span class="delta ${cls}"><span aria-hidden="true">${arrow}</span>${pct(r.dMed)}</span>`;
+}
+function rowHTML(r){
+  const e = r.e || HIST.cards[r.id] || FAV[r.id] || {};
+  const fav = !!FAV[r.id];
+  const flags = [];
+  if(r.hitSig) flags.push(`σ ${sig1(r.z)}`);
+  if(r.obs) flags.push(`${r.obs} ril.`);
+  return `<div class="row" data-id="${r.id}">
+    <button class="star ${fav?"on":""}" data-fav="${r.id}" title="${fav?"Rimuovi dai preferiti":"Aggiungi ai preferiti"}"
+      aria-label="${fav?"Rimuovi dai preferiti":"Aggiungi ai preferiti"}">${fav?"★":"☆"}</button>
+    <div class="nm"><b>${esc(e.n||"?")}</b><span>${esc(e.s||"")} · ${esc(e.cn||"")}${flags.length?" · "+flags.join(" · "):""}</span></div>
+    ${sparkline(r.s || series(r.id))}
+    <div class="pr"><b>${eur(r.last)}</b>${deltaTag(r)}</div>
+  </div>`;
+}
+
+/* ---------------- render ---------------- */
+function renderAll(){ renderMovers(); renderFav(); renderResults(); renderSettings(); renderMeta(); }
+
+function renderMeta(){
+  const via = ORIGIN === "remoto" ? " · collector" : ORIGIN === "scryfall" ? " · Scryfall" : "";
+  $("#lastSync").textContent = LAST
+    ? "aggiornato " + new Date(LAST).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}) + via
+    : "mai sincronizzato";
+  const w = $("#storeWarn");
+  if(!STORE_OK){ w.hidden = false;
+    w.innerHTML = "<strong>I dati non vengono salvati.</strong> Questa anteprima non permette l'archiviazione locale: scarica il file e aprilo nel browser (o pubblicalo su un sito) perché lo storico venga conservato.";
+  } else w.hidden = true;
+}
+
+function renderMovers(){
+  const ids = Object.keys(HIST.cards);
+  const evals = ids.map(evaluate).filter(r => !r.insufficient || r.obs >= 2);
+  const alerts = evals.filter(r => r.alert);
+  const mode = $("#movSort").value;
+
+  let list = alerts.length ? alerts : evals.filter(r => r.obs >= 2);
+  if(mode === "up")   list = list.filter(r => r.dMed > 0);
+  if(mode === "down") list = list.filter(r => r.dMed < 0);
+  list = list.slice().sort((a,b) =>
+    mode === "z" ? Math.abs(b.z||0) - Math.abs(a.z||0) : Math.abs(b.dMed||0) - Math.abs(a.dMed||0));
+  list = list.slice(0, 60);
+
+  $("#tCards").textContent  = ids.length || "—";
+  $("#tCardsN").textContent = ids.length ? `soglia ${eur(CFG.thr)}` : "nessun rilevamento";
+  $("#tDays").textContent   = HIST.days.length || "—";
+  $("#tDaysN").textContent  = HIST.days.length > 1 ? `dal ${HIST.days[0].split("-").reverse().join("/")}` : "serve più di 1 giorno";
+  $("#tAlerts").textContent = HIST.days.length > 1 ? alerts.length : "—";
+  const favVals = Object.keys(FAV).map(id => { const s = series(id); return s.length ? s[s.length-1].v : null; }).filter(v=>v!=null);
+  $("#tMed").textContent = favVals.length ? eur(median(favVals)) : "—";
+
+  const bm = $("#bMov"); bm.hidden = !alerts.length; bm.textContent = alerts.length;
+
+  const hint = $("#movHint");
+  if(!ids.length){
+    hint.hidden = false;
+    hint.innerHTML = "<strong>Primo avvio.</strong> Premi <em>Aggiorna</em>: l'app scarica le carte sopra la soglia e registra la fotografia di oggi. Le segnalazioni compaiono dal secondo giorno, quando c'è qualcosa con cui confrontare.";
+  } else if(HIST.days.length < 2){
+    hint.hidden = false;
+    hint.innerHTML = `<strong>Base di partenza registrata</strong> (${ids.length} carte). Torna domani: da lì in poi ogni prezzo viene confrontato con la mediana dei giorni precedenti.`;
+  } else if(!alerts.length){
+    hint.hidden = false;
+    hint.innerHTML = `Nessuna carta oltre le soglie (±${CFG.pct}% o ${CFG.sigma}σ). Sotto trovi comunque i movimenti maggiori del periodo.`;
+  } else hint.hidden = true;
+
+  $("#movRows").innerHTML = list.length
+    ? list.map(rowHTML).join("")
+    : `<div class="empty">Nessun dato ancora. Premi <em>Aggiorna</em>.</div>`;
+}
+
+function renderFav(){
+  const ids = Object.keys(FAV);
+  const b = $("#bFav"); b.hidden = !ids.length; b.textContent = ids.length;
+  const list = ids.map(id => {
+    const r = evaluate(id);
+    if(!r.e) r.e = FAV[id];
+    if(r.last == null){ const s = series(id); r.last = s.length ? s[s.length-1].v : FAV[id].price ?? null; }
+    return r;
+  }).sort((a,b) => Math.abs(b.dMed||0) - Math.abs(a.dMed||0));
+  $("#favRows").innerHTML = list.length
+    ? list.map(rowHTML).join("")
+    : `<div class="empty">Nessun preferito. Cercane una nella scheda <em>Cerca</em> e tocca la stella.</div>`;
+}
+
+function renderSettings(){
+  $("#sSrc").value = CFG.src || "auto";
+  $("#sUrl").value = CFG.srcUrl || "./history.json";
+  $("#srcNote").textContent = CFG.src === "local"
+    ? "L'app scarica da sola: lo storico avanza solo quando la apri."
+    : CFG.src === "remote"
+      ? "Solo il file pubblicato dal collector, nessuna scansione locale."
+      : "Prova il collector; se non risponde, ripiega su Scryfall.";
+  $("#sThr").value = CFG.thr; $("#sMax").value = CFG.max; $("#sKeep").value = CFG.keep;
+  $("#sPct").value = CFG.pct; $("#sSig").value = CFG.sigma; $("#sWin").value = CFG.win; $("#sMin").value = CFG.minObs;
+  const kb = Math.round(store.bytes()/1024);
+  $("#storeInfo").textContent =
+    `${Object.keys(HIST.cards).length} carte · ${HIST.days.length} giorni · ${kb} KB usati` +
+    (STORE_OK ? " nello spazio locale del browser." : " (archiviazione non disponibile in questa anteprima).");
+  if("Notification" in window && Notification.permission === "granted"){
+    $("#notifBtn").textContent = "Attive"; $("#notifBtn").disabled = true;
+  }
+}
+
+/* ---------------- dettaglio carta ---------------- */
+async function openCard(id){
+  const box = $("#sheetBox"); $("#sheet").classList.add("on");
+  const known = HIST.cards[id] || FAV[id] || {};
+  box.innerHTML = `<div class="sheetHd"><div><h3>${esc(known.n||"Carta")}</h3>
+      <p>${esc(known.s||"")} ${esc(known.cn||"")}</p></div></div><div class="empty">Carico da Scryfall…</div>`;
+
+  let card = null;
+  try{ card = await api("/cards/" + id); }catch(e){}
+  const r = evaluate(id);
+  const pts = r.s || series(id);
+  const price = priceOf(card) ?? r.last;
+  const img = card && (card.image_uris?.small || card.card_faces?.[0]?.image_uris?.small);
+  const fav = !!FAV[id];
+
+  // mediana tra le stampe della stessa carta
+  let prints = [], medPrints = null;
+  if(card){
+    try{
+      const res = await api(`/cards/search?q=${encodeURIComponent('oracleid:'+card.oracle_id+' -is:digital game:paper')}&unique=prints&order=released`);
+      if(res && res.data){
+        prints = res.data.map(c => ({ set:c.set.toUpperCase(), sn:c.set_name, cn:c.collector_number,
+                                      v:priceOf(c), id:c.id, foil:c.prices?.eur_foil ? parseFloat(c.prices.eur_foil) : null }))
+                         .filter(p => p.v != null);
+        medPrints = median(prints.map(p=>p.v));
+      }
+    }catch(e){}
+  }
+
+  const vsPrints = (medPrints && price) ? (price - medPrints)/medPrints : null;
+  const cheapest = prints.length ? prints.reduce((a,b)=> b.v < a.v ? b : a) : null;
+  // il prezzo live è più fresco dello storico: le metriche si ricalcolano su di lui
+  const dMedLive = (r.med && price != null) ? (price - r.med)/r.med : null;
+  const zLive    = (r.sig > 0 && price != null) ? (price - r.med)/r.sig : null;
+  const stale    = (r.last != null && price != null && Math.abs(price - r.last) > 0.005);
+
+  box.innerHTML = `
+    <div class="sheetHd">
+      ${img ? `<img src="${esc(img)}" alt="">` : ""}
+      <div style="flex:1;min-width:0">
+        <h3>${esc(card?.name || known.n || "Carta")}</h3>
+        <p>${esc(card?.set_name || known.s || "")} · #${esc(card?.collector_number || known.cn || "")}${card?.rarity?" · "+esc(card.rarity):""}</p>
+        <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn sm" data-fav="${id}">${fav?"★ Nei preferiti":"☆ Aggiungi ai preferiti"}</button>
+          ${card?.scryfall_uri?`<a class="btn sm" href="${esc(card.scryfall_uri)}" target="_blank" rel="noopener" style="text-decoration:none">Scryfall ↗</a>`:""}
+          ${card?.purchase_uris?.cardmarket?`<a class="btn sm" href="${esc(card.purchase_uris.cardmarket)}" target="_blank" rel="noopener" style="text-decoration:none">Cardmarket ↗</a>`:""}
+        </div>
+      </div>
+      <button class="btn sm icon" id="closeSheet" aria-label="Chiudi">✕</button>
+    </div>
+
+    <div class="kv">
+      <div>Prezzo Cardmarket, ora</div><div>${eur(price)}</div>
+      ${card?.prices?.eur_foil?`<div>Versione foil</div><div>${eur(parseFloat(card.prices.eur_foil))}</div>`:""}
+      ${stale?`<div>Ultimo rilevamento in archivio</div><div>${eur(r.last)}</div>`:""}
+      <div>Mediana storica (${CFG.win} gg, ${r.obs||0} rilevamenti)</div><div>${eur(r.med)}</div>
+      <div>Scostamento dalla mediana storica</div><div>${dMedLive!=null&&isFinite(dMedLive)?pct(dMedLive):"—"}</div>
+      <div>Deviazione robusta</div><div>${zLive!=null?sig1(zLive)+" σ":"—"}</div>
+      ${medPrints!=null?`<div>Mediana tra le ${prints.length} stampe</div><div>${eur(medPrints)}</div>`:""}
+      ${vsPrints!=null?`<div>Questa stampa vs le altre</div><div>${pct(vsPrints)}</div>`:""}
+      ${cheapest?`<div>Stampa più economica</div><div>${eur(cheapest.v)} · ${esc(cheapest.set)}</div>`:""}
+    </div>
+
+    ${lineChart(pts, r.med, r.sig)}
+
+    ${prints.length>1 ? `<h2 style="margin-top:16px">Stampe in circolazione</h2>
+      <p class="sub">La mediana tra le stampe dice subito se questa versione è fuori linea, anche senza storico.</p>
+      <table class="prints"><thead><tr><th>Set</th><th>N.</th><th>Prezzo</th></tr></thead><tbody>
+      ${prints.slice().sort((a,b)=>b.v-a.v).map(p=>`<tr><td>${esc(p.sn)}</td><td>${esc(p.cn)}</td><td>${eur(p.v)}</td></tr>`).join("")}
+      </tbody></table>` : ""}
+  `;
+  wireChart();
+}
+
+function wireChart(){
+  const svg = $("#chart"); if(!svg) return;
+  const tip = $("#tip"), cross = $("#cross");
+  const pts = [...svg.querySelectorAll(".hit")];
+  const data = window.__chartPts || [];
+  pts.forEach(h => {
+    const show = () => {
+      const i = +h.dataset.i, p = data[i]; if(!p) return;
+      cross.style.display = "block";
+      cross.setAttribute("x1", h.getAttribute("cx")); cross.setAttribute("x2", h.getAttribute("cx"));
+      const box = svg.getBoundingClientRect(), W = +svg.dataset.w;
+      const px = (+h.getAttribute("cx"))/W*box.width;
+      tip.style.display = "block";
+      tip.innerHTML = `<b>${eur(p.v)}</b> · ${p.d.split("-").reverse().join("/")}`;
+      tip.style.left = Math.max(0, Math.min(box.width - tip.offsetWidth, px - tip.offsetWidth/2)) + "px";
+      tip.style.top = "0px";
+    };
+    h.addEventListener("mouseenter", show);
+    h.addEventListener("touchstart", show, {passive:true});
+  });
+  svg.addEventListener("mouseleave", () => { tip.style.display="none"; cross.style.display="none"; });
+}
+
+/* ---------------- ricerca ---------------- */
+let acTimer;
+$("#q").addEventListener("input", e => {
+  clearTimeout(acTimer);
+  const v = e.target.value.trim();
+  if(v.length < 3) return;
+  acTimer = setTimeout(async () => {
+    try{
+      const r = await api("/cards/autocomplete?q=" + encodeURIComponent(v));
+      if(r && r.data) $("#ac").innerHTML = r.data.map(n => `<option value="${esc(n)}">`).join("");
+    }catch(e){}
+  }, 260);
+});
+let RESULTS = [];   // ultimi risultati, così il cambio vista non rilancia la chiamata
+
+async function doSearch(){
+  const v = $("#q").value.trim(); if(!v) return;
+  RESULTS = [];
+  $("#qCount").textContent = "";
+  $("#qRows").className = "rows";
+  $("#qRows").innerHTML = `<div class="empty">Cerco…</div>`;
+  try{
+    const res = await api(`/cards/search?q=${encodeURIComponent(v+" -is:digital game:paper")}&unique=prints&order=eur&dir=desc`);
+    if(!res || !res.data){ $("#qRows").innerHTML = `<div class="empty">Nessun risultato.</div>`; return; }
+    RESULTS = res.data.slice(0, 60);
+    renderResults();
+  }catch(e){ $("#qRows").innerHTML = `<div class="empty">${esc(e.message)}</div>`; }
+}
+
+function favAttrs(c){
+  return `data-fav="${c.id}" data-name="${esc(c.name)}" data-set="${esc(c.set.toUpperCase())}"` +
+         ` data-cn="${esc(c.collector_number)}" data-oid="${esc(c.oracle_id)}"`;
+}
+
+function renderResults(){
+  const box = $("#qRows"), grid = CFG.view === "grid";
+  $("#vList").setAttribute("aria-pressed", String(!grid));
+  $("#vGrid").setAttribute("aria-pressed", String(grid));
+
+  if(!RESULTS.length){
+    box.className = "rows"; $("#qCount").textContent = "";
+    box.innerHTML = `<div class="empty">Cerca una carta per nome: i risultati arrivano ordinati dal prezzo più alto.</div>`;
+    return;
+  }
+  $("#qCount").textContent = `${RESULTS.length} stampe · prezzo Cardmarket in EUR`;
+
+  if(grid){
+    box.className = "grid";
+    box.innerHTML = RESULTS.map(c => {
+      const p = priceOf(c), f = !!FAV[c.id], src = imgOf(c, "normal");
+      return `<div class="gcard" data-id="${c.id}">
+        ${src ? `<img src="${esc(src)}" alt="${esc(c.name)}" loading="lazy" decoding="async">`
+              : `<div class="ph">${esc(c.name)}</div>`}
+        <button class="star ${f?"on":""}" ${favAttrs(c)}
+          aria-label="${f?"Rimuovi dai preferiti":"Aggiungi ai preferiti"}">${f?"★":"☆"}</button>
+        <div class="cap"><b>${eur(p)}</b><span>${esc(c.set.toUpperCase())} · #${esc(c.collector_number)}</span></div>
+      </div>`;
+    }).join("");
+  }else{
+    box.className = "rows";
+    box.innerHTML = RESULTS.map(c => {
+      const p = priceOf(c), f = !!FAV[c.id];
+      return `<div class="row" data-id="${c.id}">
+        <button class="star ${f?"on":""}" ${favAttrs(c)}
+          aria-label="${f?"Rimuovi dai preferiti":"Aggiungi ai preferiti"}">${f?"★":"☆"}</button>
+        <div class="nm"><b>${esc(c.name)}</b><span>${esc(c.set_name)} · #${esc(c.collector_number)}</span></div>
+        <div class="pr"><b>${eur(p)}</b></div></div>`;
+    }).join("");
+  }
+}
+
+/* ---------------- preferiti ---------------- */
+async function toggleFav(id, seed){
+  if(FAV[id]){ delete FAV[id]; toast("Rimossa dai preferiti"); }
+  else{
+    FAV[id] = seed || { n:(HIST.cards[id]?.n)||"?", s:(HIST.cards[id]?.s)||"", cn:(HIST.cards[id]?.cn)||"",
+                        oid:(HIST.cards[id]?.oid)||"" };
+    toast("Aggiunta ai preferiti");
+    if(!HIST.cards[id]){
+      try{ const c = await api("/cards/"+id); if(c){ record(c, today()); saveHist(); } }catch(e){}
+    }
+  }
+  saveFav(); renderAll();
+  $$(`[data-fav="${id}"]`).forEach(b => {
+    const on = !!FAV[id];
+    if(b.classList.contains("star")){ b.classList.toggle("on", on); b.textContent = on?"★":"☆"; }
+    else b.textContent = on ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti";
+  });
+}
+
+/* ---------------- eventi ---------------- */
+document.addEventListener("click", e => {
+  const favBtn = e.target.closest("[data-fav]");
+  if(favBtn){
+    e.stopPropagation();
+    const d = favBtn.dataset;
+    toggleFav(d.fav, d.name ? { n:d.name, s:d.set, cn:d.cn, oid:d.oid } : null);
+    return;
+  }
+  if(e.target.id === "closeSheet" || e.target.id === "sheet"){ $("#sheet").classList.remove("on"); return; }
+  const row = e.target.closest(".row, .gcard");
+  if(row && row.dataset.id) openCard(row.dataset.id);
+});
+document.addEventListener("keydown", e => { if(e.key === "Escape") $("#sheet").classList.remove("on"); });
+
+$$("nav button").forEach(b => b.addEventListener("click", () => {
+  $$("nav button").forEach(x => x.setAttribute("aria-selected", x === b));
+  $$(".panel").forEach(p => p.classList.toggle("on", p.id === "p-" + b.dataset.p));
+}));
+
+$("#syncBtn").addEventListener("click", sync);
+$("#qBtn").addEventListener("click", doSearch);
+$("#q").addEventListener("keydown", e => { if(e.key === "Enter") doSearch(); });
+$("#movSort").addEventListener("change", renderMovers);
+$("#vList").addEventListener("click", () => { CFG.view = "list"; saveCfg(); renderResults(); });
+$("#vGrid").addEventListener("click", () => { CFG.view = "grid"; saveCfg(); renderResults(); });
+
+const bind = (sel, key, min, max) => $(sel).addEventListener("change", e => {
+  let v = parseFloat(e.target.value);
+  if(!isFinite(v)) v = DEFAULTS[key];
+  v = Math.min(max, Math.max(min, v));
+  CFG[key] = v; e.target.value = v; saveCfg(); renderAll();
+});
+bind("#sThr","thr",0.5,500); bind("#sMax","max",175,20000); bind("#sKeep","keep",14,400);
+bind("#sPct","pct",1,200);  bind("#sSig","sigma",1,6);      bind("#sWin","win",3,180); bind("#sMin","minObs",3,60);
+
+$("#sSrc").addEventListener("change", e => { CFG.src = e.target.value; saveCfg(); renderSettings(); });
+$("#sUrl").addEventListener("change", e => {
+  CFG.srcUrl = e.target.value.trim() || "./history.json"; e.target.value = CFG.srcUrl; saveCfg();
+});
+
+$("#notifBtn").addEventListener("click", async () => {
+  if(!("Notification" in window)) return toast("Notifiche non supportate qui");
+  const p = await Notification.requestPermission();
+  toast(p === "granted" ? "Notifiche attive" : "Notifiche non concesse");
+  renderSettings();
+});
+$("#pruneBtn").addEventListener("click", () => prune(true));
+$("#expBtn").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify({ v:1, cfg:CFG, fav:FAV, hist:HIST, last:LAST })], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = `mtg-price-watch-${today()}.json`; a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 1500);
+});
+$("#impBtn").addEventListener("click", () => $("#impFile").click());
+$("#impFile").addEventListener("change", async e => {
+  const f = e.target.files[0]; if(!f) return;
+  try{
+    const d = JSON.parse(await f.text());
+    if(!d.hist) throw new Error("file non riconosciuto");
+    CFG = Object.assign({}, DEFAULTS, d.cfg||{}); FAV = d.fav||{}; HIST = d.hist; LAST = d.last||null;
+    saveCfg(); saveFav(); saveHist(); store.set("last", LAST);
+    renderAll(); toast("Backup importato");
+  }catch(err){ toast("Import fallito: " + err.message); }
+  e.target.value = "";
+});
+$("#wipeBtn").addEventListener("click", () => {
+  if(!confirm("Cancellare storico, preferiti e impostazioni?")) return;
+  ["cfg","fav","hist","last"].forEach(k => { try{ localStorage.removeItem("mpw:"+k); }catch(e){} delete MEM[k]; });
+  CFG = Object.assign({}, DEFAULTS); FAV = {}; HIST = { days:[], cards:{} }; LAST = null;
+  renderAll(); toast("Dati cancellati");
+});
+
+renderAll();
+
+/* ---------------- avvio ----------------
+   All'apertura l'app tira giù da sola l'ultimo file del collector:
+   niente più "entro e premo Aggiorna" per vedere i movimenti.      */
+(async function boot(){
+  if(CFG.src === "local") return;
+  try{
+    const d = await pullRemote(CFG.srcUrl || "./history.json");
+    ORIGIN = "remoto";
+    LAST = d.generated || LAST;
+    store.set("last", LAST); saveHist(); renderAll();
+    const al = allAlerts();
+    if(al.length) toast(`${al.length} carte in movimento dall'ultimo giro`);
+  }catch(e){ /* offline o collector non configurato: si resta sui dati locali */ }
+})();
+
+/* service worker: cache dell'app per l'uso offline e installazione sul telefono.
+   Ha senso solo servita via http(s); da file:// non e' disponibile. */
+if("serviceWorker" in navigator && location.protocol.startsWith("http")){
+  navigator.serviceWorker.register("./sw.js").catch(()=>{});
+}
+</script>
+</body>
+</html>
