@@ -95,9 +95,14 @@ def harvest():
             eur = (c.get("prices") or {}).get("eur")
             if eur is None:
                 continue
+            # cmc, identita' di colore e tipo servono ai filtri dell'app:
+            # senza di loro i filtri funzionerebbero nella ricerca ma non sui movers
+            ci = "".join(c.get("color_identity") or c.get("colors") or [])
+            cmc = c.get("cmc")
             out[c["id"]] = (
                 round(float(eur), 2),
-                (c["name"], c["set"].upper(), c["collector_number"], c.get("oracle_id", "")),
+                (c["name"], c["set"].upper(), c["collector_number"], c.get("oracle_id", ""),
+                 "" if cmc is None else f"{float(cmc):g}", ci, c.get("type_line", "")),
             )
             if len(out) >= MAX_CARDS:
                 break
@@ -116,25 +121,33 @@ def write_day(day, harvested):
             w.writerow([cid, f"{price:.2f}"])
 
 
+FIELDS = ["id", "name", "set", "cn", "oid", "cmc", "ci", "type"]
+
+
 def update_dictionary(harvested):
-    """Nomi e set cambiano di rado: si scrivono una volta sola, non ogni giorno."""
+    """Nomi, tipi e costi cambiano di rado: si scrivono una volta, non ogni giorno."""
     known = {}
     if CARDS_CSV.exists():
         with CARDS_CSV.open(newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                known[row["id"]] = row
-    added = 0
-    for cid, (_, (name, setcode, cn, oid)) in harvested.items():
+                # i file scritti dalle versioni precedenti non hanno le colonne nuove
+                known[row["id"]] = {k: (row.get(k) or "") for k in FIELDS}
+    added, filled = 0, 0
+    for cid, (_, m) in harvested.items():
+        fresh = dict(zip(FIELDS, (cid,) + m))
         if cid not in known:
-            known[cid] = {"id": cid, "name": name, "set": setcode, "cn": cn, "oid": oid}
+            known[cid] = fresh
             added += 1
+        elif not known[cid].get("type"):
+            known[cid] = fresh          # completa le righe scritte prima dei filtri
+            filled += 1
     CARDS_CSV.parent.mkdir(parents=True, exist_ok=True)
     with CARDS_CSV.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["id", "name", "set", "cn", "oid"])
+        w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()
         for cid in sorted(known):
             w.writerow(known[cid])
-    return known, added
+    return known, added, filled
 
 
 def read_days():
@@ -191,8 +204,18 @@ def build(days, series, dictionary):
         if not meta:
             continue
         prices = [by_index.get(i) for i in range(n)]
-        cards[cid] = {"n": meta["name"], "s": meta["set"], "cn": meta["cn"],
-                      "oid": meta["oid"], "p": prices}
+        entry = {"n": meta["name"], "s": meta["set"], "cn": meta["cn"],
+                 "oid": meta["oid"], "p": prices}
+        if meta.get("type"):
+            entry["tl"] = meta["type"]
+        if meta.get("ci") is not None:
+            entry["ci"] = list(meta["ci"] or "")
+        if meta.get("cmc"):
+            try:
+                entry["cmc"] = float(meta["cmc"])
+            except ValueError:
+                pass
+        cards[cid] = entry
         ordered = [(i, v) for i, v in sorted(by_index.items())]
         verdict = evaluate(ordered)
         if verdict:
@@ -273,8 +296,9 @@ def main():
     print(f"Raccolte {len(harvested)} stampe con prezzo in EUR.")
 
     write_day(day, harvested)
-    dictionary, added = update_dictionary(harvested)
-    print(f"Dizionario: {len(dictionary)} carte note ({added} nuove).")
+    dictionary, added, filled = update_dictionary(harvested)
+    print(f"Dizionario: {len(dictionary)} carte note ({added} nuove"
+          + (f", {filled} completate con tipo e costo)." if filled else ")."))
 
     days, series = read_days()
     history, alerts = build(days, series, dictionary)

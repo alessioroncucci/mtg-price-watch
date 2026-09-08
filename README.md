@@ -20,9 +20,14 @@ in cui un prezzo può muoversi senza che nessuno se ne accorga.
 
 ### 1. Crea il repository
 
-Carica questa cartella in un repo GitHub (pubblico o privato, funziona uguale;
-sui repo pubblici i minuti di Actions sono illimitati, sui privati ne hai 2000 al
-mese e questo job ne consuma una sessantina).
+Carica questa cartella in un repo GitHub. **Il repo deve essere pubblico**: sul
+piano gratuito GitHub Pages pubblica solo da repository pubblici, per i privati
+serve GitHub Pro. Sui repo pubblici, in compenso, i minuti di Actions sono
+illimitati.
+
+Essere pubblico non espone niente di tuo: nel repo finiscono solo prezzi di carte,
+che sono già pubblici. Il token di Telegram sta nei *secret* di GitHub, non nel
+codice, e i preferiti restano nel browser.
 
 ```bash
 git init
@@ -139,7 +144,8 @@ app/index.html                l'app (file unico, funziona anche da sola)
 app/sw.js                     service worker: uso offline e installazione
 app/manifest.webmanifest      metadati PWA
 data/days/AAAA-MM-GG.csv      una fotografia al giorno: id, prezzo
-data/cards.csv               dizionario id -> nome, set, numero
+data/cards.csv                dizionario: id, nome, set, numero, costo di mana,
+                              identità di colore e tipo (servono ai filtri)
 public/                       generata dal workflow, è ciò che finisce online
 ```
 
@@ -150,6 +156,54 @@ giro, e non viene committata — la pubblica Pages. Così il repo non si gonfia.
 Se un giorno vuoi cambiare app, i dati restano tuoi e leggibili: sono CSV.
 
 ---
+
+## Cosa fa l'app
+
+**Tre viste.** *Movers* elenca le carte per movimento, con le segnalate in testa;
+*Preferiti* le carte che segui; *Cerca* interroga Scryfall per nome.
+
+**Filtri e ordinamenti** in tutte e tre: colore (identità di colore, incolore
+compreso), costo di mana da 0 a 7+, tipo di carta. Gli ordinamenti includono
+prezzo crescente e decrescente, nome, movimento, anomalia statistica e
+volatilità. I filtri riducono sempre la lista: le segnalate salgono in testa solo
+negli ordinamenti che parlano di movimento, così "prezzo alto → basso" dà
+esattamente quello.
+
+**Vista a immagini** in Cerca e in Preferiti, con prezzo e set sovrimpressi.
+
+**Dettaglio carta in-app**: artwork ingrandibile, testo e tipo con i simboli di
+mana, pulsante per girare le carte a doppia faccia, tabella di tutte le stampe
+con la più conveniente evidenziata. Su mobile è una modale che sale dal basso e
+si chiude trascinandola giù.
+
+**Italiano.** Cercando "Fulmine" l'app non trova nulla in inglese, ripiega sulla
+ricerca multilingua di Scryfall, risale alla carta e mostra le sue stampe
+inglesi. Nome, tipo e testo compaiono in italiano quando la stampa esiste; i
+nomi imparati vengono tenuti in cache. Prezzi e storico restano sulla stampa
+inglese, che è il mercato liquido: tracciare anche le versioni italiane
+frammenterebbe la serie su un mercato più sottile e rumoroso.
+
+**Tema** chiaro, scuro o come il dispositivo, dall'icona in alto o dalle
+impostazioni.
+
+## Cosa distingue queste segnalazioni
+
+Le app di prezzi mostrano *il prezzo*. Qui c'è uno storico proprio con statistica
+robusta, e da quello escono tre cose che altrove non si trovano:
+
+- **Oscillazione tipica** (`1,4826 × MAD / mediana`): dice se un +12% è una
+  notizia o è il normale ballonzolare di quella carta. In lista appare solo
+  quando supera il 3%, il valore esatto sta nel dettaglio.
+- **Percentile nel periodo**: "92° percentile" dice se oggi è un buon momento per
+  comprare, cosa che un ±% non dice. I badge *minimo* e *massimo del periodo*
+  scattano oltre il 5° e il 95° percentile.
+- **Target per singola carta**: "avvisami sotto 15 €" nel dettaglio della carta.
+  Sono controllati quando apri l'app, non via Telegram: il collector non conosce
+  i dati locali. Diventeranno notifiche quando i preferiti staranno su un
+  database.
+
+Sulle righe, il bordo sinistro porta l'identità di colore della carta: un
+giocatore la legge senza pensarci.
 
 ## Modalità dell'app
 
