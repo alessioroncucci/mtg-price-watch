@@ -61,6 +61,7 @@ id,name,set,cn,oid,cmc,ci,type
 0782653e-9d8c-485b-b152-9353cd4f6ec8,Balefire Dragon,CMM,697,3d783beb-9ca6-4681-9276-fc3ad13b993f,7,R,Creature — Dragon
 0790fb8c-7ff3-4681-a2c0-f16642f4f94b,Amulet of Vigor,LCC,103,dba16032-66c1-4ccb-9d65-d41ac550d182,1,,Artifact
 07ca436a-e992-40a9-978a-501a82e443ed,Vaultborn Tyrant,BIG,85,e8d0accc-b320-4c07-8a71-a09db860351e,7,G,Creature — Dinosaur
+07d60c27-8625-48eb-a3f0-1e26d6930ae7,"Lu Bu, Master-at-Arms",PTK,115,ff959f1f-0982-4761-a6b0-3044dff1d617,6,R,Legendary Creature — Human Soldier Warrior
 07e40ddc-0483-4a2e-a776-807b37bada7f,Three Visits,SLD,1676,1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e,2,G,Sorcery
 082f6551-2332-4a9b-9865-aae19156b3dd,Island,PALP,2,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 083f76c8-3e6d-4de5-b408-2f2394faed5c,Mahamoti Djinn,LEB,65,c39ea5f9-6ec0-4697-897b-779e326754a7,6,U,Creature — Djinn
@@ -358,6 +359,7 @@ id,name,set,cn,oid,cmc,ci,type
 23eb19f9-2e8f-4bf0-9bf8-868e6da70e2d,Tetravus,ATQ,71,85255c26-4e74-4cf0-91a6-78ddba5abdc6,6,,Artifact Creature — Construct
 2401d2a5-f65b-4a13-906c-999990589a1e,"Thorin, Mountain-king",HOB,243,94917b80-ac32-45ab-b4ee-157ade024bcd,4,R,Legendary Creature — Dwarf Noble
 240b3b04-6ad4-42cb-bb4d-e1d486667675,Akroma's Memorial,PLST,FUT-159,967e8b3f-8266-4d9a-a38b-d0e10184e1e4,7,,Legendary Artifact
+240f58ab-944c-4f4c-9df9-5f40b132bf3e,"Chandra, Chill of Compliance",FRA,212,c3dfa1e2-6785-49a0-a194-fb842a8eb63c,3,U,Legendary Planeswalker — Chandra
 2429510d-ce59-472d-b0df-5e6b7cdf63af,Dragon's Rage Channeler,SLD,2048,0c016ccc-a341-4b76-87ba-69c639d2746d,1,R,Creature — Human Shaman
 24584ffa-8ed1-4930-b6d8-ac1d02738ed0,Flight,LEB,59,6a4068b0-fb4f-429c-a94e-47849f3eb7ef,1,U,Enchantment — Aura
 245e16ae-4514-42fa-b409-2c3ae084436c,Arid Mesa,ZNE,9,c5acf2a5-40f4-433d-a74d-1cb56c521464,0,,Land
@@ -446,6 +448,7 @@ id,name,set,cn,oid,cmc,ci,type
 2c872b04-e80d-4c02-ac26-8f5cbb82e99f,"Atla Palani, Nest Tender",SLD,1397,b56cebe0-3752-4ce5-afbd-911543784015,4,GRW,Legendary Creature — Human Shaman
 2c89261c-fff8-4145-9448-247a1f924409,"Purphoros, God of the Forge",PLST,THS-135,4fdbbec2-e921-4b63-958d-f9ba1e417197,4,R,Legendary Enchantment Creature — God
 2c8b3180-6e29-484a-95f1-3e75af2766d3,Ancient Tomb,EOS,46,23467047-6dba-4498-b783-1ebc4f74b8c2,0,,Land
+2c95a0a1-9c2c-44df-b0fe-c22efb6d87ee,Darksteel Forge,M14,206,9b3bec05-441f-4fdf-8b51-69fa8613fcd4,9,,Artifact
 2ca5c829-0a07-4062-8550-c5dd443103a6,Guardian Project,RVR,433,4f9e07ae-6341-4b46-9f77-f17ab659d266,4,G,Enchantment
 2cae1d08-5bda-4eeb-8134-bdb62ad6f44e,Marsh Flats,SPG,110,dab520d0-20b4-4273-ba6b-eb07f85ea433,0,,Land
 2cba9d69-0a54-4a58-8d1a-25cca4f452a2,Exquisite Blood,SLD,1798,8f933fae-6c0c-42d7-a817-14760d8285cd,5,B,Enchantment
@@ -665,6 +668,7 @@ id,name,set,cn,oid,cmc,ci,type
 43572906-ea74-4411-a549-5dc401591d2a,Bad Moon,LEA,93,fc5d3341-cbce-49e5-93cc-8add92479dca,2,B,Enchantment
 4367bc78-0912-4abd-8edd-bc792558d01a,Academy Rector,UDS,1,e3c85068-b4b6-40b9-a16c-5c3b2d059ec4,4,W,Creature — Human Cleric
 43842b53-4d63-45e7-8247-751a7f09fb35,Ad Nauseam,SOA,90,981b0e21-e5e6-4a1e-bfde-679d56623f7f,5,B,Instant
+438f0c61-a61d-4a9e-b21f-4e86420c7913,Urza's Miter,ATQ,76,57f0c89c-79ad-4786-9497-c7e668620fc0,3,,Artifact
 43bf015b-152e-4d67-b773-e75fb2487a32,Volrath's Stronghold,STH,143,73b8cf90-3c71-4f8b-a29f-61894b7f27c9,0,B,Legendary Land
 4407fb95-0ed2-4c95-91b9-09eb52bf537e,Wheel of Fortune,2ED,184,a8abd966-de7b-46a3-8ac7-8747ab35653a,3,R,Sorcery
 443d4177-2db8-4327-b42d-82557656c159,Unstable Mutation,SUM,86,278b237e-9699-43eb-a03e-0b68eccc08b3,1,U,Enchantment — Aura
@@ -1502,6 +1506,7 @@ id,name,set,cn,oid,cmc,ci,type
 96dd2d61-a43d-4582-b730-71d4fac0fa23,Wrath of God,LEB,46,34515b16-c9a4-4f98-8c77-416a7a523407,4,W,Sorcery
 9733e82f-b4d0-455c-8dc3-9278a7a1f156,Triskelion,4BB,354,74f67dcf-5afb-45aa-8d4b-3cdb23f6f2a1,6,,Artifact Creature — Construct
 97502411-5c93-434c-b77b-ceb2c32feae7,"Halvar, God of Battle // Sword of the Realms",KHM,15,acfc3e07-757f-4ccf-a65e-bee07ce87f40,4,W,Legendary Creature — God // Legendary Artifact — Equipment
+977da60c-073a-42d1-b9f5-789a2b7071b8,"Myrel, Shield of Argive",BRO,305,503094aa-6f8f-42c1-ad5a-9305934e5f0c,4,W,Legendary Creature — Human Soldier
 97eb21b6-6131-4650-9042-d6e22d8f7e2b,Crystal Rod,SUM,242,e68bc048-1009-46a5-97d6-ec77a18067da,1,,Artifact
 981b3a2e-de94-428d-8e5d-5a7ba6afe4a2,Verdant Catacombs,MH2,440,67d60b24-d429-4ded-90d9-06e49f28c396,0,,Land
 985164ba-0c30-42b1-a8b6-3be19251359c,Jade Statue,LEB,254,96162b22-41e7-4559-aa1b-c18f42abcb52,4,,Artifact
@@ -1819,6 +1824,7 @@ b6d1e901-cef9-45ca-a946-a4a9cba6702d,Archfiend of Despair,CMM,137,9c36760b-57c5-
 b6e33c5e-6d99-4e7e-b611-4b271a47b4d2,Royal Assassin,LEB,124,9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57,3,B,Creature — Human Assassin
 b7210c3a-bbd3-4f3a-933b-a5618a4f7a52,Teferi's Protection,SLD,1691,0d4ecdb1-ec90-497f-a7a4-1c68092b8757,3,W,Instant
 b728cdab-e4fe-478b-b7b2-5912bd6a80a3,Grave Pact,WOT,29,6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2,4,B,Enchantment
+b7331b03-be66-419c-94bc-ed494c042ea3,Plains,LEB,288,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains
 b734cb11-2024-411f-9885-dafda14bb431,Dark Ritual,STA,89,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,1,B,Instant
 b7518bcf-766a-457d-a627-dbfb0207309c,Last March of the Ents,LTR,623,3999cd64-ff5c-4e2c-8aa6-d14f9f8a2b4c,8,G,Sorcery
 b7623c00-144b-4a8f-9c6c-f5e9e4f65ece,Fireball,LEA,149,aa7714b0-2bfb-458a-8ebf-37ec2c53383e,1,R,Sorcery
@@ -2247,6 +2253,7 @@ e292577e-6232-44fa-a9c2-cc09949c6ed3,Lifeforce,LEA,206,07ae1fe5-5c3e-4d94-b809-8
 e2b15221-c8b0-4861-9f8b-8a65834ad499,Gaea's Liege,LEA,196,8d134a60-e1e5-4163-8bdc-36af91567185,6,G,Creature — Avatar
 e2baf73f-44e8-4249-83d4-271d78ba657f,Flight,SUM,59,6a4068b0-fb4f-429c-a94e-47849f3eb7ef,1,U,Enchantment — Aura
 e2c5c161-49c5-404d-bd8e-86e634222232,Hunting Velociraptor,REX,4,bca33fb6-cd37-4259-8c0b-7a4675754a00,3,R,Creature — Dinosaur
+e3425241-efdc-4261-a2bb-58fbf4a9fe8c,"Zuo Ci, the Mocking Sage",PTK,165,ae8773a3-05f2-4074-9a53-033b0c127235,3,G,Legendary Creature — Human Advisor
 e351ec05-8c4d-4631-9dbf-7f85f664770b,Mana Drain,CMR,637,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
 e37da81e-be12-45a2-9128-376f1ad7b3e8,Prismatic Vista,MH1,244,032b8a0d-491a-4a12-ab9f-689010054d5b,0,,Land
 e3f17ce3-711b-4bd9-addf-dd440fa7d2b7,Nebuchadnezzar,LEG,245,7c48448e-4e13-4cda-999e-e06ae0f7dcea,5,BU,Legendary Creature — Human Wizard
@@ -2384,6 +2391,7 @@ f25a4bbe-2af0-4d4a-95d4-d52c5937c747,Smothering Tithe,2X2,31,153376c9-dffd-458c-
 f2661d4a-450a-433a-b893-b1ee15982494,Scalding Tarn,MM3,244,cb027150-848c-4a66-88ad-e20222304dd8,0,,Land
 f2752cf2-9a48-49a8-98ff-2e32a9121d78,Orcish Oriflamme,LEB,167,0b16a650-68b0-44dc-a9e1-15b7966e0b18,4,R,Enchantment
 f2b9983e-20d4-4d12-9e2c-ec6d9a345787,Falling Star,LEG,145,f5ca7b13-8003-4361-b827-7095c89f2750,3,R,Sorcery
+f2c4f80e-84a0-463b-82c3-5c6503809351,Doubling Season,FDN,216,01546b7d-a233-4176-8843-d732074dc5b6,5,G,Enchantment
 f2f2e39f-bf39-4b27-b211-e46b6045039d,Jeska's Will,SLD,1744,0fd114c4-092b-4e28-b0dc-ef529f3bc73e,3,R,Sorcery
 f3081c9f-39de-4b88-b01a-df8227934e9b,Arcane Signet,SLD,1924,0bc7f093-bef0-4f1a-852c-4b75ebf54838,2,,Artifact
 f32373dd-06d8-45d1-8777-3b1411bcb30a,Hurkyl's Recall,ATQ,10,ed1e5d24-c8a8-48fe-a88f-1003ad432477,2,U,Instant
