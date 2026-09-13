@@ -268,6 +268,7 @@ id,name,set,cn,oid,cmc,ci,type
 1c3fc61c-c26e-47f3-a1eb-f6f10f8469e2,Exploration,2XM,351,0c2841bb-038c-4fbf-8360-bc0a1522b58d,1,G,Enchantment
 1c473253-3992-4cc1-8b46-5d1da308c537,Imperial Recruiter,PTK,113,4d6a1391-817a-4ddc-840d-886b138eeb3f,3,R,Creature — Human Advisor
 1c4b515f-732d-415a-bc1e-6f1022150ebd,Passionate Archaeologist,CLB,633,6299d18e-a6a7-414c-85c0-d57a8e7d2627,2,R,Legendary Enchantment — Background
+1c4d0743-0f3b-492e-82a5-725dc6d3b582,Flawless Maneuver,TLE,306,4e183439-17d2-47ff-9d99-5e22821d91e3,3,W,Instant
 1c829d83-d5b8-4be7-80f7-55b42f52b309,Reset,LEG,73,4faa5a70-ac0c-4a29-8bec-218a35a29fdf,2,U,Instant
 1c9675fb-1a89-420f-aea8-50e0642f549c,Enlightened Tutor,DMR,6,c5229c17-b7be-4b05-b683-f2277edc4849,1,W,Instant
 1cb16046-10bf-433a-acaf-7127c0954a1c,Three Tree City,BLB,340,da3b17a2-e1e1-44e9-b9b1-ae54a92037db,0,,Legendary Land
@@ -463,6 +464,7 @@ id,name,set,cn,oid,cmc,ci,type
 2d1c66a7-a39e-4869-80c7-1cec89777e0d,Galadriel's Dismissal,LTC,500,e46d0b57-5eec-4ab6-b9a7-a5c5cc01cc34,1,W,Instant
 2d1ced0f-a232-4a05-aa59-6e611b52d617,Meekstone,2ED,261,5ba73182-30a7-4bad-9cb6-c0feecc2db33,1,,Artifact
 2d636573-287d-4f6f-93b0-12ddd8f3e6d1,Blaze of Glory,2ED,6,b330ac89-790e-4cc9-96a5-532c48252088,1,W,Instant
+2d6ff182-a853-4898-895b-072c89324ca7,Kwia Vigorbloom,FRA,140,07a28621-e617-46b0-af3e-2efb03b5056a,6,GW,Legendary Creature — Elder Sphinx
 2d7097c9-2076-4ebc-8c9e-aa596351588c,Last March of the Ents,HOC,27,3999cd64-ff5c-4e2c-8aa6-d14f9f8a2b4c,8,G,Sorcery
 2d7643c0-b2db-478f-944e-b27b77bad3eb,Stifle,SCG,52,b3b00911-ece7-4484-bc36-f211ce72b6cc,1,U,Instant
 2db7a0e6-eea5-4fa6-ac14-401411b106cc,Unmask,MMQ,168,1a3a274d-41da-47db-ad41-5720f36a7963,4,B,Sorcery
@@ -705,6 +707,7 @@ id,name,set,cn,oid,cmc,ci,type
 47dd5c4b-5972-43e1-ae2a-ebf275006458,Yavimaya Hollow,UDS,143,53d6113d-acdb-4754-9641-f7991a96c7b9,0,G,Legendary Land
 4800ebc2-d5a7-4c26-a2f7-943a540ae47e,Admonition Angel,SLD,154,78a7bb30-fc60-410c-b086-862b5521c1aa,6,W,Creature — Angel
 483fa1cb-1e35-44f2-a143-98c0f107f5ca,Teferi's Protection,2X2,32,0d4ecdb1-ec90-497f-a7a4-1c68092b8757,3,W,Instant
+485cef94-d7aa-4bb3-b2e6-61d0ccf8007e,Sinkhole,2ED,130,5a46ad2a-35b1-4dd5-b7c3-fec36b7c67ab,2,B,Sorcery
 486d7edc-d983-41f0-8b78-c99aecd72996,"Otawara, Soaring City",NEO,271,e9b6a394-691c-425a-9307-76d8edc7375e,0,U,Legendary Land
 48b25568-46e9-4f4e-a4b5-7f371314e49e,"Azusa, Lost but Seeking",SLD,1597,6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51,3,G,Legendary Creature — Human Monk
 48c5b98d-73cd-4b69-9933-4867da6e8389,Bloodletter of Aclazotz,LCI,336,469956a2-7cd4-4695-b8f4-c841526f160d,4,B,Creature — Vampire Demon
@@ -1515,6 +1518,7 @@ id,name,set,cn,oid,cmc,ci,type
 977da60c-073a-42d1-b9f5-789a2b7071b8,"Myrel, Shield of Argive",BRO,305,503094aa-6f8f-42c1-ad5a-9305934e5f0c,4,W,Legendary Creature — Human Soldier
 97eb21b6-6131-4650-9042-d6e22d8f7e2b,Crystal Rod,SUM,242,e68bc048-1009-46a5-97d6-ec77a18067da,1,,Artifact
 981b3a2e-de94-428d-8e5d-5a7ba6afe4a2,Verdant Catacombs,MH2,440,67d60b24-d429-4ded-90d9-06e49f28c396,0,,Land
+98294441-b5a1-4b59-9325-80d0ff913ebd,"Urza, Lord High Artificer",FCA,5,e87906d2-db1a-4e19-b910-adb4eb339945,4,U,Legendary Creature — Human Artificer
 985164ba-0c30-42b1-a8b6-3be19251359c,Jade Statue,LEB,254,96162b22-41e7-4559-aa1b-c18f42abcb52,4,,Artifact
 9853b0ce-4763-4877-9741-f9145a3659c6,Contract from Below,LEA,96,9e0ed4b0-28b5-44be-ab83-f1e8eb07138d,1,B,Sorcery
 985453e7-997e-4d77-a338-cc0290791ebe,Finale of Devastation,WAR,160,69872a9a-fe54-4e58-940c-89395af71acd,2,G,Sorcery
@@ -1542,6 +1546,7 @@ id,name,set,cn,oid,cmc,ci,type
 9a61ac58-0bec-4056-be44-fc33db0e067b,Mana Crypt,PLST,EMA-225,2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a,0,,Artifact
 9a67d30b-7a4f-49b4-bf8b-e9cf8c248e4d,Finale of Devastation,CMM,700,69872a9a-fe54-4e58-940c-89395af71acd,2,G,Sorcery
 9a6eb356-7418-443f-a51b-37ebc3526fce,Ouroboroid,EOE,345,50d6fd91-23d3-4d32-804f-6233e4386904,4,G,Creature — Plant Wurm
+9a6f8a6e-cc77-41d8-b753-bb3c5a5c4f48,Storm-Kiln Artist,SLD,2352,a145ff8c-5812-4bcb-bd16-9839dc25121d,4,R,Creature — Dwarf Shaman
 9a879b60-4381-447d-8a5a-8e0b6a1d49ca,Force of Will,ALL,28,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 9a9c01c5-6bca-47ff-91a9-c20f301b2a96,Overgrown Tomb,RVR,296,975ec9a3-6f20-4177-8211-82526e092538,0,BG,Land — Swamp Forest
 9ab384fe-1935-4e6e-a3a2-aed932ed6643,Demonic Tutor,SLD,1856,82004860-e589-4e38-8d61-8c0210e4ea39,2,B,Sorcery
@@ -2105,6 +2110,7 @@ cfdf9706-acdb-48fc-89db-93bc50b3b9ad,Mana Vault,UMA,229,736892cb-a34b-4bb9-b56c-
 d052d99b-b1ca-44da-8460-c022d041d665,Polluted Delta,ZNE,2,ef86989d-ce80-4e55-aece-7d11710eeffa,0,,Land
 d05a2b18-f562-4aa5-8979-4c6942ce7edf,Vendilion Clique,PSPL,8,244d4807-0802-41bc-9460-55ac38a28a72,3,U,Legendary Creature — Faerie Wizard
 d05b92bd-797e-413f-a8b0-32e0937a1ee0,Savannah Lions,LEA,38,60ba93eb-39e6-4af2-9c66-cd38f72daff2,1,W,Creature — Cat
+d07dc95d-82a8-4a58-8ea2-d4513bd7316d,Sneak Attack,USG,218,e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d,4,R,Enchantment
 d0a7cb23-d229-43c5-addd-dcf423984b0c,Pirate Ship,LEA,70,c6b3f924-806d-47d3-b044-72b48470196c,5,U,Creature — Human Pirate
 d0ba7b76-f3d0-47d0-8a35-0c08e67200fb,Righteousness,LEA,36,3f6b2f76-0364-415e-a6a2-e9e5bf31b745,1,W,Instant
 d0bd76c8-4cff-4c15-9686-7a299b589814,Frozen Shade,LEA,109,f75f9006-217d-4ec8-9c35-ceefe1c5ae4e,3,B,Creature — Shade
@@ -2138,6 +2144,7 @@ d42a6350-b16b-4e10-a273-e6cbb55dcb7a,Pestilence,LEA,120,dafe63ef-f3d6-45e7-877a-
 d4397224-5e64-4615-8c53-e6672655f2ad,Consecrated Sphinx,2X2,345,311a449d-dc74-46e6-9a47-6a597931f736,6,U,Creature — Sphinx
 d456810a-452c-4cc6-9d73-35fe64787259,Black Market Connections,PLST,LCC-181,d2664f28-49e1-46f8-a863-b217e961a57c,3,B,Enchantment
 d4595c19-3a8e-488b-b3cc-e7cf42aa3370,Land Tax,4BB,34,d2d9ecea-7925-420e-98b9-2f87f41f387c,1,W,Enchantment
+d465597a-362e-4bd0-b547-f11d8807e597,Trinisphere,DST,154,69d994f2-b8f6-425f-9655-977c2144d40c,3,,Artifact
 d4bf05c4-a924-4006-835e-42f8468ba869,"Wan Shi Tong, Librarian",TLA,320,2bace3ea-7d28-4a1c-857a-d3c3a1c11b59,2,U,Legendary Creature — Bird Spirit
 d4f1cc9e-4f99-4c26-ac1b-8ef069fa8ceb,Llanowar Elves,LEA,210,68954295-54e3-4303-a6bc-fc4547a4e3a3,1,G,Creature — Elf Druid
 d4f6027a-003a-4f9d-929a-0b6da1fa42c9,Bloodletter of Aclazotz,LCI,92,469956a2-7cd4-4695-b8f4-c841526f160d,4,B,Creature — Vampire Demon
@@ -2467,6 +2474,7 @@ f8fe2f99-7ec2-490c-8ec3-aa2fb4680826,Tombstone Stairwell,MIR,149,9aaf1149-eccb-4
 f90e55c1-08e0-4b25-9d0d-2512584398cd,Ironroot Treefolk,SUM,204,b7c0bb85-fb87-4c73-bc1b-7b4dc763c7e8,5,G,Creature — Treefolk
 f921e711-168d-4836-bca2-f9bb43992708,"Bristly Bill, Spine Sower",OTJ,338,d3b2d8a2-d3bc-448c-9cf6-6bead6010c28,2,G,Legendary Creature — Plant Druid
 f9232508-d363-4ef3-987a-741f6bff331f,Ley Druid,LEA,205,a4ae41c7-9631-407d-8fd3-04f403d940a8,3,G,Creature — Human Druid
+f96d69e9-c200-4d60-9adf-452520868d35,Tiamat,PAFR,235p,f00e4df1-13fb-4514-8abb-92954068689a,7,BGRUW,Legendary Creature — Dragon God
 f973a1f3-6dcb-470d-89d2-6ddbf2426999,Sakashima of a Thousand Faces // Sakashima of a Thousand Faces,SLD,1541,,,U,
 f979fc86-2c7e-49b3-965e-607a203cbfb1,Barrowgoyf,M3C,50,74c0164c-130f-4572-9066-626c77f6e2ff,3,B,Creature — Lhurgoyf
 f9ac9036-9e8d-43b8-b930-693971fe802f,Quantum Riddler,PEOE,72p,58582fac-4c42-4a1c-9ab1-4a892b500da4,5,U,Creature — Sphinx
