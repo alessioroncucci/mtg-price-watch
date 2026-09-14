@@ -680,6 +680,7 @@ id,name,set,cn,oid,cmc,ci,type
 443d4177-2db8-4327-b42d-82557656c159,Unstable Mutation,SUM,86,278b237e-9699-43eb-a03e-0b68eccc08b3,1,U,Enchantment — Aura
 44407660-79ed-442d-a215-d388c27c5130,Chronicle of Victory,ECL,346,e949b362-4988-4482-ac51-c1049af9040c,6,,Legendary Artifact
 44657ab1-0a6a-4a5f-9688-86f239083821,"Birgi, God of Storytelling // Harnfel, Horn of Bounty",KHM,123,fb81e4d3-1d8c-4779-be62-87cf49277e51,3,R,Legendary Creature — God // Legendary Artifact
+44afd414-cc69-4888-ba12-7ea87e60b1f7,Craterhoof Behemoth,JMP,385,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
 44dcab01-1d13-4dfc-ae2f-fbaa3dd35087,"Elesh Norn, Mother of Machines",ONE,10,5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f,5,W,Legendary Creature — Phyrexian Praetor
 44f4cea0-8491-4475-a4ac-8c7cc9fea142,Erg Raiders,SUM,109,7feba745-7d27-4225-bc9d-9b7a8692872d,2,B,Creature — Human Warrior
 45026d57-0324-4312-8b86-2e7d4f581ee9,Marsh Flats,ZEN,219,dab520d0-20b4-4273-ba6b-eb07f85ea433,0,,Land
@@ -789,6 +790,7 @@ id,name,set,cn,oid,cmc,ci,type
 4fafd3f9-f7de-4d6e-8824-6b60866fc50f,Red Elemental Blast,LEB,170,bb329a5c-b9f9-4973-a53f-090024146325,1,R,Instant
 4fbb25bc-7071-40eb-bea6-16387db164a7,Demonic Attorney,2ED,103,65a9f643-063f-406a-8d5a-5ebbe0f04c3d,3,B,Sorcery
 4fc89e7f-f2a4-41a6-a948-17b230545fe9,Cruel Tutor,PLST,POR-87,d9353eb6-c7e7-4d85-a0c2-32b1d091881a,3,B,Sorcery
+4fcc913e-f736-460a-b24b-022fa2e861b9,Bloodline Recollector // Ancestral Craving,FRA,49,c8e9a7e1-28ae-40e3-8715-1bb0aa2057c7,2,B,Creature — Vampire Warlock // Instant
 4ffcef6f-4498-4f2a-8557-caaecb5593a3,Sylvan Library,SLD,2058,92eed395-62ca-4293-882b-8565c40daab5,2,G,Enchantment
 4fff6e6f-4ebd-4ec8-9443-59efb22d376c,Resurrection,LEA,34,837417d8-8260-486d-a3ed-3b5711eaf34a,4,W,Sorcery
 503256f8-3aab-49d0-b78b-6502aa29ce52,Rasputin Dreamweaver,LEG,253,fef452ee-9018-4175-bb79-476544e48433,6,UW,Legendary Creature — Human Wizard
@@ -1193,6 +1195,7 @@ id,name,set,cn,oid,cmc,ci,type
 775480ed-f574-40cb-bd9b-21102eaaff63,"Karlach, Fury of Avernus",CLB,186,037355be-71e7-4866-80a6-80352c304970,5,R,Legendary Creature — Tiefling Barbarian
 77636b4c-faea-4bf5-b88c-dd5bb88dc930,Giant Spider,LEA,198,e740ce2f-2134-473c-afa1-1b6d2d1e38ef,4,G,Creature — Spider
 776ad9be-3309-4f1d-9f27-6219d9477662,Red Elemental Blast,LEA,169,bb329a5c-b9f9-4973-a53f-090024146325,1,R,Instant
+777bb4ba-a821-4a83-a9e2-8827e7eff98f,Craterhoof Behemoth,INR,480,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
 778d10e6-251b-4ef3-b9b8-bc23a0d74aed,Mana Vault,2ED,260,736892cb-a34b-4bb9-b56c-e26e3db207a2,1,,Artifact
 77ad722a-d6f3-483e-bd13-e0923cc8a265,Vampiric Tutor,DMR,314,ededbdae-d9dc-4206-9335-d7158f2d7700,1,B,Instant
 77be13ed-5ef5-4452-a16f-ccd3599d8555,Demonic Tutor,PLST,DDC-49,82004860-e589-4e38-8d61-8c0210e4ea39,2,B,Sorcery
@@ -1586,6 +1589,7 @@ id,name,set,cn,oid,cmc,ci,type
 9e30230a-4b75-4fc6-9c98-b12791beea2d,Sword of Hearth and Home,LTC,354,913e6182-706a-4872-8c8a-e146b0ae0738,3,,Artifact — Equipment
 9e5e07a2-fbdf-4c4c-996a-fce40bab5de5,Warp Artifact,LEA,133,f4b18451-1f40-48bd-8ca9-eec784ad5dd7,2,B,Enchantment — Aura
 9e70db8a-1b25-45c1-861a-58a02ca5f878,Timber Wolves,SUM,219,35d07ac9-b184-4b5f-8192-34b1db042f69,1,G,Creature — Wolf
+9e72f397-2384-40f1-882b-f627664d97df,Return to the Light Realms,FRA,20,217e76ca-ea94-417c-b5b0-82e2302eeee8,9,W,Sorcery
 9e739c7e-cc16-4557-836f-fdec53a7ed8c,Godless Shrine,UNF,282,73864fcc-1bde-4bc0-831e-2b93e546e417,0,BW,Land — Plains Swamp
 9e8cf4ef-0545-4876-b089-bfc723b521ed,"Linvala, Keeper of Silence",SLD,1289,88dadc31-dfac-41b3-bf2a-65fa89e3c16d,4,W,Legendary Creature — Angel
 9e99599e-c594-42c6-b9e3-4dbb8e982f88,"Otawara, Soaring City",NEO,414,e9b6a394-691c-425a-9307-76d8edc7375e,0,U,Legendary Land
@@ -1594,6 +1598,7 @@ id,name,set,cn,oid,cmc,ci,type
 9ed67d61-cf47-446b-b454-eb404a8686b7,Tsunami,LEA,221,ef2b1565-7b02-4cab-9031-beb1701ee929,4,G,Sorcery
 9ee20fb3-fc63-42aa-8b52-2adf7c8b2463,Demonic Tutor,FBB,105,82004860-e589-4e38-8d61-8c0210e4ea39,2,B,Sorcery
 9f10f026-eba0-4e33-b465-f3a852402718,Scalding Tarn,SLU,2,cb027150-848c-4a66-88ad-e20222304dd8,0,,Land
+9f1ae7a8-cb6a-4877-810a-f51a3951e7c3,Sliver Overlord,SPG,128,762d864b-69bc-43ac-af2f-e18186010169,5,BGRUW,Legendary Creature — Sliver Mutant
 9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b,Rhystic Study,J22,114,53236dd7-845a-444c-96d5-f41ed7325d8f,3,U,Enchantment
 9f52160b-dcc0-4ab8-b8b2-b576b1688d57,"Jin Sakai, Ghost of Tsushima",SLD,2226,76c43ac8-a878-4239-b0e3-f0254ef63e50,4,BUW,Legendary Creature — Human Samurai
 9f87178b-1221-4d7a-a7a5-20d7f01b8089,Verduran Enchantress,LEA,222,cd98a31b-cc7e-43f9-982e-109ad9850908,3,G,Creature — Human Druid
@@ -2185,6 +2190,7 @@ d9785c6c-9f02-45bc-89e5-ea5dd0e768df,Resurrection,SUM,34,837417d8-8260-486d-a3ed
 d980e9c0-db88-41f9-8dbf-89f0e1ac6c20,Chaoslace,LEB,140,08842aa3-f923-46e9-a106-f542331e9cc1,1,R,Instant
 d992b336-3b6e-43e1-8662-d85664349b44,Siren's Call,LEA,77,269fc857-a052-4f0a-9759-467ccf42bebb,1,U,Instant
 d9b2accc-11e8-4bfd-97fc-d2f6bcd94c26,Zombie Master,2ED,138,5446c92f-ff22-4e9b-a2f6-e64c8560c1e0,3,B,Creature — Zombie
+da1792e4-2170-42ae-a335-fde6f5ef8932,Thundering Falls,MKM,331,d2bcff58-7a8a-46ef-b6b3-39501d4c8e6e,0,RU,Land — Island Mountain
 da237992-2919-4e37-8f56-2164095f59b5,Fire Elemental,LEA,148,3912d21e-1ebc-4a81-9dc9-f404248d564a,5,R,Creature — Elemental
 da248001-ed75-4b68-9532-37d3cd5afc4c,Gauntlet of Might,LEA,244,d38ad188-515e-4865-a0ed-5d0fd4c7b453,4,R,Artifact
 da26289f-e0e6-4aae-8782-ebdbabf39819,Bog Wraith,LEB,96,508248d1-09a4-4e41-a4c9-286618e5061e,4,B,Creature — Wraith
