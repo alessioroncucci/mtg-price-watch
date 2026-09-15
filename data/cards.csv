@@ -13,6 +13,7 @@ id,name,set,cn,oid,cmc,ci,type
 019b51b0-e5c6-4208-922b-7736686dddcd,Agatha's Soul Cauldron,WOE,242,c259e16f-2a44-4552-8678-815f757a02e8,2,,Legendary Artifact
 01a4a36a-f10a-411b-9558-cbbb62e8b4ae,Dawn of a New Age,LTR,731,37df5ade-6a21-4b0c-89f8-e2e917589a8d,2,W,Enchantment
 01bda3d7-122a-48a0-bab3-676c4a557b74,Timetwister,2ED,85,c823e687-6311-4c99-974b-fd77d204141a,3,U,Sorcery
+02335747-54e3-4827-ae19-4e362863da9b,Green Sun's Zenith,MBS,81,0d96b60b-a060-48ee-bb83-93f1c4a10669,1,G,Sorcery
 024110ee-5520-49f8-afab-54dcce87c650,Elvish Spirit Guide,SLD,423,6b0e23cf-7d68-4329-86db-7adc26abd86b,3,G,Creature — Elf Spirit
 0254bff2-a3a7-434e-980a-2d30355793fc,Library of Leng,LEB,258,867def48-4be8-4056-bcf1-d6b00450b9a3,1,,Artifact
 026dd2cb-d759-43d8-a542-a7a71bdeba98,Armageddon Clock,SUM,234,70d90ef4-0cda-405f-abf1-734fa909efa6,6,,Artifact
@@ -64,6 +65,7 @@ id,name,set,cn,oid,cmc,ci,type
 07ca436a-e992-40a9-978a-501a82e443ed,Vaultborn Tyrant,BIG,85,e8d0accc-b320-4c07-8a71-a09db860351e,7,G,Creature — Dinosaur
 07d60c27-8625-48eb-a3f0-1e26d6930ae7,"Lu Bu, Master-at-Arms",PTK,115,ff959f1f-0982-4761-a6b0-3044dff1d617,6,R,Legendary Creature — Human Soldier Warrior
 07e40ddc-0483-4a2e-a776-807b37bada7f,Three Visits,SLD,1676,1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e,2,G,Sorcery
+07e76029-c10e-4017-872f-19284751de71,Clever Impersonator,SLD,1429,d4ec0df9-a4a3-48cf-a0aa-b1aea5c49142,4,U,Creature — Shapeshifter
 082f6551-2332-4a9b-9865-aae19156b3dd,Island,PALP,2,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 083f76c8-3e6d-4de5-b408-2f2394faed5c,Mahamoti Djinn,LEB,65,c39ea5f9-6ec0-4697-897b-779e326754a7,6,U,Creature — Djinn
 0845f0b0-9413-4ddd-861d-9607636bebc6,Natural Order,VIS,114,8c1fe337-375a-4add-93b6-0ac39ed72b4f,4,G,Sorcery
@@ -112,6 +114,7 @@ id,name,set,cn,oid,cmc,ci,type
 0bb0349e-38b8-4750-b5c8-a831e6b20aea,Shanodin Dryads,SUM,216,998484cc-fefc-4da5-9987-5d6e89599c34,1,G,Creature — Nymph Dryad
 0bc1dbbf-73a7-4f79-b499-4668c853d958,Portal to Phyrexia,PBRO,240p,301d1d8e-d3fc-4010-8b29-4724fa0b31cd,9,,Artifact
 0c58f236-0b2c-4b71-8819-1beaea7ded17,Disrupting Scepter,2ED,243,cd30a128-4b23-476e-8066-2272fdc395d9,3,,Artifact
+0c665905-183b-401f-b83c-a312d032e061,"Lightning, Army of One",FIN,498,585eb5bc-5a3d-44d8-b593-1ff0d67f96a7,3,RW,Legendary Creature — Human Soldier
 0c8b1f49-550e-405f-b17c-1d94589494ad,Willow Satyr,LEG,212,c7c660bd-5f58-464c-bc75-dd244b7ca535,4,G,Creature — Satyr
 0c9ac08c-11ce-4e8a-8ea8-c18cfc745ac7,Ancient Copper Dragon,CLB,368,48daee9d-ddaf-410f-8c3a-12fa1064ab56,6,R,Creature — Elder Dragon
 0c9c514f-f506-4b2c-af58-79922834cde7,Parallel Lives,MAR,36,84dc94b2-95fb-4d53-aaa2-191cb645639f,4,G,Enchantment
@@ -284,6 +287,7 @@ id,name,set,cn,oid,cmc,ci,type
 1df66b60-9107-44d8-a013-24732b226c16,The Great Henge,PELD,161p,78427103-9543-41fb-b6d4-72963fe87275,9,G,Legendary Artifact
 1df7007b-9e17-4957-8f52-fa78ba7721b4,Goblin King,FBB,155,d236b3fc-0d3f-4d99-875d-e32a33fe5767,3,R,Creature — Goblin
 1df98d4a-0f11-4064-a113-54ab14b9b3eb,"Animar, Soul of Elements",A25,196,725880b2-1675-414f-b61b-cf6533797dbf,3,GRU,Legendary Creature — Elemental
+1e01c1e2-f657-4a24-b8b0-561911c4e754,Urza's Workshop,BRC,51,71099427-e110-488f-ab29-7867241fc7f0,0,,Land — Urza's
 1e03d335-d259-4ab4-814f-9333cfd3afc9,Preacher,DRK,16,d5ea9176-30c1-4152-9086-322f39245f46,3,W,Creature — Human Cleric
 1e07f838-a813-43aa-9bcf-9f62797d7313,Darksteel Monolith,CMM,778,fdd3482d-7bce-411b-80c4-956a12fc143d,8,,Artifact
 1e10013c-0dbc-4153-8937-f612ffd93d2f,Winter Orb,FBB,280,1dcbd583-3388-4b34-a7cd-131648aa6abd,2,,Artifact
@@ -1976,6 +1980,7 @@ c39c412b-2f21-483a-b744-5d55bc007c0d,Terravore,ODY,278,f44fb61a-9aa5-4178-b958-5
 c3a0c7f3-7fb9-43de-a9af-96532c31e5ed,"Solphim, Mayhem Dominus",ONE,150,895f23a2-55b7-4cc0-8939-2efaaf097e6f,4,R,Legendary Creature — Phyrexian Horror
 c3b21941-1b7d-4fde-8b1d-7edbd5e5b796,Eye of Ugin,WWK,136,10d13ff6-c4d0-4753-8939-a8a90f0e92bb,0,,Legendary Land
 c3db9b84-9842-446c-b47b-12195002e261,Ebony Horse,SUM,247,4eb67ba3-35e3-47c3-820f-62814cf202a7,3,,Artifact
+c3ff8dd3-88a8-49dc-a59b-e2748680623c,"Emrakul, the Exigent Doom",FRA,1,4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f,10,,Legendary Creature — Eldrazi
 c409f51e-eea5-478b-8679-27309bd73936,Tropical Island,FBB,288,74b7fe23-5d3a-4092-8d78-7c0eba8f6f73,0,GU,Land — Forest Island
 c4300d24-1cae-4dd5-be7e-38cc677cf5bd,Sol Ring,LEA,269,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
 c44669b2-bf9a-41c3-91c7-d845b0061fbf,Mishra's Factory,ATQ,80c,5963e0ef-e0bc-4611-ad4f-813a4c0eacfb,0,,Land
