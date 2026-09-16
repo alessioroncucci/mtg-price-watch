@@ -774,6 +774,7 @@ id,name,set,cn,oid,cmc,ci,type
 4da4f9a8-024b-4707-b300-ccb11bd87cea,Mana Short,LEB,66,48207d1c-448a-4e1b-974a-642dfea75933,3,U,Instant
 4da892c5-071f-416f-9e42-c4bff102eb88,Mox Pearl,LEB,264,824597b8-c89a-47ec-8526-7efc6e24ef0e,0,W,Artifact
 4db44dd2-6bb4-4f0b-8bab-c0d89ba7f2ca,"Elesh Norn, Mother of Machines",ONE,298,5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f,5,W,Legendary Creature — Phyrexian Praetor
+4e2fc29c-0223-4b03-864f-eb9149abc921,No Mercy,ULG,56,b9538d53-480b-481a-abbf-83ab17e1a45b,4,B,Enchantment
 4e4daeab-d8ee-409c-8817-10d618650784,Terror,SUM,132,b81f041d-98db-4408-9472-c483e4a502bc,2,B,Instant
 4e50454c-3927-4e7e-b4f6-7f5d5fd9b913,Birds of Paradise,2ED,187,d3a0b660-358c-41bd-9cd2-41fbf3491b1a,1,G,Creature — Bird
 4e5fa88e-1ba5-4166-a7c3-cead597c65b8,"Azusa, Lost but Seeking",SLD,1234,6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51,3,G,Legendary Creature — Human Monk
@@ -870,6 +871,7 @@ id,name,set,cn,oid,cmc,ci,type
 5669f9c8-2e94-47e2-a551-7efff317fb34,Serra Angel,LEB,40,4b7ac066-e5c7-43e6-9e7e-2739b24a905d,5,W,Creature — Angel
 56931f20-d99d-443c-8b01-ee3c3ffa643d,Blightsteel Colossus,PLST,2XM-235,e80772e2-8623-4094-81a2-70828b2b151c,12,,Artifact Creature — Phyrexian Golem
 56d13d28-811d-4e13-9d93-e5051b15dd14,Ihsan's Shade,JP1,2,5eb29367-4ec3-4bd2-887e-13eeeecae8fa,6,B,Legendary Creature — Shade Knight
+5709206b-1781-4601-abdf-265d8fc91bc4,Awaken the Woods,SOA,114,3cc79d36-1a24-4395-8ad1-915a65db8a60,2,G,Sorcery
 570ca3e8-1563-4cef-8559-776982a78838,"Cloud, Midgar Mercenary",PPRO,2025-1,33d2584b-bf29-4c22-bd45-14ba2fb98c0e,2,W,Legendary Creature — Human Soldier Mercenary
 571bca7c-8655-4ff5-902c-c50fee371832,Armageddon,SUM,2,c9ed8b01-959a-47d6-891e-0abbdccf6e4f,4,W,Sorcery
 57264bd9-94f6-4d4d-baff-2b2900585635,Angus Mackenzie,LEG,217,d5e6ac6b-5786-4d98-8037-0867e365fc93,3,GUW,Legendary Creature — Human Cleric
@@ -1127,6 +1129,7 @@ id,name,set,cn,oid,cmc,ci,type
 6fb9c77b-c028-46d9-8574-9bc9343b9cc2,Purelace,SUM,32,3773001a-8868-49ec-a406-298cf72359c2,1,W,Instant
 6ff1cefc-62cb-4525-b0c5-2b09603b4314,Deathlace,LEA,101,fb80aaba-352a-4b58-8db2-1e02d542819c,1,B,Instant
 701335fe-657c-408e-9030-85c9d6f4a666,Deadly Rollick,SLD,1754,0456ec64-2c81-4763-a352-8ff64a4c3d6b,4,B,Instant
+70291c7b-a86f-4466-8502-c28765a89b2a,Green Sun's Zenith,2X2,150,0d96b60b-a060-48ee-bb83-93f1c4a10669,1,G,Sorcery
 7037f57a-ca89-41bd-bf7f-2f54593c0f48,Cyclonic Rift,SOA,14,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,2,U,Instant
 7065deea-6117-47d4-9d72-fc67af5bb483,Counterspell,PLGM,1,cc187110-1148-4090-bbb8-e205694a39f5,2,U,Instant
 70d0540f-93c6-4af5-ab2d-65e6c03001c7,The Meathook Massacre,INR,122,127de52b-df75-4342-95a0-20d84c5bf916,2,B,Legendary Enchantment
@@ -1382,6 +1385,7 @@ id,name,set,cn,oid,cmc,ci,type
 8945585f-4773-493d-a0fe-d707db910b38,Mox Ruby,LEA,264,ed85fa82-e4fa-434b-92a8-36b6075708d1,0,R,Artifact
 894c5cf2-8ae2-427a-bcbc-67df0bdfee9d,Cyclopean Tomb,LEA,240,1edee40f-d153-4d67-aee7-ef08e11e4a79,4,,Artifact
 898cd314-9060-4f1c-a821-1d61a292a12b,Regrowth,LEB,215,e6e4a8bd-5c40-4654-8de1-0da9afed90fd,2,G,Sorcery
+8994ab1d-771b-48cf-ab33-5a0c0acbc223,"Elesh Norn, Mother of Machines",PONE,10p,5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f,5,W,Legendary Creature — Phyrexian Praetor
 8996f0df-d9c8-4fae-b69f-bf388b84fa5f,Island Sanctuary,SUM,25,7d1769d0-d942-45b3-a31c-2bbe45e68661,2,W,Enchantment
 89ad91fc-50c2-44e0-b88e-2c13610377f9,Forest,LEB,301,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest
 89c21b09-8869-4d94-bf29-29c8d1c69d4f,"Nico Minoru, Runaway",MSC,700,5303b3f6-970c-47d8-977e-2d6679206ba5,4,R,Legendary Creature — Human Warlock Hero
@@ -1642,6 +1646,7 @@ a3393436-3426-4903-8f41-7abcbf6c18c2,Badlands,LEB,278,13ff3222-91cb-4796-a34e-89
 a3544148-49b2-4320-8e3a-5bab81e0f7fd,Swamp,LEB,296,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp
 a3617338-1c7e-445f-8efd-ecd17315c1ff,Healing Salve,SUM,22,8da8644c-75a1-4fe9-8e94-900d948d631c,1,W,Instant
 a374b6ef-bd75-4eae-ac7a-09332b0a653d,Mana Confluence,EOS,25,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,0,,Land
+a3b123fa-c232-4bb4-ba9d-2cde4a0eef99,"Karlach, Fury of Avernus",CLB,400,037355be-71e7-4866-80a6-80352c304970,5,R,Legendary Creature — Tiefling Barbarian
 a3da57d0-1ae3-4f05-a52d-eb76ad56cae7,"Animar, Soul of Elements",2X2,171,725880b2-1675-414f-b61b-cf6533797dbf,3,GRU,Legendary Creature — Elemental
 a3eedc11-0b47-430c-8391-577a2d05c2ae,Mana Matrix,LEG,285,256cea34-4691-4367-a789-17d15460f664,6,,Artifact
 a3f1c52b-87d2-42fc-8fa0-4557aa00b7b0,Clockwork Beast,SUM,240,eb97c8db-ac6c-476c-b14d-87785e9c82f0,6,,Artifact Creature — Beast
@@ -1725,6 +1730,7 @@ aae08938-e563-4322-b2eb-db81913ea730,Tithe,VIS,23,318304f5-0929-4cd3-97e6-08ac1a
 aae6ce4f-d3ba-4b6c-a9c3-9ecbc7a3d5c8,Rock Hydra,2ED,172,aff84707-f5f8-4f53-869e-feec78da8d8d,2,R,Creature — Hydra
 aaf08dd1-3d35-4842-807d-37f94b9ba578,Sword of Wealth and Power,BIG,56,b3a80545-9a8a-46b2-9d8c-b0d66fb68a5d,3,,Artifact — Equipment
 ab12f69e-1491-47a8-8c46-d85bbf637ff6,Flawless Maneuver,CMM,24,4e183439-17d2-47ff-9d99-5e22821d91e3,3,W,Instant
+ab29ff99-b246-49e8-bb77-c7906b502232,Izzet Signet,SLD,293,2fda4fe7-8b0c-489c-a000-6d358e614e34,2,RU,Artifact
 ab8741ca-43cb-4b4c-890d-0a363524bd13,Mental Misstep,SLD,2373,1a0770e6-b093-4439-baff-6889a50ba12e,1,U,Instant
 aba74289-72ee-4330-835c-e43ca1d32add,Disenchant,SUM,17,a7e97fa9-4b72-4548-b854-5be5f18a6f1a,2,W,Instant
 abd80204-e9ba-483f-9b75-a69712545ba9,Llanowar Elves,LEB,211,68954295-54e3-4303-a6bc-fc4547a4e3a3,1,G,Creature — Elf Druid
@@ -2345,6 +2351,7 @@ eae141d6-f4a7-4223-ae4f-217415be559a,Battle Angels of Tyr,PCLB,9p,c2bd0c24-3973-
 eb241954-a257-4e44-9b92-f4ffe63dd11b,Culling the Weak,SLD,1818,6385fd0d-256d-4400-9319-afa8170024db,1,B,Instant
 eb49805c-8546-463d-b78c-f4ea109851b4,Stoneforge Mystic,2XM,337,358789f9-7d87-411d-919e-d597da665cbd,2,W,Creature — Kor Artificer
 eb535b69-4fc7-4b76-b85b-194755d6b355,Nightmare,SUM,120,375932e6-1b3e-48dc-8154-9b664c3add34,6,B,Creature — Nightmare Horse
+eb5730f5-a44c-4f75-a26f-90815cfcd31e,Sarcomancy,TMP,154,bd1e93da-7524-4bdd-9738-accd76bda7f7,1,B,Enchantment
 eb64d006-1f13-47a3-a838-efb5b07114f6,Mana Short,4BB,85,48207d1c-448a-4e1b-974a-642dfea75933,3,U,Instant
 eb6953fd-ee48-49dc-9c9c-bfb9a9dc06d0,Glasses of Urza,LEB,246,af7fabf4-8d55-4b06-9c21-472f4a5775b4,1,,Artifact
 eb912458-e016-4ea2-a2ea-40ac1a57f8fb,Food Chain,2X2,147,5c8e5092-962e-49ef-ab82-8434e475e4e7,3,G,Enchantment
