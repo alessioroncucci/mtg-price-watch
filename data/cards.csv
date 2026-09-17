@@ -471,6 +471,7 @@ id,name,set,cn,oid,cmc,ci,type
 2d6ff182-a853-4898-895b-072c89324ca7,Kwia Vigorbloom,FRA,140,07a28621-e617-46b0-af3e-2efb03b5056a,6,GW,Legendary Creature — Elder Sphinx
 2d7097c9-2076-4ebc-8c9e-aa596351588c,Last March of the Ents,HOC,27,3999cd64-ff5c-4e2c-8aa6-d14f9f8a2b4c,8,G,Sorcery
 2d7643c0-b2db-478f-944e-b27b77bad3eb,Stifle,SCG,52,b3b00911-ece7-4484-bc36-f211ce72b6cc,1,U,Instant
+2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460,Stingcaster Mage,FRA,93,056b651e-e0e2-4333-9235-d1ffe8fcca29,2,R,Creature — Human Wizard
 2db7a0e6-eea5-4fa6-ac14-401411b106cc,Unmask,MMQ,168,1a3a274d-41da-47db-ad41-5720f36a7963,4,B,Sorcery
 2dd41293-d7c8-4422-9f0c-b3e96350f5c9,Ancestral Recall,2ED,48,550c74d4-1fcb-406a-b02a-639a760a4380,1,U,Instant
 2dd78806-621a-4f9f-936c-527ec9659667,Bone Miser,SPG,87,3984e5f6-8643-4104-aa9c-18d474e07801,5,B,Creature — Zombie Wizard
@@ -589,6 +590,7 @@ id,name,set,cn,oid,cmc,ci,type
 39059423-c4f6-4371-b530-48cdc36e513f,"Mikaeus, the Unhallowed",SLD,490,5d27c63e-d1ef-48af-b51d-01ebc6daeac9,6,B,Legendary Creature — Zombie Cleric
 3926ef15-1696-4cc5-b7d8-a50a0bcaf095,Circle of Protection: Green,SUM,11,41b0f347-1398-4778-bf3f-4007d8a77162,2,W,Enchantment
 397470c4-7f02-44ee-a18f-00bd950844d4,Verdant Catacombs,SLU,3,67d60b24-d429-4ded-90d9-06e49f28c396,0,,Land
+3995734f-5fa2-4039-af64-0bca88741089,Snow-Covered Forest,SLD,1477,5f0d3be8-e63e-4ade-ae58-6b0c14f2ce6d,0,G,Basic Snow Land — Forest
 3998ebe6-bbfd-4d9c-9741-2fe7484dc6e5,"Nissa, Resurgent Animist",MAT,72,c1fc5923-c3cd-448a-98d1-c154661c2812,3,G,Legendary Creature — Elf Scout
 39a89c44-1aa7-4f2e-909b-d821ec2b7948,Jace Beleren,PMEI,2009-1,cc2b6e58-2d6f-495e-95f3-9496105c4cba,3,U,Legendary Planeswalker — Jace
 39b8cf7f-8c40-40e9-8118-e8626c3c6433,"Ma Chao, Western Warrior",PTK,116,023e26d8-b67d-43dd-89b1-8905b1183094,5,R,Legendary Creature — Human Soldier Warrior
@@ -650,6 +652,7 @@ id,name,set,cn,oid,cmc,ci,type
 408ec348-183b-43de-abac-7ae9e3843c10,Vesuvan Doppelganger,2ED,88,aeaccab9-3e2c-4a40-a483-52c4972b2014,5,U,Creature — Shapeshifter
 40cee82f-36b2-48a9-930a-8e23cb2742fc,Lifeline,USG,299,f475b636-eb7f-4dd7-bc87-a1af07064ffe,5,,Artifact
 410ac9e6-fbc1-4cc8-84db-84e2eb1bab97,Rock Hydra,LEA,171,aff84707-f5f8-4f53-869e-feec78da8d8d,2,R,Creature — Hydra
+410bf6b3-885a-41cf-97f7-2e942922a4ec,"Goreclaw, Terror of Qal Sisma",SLD,1229,befb211f-37ca-4083-98d4-9ff1f28be3f2,4,G,Legendary Creature — Bear
 4116f1c7-9191-4d92-81ca-54d9ae3c8166,"Urborg, Tomb of Yawgmoth",LTC,375,db6174d7-211d-4817-b8e4-8384594c83f9,0,,Legendary Land
 412af58e-e46e-4346-aa25-6624f0c3d142,Plains,PGRU,1,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains
 412ceddd-2b9a-4551-a6bf-ae2830a2010a,Bayou,LEA,278,b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b,0,BG,Land — Swamp Forest
@@ -705,6 +708,7 @@ id,name,set,cn,oid,cmc,ci,type
 4736a2c4-c89c-48db-a104-6303e7e2eee8,"Purphoros, God of the Forge",CMM,246,4fdbbec2-e921-4b63-958d-f9ba1e417197,4,R,Legendary Enchantment Creature — God
 473d70b6-a88c-49f4-9415-19919c4468ae,Gwendlyn Di Corci,LEG,228,de44e7c8-01f9-44f9-9716-9e8a5b82b1ff,4,BRU,Legendary Creature — Human Rogue
 476d3cfa-6cf4-4212-86c4-abf46d4564fe,Red Ward,SUM,33,73f84440-425f-4cf5-b01a-3ae89f1f6e37,1,W,Enchantment — Aura
+47793a51-08c6-4ad2-a7e5-a4484d83a5cd,Craterclaw Colossus,FRA,78,71355b51-e70e-47b0-8460-933af3567141,7,R,Artifact Creature — Beast Construct
 477a1f53-5cdf-4b45-b584-2e36b31a3fdb,Rishadan Port,MMQ,324,f3e8dc56-2810-474e-a6a7-9c3555f94ae9,0,,Land
 47a59a26-e061-4b7c-b682-587c7fec67e1,"Deadpool, Trading Card",SLD,7127,4b96c22a-0d5b-44fd-b326-5f3ffcc3917b,4,BR,Legendary Creature — Mutant Mercenary Hero
 47a6234f-309f-4e03-9263-66da48b57153,Solitude,MH2,32,dcb9c2a7-ae54-4ddc-a567-640bf4bf4366,5,W,Creature — Elemental Incarnation
@@ -1135,6 +1139,7 @@ id,name,set,cn,oid,cmc,ci,type
 70d0540f-93c6-4af5-ab2d-65e6c03001c7,The Meathook Massacre,INR,122,127de52b-df75-4342-95a0-20d84c5bf916,2,B,Legendary Enchantment
 70d6c02e-0f48-4fb0-94f3-1fc92ee1814f,Mox Jet,2ED,263,0677f49e-f8bf-4349-af52-2ccde9287c2e,0,B,Artifact
 70e7ddf2-5604-41e7-bb9d-ddd03d3e9d0b,Ancestral Recall,LEA,47,550c74d4-1fcb-406a-b02a-639a760a4380,1,U,Instant
+70efc6f3-2fdc-4629-84b9-f3707b799460,Riverpyre Verge,DFT,372,510a6ac5-f098-4145-ac07-771b1b6f7cdf,0,RU,Land
 710160a6-43b4-4ba7-9dcd-93e01befc66f,Rhystic Study,PLST,PCY-45,53236dd7-845a-444c-96d5-f41ed7325d8f,3,U,Enchantment
 711d4d54-5520-4de8-9b93-79902ed8e562,Demonic Tutor,LEA,104,82004860-e589-4e38-8d61-8c0210e4ea39,2,B,Sorcery
 714c3a1f-7b30-4ed8-8f38-6176758741fb,Sakashima of a Thousand Faces,CMR,89,8ecdaf4b-4442-42da-9714-4257a83faf50,4,U,Legendary Creature — Human Rogue
@@ -1643,6 +1648,7 @@ a2fb7128-806b-4148-80fe-eb967f248021,Humility,TMP,24,ed7bdb3e-5c51-4547-9266-76a
 a30c266d-579e-4757-a4d6-6722fa343a6c,Deadly Rollick,CMM,695,0456ec64-2c81-4763-a352-8ff64a4c3d6b,4,B,Instant
 a31d1338-3085-47c5-ac7b-6aa34b91314a,Wrenn and Six,SLP,15,108ae90a-50fa-4cfd-b751-d630e41425fe,2,GR,Legendary Planeswalker — Wrenn
 a3393436-3426-4903-8f41-7abcbf6c18c2,Badlands,LEB,278,13ff3222-91cb-4796-a34e-899ed817694c,0,BR,Land — Swamp Mountain
+a33a1695-db21-4dc5-9dc1-dd05d12e6b40,Fork,3ED,153,50c53ae0-51ba-4046-ac74-87c65e688032,2,R,Instant
 a3544148-49b2-4320-8e3a-5bab81e0f7fd,Swamp,LEB,296,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp
 a3617338-1c7e-445f-8efd-ecd17315c1ff,Healing Salve,SUM,22,8da8644c-75a1-4fe9-8e94-900d948d631c,1,W,Instant
 a374b6ef-bd75-4eae-ac7a-09332b0a653d,Mana Confluence,EOS,25,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,0,,Land
