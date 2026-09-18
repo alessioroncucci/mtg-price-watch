@@ -919,6 +919,7 @@ id,name,set,cn,oid,cmc,ci,type
 5bded615-62bc-40f6-9a54-7c9d0d551d4c,Lich,2ED,114,5b7515f2-7a5a-4e2a-9784-6cbacd768172,4,B,Enchantment
 5c18591d-a8e2-49ea-b31e-7358e4143024,Warren Soultrader,MH3,332,ace86e56-efde-4eb7-8815-71456a4c3abe,3,B,Creature — Zombie Goblin Wizard
 5c278bd1-f120-4ade-95f1-c2cfc23bd763,Hammerheim,LTC,518,c7476beb-7923-4994-8476-bc69187ecb72,0,R,Legendary Land
+5c3f5bf2-6032-4016-8ede-91e65c87e1c2,Triumph of the Hordes,SLD,445,3ded0c0c-40ce-4d14-a9a6-b023bc19ee0e,4,G,Sorcery
 5c411d18-c257-424a-9125-06eeafec1e66,"Andúril, Flame of the West",LTR,746,e6521404-8474-4727-b2d0-537d15d8a63f,3,,Legendary Artifact — Equipment
 5c43add9-f948-41fe-b40c-e1d357db5f05,Avenger of Zendikar,SLD,158,4ba5b3f6-503b-43e6-b66e-4f8c55cffed7,7,G,Creature — Elemental
 5c4fb7f9-a551-4253-a46e-f6284d355388,Dryad Arbor,SLD,2281,e996cd67-739c-40f4-b276-0042acf26c71,0,G,Land Creature — Forest Dryad
@@ -1848,6 +1849,7 @@ b59ba1ee-8080-4f3e-a9a0-fa7b8b049e34,"Zhulodok, Void Gorger",CMM,752,ec726c54-98
 b5a79f5d-d0df-4799-ac3a-84305e3af0c9,"Yawgmoth, Thran Physician",DMR,110,a1e232c0-dc38-47be-a5a0-f68bc1d86a29,4,B,Legendary Creature — Human Cleric
 b5bf8b03-1f5c-46c5-a684-ae5c04630286,Astral Dragon,CLB,613,a20e2e1a-90d8-4073-96e9-efce86f0178e,8,U,Creature — Dragon
 b5d3dcab-2260-479d-9ef6-dfb92d4f6061,Lightning Bolt,LEB,162,4457ed35-7c10-48c8-9776-456485fdf070,1,R,Instant
+b5fe8b37-de6b-4ca9-a827-6b18198f3174,Royal Assassin,FBB,125,9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57,3,B,Creature — Human Assassin
 b6297104-b73c-439c-ac0c-b7fac01d49dc,"Delney, Streetwise Lookout",MKM,337,245d0ccf-87b6-460a-8b99-9e2079f2d375,3,W,Legendary Creature — Human Scout
 b65ec6ad-80d8-4c76-8b69-fc401a8f1ce8,Mithril Coat,LTR,379,3dc364f3-3094-4660-80ca-9418588c7fde,3,,Legendary Artifact — Equipment
 b6abd8b8-76e5-4df3-ab50-db1c34e328a0,Karmic Guide,SLD,1911,8c31fec9-e4b3-4761-990e-7be38eb05604,5,W,Creature — Angel Spirit
@@ -1939,6 +1941,7 @@ bf95125c-447a-47ca-a691-6e3879312b52,Mount Doom,LTR,709,995c8dac-fd27-468a-abd4-
 bf96c268-c86b-4d5e-bf04-200c427e5fa5,Nazgûl,LTR,338,48a62778-7c11-486f-a0e1-020c283a7ef9,3,B,Creature — Wraith Knight
 bfb1fba6-8eb3-4338-9249-cec888c892dc,"Illuna, Apex of Wishes",IKO,379,08daa30f-7ce0-4a72-b539-fbb0c585fd73,5,GRU,Legendary Creature — Beast Elemental Dinosaur
 bfb6227f-9f71-4d78-bddc-3d78635965d5,Control Magic,SUM,52,cd0d7141-46d2-4aa3-bc77-6b3b4513803e,4,U,Enchantment — Aura
+bfd23186-6796-4430-86c5-f0d5337bbc91,Grave Pact,10E,144,6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2,4,B,Enchantment
 bfd53428-56c3-4c99-828d-665e3c2d15a8,"Maha, Its Feathers Night",BLB,289,129476ae-9dab-4e04-8e8e-f249afd56ff9,5,B,Legendary Creature — Elemental Bird
 bfe3329c-7faa-4925-b9d2-075a1ab27e80,Natural Order,EMA,177,8c1fe337-375a-4add-93b6-0ac39ed72b4f,4,G,Sorcery
 bfed1a95-bd67-4e16-a781-81866028af2f,Craw Wurm,LEA,190,6a462a69-3e42-41de-a3aa-a488d9f38d69,6,G,Creature — Wurm
@@ -2001,6 +2004,7 @@ c48d1586-23e9-4b0e-91ff-01bd6f32427c,"Gyome, Master Chef",C21,332,0f1b5cea-2035-
 c48e6462-638f-4642-bba4-1bf68c1fcd0f,Enlightened Tutor,PLST,MIR-14,c5229c17-b7be-4b05-b683-f2277edc4849,1,W,Instant
 c49ecc66-dccb-4026-8c6e-0b275a635a1f,Farmstead,LEB,20,0d71b157-09a0-4fd4-beb9-103117a784ad,3,W,Enchantment — Aura
 c4a7d70f-387d-40c5-bb3a-ba49a2b89855,Karn Liberated,SLP,36,0ca233f4-1b7f-4807-ab6e-2b1f5439b3db,7,,Legendary Planeswalker — Karn
+c4b133a8-a877-4901-95eb-457249a7194b,Vesuvan Doppelganger,FBB,88,aeaccab9-3e2c-4a40-a483-52c4972b2014,5,U,Creature — Shapeshifter
 c4b610d3-2005-4347-bcda-c30b5b7972e5,El-Hajjâj,ARN,24,f92c9a5d-853f-4157-89ba-8d8c8033c533,3,B,Creature — Human Wizard
 c513f51b-a0db-4c08-8acc-1e91060b93b7,Tainted Pact,ODY,164,1a85ba2b-ae10-4917-954a-7709b75a9740,2,B,Instant
 c54d5ea1-0cc9-4e84-b712-642d55915dae,Teferi's Protection,MAR,51,0d4ecdb1-ec90-497f-a7a4-1c68092b8757,3,W,Instant
@@ -2388,6 +2392,7 @@ ee266113-34ce-4189-84e7-ee2c86a2722c,Library of Alexandria,ARN,76,2111588d-9af5-
 ee38f0a0-efc2-4939-8e66-79c82d23ae7e,Bruvac the Grandiloquent,RVR,309,274b999f-f193-48fd-9a4a-0fdaf535e6c3,3,U,Legendary Creature — Human Advisor
 ee5a45b1-169b-468e-9251-424c09cd7f0f,Jacques le Vert,LEG,232,c030ca14-33cb-40b3-a1f5-b6d0cb0efd49,4,GRW,Legendary Creature — Human Warrior
 ee8a05a4-0ce3-4abe-bb60-08af53cf08e5,Flashfires,LEA,151,c281f436-8c77-48f7-b31c-d40cd7f9ed6a,4,R,Sorcery
+ee8e6040-84a1-42fe-8537-a000b4cb902f,Sigarda's Aid,SLD,1727,4f5f2792-0cc4-4caa-b798-2ee9597f2524,1,W,Enchantment
 ee9eb598-d2ef-4b3d-8038-bc33dc5e123e,Winter Orb,2ED,276,1dcbd583-3388-4b34-a7cd-131648aa6abd,2,,Artifact
 eeb9ae06-2f87-49e2-ad76-31c49f1f0f8e,Animate Artifact,SUM,48,2dd7a4dc-902a-4e85-8a3b-c96a898fba86,4,U,Enchantment — Aura
 eec216e1-971b-490f-aba7-2d5bd5085023,Jennifer Walters // The Sensational She-Hulk,MSH,328,c867a778-97ef-4872-b890-b088b96a1281,2,GW,Legendary Creature — Human Advisor Hero // Legendary Creature — Gamma Hero
