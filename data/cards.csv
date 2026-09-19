@@ -135,6 +135,7 @@ id,name,set,cn,oid,cmc,ci,type
 0d77c149-cca2-45c7-bc83-5ba1872ad5e0,Desert Twister,ARN,46,6f880348-6dc8-4cf8-9313-9893c41a70a3,6,G,Sorcery
 0dccb71b-a25a-4ef8-b2ab-716fd38dcc0b,Crucible of Worlds,2X2,393,33c722cf-b4bf-431f-aefd-ee96241a7fbf,3,,Artifact
 0dd4d070-38cf-4517-8152-84c9fcf2c984,Trouble in Pairs,MKC,326,f349f58b-8cc8-45e4-9565-2b46fdf976c9,4,W,Enchantment
+0dd6d927-f149-43b8-9f50-14492db09bec,Sacred Foundry,RVR,297,45181cb8-2090-4471-ba90-e5a8f04d525f,0,RW,Land — Mountain Plains
 0ddb98e8-13fe-4786-83f7-b72c56db135a,Hill Giant,LEA,157,342199e0-15b6-4824-83da-25caef2592b3,4,R,Creature — Giant
 0de4df3c-ac5a-4cff-9fbc-9269991224f9,Urborg,LTC,519,b6114962-035e-4e7f-9009-4739bf83a05a,0,B,Legendary Land
 0dee69f8-cceb-41b9-a0ee-6b2ac9f4bad9,Tsabo's Web,INV,317,96a4e515-2b4e-4c2d-aa1a-963597484723,2,,Artifact
@@ -274,6 +275,7 @@ id,name,set,cn,oid,cmc,ci,type
 1c4d0743-0f3b-492e-82a5-725dc6d3b582,Flawless Maneuver,TLE,306,4e183439-17d2-47ff-9d99-5e22821d91e3,3,W,Instant
 1c829d83-d5b8-4be7-80f7-55b42f52b309,Reset,LEG,73,4faa5a70-ac0c-4a29-8bec-218a35a29fdf,2,U,Instant
 1c9675fb-1a89-420f-aea8-50e0642f549c,Enlightened Tutor,DMR,6,c5229c17-b7be-4b05-b683-f2277edc4849,1,W,Instant
+1ca79dd4-67fc-496c-96fc-489b039c4932,"Ojer Taq, Deepest Foundation // Temple of Civilization",LCI,26,486bb9a5-73f1-4cec-b097-fb07ac80b72e,6,W,Legendary Creature — God // Land
 1cb16046-10bf-433a-acaf-7127c0954a1c,Three Tree City,BLB,340,da3b17a2-e1e1-44e9-b9b1-ae54a92037db,0,,Legendary Land
 1cb9d405-f2b5-4e10-a405-feafd2a87d90,Elvish Archers,LEA,191,534ce8e2-53a1-407c-9881-d3b5347d43c3,2,G,Creature — Elf Archer
 1cdd8e69-5a71-4933-914e-dfede7b1ac93,Doubling Season,CMM,283,01546b7d-a233-4176-8843-d732074dc5b6,5,G,Enchantment
@@ -572,6 +574,7 @@ id,name,set,cn,oid,cmc,ci,type
 37634ffe-788f-4262-88e8-5ab7c7ca74d6,Howling Mine,LEB,248,d26b27db-a567-4631-b4b6-7294222fbdd1,2,,Artifact
 3766383d-6e3d-472c-ac7b-f3521ee214af,"Sauron, the Dark Lord",LTR,744,9f8f29ba-7e64-455d-be05-ec7973f2bd0a,6,BRU,Legendary Creature — Avatar Horror
 376cb9e5-89fb-4091-8a20-140bb6de0ef6,Fire Elemental,LEB,149,3912d21e-1ebc-4a81-9dc9-f404248d564a,5,R,Creature — Elemental
+378c68f7-cf75-4835-8789-f266843851c3,Wasteland,MB2,115,09a70ae8-3859-4a09-901d-dce063fa3b5f,0,,Land
 3792c6ef-c4e6-4923-9a51-7d28fbc5c393,Helm of Chatzuk,LEA,246,948e3bb7-8265-4e95-acd1-a0c4f22441df,1,,Artifact
 37bc0128-a8d0-477c-abcf-2bdc9e38b872,God-Eternal Rhonas,PS19,163,fc4f2cdb-966c-4576-8b37-b3d138f5710e,5,G,Legendary Creature — Zombie God
 37c7890a-86dc-4a97-a7ce-1436fa22d0c0,Web,LEA,228,5aa12aff-db3c-4be5-822b-3afdf536b33e,1,G,Enchantment — Aura
@@ -990,6 +993,7 @@ id,name,set,cn,oid,cmc,ci,type
 6270c798-a3ba-4826-b0a9-82f7e12890f6,The Ur-Dragon,CMM,689,87b22b09-4f6d-4bc5-9cfc-663e4c7c6981,9,BGRUW,Legendary Creature — Dragon Avatar
 62835e03-49c8-42b8-91ba-3aa4beb5df66,Tezzeret the Seeker,SLD,1111,4aeafdf3-7828-4114-8c74-3bd46357caec,5,U,Legendary Planeswalker — Tezzeret
 62858604-ca5a-4f69-a045-a7515ebfabf2,Power Surge,LEA,167,156b2228-f7b2-4816-b894-c4953a32c05f,2,R,Enchantment
+62aa232c-6034-4417-95a6-77b3a81c505c,Strip Mine,EOS,40,d21a89eb-7c5b-459a-acc7-12b20b13bf79,0,,Land
 62b19a12-6914-430e-81ce-dcfca47884df,Braingeyser,LEA,50,9908e597-9470-4c13-8387-39431b380138,2,U,Sorcery
 62b3f560-262b-4bc3-9aef-535fd7082c28,Vaultborn Tyrant,BIG,20,e8d0accc-b320-4c07-8a71-a09db860351e,7,G,Creature — Dinosaur
 62ef2f37-b8ad-47ad-89ca-d6abcb7ff21b,Illusionary Mask,LEA,249,05ac866d-0405-4d25-986a-c10fcfc097e6,2,,Artifact
@@ -1276,6 +1280,7 @@ id,name,set,cn,oid,cmc,ci,type
 7d635dfb-0a48-4965-82d1-d98f943bb28d,The Queen of Dale,HOB,217,a2ec1dd0-86c7-423d-b562-ed95b79bf8f7,2,W,Legendary Creature — Human Noble
 7dae100a-ea1d-45f3-b47c-b278cda462ad,Necropotence,SLC,1995,94a844d2-0574-45a7-b347-e0e329767c42,3,B,Enchantment
 7db50dae-5d50-4682-8fe4-beb48be103c2,Delighted Halfling,LTR,609,f9d3b046-0b95-4103-a630-4b3fb88bb60b,1,G,Creature — Halfling Citizen
+7e0ca89e-c677-46c1-a505-b50208736988,Reflecting Pool,EOS,81,67f43ac6-2a58-4b53-b5d7-0330e2a252e2,0,,Land
 7e18d625-0950-4062-8d41-f8b681eff234,Scrubland,2ED,282,c8d95ca8-7d12-4072-aeaf-e20f248c7e39,0,BW,Land — Plains Swamp
 7e689df7-b85d-4346-bee8-5e978b5cbbbc,Goblin Sharpshooter,ONS,207,d81285b7-a718-411a-8be3-ecc0cfe0bcb0,3,R,Creature — Goblin
 7e88740e-f2ba-4fb7-ac2a-2e6313b7745f,Onulet,SUM,269,598f948b-bdd3-490f-b3e9-f0f9dc470522,3,,Artifact Creature — Construct
@@ -1728,6 +1733,7 @@ aa72c2fd-53dd-4a34-95e1-89e2b2d2ac72,Twinflame Tyrant,PFDN,97p,321b5cc6-8df6-429
 aa894222-04c9-4129-8d48-6ffdd329b1f0,Fire Elemental,SUM,149,3912d21e-1ebc-4a81-9dc9-f404248d564a,5,R,Creature — Elemental
 aa9d6484-84ce-4dfe-b512-a9168b970ec1,Dwarven Weaponsmith,SUM,145,a3541870-3dc9-4571-be98-c0a2b6c468fb,2,R,Creature — Dwarf Artificer
 aaa05ad1-5cda-4edd-b6bf-562ae3e5011a,Simulacrum Synthesizer,BIG,6,eb7a1f21-a66d-415b-8520-710b44890bb6,3,U,Artifact
+aaa1571f-d73f-48ed-b6e2-f1388c410506,"Ulamog, the Ceaseless Hunger",CMM,670,0bfa4512-e35a-4c93-b324-80ec659f5a97,10,,Legendary Creature — Eldrazi
 aaafb9bc-7cea-4624-a227-595544fa42b0,Wasteland,EMA,248,09a70ae8-3859-4a09-901d-dce063fa3b5f,0,,Land
 aab08707-1599-4b3f-9be1-363dfe4ecdbe,Teferi's Protection,2X2,343,0d4ecdb1-ec90-497f-a7a4-1c68092b8757,3,W,Instant
 aab62a48-93b5-4eb3-aa6b-92dd4cc617f6,Twinflame Tyrant,FDN,333,321b5cc6-8df6-4292-97a0-a6a3a22f3b55,5,R,Creature — Dragon
@@ -2359,6 +2365,7 @@ eaac88da-d19e-4771-944c-3709963d04e7,Mesa Pegasus,LEA,28,8161f5b8-6aab-4133-ba2c
 eace2c85-976c-425e-9800-5a6ccbd91b56,Mountain,LEA,292,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain
 eae141d6-f4a7-4223-ae4f-217415be559a,Battle Angels of Tyr,PCLB,9p,c2bd0c24-3973-48bc-a591-3779e3640c5d,4,W,Creature — Angel Knight
 eb241954-a257-4e44-9b92-f4ffe63dd11b,Culling the Weak,SLD,1818,6385fd0d-256d-4400-9319-afa8170024db,1,B,Instant
+eb28b35c-28a5-4042-b21d-6d43658a16eb,Crucible of Worlds,M19,229,33c722cf-b4bf-431f-aefd-ee96241a7fbf,3,,Artifact
 eb49805c-8546-463d-b78c-f4ea109851b4,Stoneforge Mystic,2XM,337,358789f9-7d87-411d-919e-d597da665cbd,2,W,Creature — Kor Artificer
 eb535b69-4fc7-4b76-b85b-194755d6b355,Nightmare,SUM,120,375932e6-1b3e-48dc-8154-9b664c3add34,6,B,Creature — Nightmare Horse
 eb5730f5-a44c-4f75-a26f-90815cfcd31e,Sarcomancy,TMP,154,bd1e93da-7524-4bdd-9738-accd76bda7f7,1,B,Enchantment
@@ -2374,6 +2381,7 @@ ec06ad7b-aeb8-4aea-b005-0b3e80af6bd4,Mycosynth Golem,PLST,5DN-137,ebcd864a-b7dd-
 ec136ce7-bad4-4ebb-ab00-b86de3d209a7,Force of Will,2XM,340,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 ec386bc3-137b-49b5-8380-8daff470f0bc,"Jace, the Mind Sculptor",2XM,334,7f77a84e-5a4b-4834-aefa-3cecc175ae8e,4,U,Legendary Planeswalker — Jace
 ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb,Voice of Victory,TDM,33,b12cbda1-ac09-49eb-96b3-a4df27bc37ea,2,W,Creature — Human Bard
+ec454979-3839-4be3-a34a-9d25482948ba,Darklight Phoenix,FRA,53,e4b51c2d-7e56-435b-89d6-85e33df65879,4,B,Creature — Phoenix
 ec73bc43-aae6-499f-bb48-b88c375f0ce3,Warg Rider,LTR,831,3f4dd9e2-6460-413e-a3b8-96b20bf57f8b,5,B,Creature — Orc Warrior
 eca877a6-4b17-442f-8432-03b322e3f6dd,Animate Dead,4BB,118,c0d8fef4-65f4-4769-982d-b397d2b7e977,2,B,Enchantment — Aura
 ecb293d5-b13b-400f-ac7b-162a1e127ec7,Mana Crypt,SPG,17,2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a,0,,Artifact
@@ -2390,6 +2398,7 @@ edcc56a0-1dc0-4261-8f9c-5a88ce83f9e9,Hypnotic Specter,LEB,113,759af941-f6a3-4726
 edeba4e1-9012-4962-8797-3a1f6a660952,Swamp,LEA,291,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp
 ee266113-34ce-4189-84e7-ee2c86a2722c,Library of Alexandria,ARN,76,2111588d-9af5-4a33-989e-b074d83f0463,0,,Land
 ee38f0a0-efc2-4939-8e66-79c82d23ae7e,Bruvac the Grandiloquent,RVR,309,274b999f-f193-48fd-9a4a-0fdaf535e6c3,3,U,Legendary Creature — Human Advisor
+ee4bd7d1-77e5-46e5-a594-c24469e88c4c,Creature Bond,LEA,55,70492e32-ba4d-4314-b016-892fb15f7a23,2,U,Enchantment — Aura
 ee5a45b1-169b-468e-9251-424c09cd7f0f,Jacques le Vert,LEG,232,c030ca14-33cb-40b3-a1f5-b6d0cb0efd49,4,GRW,Legendary Creature — Human Warrior
 ee8a05a4-0ce3-4abe-bb60-08af53cf08e5,Flashfires,LEA,151,c281f436-8c77-48f7-b31c-d40cd7f9ed6a,4,R,Sorcery
 ee8e6040-84a1-42fe-8537-a000b4cb902f,Sigarda's Aid,SLD,1727,4f5f2792-0cc4-4caa-b798-2ee9597f2524,1,W,Enchantment
@@ -2459,6 +2468,7 @@ f48ed192-c1a1-437a-80dd-647a616b46e3,Fastbond,LEB,193,e27193b7-1a47-4555-865d-b1
 f4c65751-f037-4b60-a4ad-7ea41b3dc847,Treasure Vault,HOC,97,3c43efd6-b1a8-452c-ae20-9a936c3340ab,0,,Artifact Land
 f4e32327-380d-471e-813b-4c27477787ce,City of Brass,ARN,71,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land
 f4f0c479-5fd1-45c2-af3f-15b6e5811b0f,Spitting Dilophosaurus,REX,3,19f2c2c1-cd29-4e66-b5d9-e85e1979d843,3,B,Creature — Dinosaur
+f4fc8e83-471a-4d75-9703-d8f3998a705a,Waste Not,SLD,1299,00fdcc19-88ed-46c3-91f0-095806228105,2,B,Enchantment
 f520601f-c092-4f83-9c21-66e999a01c16,Commander's Plate,CMR,692,cae166de-e681-40a0-83a8-3c17cf40e2fc,1,,Artifact — Equipment
 f5208aff-a33e-48d9-94eb-98a517099741,Sword of Truth and Justice,SLD,1867,7a8baaf9-e21f-41a0-9f15-80764f6e5e68,3,,Artifact — Equipment
 f527010e-d382-4bd5-8de6-0e3898b80deb,Mother of Runes,SLD,297,60433b48-d27f-413c-905c-43839b1943f1,1,W,Creature — Human Cleric
@@ -2495,6 +2505,7 @@ f7f3dd95-bd14-4e0f-a388-444f9cf1b0dc,Fierce Guardianship,CMM,94,d09c9cba-fdd2-47
 f7f84dc2-5a29-447d-97ab-a10afd9ee538,Web,LEB,229,5aa12aff-db3c-4be5-822b-3afdf536b33e,1,G,Enchantment — Aura
 f7f99277-a65a-489e-9db4-7865f1b9c50b,Greater Auramancy,WOT,64,e6e888ea-9935-4df2-a344-c54637e55f43,2,W,Enchantment
 f7fefff7-2ff5-4abf-a9ec-0e2e737ee225,Lord of the Pit,SLD,715,ea152809-85a2-4fde-8251-3b1f267e4443,7,B,Creature — Demon
+f82fce56-307a-44bf-8c46-0e1328550e17,Fanatic of Rhonas,MH3,458,7973820b-fdaf-46ec-9e3e-d4c0e77b5067,2,G,Creature — Snake Druid
 f8914ba3-5e76-4392-bc8d-05d14585918a,Rise of the Eldrazi,CMM,749,982f70af-077f-40df-b2fe-7c80ebcc7712,12,,Sorcery
 f8aa8193-abed-4e78-9e1a-70e4c2c0c670,Kor Haven,LTC,368,276cece9-f9f2-46e6-ae76-daddaa2fb9ab,0,W,Legendary Land
 f8ac5006-91bd-4803-93da-f87cf196dd2f,Serra Angel,LEA,39,4b7ac066-e5c7-43e6-9e7e-2739b24a905d,5,W,Creature — Angel
