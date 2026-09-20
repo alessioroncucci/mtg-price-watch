@@ -545,6 +545,7 @@ id,name,set,cn,oid,cmc,ci,type
 33ace025-c949-482d-bb6a-b3ad13bc981c,Deadly Rollick,TLE,309,0456ec64-2c81-4763-a352-8ff64a4c3d6b,4,B,Instant
 340c5799-4964-44dd-8c48-8f3f3aba5211,Badgermole Cub,TLA,167,2b0afb89-0944-4861-b9c3-e909e2ac215e,2,G,Creature — Badger Mole
 341292df-b9bd-4796-a12d-10fb67c91040,Ravages of War,PIP,354,265236d1-d96c-4424-835e-a0fe91c41170,4,W,Sorcery
+343c3e40-d551-4e2c-bb94-315b58151a33,Uncivil Unrest,SLD,2008,bd655e8b-f192-4635-9e23-357b6f89ef8f,5,R,Enchantment
 3455b006-9ea5-4aef-8ad2-d0701eb0cacf,Farmstead,LEA,19,0d71b157-09a0-4fd4-beb9-103117a784ad,3,W,Enchantment — Aura
 3458b6d2-9c82-43b1-8344-50cf39885aec,Dragon Engine,SUM,246,727a6474-d5b5-42ab-ace3-352d28f499eb,3,,Artifact Creature — Construct
 34761bda-03f9-4607-bb01-10b1598509f7,Ancient Silver Dragon,CLB,366,939556c8-e363-4453-a624-ca52b151467e,8,U,Creature — Elder Dragon
@@ -824,6 +825,7 @@ id,name,set,cn,oid,cmc,ci,type
 51662253-789f-4a02-9937-688e36775024,Plains,LEA,287,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains
 51879585-9cdf-499b-b7cc-226319c74a0c,Ultron the Annihilator,MSC,668,33f2c6cb-f864-4bee-b365-aedf33fbedf5,5,B,Legendary Artifact Creature — Robot Villain
 51ccdca0-2c29-4b5c-ba5a-364cc6945801,"Dong Zhou, the Tyrant",PTK,109,a1da64bc-8cff-4c89-9b9c-db0ddff5abc4,5,R,Legendary Creature — Human Soldier
+51d86875-420d-4e82-b69c-4feeb99c9428,Seasoned Cryomancer,FRA,38,c3936db3-d3b6-4a92-9773-6f3c52dc419d,3,U,Creature — Human Wizard
 51f8f6e1-a451-4262-90d3-5107caf54175,Howling Mine,LEA,247,d26b27db-a567-4631-b4b6-7294222fbdd1,2,,Artifact
 520db5fb-d961-45a3-af74-6f054b8be3ab,Eureka,LEG,185,917f2b4b-79ec-4ded-b4c8-cbcf363cb23b,4,G,Sorcery
 5249f9dc-d5e2-4e1f-b7da-8fcbf574f276,Omniscience,WOT,70,730e39e6-c61d-48b5-8827-bfd952bf1be7,10,U,Enchantment
@@ -977,6 +979,7 @@ id,name,set,cn,oid,cmc,ci,type
 60c597ee-eaf9-4294-9865-af8a18067eda,Savannah Lions,4BB,48,60ba93eb-39e6-4af2-9c66-cd38f72daff2,1,W,Creature — Cat
 60df6592-0b3b-4b87-aeb2-8fa94b4fb7be,Taiga,LEA,282,22e3cf1d-3559-4ce1-954c-8dc815342979,0,GR,Land — Mountain Forest
 60f37eac-e8fa-48d3-b936-74461ea1853c,Demonic Attorney,LEB,103,65a9f643-063f-406a-8d5a-5ebbe0f04c3d,3,B,Sorcery
+610b7cd5-5532-45a9-acfe-24a818034d1c,Llanowar Wastes,APC,141,32116127-cf96-4a1b-8896-a1ebc087b597,0,BG,Land
 6121f72f-680f-4bb4-ae4d-37ee4ebed4d8,Manabarbs,LEA,163,0f1afedd-c60f-454f-b84a-c8117aec0128,4,R,Enchantment
 613694aa-b169-400d-8063-2b83d8303611,Treachery,UDS,50,8ed57194-7508-4aef-9373-64f7e80612d8,5,U,Enchantment — Aura
 61510e88-97d0-410a-9431-ebf12990e33d,Time Elemental,LEG,81,d89075a3-4413-4796-a055-eef51fddb7f3,3,U,Creature — Elemental
@@ -1252,6 +1255,7 @@ id,name,set,cn,oid,cmc,ci,type
 7abd2723-2851-4f1a-b2d0-dfcb526472c3,Verdant Catacombs,ZEN,229,67d60b24-d429-4ded-90d9-06e49f28c396,0,,Land
 7af082fa-86a3-4f7b-966d-2be1f1d0c0bc,Smothering Tithe,RNA,22,153376c9-dffd-458c-8ce3-a4c8269bc4e9,4,W,Enchantment
 7afa0ee5-a0b8-472e-9991-09402ddb5de3,Allosaurus Shepherd,2X2,132,98295bdc-db58-4e1f-ad4c-63092aea207e,1,G,Creature — Elf Shaman
+7afd472f-1ede-4e78-b44c-3298ee4c8694,Norwood Priestess,P02,137,902a7588-602c-456f-8250-c94f35e56d3a,4,G,Creature — Elf Druid
 7b0b0520-f792-4201-bd4c-22b7d7824b52,Chromatic Orrery,LCC,107,95c3976c-33f3-490b-bfd3-7f1af2fe0416,7,,Legendary Artifact
 7b0ca1f4-391d-40fc-b53e-ffb6e4d4c061,Serendib Efreet,FBB,79,dd520d83-297a-487f-b8f3-4997bbc056e0,3,U,Creature — Efreet
 7b112a10-ac40-4353-bbdd-e5efd4546330,Sindbad,ARN,21,dc81069b-b2cf-44b3-98fc-45bb24b815cb,2,U,Creature — Human
