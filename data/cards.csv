@@ -635,6 +635,7 @@ id,name,set,cn,oid,cmc,ci,type
 3de472d0-cca2-4bc3-ab0a-9f79fa6325ce,Bloodstained Mire,MH3,463,fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57,0,,Land
 3df4e7f8-1f40-4e97-8737-be5e2ce0d39d,Birds of Paradise,4BB,234,d3a0b660-358c-41bd-9cd2-41fbf3491b1a,1,G,Creature — Bird
 3e64afdc-7623-4b88-a952-45243b4dff79,"Ugin, the Spirit Dragon",SLP,6,eecb3047-a563-441a-9175-200421981ac3,8,,Legendary Planeswalker — Ugin
+3e97c609-3932-4428-96d4-1c97e61f0abb,"Etali, Primal Conqueror // Etali, Primal Sickness",MOM,298,7514e401-7aa1-405d-9f7a-312b4e630cc2,7,GR,Legendary Creature — Elder Dinosaur // Legendary Creature — Phyrexian Elder Dinosaur
 3ea0c673-7be0-4581-84a8-4d9d61657bab,Island,PAL03,2,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 3eb27381-505d-4e47-bf66-9e7ba91a5075,Firebreathing,LEA,150,8603bf74-faab-4910-8e45-0f2e3b318efb,1,R,Enchantment — Aura
 3f16e3fe-cc9f-414e-8643-3f66c0ab2536,Nazgûl,LTR,335,48a62778-7c11-486f-a0e1-020c283a7ef9,3,B,Creature — Wraith Knight
@@ -739,6 +740,7 @@ id,name,set,cn,oid,cmc,ci,type
 49b22665-1501-420a-82ad-f71f6768bcf8,White Ward,LEA,44,860468b3-625a-4663-a5ae-336ae10fc7d0,1,W,Enchantment — Aura
 49dcda11-4200-4ee2-b353-2321282463be,Sedge Troll,SUM,174,a6a43190-cca2-4f07-afe9-8af681d777da,3,BR,Creature — Troll
 49fcf47d-0f1d-469e-a8c4-d5c97be7a1ef,Sunglasses of Urza,LEB,272,eea64b1f-d6a9-4f72-8612-efab4b124b63,3,,Artifact
+4a03554a-0ee7-4106-b3e4-4bc51f48032d,Urza's Tower,ATQ,85c,32fbb638-ab14-4e8b-a07a-d4c44e3496f2,0,,Land — Urza's Tower
 4a184a4a-2c8c-4a10-9b26-a174859fa1e8,Blasphemous Act,SLD,322,7a2484a9-04fd-41a0-8224-610c1c07ed10,9,R,Sorcery
 4a1f905f-1d55-4d02-9d24-e58070793d3f,"Atraxa, Grand Unifier",ONE,196,abbcb153-0763-44c6-964f-b4ff0eb64257,7,BGUW,Legendary Creature — Phyrexian Angel
 4a289787-2d30-4e0b-ac97-3767818d0387,Warp Artifact,LEB,134,f4b18451-1f40-48bd-8ca9-eec784ad5dd7,2,B,Enchantment — Aura
@@ -1111,6 +1113,7 @@ id,name,set,cn,oid,cmc,ci,type
 6d47a1c7-d32b-425a-b15d-24eb35318f6f,"Kozilek, Butcher of Truth",UMA,6,7b8528b0-71eb-4c9e-bed9-aa2d2e84038f,10,,Legendary Creature — Eldrazi
 6d545e9d-3b8e-44f5-8b4e-d8573ecc5819,Doubling Season,WOT,81,01546b7d-a233-4176-8843-d732074dc5b6,5,G,Enchantment
 6d7cd274-ed83-475a-9b4f-adb9c780a6f4,Mana Crypt,2XM,361,2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a,0,,Artifact
+6d7d8fa7-ce69-4a8c-9af0-55571393a244,"Samut, Tyrant of Naktamun",FRA,220,a275f7ac-7dae-4422-875a-f34f24b6f28a,2,U,Legendary Creature — Human Wizard
 6d84e2d4-38bf-4d46-99a6-37c2dda66b16,Welcome to . . . // Jurassic Park,REX,7,a4b37d16-95b3-4143-a0b2-ad9f2aba91f8,3,G,Enchantment — Saga // Legendary Land
 6d929c38-91e6-457c-937a-d1884f4bba44,Scryb Sprites,LEA,215,a1f20695-6f08-4d5c-9fba-b0018bee298e,1,G,Creature — Faerie
 6d98bdb7-bdba-4e06-a122-9bcf131f4cc8,Throne of Eldraine,PLST,WOC-28,5b9a2b81-a645-43be-8001-03817ac210ca,5,,Legendary Artifact
@@ -2582,6 +2585,7 @@ fefbf149-f988-4f8b-9f53-56f5878116a6,Shivan Dragon,LEA,174,711eea87-0fa3-46e0-a4
 ff00e877-3588-4ba9-a1f2-86f726157017,Grim Tutor,S99,79,e62f8d69-a559-4f13-a5c9-5fb750b4af2c,3,B,Sorcery
 ff018fe2-9feb-431d-b4c5-61b2ed0d919d,"Vorinclex, Monstrous Raider",KHM,406,5a3fdf5a-bff8-4896-b288-3f43f9a72d9b,6,G,Legendary Creature — Phyrexian Praetor
 ff08e5ed-f47b-4d8e-8b8b-41675dccef8b,Cyclonic Rift,2XM,47,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,2,U,Instant
+ff1b8fc5-604a-4449-a73d-861e53642a70,Lightning Bolt,2ED,162,4457ed35-7c10-48c8-9776-456485fdf070,1,R,Instant
 ff37b863-f8c4-4584-8cc2-ac0e096e583f,Bazaar of Baghdad,ARN,70,54022a10-c9f0-458d-a0ed-228843cd9a40,0,,Land
 ff4a22d9-007b-4eb7-af9e-b5c2cae36238,Dream Halls,STH,28,d901e17f-a5f4-49d9-8a6d-ab771949af24,5,U,Enchantment
 ff727bfb-8cd8-43dd-afdf-eb74a4631eac,Necropotence,WOT,31,94a844d2-0574-45a7-b347-e0e329767c42,3,B,Enchantment
