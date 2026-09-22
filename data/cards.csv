@@ -599,6 +599,7 @@ id,name,set,cn,oid,cmc,ci,type
 39a89c44-1aa7-4f2e-909b-d821ec2b7948,Jace Beleren,PMEI,2009-1,cc2b6e58-2d6f-495e-95f3-9496105c4cba,3,U,Legendary Planeswalker — Jace
 39b8cf7f-8c40-40e9-8118-e8626c3c6433,"Ma Chao, Western Warrior",PTK,116,023e26d8-b67d-43dd-89b1-8905b1183094,5,R,Legendary Creature — Human Soldier Warrior
 39d763bd-b0a9-46ba-bcd2-9304063446f2,Gaea's Avenger,ATQ,33,a4b60080-3f80-4aeb-8bd9-7953e77aaf75,3,G,Creature — Treefolk
+3a14d6c5-cfd1-4860-834a-5a0dc9df0320,"Deadpool, Trading Card",SLD,1753,4b96c22a-0d5b-44fd-b326-5f3ffcc3917b,4,BR,Legendary Creature — Mutant Mercenary Hero
 3a1e8139-3690-4d4b-80b4-c733b4bbe786,Diabolic Intent,SLD,2563,038519b9-bca8-4b27-b5ac-2409595469d0,2,B,Sorcery
 3a91aea3-3d04-4d66-bfbc-b039ccf1eb62,Nazgûl,LTR,726,48a62778-7c11-486f-a0e1-020c283a7ef9,3,B,Creature — Wraith Knight
 3aa569e7-0f65-47b7-851f-1377c39f71a9,Harmonize,SLD,7015,7eff84f1-f772-497a-b350-bbc93d0230f7,4,G,Sorcery
@@ -701,6 +702,7 @@ id,name,set,cn,oid,cmc,ci,type
 45617b0f-fdac-4747-b2d3-d571b717008f,Cyclonic Rift,SLD,1869,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,2,U,Instant
 456a2f03-8304-4512-804c-76653e30f436,Mana Drain,2X2,348,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
 45812af9-191b-449a-b9a4-74bedd4860e6,"Solphim, Mayhem Dominus",PONE,150p,895f23a2-55b7-4cc0-8939-2efaaf097e6f,4,R,Legendary Creature — Phyrexian Horror
+45cb2a76-7d12-41e6-93c7-09922934699c,"Lightning, Army of One",FIN,400,585eb5bc-5a3d-44d8-b593-1ff0d67f96a7,3,RW,Legendary Creature — Human Soldier
 45e70109-0352-45fc-a2fd-892ca65cac2f,Deflecting Swat,CMM,698,ae120613-97d6-4393-b39d-c3e6c076f5d6,3,R,Instant
 46652ae3-6572-4296-939b-0789923180d5,Zodiac Dragon,PTK,131,e5c2cf0f-c1c0-4fd6-9b5f-7d4aa25246a7,9,R,Creature — Dragon
 46a62dc3-b864-4e8e-bd6c-510ca054608e,Torment of Hailfire,PHOU,77p,30a0a6c2-1fbb-4784-ab96-22611d57e62c,2,B,Sorcery
@@ -1133,6 +1135,7 @@ id,name,set,cn,oid,cmc,ci,type
 6eafa00b-c628-40f6-86eb-88e1361fc7a0,Plateau,LEA,279,c7a15ca4-085f-4d92-8387-c3711c04c8fa,0,RW,Land — Mountain Plains
 6ed83401-0b7e-48c7-b1a4-8e97aec29960,"Yawgmoth, Thran Physician",FCA,11,a1e232c0-dc38-47be-a5a0-f68bc1d86a29,4,B,Legendary Creature — Human Cleric
 6efb3b4c-ac12-406c-8517-9fccefdd1544,Goblin Recruiter,SLD,1313,792e1072-00bf-4f63-b956-5f20cdf09f11,2,R,Creature — Goblin
+6efb6a69-562c-4d95-858d-b067444cfd7e,Palantír of Orthanc,LTR,247,7798a4d9-1c1d-48e6-b9a2-ecd6aec1efa7,3,,Legendary Artifact
 6f1c8cb0-38eb-408b-94e8-16db83999b3b,Forest,LEA,294,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest
 6f30ad61-fcb7-4d55-ba86-94de1bf545e4,Karma,LEA,26,fac4da47-f0b2-4b57-9703-e0ed100d3499,4,W,Enchantment
 6f3b4542-bf78-4450-a4e0-bf757445c3c3,"Uro, Titan of Nature's Wrath",SLD,222,ee302659-59ed-4eef-babe-451b9ccf7f14,3,GU,Legendary Creature — Elder Giant
@@ -2472,6 +2475,7 @@ f484d47a-fb1d-4746-8f1d-dd9d24e67c1a,"Pang Tong, ""Young Phoenix""",PTK,14,6d9dc
 f485596f-3a23-4714-ad7e-4c493ab1b530,"Galadriel, Light of Valinor",LTC,498,faf44683-339d-4fc0-8029-1e867c69de0e,5,GUW,Legendary Creature — Elf Noble
 f486df00-7c4a-4ff0-bb0b-c8b5432ac742,Sylvan Library,LEG,207,92eed395-62ca-4293-882b-8565c40daab5,2,G,Enchantment
 f48ed192-c1a1-437a-80dd-647a616b46e3,Fastbond,LEB,193,e27193b7-1a47-4555-865d-b1fd4c6d597f,1,G,Enchantment
+f49be090-c745-40e5-bc1c-605b8d98acdf,Sphinx's Approach,FRA,41,48b1ac27-430f-4fd9-a71b-6ad125c57fe3,3,U,Instant
 f4c65751-f037-4b60-a4ad-7ea41b3dc847,Treasure Vault,HOC,97,3c43efd6-b1a8-452c-ae20-9a936c3340ab,0,,Artifact Land
 f4e32327-380d-471e-813b-4c27477787ce,City of Brass,ARN,71,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land
 f4f0c479-5fd1-45c2-af3f-15b6e5811b0f,Spitting Dilophosaurus,REX,3,19f2c2c1-cd29-4e66-b5d9-e85e1979d843,3,B,Creature — Dinosaur
