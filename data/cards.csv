@@ -66,6 +66,7 @@ id,name,set,cn,oid,cmc,ci,type
 07d60c27-8625-48eb-a3f0-1e26d6930ae7,"Lu Bu, Master-at-Arms",PTK,115,ff959f1f-0982-4761-a6b0-3044dff1d617,6,R,Legendary Creature — Human Soldier Warrior
 07e40ddc-0483-4a2e-a776-807b37bada7f,Three Visits,SLD,1676,1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e,2,G,Sorcery
 07e76029-c10e-4017-872f-19284751de71,Clever Impersonator,SLD,1429,d4ec0df9-a4a3-48cf-a0aa-b1aea5c49142,4,U,Creature — Shapeshifter
+080aebe8-535e-4632-b733-8aba98abff22,Sea of Clouds,BBD,84,672e190d-8ea0-4a2e-b74f-5d35304631e4,0,UW,Land
 082f6551-2332-4a9b-9865-aae19156b3dd,Island,PALP,2,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 083f76c8-3e6d-4de5-b408-2f2394faed5c,Mahamoti Djinn,LEB,65,c39ea5f9-6ec0-4697-897b-779e326754a7,6,U,Creature — Djinn
 0845f0b0-9413-4ddd-861d-9607636bebc6,Natural Order,VIS,114,8c1fe337-375a-4add-93b6-0ac39ed72b4f,4,G,Sorcery
@@ -1514,6 +1515,7 @@ id,name,set,cn,oid,cmc,ci,type
 93842064-a0a8-4e4d-9c8a-e8a86448d225,Copper Tablet,LEB,239,16d1023b-2162-4010-8bf4-218dbe7c99a0,2,,Artifact
 939c6e19-4b27-4023-bb9c-ae440f91e21c,Shadowspear,THB,236,8b27326f-e7b8-4a4d-b589-df459246d19a,1,,Legendary Artifact — Equipment
 93ee144f-3c76-444f-8a9a-318ee6407526,Parallel Lives,WOT,83,84dc94b2-95fb-4d53-aaa2-191cb645639f,4,G,Enchantment
+93f9f0f2-e1cc-4740-888c-1336c6de0a27,Blue Ward,LEA,8,fc0bf1d0-46a2-4305-ab2e-466d79d60ab2,1,W,Enchantment — Aura
 940536be-fce1-4a90-9126-195815a43e0f,Grave Pact,STH,60,6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2,4,B,Enchantment
 940b3aa3-0f57-4b44-8ccb-60229c8cc72d,Bloodthirsty Conqueror,PFDN,58p,fd505c02-c59e-476d-8e88-35da862ddc23,5,B,Creature — Vampire Knight
 9415defa-ea35-454e-993b-3afd5776b7db,Esper Sentinel,PLST,MH2-12,5def9f38-0a0b-4e8d-9f9d-29dcb46520b4,1,W,Artifact Creature — Human Soldier
