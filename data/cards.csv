@@ -199,6 +199,7 @@ id,name,set,cn,oid,cmc,ci,type
 13788423-db82-4e76-83ad-3f812a4d547a,Sol Ring,LTC,410,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
 1381c8f1-a292-4bdf-b20c-a5c2a169ee84,Cavern of Souls,AVR,226,89ca686a-7c72-4d8f-9290-e89635624a83,0,,Land
 13a68a17-22ee-47c9-870a-83e911862b94,Meekstone,LEA,260,5ba73182-30a7-4bad-9cb6-c0feecc2db33,1,,Artifact
+13c4a320-aaed-4577-87c2-8dd206ddd99f,"Yavimaya, Cradle of Growth",SLD,2813,8dd5f5af-d2d8-4356-8617-8381081b930c,0,,Legendary Land
 13d7e352-4d01-4947-a76f-f8a01dd876cc,Thassa's Oracle,THB,308,1de1b591-a73f-4974-b507-8c63e07a0868,2,U,Creature — Merfolk Wizard
 140d4a7b-95b6-4911-99b5-7e8586255fc7,Island,PALP,7,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 140e567c-6e4a-42b0-8084-d6c9695ae802,Wall of Stone,LEA,182,cd4cadb4-3156-49bd-b36e-12ba5c85938b,3,R,Creature — Wall
@@ -265,6 +266,7 @@ id,name,set,cn,oid,cmc,ci,type
 1b234fee-a2b6-4661-9f98-4da6fc26aebc,"Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",MH3,443,1ed9e351-0000-4b75-8ecb-d15bd88df68a,1,GU,Legendary Creature — Moonfolk Wizard // Legendary Planeswalker — Tamiyo
 1b258c47-48b8-4787-9af7-1635cc17dff6,Galadriel's Dismissal,HOC,16,e46d0b57-5eec-4ab6-b9a7-a5c5cc01cc34,1,W,Instant
 1b342dd3-09b9-4108-bf12-a65d4cef4eb9,Power Sink,LEA,72,39412e6d-2837-4729-abf9-e64a5ba87e40,1,U,Instant
+1b36b3d1-2e58-4036-9d91-5875ad667346,Seasoned Cryomancer,FRA,324,c3936db3-d3b6-4a92-9773-6f3c52dc419d,3,U,Creature — Human Wizard
 1b486b75-4680-4a94-af8c-c1c335c9782b,Sire of Seven Deaths,FDN,292,a15547d0-bbcb-41ee-a9ae-8325a9e7fe1f,7,,Creature — Eldrazi
 1b93ce48-219c-49ea-9ad0-b7357bea4606,Tundra,LEB,285,02418479-9455-417f-a6a1-004356faff37,0,UW,Land — Plains Island
 1bd40caa-0cbb-426d-a988-1d826988e707,Battle Angels of Tyr,CLB,370,c2bd0c24-3973-48bc-a591-3779e3640c5d,4,W,Creature — Angel Knight
@@ -350,6 +352,7 @@ id,name,set,cn,oid,cmc,ci,type
 22b5b5ef-9b8d-4ace-86db-21ce00b29928,Prismatic Vista,SLD,2699,032b8a0d-491a-4a12-ab9f-689010054d5b,0,,Land
 22b85759-532d-4632-a2e0-c598597133a8,Mountain,PARL,4,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain
 22cd80dd-1c57-423c-81e2-9a956901565f,Sword of Fire and Ice,2XM,365,2ccdc60a-49a9-44b9-a7af-0ebf18b26785,3,,Artifact — Equipment
+22d087fc-2fd5-4ce7-bece-b12dea3d300a,Beastmaster Ascension,SLD,1609,11b5308d-5bc0-4782-875f-a28be36e665d,3,G,Enchantment
 22d1b078-9175-45ab-8fbe-ed4af2abde1f,"Toph, Earthbending Master",TLE,145,ad5d3e7e-bf8c-4fa3-a81e-1523aec2585f,4,G,Legendary Creature — Human Warrior Ally
 22e22287-21c5-4733-a527-b176fbf3725d,Dryad of the Ilysian Grove,SLD,191,bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9,3,G,Enchantment Creature — Nymph Dryad
 22ea73ec-1325-4437-a23f-dcda1767c713,Vaevictis Asmadi,LEG,269,4d2cc2a8-e08a-420a-8922-c63e39129e23,8,BGR,Legendary Creature — Elder Dragon
@@ -1051,6 +1054,7 @@ id,name,set,cn,oid,cmc,ci,type
 670f236c-f4d7-419e-82cf-65da8c2f1e15,Living Lands,SUM,210,8f0179fe-6d7d-49cc-ab06-d3b402c6fc8d,4,G,Enchantment
 67299451-5302-4639-a4bc-6109521a2c0c,Two-Headed Giant of Foriys,2ED,180,38aa31bd-7145-43b9-9409-463d9ad6cd69,5,R,Creature — Giant
 6739a5bb-5ed7-4f15-affb-4170239d997a,Dark Ritual,SUM,99,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,1,B,Instant
+674960ce-ff33-4d5e-a24a-a4582b2e9809,Hexing Squelcher,ECL,145,96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b,2,R,Creature — Goblin Sorcerer
 674e1b0f-c2e5-4b75-817d-19ab5f734139,"Nekusar, the Mindrazer",SLD,1301,8a5e3c8e-8e22-49b9-8ee5-4a36361f0da6,5,BRU,Legendary Creature — Zombie Wizard
 67600383-bbb8-411c-b8e6-2296650bc747,"Emrakul, the Aeons Torn",ROE,4,900ca697-ad38-4b2b-bc74-2ff7eb6ea951,15,,Legendary Creature — Eldrazi
 676758ee-dac8-4c97-8a62-fff25bcbb6df,Esper Sentinel,MH2,328,5def9f38-0a0b-4e8d-9f9d-29dcb46520b4,1,W,Artifact Creature — Human Soldier
@@ -1151,6 +1155,8 @@ id,name,set,cn,oid,cmc,ci,type
 70291c7b-a86f-4466-8502-c28765a89b2a,Green Sun's Zenith,2X2,150,0d96b60b-a060-48ee-bb83-93f1c4a10669,1,G,Sorcery
 7037f57a-ca89-41bd-bf7f-2f54593c0f48,Cyclonic Rift,SOA,14,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,2,U,Instant
 7065deea-6117-47d4-9d72-fc67af5bb483,Counterspell,PLGM,1,cc187110-1148-4090-bbb8-e205694a39f5,2,U,Instant
+707f6fbb-94f6-459b-8a21-bec360b7b668,"The Theorist, Jace Beleren",FRA,363,89a6e876-0b00-4671-9652-766fd7ef9bf2,4,U,Legendary Planeswalker — Jace
+7081f960-3476-4acd-8272-600c1e50b560,"Samut, Tyrant of Naktamun",FRA,302,a275f7ac-7dae-4422-875a-f34f24b6f28a,2,U,Legendary Creature — Human Wizard
 70d0540f-93c6-4af5-ab2d-65e6c03001c7,The Meathook Massacre,INR,122,127de52b-df75-4342-95a0-20d84c5bf916,2,B,Legendary Enchantment
 70d6c02e-0f48-4fb0-94f3-1fc92ee1814f,Mox Jet,2ED,263,0677f49e-f8bf-4349-af52-2ccde9287c2e,0,B,Artifact
 70e7ddf2-5604-41e7-bb9d-ddd03d3e9d0b,Ancestral Recall,LEA,47,550c74d4-1fcb-406a-b02a-639a760a4380,1,U,Instant
@@ -1378,6 +1384,7 @@ id,name,set,cn,oid,cmc,ci,type
 86418d1b-4956-48fd-a542-338f24c1c0a0,Wall of Fire,SUM,183,f38c8b47-e8e0-4d2f-b1da-d8d986805a48,3,R,Creature — Wall
 86435875-ac92-4348-b41e-19570cf62a1c,Earthquake,LEB,147,9a40614b-50a3-422c-849e-53c8b7d3d204,1,R,Sorcery
 864d028f-b57f-4f68-9694-c5a2bd7295b9,"Jeska, Thrice Reborn",SLD,1201,b1fbfcf3-6921-4417-a58e-0f5e5d34a105,3,R,Legendary Planeswalker — Jeska
+8670dac4-d369-4907-ae3a-d58ff204f1a6,Sol Ring,SLD,2783,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
 8673ccb2-e960-44a9-917b-c53c91e61a94,"Elesh Norn, Mother of Machines",ONE,415,5ade11c0-41dd-4b6a-9f5b-c5903a3a0d7f,5,W,Legendary Creature — Phyrexian Praetor
 8676d164-c76e-402b-a649-6ded3f549b6e,Doubling Season,2XM,164,01546b7d-a233-4176-8843-d732074dc5b6,5,G,Enchantment
 8690cbcc-f8fd-41f7-9e28-e61c12b04014,"Yawgmoth, Thran Physician",MH1,116,a1e232c0-dc38-47be-a5a0-f68bc1d86a29,4,B,Legendary Creature — Human Cleric
@@ -1389,6 +1396,7 @@ id,name,set,cn,oid,cmc,ci,type
 86fd126f-7672-4d83-93df-c61184d2fcf4,"Cloud, Midgar Mercenary",FIN,427,33d2584b-bf29-4c22-bd45-14ba2fb98c0e,2,W,Legendary Creature — Human Soldier Mercenary
 870eb49c-f62d-4986-b492-601feb68a307,Juggernaut,LEB,256,4ac9116f-36bc-4d71-b696-d6ee064e1d58,4,,Artifact Creature — Juggernaut
 8712c49e-f171-4669-bed9-87575a37af11,Disintegrate,LEA,140,92d6af2f-728e-4e41-87cb-5c90878a2f2f,1,R,Sorcery
+8733a9a4-c184-46d9-afca-bf9048e2f25c,Craterclaw Colossus,FRA,327,71355b51-e70e-47b0-8460-933af3567141,7,R,Artifact Creature — Beast Construct
 87545415-2e27-4841-a3af-7653af2ba6d3,Sliver Legion,TSR,261,47657df2-0e58-46c8-87e2-cc752708a612,5,BGRUW,Legendary Creature — Sliver
 87776882-d3f6-4f80-8529-01feb416bb36,Questing Druid // Seek the Beast,SLP,38,555df32f-f8e9-49af-bc4a-1194ea325a97,2,GR,Creature — Human Druid // Instant — Adventure
 87f1e69a-6d74-4982-afda-82613637799a,The Mind Stone,MSH,21,b175e826-09e8-4fae-9f2e-b902f95b282d,2,W,Legendary Artifact — Infinity Stone
@@ -1618,6 +1626,7 @@ id,name,set,cn,oid,cmc,ci,type
 9e1b4cec-68e0-4259-9be5-565d927017d9,Vampiric Tutor,CMR,656,ededbdae-d9dc-4206-9335-d7158f2d7700,1,B,Instant
 9e1e76a2-ec37-4fd8-8185-f98f675ff0cb,Marsh Flats,ZNE,6,dab520d0-20b4-4273-ba6b-eb07f85ea433,0,,Land
 9e30230a-4b75-4fc6-9c98-b12791beea2d,Sword of Hearth and Home,LTC,354,913e6182-706a-4872-8c8a-e146b0ae0738,3,,Artifact — Equipment
+9e4b508a-9204-4bed-8b80-9ac35c187efe,Kozilek's Command,SLP,52,2f2c549d-0293-4b9d-b9a8-ff392800f3a5,2,,Kindred Instant — Eldrazi
 9e5e07a2-fbdf-4c4c-996a-fce40bab5de5,Warp Artifact,LEA,133,f4b18451-1f40-48bd-8ca9-eec784ad5dd7,2,B,Enchantment — Aura
 9e70db8a-1b25-45c1-861a-58a02ca5f878,Timber Wolves,SUM,219,35d07ac9-b184-4b5f-8192-34b1db042f69,1,G,Creature — Wolf
 9e72f397-2384-40f1-882b-f627664d97df,Return to the Light Realms,FRA,20,217e76ca-ea94-417c-b5b0-82e2302eeee8,9,W,Sorcery
@@ -1647,6 +1656,7 @@ a11f55e8-7f86-4ca9-b737-9a920d9cf282,Mana Vault,LEB,260,736892cb-a34b-4bb9-b56c-
 a14c05e4-8df3-450b-8a98-5028e73b14c1,Burrowing,LEA,138,d6b9b88b-e31b-4b88-9d53-3df5687804ba,1,R,Enchantment — Aura
 a15d33d6-7213-4482-a1be-ac0a73644af6,Memory Jar,ULG,129,eb9c9a34-88a8-4afe-a053-806f6b29834f,5,,Artifact
 a184cd2e-e27f-44b0-a8ae-9d861280e469,Cyclopean Tomb,2ED,241,1edee40f-d153-4d67-aee7-ef08e11e4a79,4,,Artifact
+a18cf0ef-1720-4bb1-9af2-8d59c2b553f9,The Reaver Cleaver,DMC,84,37a2a31d-51e6-4c07-b4c2-b206ad40eb42,3,R,Legendary Artifact — Equipment
 a1a6f8e9-7bc1-4151-b55f-acf877b1a7a6,Will-o'-the-Wisp,LEA,135,8b60fcfe-fb90-4a00-a708-25b59bfc9b5a,1,B,Creature — Spirit
 a1bfda92-b932-46d8-b549-e2bc2b584a17,Zombie Master,LEB,138,5446c92f-ff22-4e9b-a2f6-e64c8560c1e0,3,B,Creature — Zombie
 a1c75484-8bd1-49cf-8261-0e420ca89bca,"Nissa, Resurgent Animist",PMAT,22p,c1fc5923-c3cd-448a-98d1-c154661c2812,3,G,Legendary Creature — Elf Scout
@@ -2056,6 +2066,7 @@ c7a57f0e-5b67-44fc-ab68-9fc7a1345e9b,Scavenging Ghoul,SUM,128,68c0c04e-b0d5-4721
 c7c5efdb-ba10-456d-9dc2-4ca6e3550108,Mana Confluence,EOS,70,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,0,,Land
 c7d7db76-0a0c-444f-96f1-559838450549,Doubling Season,WOT,52,01546b7d-a233-4176-8843-d732074dc5b6,5,G,Enchantment
 c7e71299-98f6-494e-b187-8d22ce5f50af,Doubling Season,RAV,158,01546b7d-a233-4176-8843-d732074dc5b6,5,G,Enchantment
+c7fc8ddd-e165-4539-91c8-8af0e3f2b67e,"Emrakul, the Exigent Doom",FRA,423,4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f,10,,Legendary Creature — Eldrazi
 c80d1df6-247d-4ceb-8493-226a2a4a8f75,Swords to Plowshares,4BB,52,b1544f21-7e98-461b-aed5-e748b0168c52,1,W,Instant
 c8173030-1c33-417c-b8e9-79231b6a85a7,Recurring Nightmare,EXO,72,a6708b11-1bcd-4208-a967-fe91f2e3313c,3,B,Enchantment
 c818547c-a6f6-4c69-9e4d-33741e605093,Beast Whisperer,SLD,1099,5da7eea8-bb9e-47ce-a554-8a1ee058bd7a,4,G,Creature — Elf Druid
