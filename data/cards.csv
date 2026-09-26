@@ -538,6 +538,7 @@ id,name,set,cn,oid,cmc,ci,type
 32e03ed1-6d1e-4303-b67c-4a5a4f825e9c,"Cloud, Midgar Mercenary",PSPL,4,33d2584b-bf29-4c22-bd45-14ba2fb98c0e,2,W,Legendary Creature — Human Soldier Mercenary
 32fd8b7c-baf3-4d3d-be6f-044a917b11a0,Roaming Throne,LCI,258,3640c29b-1534-4952-b297-619ade948431,4,,Artifact Creature — Golem
 3308993d-8bfb-477a-887a-89ed35577f57,Jeska's Will,CLB,799,0fd114c4-092b-4e28-b0dc-ef529f3bc73e,3,R,Sorcery
+332030be-1a25-4f62-8a62-fa10b182a209,Hexhaven Invigorator,FRA,330,12d617b1-c95b-4b1c-a586-ccfdf5898b03,4,G,Creature — Chimera Horror
 33296718-0625-4422-a65c-b21cf99c52ec,Recall,LEG,70,4158f397-4ee4-4f53-90f2-3b64bfe4f9b8,1,U,Sorcery
 336b3b8f-d104-4f06-ad4f-c92b8a9038ca,Hell's Caretaker,LEG,104,2f0d797e-d897-453d-92b6-a90e1a548dc5,4,B,Creature — Horror
 33743b2c-9e30-458d-ada5-fd1cd5b25a5a,"Tifa, Martial Artist",FIC,206,0836c8d1-c453-4a3a-a52a-eb66839b8542,4,GRW,Legendary Creature — Human Monk
@@ -1263,6 +1264,7 @@ id,name,set,cn,oid,cmc,ci,type
 7a7017e0-963a-4409-a995-00ec54041461,"Kozilek, Butcher of Truth",PLST,UMA-6,7b8528b0-71eb-4c9e-bed9-aa2d2e84038f,10,,Legendary Creature — Eldrazi
 7a79190f-de60-4eb6-b925-594eb76ca8c3,Vampiric Tutor,SOA,100,ededbdae-d9dc-4206-9335-d7158f2d7700,1,B,Instant
 7a7c5941-9c8a-4a40-9efb-a84f05c58e53,Windswept Heath,ONS,328,29737a60-3ebd-40d9-b935-c4f54b90d45d,0,,Land
+7a85467d-5693-4cf7-b38d-d42c57242f48,Tony Stark // The Invincible Iron Man,MSH,350,4a46ea59-6c5d-4bed-9951-b5590f9a1bdb,2,RU,Legendary Creature — Human Artificer Hero // Legendary Artifact Creature — Human Hero
 7a87f8bc-1b3e-4cb2-9343-5f008e942411,Force of Will,SOA,19,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 7a8db21f-722b-4a07-985b-8d25a0b0006a,Sol Ring,LTC,408,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
 7abd2723-2851-4f1a-b2d0-dfcb526472c3,Verdant Catacombs,ZEN,229,67d60b24-d429-4ded-90d9-06e49f28c396,0,,Land
@@ -1652,6 +1654,7 @@ a06ad827-1f34-47d2-a8a7-91599ec6af80,The Meathook Massacre,PMID,112p,127de52b-df
 a099cbd2-e92a-433a-bc51-0aa2f8fc6857,"Celestine, the Living Saint",40K,10,6503ed78-6499-47f6-856b-ee1003ce4a4f,5,W,Legendary Creature — Human Warrior
 a0e8f8d8-eac0-451c-a167-be84667a8e3d,Underworld Dreams,LEG,124,967cf377-ae26-464d-85ac-8448b5a911f7,3,B,Enchantment
 a0f5c6bc-65dc-42a1-a62d-a0b101310a1f,Tropical Island,3ED,288,74b7fe23-5d3a-4092-8d78-7c0eba8f6f73,0,GU,Land — Forest Island
+a1009710-f953-46c9-88fe-d14e9ff1f4af,Darklight Phoenix,FRA,325,e4b51c2d-7e56-435b-89d6-85e33df65879,4,B,Creature — Phoenix
 a11f55e8-7f86-4ca9-b737-9a920d9cf282,Mana Vault,LEB,260,736892cb-a34b-4bb9-b56c-e26e3db207a2,1,,Artifact
 a14c05e4-8df3-450b-8a98-5028e73b14c1,Burrowing,LEA,138,d6b9b88b-e31b-4b88-9d53-3df5687804ba,1,R,Enchantment — Aura
 a15d33d6-7213-4482-a1be-ac0a73644af6,Memory Jar,ULG,129,eb9c9a34-88a8-4afe-a053-806f6b29834f,5,,Artifact
@@ -1904,6 +1907,7 @@ b8c66fab-7494-42b1-bc4e-dae85a48fa41,Black Market Connections,LCC,181,d2664f28-4
 b8cdd6a7-f772-4ccb-914f-63f52ed54d6b,Nightmare,LEA,118,375932e6-1b3e-48dc-8154-9b664c3add34,6,B,Creature — Nightmare Horse
 b9211949-66a5-4039-ac6d-3e42b008b58e,Livonya Silone,LEG,242,57f2aa02-f5f3-42a5-939d-5cc94200951e,6,GR,Legendary Creature — Human Warrior
 b92aafa5-9a21-4564-8b33-dab414cd5dca,The Wandering Emperor,NEO,316,0c7f18d5-36cb-4bc6-a358-443b97666215,4,W,Legendary Planeswalker
+b9399b98-a545-47b2-99bb-6d8251d9ae76,Lightning Bolt,SLP,37,4457ed35-7c10-48c8-9776-456485fdf070,1,R,Instant
 b9527c2a-23bb-4d33-9e72-6e0ab3de0e6b,Pixie Queen,LEG,196,38a7d4ef-d296-4896-9b6b-2fd3ad518243,4,G,Creature — Faerie
 b9640cbf-b016-410e-9eff-e8924883517b,Bitterblossom,2X2,69,fb868840-09fa-49b1-85cb-b08ad065e972,2,B,Kindred Enchantment — Faerie
 b99ff81f-08d9-4b4a-a879-de5e5e402802,Argothian Enchantress,EMA,158,11f17f85-ca97-4551-838f-7cb32f0e5f10,2,G,Creature — Human Druid
@@ -1956,6 +1960,7 @@ bea44c06-900d-41b8-88fa-c1bede6ce757,Reassembling Skeleton,SLD,1406,9dbc3530-b27
 bebe39d4-21fb-46a4-a1ec-b97102e46c15,Scrubland,LEA,281,c8d95ca8-7d12-4072-aeaf-e20f248c7e39,0,BW,Land — Plains Swamp
 becd6a66-51b5-4ef1-a8a4-f65343bda3f8,Flawless Maneuver,SLD,1728,4e183439-17d2-47ff-9d99-5e22821d91e3,3,W,Instant
 bed8b82c-3579-426b-9309-4e9fa0f7d60d,Mahamoti Djinn,SUM,66,c39ea5f9-6ec0-4697-897b-779e326754a7,6,U,Creature — Djinn
+bee9c02e-f569-43b5-929a-ec04f661f644,"Hua Tuo, Honored Physician",PTK,137,00284955-0a1b-4939-9567-a7d34cbcee51,3,G,Legendary Creature — Human
 bf0e94c9-61c4-4cc0-b5ce-db62bc2660ee,Deranged Hermit,ULG,101,b9cd714b-2ad8-4fdb-a8aa-82b17730e071,5,G,Creature — Elf
 bf11766b-2614-433d-a3b3-e49b31769c98,Mountain,SUM,301,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain
 bf333864-1299-43a4-a03f-5df98b7498e8,Esika's Chariot,SLD,1894,8e7b079d-9ede-421c-bd2b-f9a5126a8e6f,4,G,Legendary Artifact — Vehicle
@@ -1983,6 +1988,7 @@ c0a29ba4-fe8b-442f-a8b5-8cce7c765011,Phyrexian Rager,PMEI,2000-5,e409c9be-0c9a-4
 c0a612c4-b4ac-4dd2-a06e-92516599fafd,Island,LEB,293,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 c0b10fb7-8667-42bf-aeb6-35767a82917b,Ifh-Bíff Efreet,ARN,50,e503a4f2-a785-4e7a-89a7-a9b24fb98831,4,G,Creature — Efreet
 c0cc30cb-4417-4705-9313-3aef50963820,Jade Monolith,SUM,255,1e105ab7-fb10-4cfd-ac2f-5e11488cf1b0,4,,Artifact
+c0d25cd5-1977-4303-b83c-0dd415c13077,Return to the Light Realms,FRA,323,217e76ca-ea94-417c-b5b0-82e2302eeee8,9,W,Sorcery
 c0d433a4-76c0-4f27-836d-4c0c13a511fb,Sunglasses of Urza,LEA,271,eea64b1f-d6a9-4f72-8612-efab4b124b63,3,,Artifact
 c0d7591f-96c0-4cac-aa4e-f3dea0ec4703,Animate Dead,SUM,93,c0d8fef4-65f4-4769-982d-b397d2b7e977,2,B,Enchantment — Aura
 c0e175cb-ffea-473f-8422-53273f263016,Carrion Feeder,SLD,1114,a1cc5e37-b09a-4b7f-afd5-77c1c35aa425,1,B,Creature — Zombie
@@ -2324,6 +2330,7 @@ e292577e-6232-44fa-a9c2-cc09949c6ed3,Lifeforce,LEA,206,07ae1fe5-5c3e-4d94-b809-8
 e2b15221-c8b0-4861-9f8b-8a65834ad499,Gaea's Liege,LEA,196,8d134a60-e1e5-4163-8bdc-36af91567185,6,G,Creature — Avatar
 e2baf73f-44e8-4249-83d4-271d78ba657f,Flight,SUM,59,6a4068b0-fb4f-429c-a94e-47849f3eb7ef,1,U,Enchantment — Aura
 e2c5c161-49c5-404d-bd8e-86e634222232,Hunting Velociraptor,REX,4,bca33fb6-cd37-4259-8c0b-7a4675754a00,3,R,Creature — Dinosaur
+e340647c-fb6d-45a6-9f42-235390b40337,"Meng Huo, Barbarian King",PTK,142,ea7fdff3-9d45-4a4a-b7fe-84b334f04291,5,G,Legendary Creature — Human Barbarian Soldier
 e3425241-efdc-4261-a2bb-58fbf4a9fe8c,"Zuo Ci, the Mocking Sage",PTK,165,ae8773a3-05f2-4074-9a53-033b0c127235,3,G,Legendary Creature — Human Advisor
 e351ec05-8c4d-4631-9dbf-7f85f664770b,Mana Drain,CMR,637,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
 e37da81e-be12-45a2-9128-376f1ad7b3e8,Prismatic Vista,MH1,244,032b8a0d-491a-4a12-ab9f-689010054d5b,0,,Land
@@ -2400,12 +2407,14 @@ ebb6664d-23ca-456e-9916-afcd6f26aa7f,Dark Ritual,LEA,98,53f7c868-b03e-4fc2-8dcf-
 ebc01ab4-d89a-4d25-bf54-6aed33772f4b,Force of Will,EMA,49,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 ebca1926-6809-4924-a80c-f322266ac38e,Massacre Girl,SLD,1233,63e6cb7d-cc27-4200-85fc-ff6472318c1a,5,B,Legendary Creature — Human Assassin
 ebe7ddb9-ac1c-4c42-a7c7-8683c7ba448d,Prismatic Vista,SPG,38,032b8a0d-491a-4a12-ab9f-689010054d5b,0,,Land
+ec0686ba-1277-4412-a397-7a6227808311,The Rack,ATQ,72,3d873e1d-4fac-42c4-bb31-77e76099e1ef,1,,Artifact
 ec06ad7b-aeb8-4aea-b005-0b3e80af6bd4,Mycosynth Golem,PLST,5DN-137,ebcd864a-b7dd-4330-89e1-80576a9437ec,11,,Artifact Creature — Golem
 ec136ce7-bad4-4ebb-ab00-b86de3d209a7,Force of Will,2XM,340,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 ec386bc3-137b-49b5-8380-8daff470f0bc,"Jace, the Mind Sculptor",2XM,334,7f77a84e-5a4b-4834-aefa-3cecc175ae8e,4,U,Legendary Planeswalker — Jace
 ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb,Voice of Victory,TDM,33,b12cbda1-ac09-49eb-96b3-a4df27bc37ea,2,W,Creature — Human Bard
 ec454979-3839-4be3-a34a-9d25482948ba,Darklight Phoenix,FRA,53,e4b51c2d-7e56-435b-89d6-85e33df65879,4,B,Creature — Phoenix
 ec73bc43-aae6-499f-bb48-b88c375f0ce3,Warg Rider,LTR,831,3f4dd9e2-6460-413e-a3b8-96b20bf57f8b,5,B,Creature — Orc Warrior
+ec9ffeac-ae49-465e-9dc5-976db8252fe6,Consign to Memory,SPG,162,16c39265-72d9-4c86-a961-8dd38ff9adcd,1,U,Instant
 eca877a6-4b17-442f-8432-03b322e3f6dd,Animate Dead,4BB,118,c0d8fef4-65f4-4769-982d-b397d2b7e977,2,B,Enchantment — Aura
 ecb293d5-b13b-400f-ac7b-162a1e127ec7,Mana Crypt,SPG,17,2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a,0,,Artifact
 ecb4025e-8c7b-47d9-ba74-08015ccc1ce6,Concordant Crossroads,SLD,2073,ff01b408-6d17-40a3-9efd-a1b341ec1307,1,G,World Enchantment
