@@ -638,6 +638,7 @@ id,name,set,cn,oid,cmc,ci,type
 3c429c40-2389-41e5-8681-4bb274e25eba,Mana Drain,2X2,57,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
 3c66c54b-b2d1-494d-ae10-a950c184a52f,Phyrexian Altar,UMA,232,8d02b297-97c4-4379-9862-0a462400f66f,3,,Artifact
 3c7de64b-3dc8-47dd-8999-4353b5a3a06f,Jeweled Lotus,CMR,319,23216e59-f147-4bb7-a698-12777c2f8584,0,,Artifact
+3c8a8e6f-4c3b-4d92-bd05-9bbb0150d653,Bog Raiders,USG,119s,60824fae-20ed-4122-82c9-e99a1b679c54,3,B,Creature — Zombie
 3d4255a0-d445-4c00-b936-bbf07851e1c8,Zombie Master,LEA,137,5446c92f-ff22-4e9b-a2f6-e64c8560c1e0,3,B,Creature — Zombie
 3d4b9d4e-ab16-4d81-ac15-e84b351ef2dd,Fable of the Mirror-Breaker // Reflection of Kiki-Jiki,SCH,44,c0957e5e-c71b-439c-931c-9f55d2f76ace,3,R,Enchantment — Saga // Enchantment Creature — Goblin Shaman
 3d572269-3984-48d2-9705-8fe8afb4a2f6,Flawless Maneuver,ONC,68,4e183439-17d2-47ff-9d99-5e22821d91e3,3,W,Instant
@@ -1147,6 +1148,7 @@ id,name,set,cn,oid,cmc,ci,type
 6ea9852b-78fa-4732-8801-4ce632270558,Mox Amber,BRR,35,7a43bd27-fdd8-41f0-9bc4-92568f3408f1,0,,Legendary Artifact
 6eab6765-eba3-4844-81ca-ae37a6e903df,Transmute Artifact,ATQ,14,dbe792f9-22be-4972-b418-99a6190c4421,2,U,Sorcery
 6eafa00b-c628-40f6-86eb-88e1361fc7a0,Plateau,LEA,279,c7a15ca4-085f-4d92-8387-c3711c04c8fa,0,RW,Land — Mountain Plains
+6eca7ad8-73e3-489d-90b7-aff9d4b0a0d9,Goblin Sharpshooter,SPG,136,d81285b7-a718-411a-8be3-ecc0cfe0bcb0,3,R,Creature — Goblin
 6ed83401-0b7e-48c7-b1a4-8e97aec29960,"Yawgmoth, Thran Physician",FCA,11,a1e232c0-dc38-47be-a5a0-f68bc1d86a29,4,B,Legendary Creature — Human Cleric
 6efb3b4c-ac12-406c-8517-9fccefdd1544,Goblin Recruiter,SLD,1313,792e1072-00bf-4f63-b956-5f20cdf09f11,2,R,Creature — Goblin
 6efb6a69-562c-4d95-858d-b067444cfd7e,Palantír of Orthanc,LTR,247,7798a4d9-1c1d-48e6-b9a2-ecd6aec1efa7,3,,Legendary Artifact
@@ -1478,6 +1480,7 @@ id,name,set,cn,oid,cmc,ci,type
 8ed80db2-b30d-4306-8d9f-a43cd77d37e3,Misty Rainforest,SLU,5,09dd85aa-47bc-4713-a9b9-8b52ff2285ed,0,,Land
 8ee8c229-1915-493d-82e2-6da9e01bb867,Giant Growth,SUM,199,5748ebf1-24e3-499d-ab7c-c2cebd462a24,1,G,Instant
 8f0a25ea-b414-423c-94a6-8a4795d60b46,"Xun Yu, Wei Advisor",PTK,93,fb5fea4a-1b04-45c6-a207-e2e8493ea968,3,B,Legendary Creature — Human Advisor
+8f42a953-3073-4e74-9bb8-c8c5a45d1dfa,"Zhang Liao, Hero of Hefei",PTK,96,244541f6-cbfc-4e89-9156-64e412f745a7,6,B,Legendary Creature — Human Soldier
 8f6597c9-8271-49c7-b4f6-9265f5d95f99,Swords to Plowshares,SLD,713,b1544f21-7e98-461b-aed5-e748b0168c52,1,W,Instant
 8f861d59-f2ce-457f-99f4-48b12ae34fa2,"Yuna, Hope of Spira",FIN,404,3dee768a-612c-4960-bad2-2fe5b83a70c3,5,GW,Legendary Creature — Human Cleric
 8f8f02f1-ccb6-48b6-ae4e-adc4fe721606,Gemstone Caverns,PLST,TSP-274,c0adbddc-b070-4c5f-afe0-0474c72a9251,0,,Legendary Land
@@ -1908,6 +1911,7 @@ b7848325-c46e-4e63-90d0-c9524380eb63,"Greymond, Avacyn's Stalwart",SLX,18,739a52
 b7b7aa34-b4f8-41b4-82ce-ab2e204c3bf4,Regeneration,LEA,213,89390a33-b289-4edd-a114-6616e49a49c2,2,G,Enchantment — Aura
 b7ba7d7e-c285-4e99-9ee1-135bf343677d,Witch Enchanter // Witch-Blessed Meadow,SLD,2655,0355249a-8e4e-41db-9cea-1b901faffbe6,4,W,Creature — Human Warlock // Land
 b7f6b20c-9871-433c-8557-44493447e914,Consecrated Sphinx,MBS,21,311a449d-dc74-46e6-9a47-6a597931f736,6,U,Creature — Sphinx
+b83261ba-c239-4b6a-88eb-bdfc411916b3,"Sauron, the Dark Lord",LTR,329,9f8f29ba-7e64-455d-be05-ec7973f2bd0a,6,BRU,Legendary Creature — Avatar Horror
 b847a2d1-5912-4f88-a68f-06790d0795dc,Righteousness,LEB,37,3f6b2f76-0364-415e-a6a2-e9e5bf31b745,1,W,Instant
 b8571901-a2e9-428b-a022-13e38c84bf28,City of Brass,BCHR,112,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land
 b88471f6-ccb3-4129-b7a4-62cee65605ef,Grave Pact,CM2,65,6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2,4,B,Enchantment
@@ -2041,6 +2045,7 @@ c3b21941-1b7d-4fde-8b1d-7edbd5e5b796,Eye of Ugin,WWK,136,10d13ff6-c4d0-4753-8939
 c3db9b84-9842-446c-b47b-12195002e261,Ebony Horse,SUM,247,4eb67ba3-35e3-47c3-820f-62814cf202a7,3,,Artifact
 c3ff8dd3-88a8-49dc-a59b-e2748680623c,"Emrakul, the Exigent Doom",FRA,1,4421ab7d-6d9b-4edd-b5a0-53a8ed84da6f,10,,Legendary Creature — Eldrazi
 c409f51e-eea5-478b-8679-27309bd73936,Tropical Island,FBB,288,74b7fe23-5d3a-4092-8d78-7c0eba8f6f73,0,GU,Land — Forest Island
+c427b231-3419-407c-803f-d6bcc37efb1d,Goblin Welder,SLD,1617,9fc28e1f-f4ea-4bf8-9442-a36dba3b3b29,1,R,Creature — Goblin Artificer
 c4300d24-1cae-4dd5-be7e-38cc677cf5bd,Sol Ring,LEA,269,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
 c44669b2-bf9a-41c3-91c7-d845b0061fbf,Mishra's Factory,ATQ,80c,5963e0ef-e0bc-4611-ad4f-813a4c0eacfb,0,,Land
 c474cd6b-5610-49eb-ac98-918d900efe8b,Bottle of Suleiman,ARN,58,f32d19d6-8ac1-4744-b2c2-5c9d4cd0da70,4,,Artifact
@@ -2207,6 +2212,7 @@ d2e9decf-47b7-44e0-b380-8055b6011021,Pyramids,ARN,67,da2f0d16-3cb4-492d-8535-52a
 d2f8035b-c776-4213-a5e2-e6c7c3f5961f,"Muxus, Goblin Grandee",SLD,1314,07c82cde-f00d-4454-9df4-9286e344c9bb,6,R,Legendary Creature — Goblin Noble
 d3016d92-a5ee-44d7-aa0a-775fa04a7c6a,Flooded Strand,MH3,436,f3c7af78-a77d-4134-82a2-a5ce84285a84,0,,Land
 d30dd823-9a04-4e3d-89c6-0fc5afc9efa4,"Celes, Rune Knight",FIC,201,aea8345a-191d-4c62-8d15-a716a9934b66,4,BRW,Legendary Creature — Human Wizard Knight
+d353d6bc-693b-4c2b-9c3b-b0db241ebb42,Diabolic Servitude,USG,130s,e275cbfb-3d25-4189-84f0-3162eadc7d65,4,B,Enchantment
 d3677117-9b65-4a63-ad84-a633c1ab81fe,Stomping Ground,RVR,299,16052b52-ade1-406f-a06b-ce7ea607fb63,0,GR,Land — Mountain Forest
 d3740beb-7fa5-4b83-be7d-039750b126c5,Mountain,SLD,1402,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain
 d3d269bc-3295-430a-9370-7d5a41b8fbf9,Weakness,SUM,136,f07a24c0-bf3c-4733-9473-c6be3b16950e,1,B,Enchantment — Aura
@@ -2402,6 +2408,7 @@ ea58393a-7d69-4f99-90b7-ef6f31e4c80b,Seat of the Synod,SLD,301,39451b4d-cd7a-40d
 ea5d9476-76be-48e7-b6a0-49ced25cb092,Mox Emerald,LEB,262,376ee366-e082-402f-b4db-6592fcfcacd2,0,G,Artifact
 ea5dc646-fb05-4d2d-92db-5c2d7931dcc3,City of Brass,RIN,171,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land
 ea8dcf7e-c4b7-4ad3-a636-b55570ffac0a,Tranquility,SUM,221,f671e3c3-cd59-4d06-a1af-5d04892cf74d,3,G,Sorcery
+eaab01ef-f14b-4f42-ab51-b1537fa642d1,Charcoal Diamond,7ED,289s,1386d111-a2a7-4df1-91d7-947664126989,2,B,Artifact
 eaac88da-d19e-4771-944c-3709963d04e7,Mesa Pegasus,LEA,28,8161f5b8-6aab-4133-ba2c-2e7b5774153e,2,W,Creature — Pegasus
 eace2c85-976c-425e-9800-5a6ccbd91b56,Mountain,LEA,292,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain
 eae141d6-f4a7-4223-ae4f-217415be559a,Battle Angels of Tyr,PCLB,9p,c2bd0c24-3973-48bc-a591-3779e3640c5d,4,W,Creature — Angel Knight
