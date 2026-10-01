@@ -225,12 +225,14 @@ id,name,set,cn,oid,cmc,ci,type
 16cbac60-fd88-4369-942e-e8a1d16f7300,Tundra,FBB,289,02418479-9455-417f-a6a1-004356faff37,0,UW,Land — Plains Island
 16cd79f1-88dd-40a0-b348-6eb6757e3b13,Goblin Lackey,SLD,1311,213fbbdd-f1bc-4bba-9124-7b26e9a706c8,1,R,Creature — Goblin
 16ead969-8ba4-4587-a68d-47730943605e,Old Gnawbone,AFR,296,dff3f4c7-f792-4ca3-9b0a-0738e70664d9,7,G,Legendary Creature — Dragon
+170e5ccd-54bf-4c6d-86b4-0359ca8f36e8,Brushland,ICE,352,5eb8b497-ec9a-4a89-ad29-1ec3ca82da7c,0,GW,Land
 17518e8e-46ad-4730-b10b-b8875c0536b6,Dolmen Gate,SLD,1806,d53d000f-c92f-4d70-ae60-8be3791da8a2,2,,Artifact
 175e21a3-00f7-4c51-8a8e-fbfd7089efda,Scapeshift,M19,201,c235015e-a7a9-4f8d-bf4a-cf68b3847f83,4,G,Sorcery
 176f84c6-aa5e-449c-bd2b-cc91a898f0c7,Meddling Mage,PLS,116,a5d02339-9f6d-486e-87d8-5ec2274cf680,2,UW,Creature — Human Wizard
 17788434-47c5-4290-8555-adc8171d55cd,Sylvan Library,DMR,350,92eed395-62ca-4293-882b-8565c40daab5,2,G,Enchantment
 177ee102-d981-4fc3-9f09-9dd07755f22c,Yavimaya Coast,APC,143,40b36bc6-c185-4bda-99e7-0118953c2c97,0,GU,Land
 17c6ba55-2470-4dde-a7fa-137a60716c96,Scalding Tarn,MH2,439,cb027150-848c-4a66-88ad-e20222304dd8,0,,Land
+17cd920a-de09-454a-a9da-c84512e3aff1,Goblin Welder,CM2,101,9fc28e1f-f4ea-4bf8-9442-a36dba3b3b29,1,R,Creature — Goblin Artificer
 17db2b6a-eaa8-4a08-9e86-370bbd058574,Bayou,LEB,279,b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b,0,BG,Land — Swamp Forest
 17f4d2a5-bb85-4662-b2dd-a363ec7eab9b,Sphere of Resistance,EXO,139,09c96077-3804-4f12-a613-5bebc5e0413f,2,,Artifact
 17f91d5f-b717-4ff4-a598-6d57c22dd802,Cabal Coffers,HOP,132,7358e164-5704-4e78-9b21-6a9bf2a968ce,0,B,Land
@@ -1028,6 +1030,7 @@ id,name,set,cn,oid,cmc,ci,type
 63b9efd6-0709-4d4b-a907-d8a77ec1a327,Morphic Pool,BBD,83,bd004c9d-771e-4e63-a97d-a2259c096af8,0,BU,Land
 63bacc32-d6ba-420c-9b49-299c08e5fb39,Lion's Eye Diamond,MIR,307,ee6099b0-fb1f-42f1-b862-7708c6e36d05,0,,Artifact
 63c0e240-07b0-45fb-90af-f4fce18c604e,Gauntlet of Might,LEB,245,d38ad188-515e-4865-a0ed-5d0fd4c7b453,4,R,Artifact
+63c4675f-1fcc-49ea-a43f-8540140689c8,Cyberman Patrol,WHO,550,1e51fab7-3ca5-4fbb-a1e9-b39c842895e8,2,,Artifact Creature — Cyberman
 63c59228-c742-4abd-b4d7-9f7880190e95,Windswept Heath,ZNE,5,29737a60-3ebd-40d9-b935-c4f54b90d45d,0,,Land
 640770d9-c0f8-40fd-9467-ebc099a27a4b,Gloom,LEB,111,4d022f53-b1fb-4071-afcc-0af3214fe604,3,B,Enchantment
 640be32d-dcc8-408a-b8a6-077472f1e70b,Craterhoof Behemoth,SLD,376,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
@@ -1948,6 +1951,7 @@ bc4f4b92-7d4e-4b03-8cb4-e6b356c338b4,Jandor's Saddlebags,ARN,65,3aa0e73f-ac88-47
 bc5376cb-82f6-43c7-bf8b-43515791e082,Force of Negation,RFIN,J1,ac2173f9-f223-440a-9231-fd98762bdc6f,3,U,Instant
 bc60e209-aa29-48aa-9128-9bb175403c0c,Nova Pentacle,LEG,289,db121503-8a34-498a-829c-72c33798369b,4,,Artifact
 bc6ea08d-7991-4a57-a1e3-abd508426970,Island,LEA,289,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
+bc7f3009-c852-41e7-8e62-d2ee637b3998,Sceptre of Eternal Glory,40K,166,ce08aff3-efe6-4186-9557-274e00a7ca38,4,,Legendary Artifact
 bc98d888-4af3-43a3-b035-40c651057b6e,Underground Sea,2ED,286,4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b,0,BU,Land — Island Swamp
 bc9cea21-97d7-4174-9140-140334af2c12,Spell Blast,SUM,82,04477339-7ed5-4770-9e5c-6e481ffcc858,1,U,Instant
 bcae01a2-171b-47cd-87be-f1e4e5314326,Wooden Sphere,LEA,276,0bd8917c-bec4-4603-bc3f-8e0c2afae56a,1,,Artifact
@@ -2143,6 +2147,7 @@ cc78f2e5-c02b-4f58-8510-660ca27d9a71,Urza's Tower,ATQ,85d,32fbb638-ab14-4e8b-a07
 ccaf995c-4554-4711-b3bc-eaa009c53c45,Ley Druid,SUM,206,a4ae41c7-9631-407d-8fd3-04f403d940a8,3,G,Creature — Human Druid
 ccbb3a6d-7e75-46c7-a91f-db4cf8d003af,Bloodthirster,40K,73,e971249a-64a3-4a9b-9a0c-e9d858ca8a55,6,R,Creature — Demon
 ccc3b385-f51c-45b3-afb1-321f892afc96,Hill Giant,SUM,158,342199e0-15b6-4824-83da-25caef2592b3,4,R,Creature — Giant
+ccfffc0b-601f-4e21-90d6-72afbebf2579,Paradise Mantle,SLD,2825,c1121b83-1ba2-473d-89c9-e3bbd4529072,0,,Artifact — Equipment
 cd20aae9-9de0-498b-8325-f8e8290d56e3,Terror of the Peaks,OTJ,337,f8e17f4f-080d-4bba-bd05-ca27e94ccecc,5,R,Creature — Dragon
 cd212de7-25f6-4b3b-a35b-df7d87fe205b,Rhystic Study,FCA,31,53236dd7-845a-444c-96d5-f41ed7325d8f,3,U,Enchantment
 cd39e21d-89cf-4211-8b03-c53e7c48311b,Rain of Filth,SLD,1547,aa77980d-0434-40f0-990f-1c8c50610174,1,B,Instant
