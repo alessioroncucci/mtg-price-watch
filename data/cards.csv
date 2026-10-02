@@ -720,6 +720,7 @@ id,name,set,cn,oid,cmc,ci,type
 45812af9-191b-449a-b9a4-74bedd4860e6,"Solphim, Mayhem Dominus",PONE,150p,895f23a2-55b7-4cc0-8939-2efaaf097e6f,4,R,Legendary Creature — Phyrexian Horror
 45cb2a76-7d12-41e6-93c7-09922934699c,"Lightning, Army of One",FIN,400,585eb5bc-5a3d-44d8-b593-1ff0d67f96a7,3,RW,Legendary Creature — Human Soldier
 45e70109-0352-45fc-a2fd-892ca65cac2f,Deflecting Swat,CMM,698,ae120613-97d6-4393-b39d-c3e6c076f5d6,3,R,Instant
+4620867c-a3a6-4c81-b923-24007367132e,Taunting Challenge,PTK,152,50c52320-9f84-4655-a91a-e09b71f9025c,3,G,Sorcery
 46652ae3-6572-4296-939b-0789923180d5,Zodiac Dragon,PTK,131,e5c2cf0f-c1c0-4fd6-9b5f-7d4aa25246a7,9,R,Creature — Dragon
 46a62dc3-b864-4e8e-bd6c-510ca054608e,Torment of Hailfire,PHOU,77p,30a0a6c2-1fbb-4784-ab96-22611d57e62c,2,B,Sorcery
 46b0a5c2-ac85-448e-9e87-12fc74fd4147,Ancestral Recall,LEB,48,550c74d4-1fcb-406a-b02a-639a760a4380,1,U,Instant
@@ -1051,6 +1052,7 @@ id,name,set,cn,oid,cmc,ci,type
 65947312-75c2-4baa-805c-238a154156ef,Knowledge Vault,LEG,281,77d3cc31-837a-408a-b7f8-5aa9de78e1b7,4,,Artifact
 65a168b8-285b-4725-a982-671557d4f0bc,Giant Growth,SLD,717,5748ebf1-24e3-499d-ab7c-c2cebd462a24,1,G,Instant
 65b145dd-8529-4bff-b381-b4be53f24b54,Sol Ring,SLD,1604,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
+65beff20-a533-44eb-addd-8d6fed02c6a2,"Vito, Thorn of the Dusk Rose",SLD,2282,7336a541-3ae9-4ab2-acb8-f574c0a5b3a9,3,B,Legendary Creature — Vampire Cleric
 65c6b4f4-2aef-4150-9a7f-70ca5f337766,Cyclonic Rift,SOA,79,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,2,U,Instant
 65eb6cda-e512-40a8-9c1f-335b713409ff,Dingus Egg,LEA,241,1973f1e9-aa14-49dc-bafe-be17b30ba288,4,,Artifact
 65f582e8-148f-432f-a6ba-f12a35750781,Seize the Day,SLD,1172,2a6abd59-e448-46f1-9af8-bb9040645971,4,R,Sorcery
@@ -1358,6 +1360,7 @@ id,name,set,cn,oid,cmc,ci,type
 81d6b979-251a-4736-86f0-35a6c8b492c9,Call Forth the Tempest,LTC,509,0623c51a-e829-413f-a3a0-817c0902821e,8,R,Sorcery
 81d73362-43c1-4dd0-87dd-9aa7ae13ff2f,Basalt Monolith,LEB,232,6b8cf2a0-b045-4d91-9d91-c602d40c6237,3,,Artifact
 81e57561-17d4-48db-8e40-f41019010bc9,Gamble,SLD,188,a54f0869-94c8-42af-9080-166efb9486a4,1,R,Sorcery
+81ff64e0-e7bd-4e82-8495-2cc8889c4107,City of Brass,6ED,321,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land
 822e30db-40c5-4099-868b-185ad9b7c7dc,Imperial Seal,PTK,78,16cd0b90-f70c-4efa-b252-8de8784ef9a3,1,B,Sorcery
 8296a455-21d5-498e-9029-2bdf0da855a8,"Mondrak, Glory Dominus",ONE,23,fe83087d-c6c1-40be-9295-baaa1c6b2db1,4,W,Legendary Creature — Phyrexian Horror
 829bbc9b-9185-4d9b-8e4e-9f04ece48fff,Wasteland,LTC,376,09a70ae8-3859-4a09-901d-dce063fa3b5f,0,,Land
@@ -1366,6 +1369,7 @@ id,name,set,cn,oid,cmc,ci,type
 82f70920-94ca-4cc6-9ad7-bc2f28d6b615,Bruvac the Grandiloquent,PLST,JMP-10,274b999f-f193-48fd-9a4a-0fdaf535e6c3,3,U,Legendary Creature — Human Advisor
 82fa24fb-aecc-4c33-9e79-c29651ddafbe,"Ulamog, the Ceaseless Hunger // Ulamog, the Ceaseless Hunger",SLD,1122,,,,
 830eb270-f7aa-4694-8fe1-7c19e148a39f,Breeding Pool,UNF,286,20283c4a-f1f0-42f0-bc08-6da87474426b,0,GU,Land — Forest Island
+831e9ee9-0b0b-4f73-9d01-bf94d90c5036,Wedding Ring,LCC,102,0c34e962-99d9-4163-b852-4f61886546aa,4,W,Artifact
 83240eaa-edb4-4bd3-b193-29470cf46828,Force of Will,DMR,284,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 83316930-d6ad-46ce-9b40-48eea856d95b,Steal Artifact,LEA,81,cd8ae9f2-edac-473a-8846-c08219e617c3,4,U,Enchantment — Aura
 833936c6-9381-4c0b-a81c-4a938be95040,Nazgûl,LTR,100,48a62778-7c11-486f-a0e1-020c283a7ef9,3,B,Creature — Wraith Knight
@@ -1731,6 +1735,7 @@ a7094d56-4c8b-4b2f-ad3a-83d81c460626,Demonic Tutor,PLST,UMA-93,82004860-e589-4e3
 a7167902-939f-4aae-819a-8b941ce45cb1,Scathe Zombies,7ED,161s,e0fefaf0-da20-4d58-8db7-019dba16c780,3,B,Creature — Zombie
 a71d1ec3-2d7a-4749-8936-8bf7a8b83d84,"Ragavan, Nimble Pilferer",FCA,43,37108cd4-bbab-4ce3-9ed6-f60e8422e703,1,R,Legendary Creature — Monkey Pirate
 a71da253-1d40-4833-92a7-df8dd90e66e4,Meekstone,SUM,264,5ba73182-30a7-4bad-9cb6-c0feecc2db33,1,,Artifact
+a72552e5-2502-40f0-a85b-30079a1fa453,Tiamat,PLST,AFR-235,f00e4df1-13fb-4514-8abb-92954068689a,7,BGRUW,Legendary Creature — Dragon God
 a748366b-654a-488b-8431-8f44c7e2e0ec,Mana Vault,FBB,263,736892cb-a34b-4bb9-b56c-e26e3db207a2,1,,Artifact
 a762a954-1166-4c6c-bf87-0f68a5a24f3e,"Krenko, Tin Street Kingpin",SLD,1027,e8065e1d-e937-4b56-8011-78f0d07328a0,3,R,Legendary Creature — Goblin
 a79c99e1-722a-44b6-8fa3-2be3f0c193d8,Triskelion,ATQ,73,74f67dcf-5afb-45aa-8d4b-3cdb23f6f2a1,6,,Artifact Creature — Construct
@@ -2258,6 +2263,7 @@ d7a92aa8-53b4-48df-b731-1cbd51a3a4a1,Burgeoning,PLST,STH-102,88cf4c1a-5863-45fc-
 d7b0a0d5-a9fe-49ea-9250-8825b36accc0,Opposition Agent,MAR,19,1f438b8f-fe23-4f3b-ab2e-f6c33676c462,3,B,Creature — Human Rogue
 d7b51ccf-fcae-49ff-b4f3-cef496aa639d,Raise Dead,SUM,124,cbc9c731-181a-4f00-a7b0-eb7e56eac2ea,1,B,Sorcery
 d7ca8c1d-866f-4ffb-adcb-924aba8f59a9,Living Artifact,SUM,209,4ff9af56-ac18-4966-9e48-183e1ca1c2d0,1,G,Enchantment — Aura
+d7e5a530-c954-4696-85ce-6afaf7de1808,"Cao Cao, Lord of Wei",PTK,68,81a98b14-e827-4241-a401-64890def51af,5,B,Legendary Creature — Human Soldier
 d8337172-e15d-4e09-b3de-dc7b5bf006a7,Vampiric Tutor,PLST,EMA-112,ededbdae-d9dc-4206-9335-d7158f2d7700,1,B,Instant
 d8855d65-98fc-4b5f-bd68-95d2fda6345f,Bearscape,SLD,1008,7e481e22-4122-4259-8978-4727eb307195,3,G,Enchantment
 d8d652af-4d68-436d-89c6-346f5c7ff9ae,Clone,SUM,51,42226b87-0746-4ebf-9fd0-108d508462af,4,U,Creature — Shapeshifter
@@ -2352,6 +2358,7 @@ e292577e-6232-44fa-a9c2-cc09949c6ed3,Lifeforce,LEA,206,07ae1fe5-5c3e-4d94-b809-8
 e2b15221-c8b0-4861-9f8b-8a65834ad499,Gaea's Liege,LEA,196,8d134a60-e1e5-4163-8bdc-36af91567185,6,G,Creature — Avatar
 e2baf73f-44e8-4249-83d4-271d78ba657f,Flight,SUM,59,6a4068b0-fb4f-429c-a94e-47849f3eb7ef,1,U,Enchantment — Aura
 e2c5c161-49c5-404d-bd8e-86e634222232,Hunting Velociraptor,REX,4,bca33fb6-cd37-4259-8c0b-7a4675754a00,3,R,Creature — Dinosaur
+e33f7584-5697-468c-af37-afe775fc4372,"Maha, Its Feathers Night",PBLB,100p,129476ae-9dab-4e04-8e8e-f249afd56ff9,5,B,Legendary Creature — Elemental Bird
 e340647c-fb6d-45a6-9f42-235390b40337,"Meng Huo, Barbarian King",PTK,142,ea7fdff3-9d45-4a4a-b7fe-84b334f04291,5,G,Legendary Creature — Human Barbarian Soldier
 e3425241-efdc-4261-a2bb-58fbf4a9fe8c,"Zuo Ci, the Mocking Sage",PTK,165,ae8773a3-05f2-4074-9a53-033b0c127235,3,G,Legendary Creature — Human Advisor
 e351ec05-8c4d-4631-9dbf-7f85f664770b,Mana Drain,CMR,637,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
@@ -2464,6 +2471,7 @@ eecdd5a0-f4cf-42da-9570-84ab943e7025,Wheel of Fortune,FBB,185,a8abd966-de7b-46a3
 eed14b5f-c23b-4651-9c58-28a88feb3641,"Delney, Streetwise Lookout",PMKM,12p,245d0ccf-87b6-460a-8b99-9e2079f2d375,3,W,Legendary Creature — Human Scout
 eee9e106-a248-49d2-b8c8-6bbcd56ce739,Mind Twist,LEA,115,78f9c223-9982-4282-a496-a6f892f0a5bf,1,B,Sorcery
 eeea32ba-dfe4-4a9b-b403-43c2abc80b78,Jade Monolith,LEB,253,1e105ab7-fb10-4cfd-ac2f-5e11488cf1b0,4,,Artifact
+eeedc3a9-e5c0-4234-8653-1a005df095e1,"King T'Challa // Black Panther, Hope Enduring",MSH,346,fe00278d-4385-4e3f-919c-12a794fd86f5,3,UW,Legendary Creature — Human Noble Hero // Legendary Creature — Human Warrior Hero
 ef043a59-31d2-4f01-882d-139fd69c7b56,"Korvold, Fae-Cursed King",SLD,2761,9ae669dd-7e60-4649-b96e-35da28be641a,5,BGR,Legendary Creature — Dragon Noble
 ef099f25-2b0b-4028-8490-fbc859e35f6c,Kaalia of the Vast,MH3,343,cb8d80c9-ed58-4f2d-aa8c-c383370c7f1a,4,BRW,Legendary Creature — Human Cleric
 ef2f3e0d-43e5-4d62-8a93-821ec723d522,Island,SLP,32,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
