@@ -135,6 +135,7 @@ id,name,set,cn,oid,cmc,ci,type
 0d42f473-3e3f-4441-b7ee-6819a3a8f52e,Copy Artifact,3ED,53,80bc56a9-40e0-48da-ae86-190e39c8a4a3,2,U,Enchantment
 0d446f70-cdbf-4ac3-81db-6fe77e064dd0,Mountain,SUM,302,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain
 0d77c149-cca2-45c7-bc83-5ba1872ad5e0,Desert Twister,ARN,46,6f880348-6dc8-4cf8-9313-9893c41a70a3,6,G,Sorcery
+0d8938e4-bfa5-47e1-8c71-9c6583346300,Underground Mortuary,MKM,333,840119bf-e60f-4ff7-9c9b-d420d09df545,0,BG,Land — Swamp Forest
 0dccb71b-a25a-4ef8-b2ab-716fd38dcc0b,Crucible of Worlds,2X2,393,33c722cf-b4bf-431f-aefd-ee96241a7fbf,3,,Artifact
 0dd4d070-38cf-4517-8152-84c9fcf2c984,Trouble in Pairs,MKC,326,f349f58b-8cc8-45e4-9565-2b46fdf976c9,4,W,Enchantment
 0dd6d927-f149-43b8-9f50-14492db09bec,Sacred Foundry,RVR,297,45181cb8-2090-4471-ba90-e5a8f04d525f,0,RW,Land — Mountain Plains
@@ -210,6 +211,7 @@ id,name,set,cn,oid,cmc,ci,type
 140d4a7b-95b6-4911-99b5-7e8586255fc7,Island,PALP,7,b2c6aa39-2d2a-459c-a555-fb48ba993373,0,U,Basic Land — Island
 140e567c-6e4a-42b0-8084-d6c9695ae802,Wall of Stone,LEA,182,cd4cadb4-3156-49bd-b36e-12ba5c85938b,3,R,Creature — Wall
 141451e7-eb21-48ab-bf9f-632f4ea632bc,Torment of Hailfire,SLD,2287,30a0a6c2-1fbb-4784-ab96-22611d57e62c,2,B,Sorcery
+145f10ab-b41b-4213-b75f-522aafe940fb,Hexing Squelcher,PECL,145p,96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b,2,R,Creature — Goblin Sorcerer
 14c45416-a826-42e9-9967-8838158cf16d,The Wretched,LEG,121,27af77e5-6680-43d3-9202-40be9b5d14a0,5,B,Creature — Demon
 14ffcd73-dfb2-4056-a7a4-d71c4c7c9ef7,Unholy Strength,SUM,133,090d88a9-7f2d-4bd1-a30a-7c48d05068be,1,B,Enchantment — Aura
 153983dd-54dc-420d-9249-665b0d669614,Lotus Petal,PLST,TMP-294,32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5,0,,Artifact
@@ -1067,6 +1069,7 @@ id,name,set,cn,oid,cmc,ci,type
 66d5effc-dc31-485c-91c0-e9a8e2b098af,Mahamoti Djinn,2ED,65,c39ea5f9-6ec0-4697-897b-779e326754a7,6,U,Creature — Djinn
 6701874e-986e-4b81-9268-90b6171e6187,Bog Wraith,LEA,95,508248d1-09a4-4e41-a4c9-286618e5061e,4,B,Creature — Wraith
 670f236c-f4d7-419e-82cf-65da8c2f1e15,Living Lands,SUM,210,8f0179fe-6d7d-49cc-ab06-d3b402c6fc8d,4,G,Enchantment
+670fbc63-4c9b-4e57-b53e-4ca4d7a224ba,Astral Dragon,CLB,664,a20e2e1a-90d8-4073-96e9-efce86f0178e,8,U,Creature — Dragon
 67299451-5302-4639-a4bc-6109521a2c0c,Two-Headed Giant of Foriys,2ED,180,38aa31bd-7145-43b9-9409-463d9ad6cd69,5,R,Creature — Giant
 6739a5bb-5ed7-4f15-affb-4170239d997a,Dark Ritual,SUM,99,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,1,B,Instant
 674960ce-ff33-4d5e-a24a-a4582b2e9809,Hexing Squelcher,ECL,145,96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b,2,R,Creature — Goblin Sorcerer
@@ -1664,6 +1667,7 @@ id,name,set,cn,oid,cmc,ci,type
 9f87178b-1221-4d7a-a7a5-20d7f01b8089,Verduran Enchantress,LEA,222,cd98a31b-cc7e-43f9-982e-109ad9850908,3,G,Creature — Human Druid
 9f9f5e0c-8bf4-46ab-ad79-332ceeaed3d5,Nature's Lore,SLD,189,78826359-fe63-44ad-adc4-a17ffcd710e4,2,G,Sorcery
 9fb84b18-0775-44eb-83af-5dcb69518360,Bloodline Recollector // Ancestral Craving,FRA,427,c8e9a7e1-28ae-40e3-8715-1bb0aa2057c7,2,B,Creature — Vampire Warlock // Instant
+9fbc6761-c4fc-4b4c-afb5-94ad4d21bc05,Drain Life,LEB,106,e75ba79f-4cc2-4ede-8641-559ab94e7e36,2,B,Sorcery
 9fcea5a1-6f62-450a-9351-b7e280c5ae60,Smothering Tithe,PRNA,22p,153376c9-dffd-458c-8ce3-a4c8269bc4e9,4,W,Enchantment
 a0367e54-eb07-475a-b06b-f869a046a86c,Ankh of Mishra,LEB,231,63c1eda1-3e6f-4e9c-adf3-a43164df98bb,2,,Artifact
 a03e8c5b-f4ed-4fd7-ba05-db813ccc05eb,Tundra,LEA,284,02418479-9455-417f-a6a1-004356faff37,0,UW,Land — Plains Island
