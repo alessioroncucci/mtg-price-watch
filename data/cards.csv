@@ -395,6 +395,7 @@ id,name,set,cn,oid,cmc,ci,type
 2488a80b-6882-4b59-8232-f02f800204a9,"Boseiju, Who Endures",NEO,501,bf1341dd-41a3-49f6-87ec-63170dde4324,0,G,Legendary Land
 248add6e-bf11-4378-90c3-49e154fa54e5,Sakashima's Student,SLD,2359,afcc68e2-3634-43ce-ae99-dd2ec735d146,4,U,Creature — Human Ninja
 248c76d3-b5cb-4582-be17-7cd1d0cb0f58,"Nissa, Resurgent Animist",MAT,22,c1fc5923-c3cd-448a-98d1-c154661c2812,3,G,Legendary Creature — Elf Scout
+24a14ac5-0b7e-4441-9963-782a7cda3f4a,The Walls of Ba Sing Se,TLA,261,af7d7da5-aff5-48e1-901a-f81257a85f71,8,,Legendary Artifact Creature — Wall
 24a5cc2c-0fbf-4a5f-b175-6e0ffd0d0787,Misty Rainforest,ZEN,220,09dd85aa-47bc-4713-a9b9-8b52ff2285ed,0,,Land
 24afe08b-6b88-42b3-a996-33f138431a87,Sol Ring,SLD,2560,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact
 24b2acd2-ad1a-468c-bacf-00d94f642e6d,"Valakut, the Molten Pinnacle",SLP,14,1bc44216-4e06-4f66-89b7-5c327004604e,0,R,Land
@@ -1189,6 +1190,7 @@ id,name,set,cn,oid,cmc,ci,type
 70efc6f3-2fdc-4629-84b9-f3707b799460,Riverpyre Verge,DFT,372,510a6ac5-f098-4145-ac07-771b1b6f7cdf,0,RU,Land
 710160a6-43b4-4ba7-9dcd-93e01befc66f,Rhystic Study,PLST,PCY-45,53236dd7-845a-444c-96d5-f41ed7325d8f,3,U,Enchantment
 711d4d54-5520-4de8-9b93-79902ed8e562,Demonic Tutor,LEA,104,82004860-e589-4e38-8d61-8c0210e4ea39,2,B,Sorcery
+71384418-173a-4f77-adab-56e52fa23692,Delighted Halfling,LTR,158,f9d3b046-0b95-4103-a630-4b3fb88bb60b,1,G,Creature — Halfling Citizen
 714c3a1f-7b30-4ed8-8f38-6176758741fb,Sakashima of a Thousand Faces,CMR,89,8ecdaf4b-4442-42da-9714-4257a83faf50,4,U,Legendary Creature — Human Rogue
 716c415e-5eb8-4644-ac64-5ba7c3f0ea65,Arid Mesa,MH2,436,c5acf2a5-40f4-433d-a74d-1cb56c521464,0,,Land
 7178a1de-741d-49f1-b199-be772c82ad36,Dragon Whelp,SUM,143,705a1985-ed39-4a4b-812e-a677170b596e,4,R,Creature — Dragon
@@ -1481,6 +1483,7 @@ id,name,set,cn,oid,cmc,ci,type
 8d3569de-ff5e-44a2-94a2-86e994d2a0f1,Worldly Tutor,TLE,314,e8863518-0bfa-49c3-8c6e-6c9116a81051,1,G,Instant
 8d4a47d3-75f4-4770-8fbf-735b97811d82,Underground Sea,FBB,290,4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b,0,BU,Land — Island Swamp
 8d74a469-c71d-4773-99d3-5456b31df424,"Emrakul, the Promised End",EMN,6,4e7a8817-1a66-45c3-ade9-eac79b40b89f,13,,Legendary Creature — Eldrazi
+8d7c1f6c-af45-4449-8cf8-e13830b3df8a,"Valgavoth, Harrower of Souls",DSC,6,5401439c-4068-4490-8d53-8ffd0026dd7d,4,BR,Legendary Creature — Elder Demon
 8d80ec47-0e47-49e3-9c43-1c126d8523e1,Geier Reach Sanitarium,SLD,1408,7b9fafe7-d26a-4ed5-b4c4-ce13763770b5,0,,Legendary Land
 8d82d94b-ceef-4533-a4f2-b6442a61b839,Jade Statue,LEA,253,96162b22-41e7-4559-aa1b-c18f42abcb52,4,,Artifact
 8da6b899-9f8e-41e1-a8e5-be66b18f1e6b,Sylvan Library,4BB,273,92eed395-62ca-4293-882b-8565c40daab5,2,G,Enchantment
@@ -1601,6 +1604,7 @@ id,name,set,cn,oid,cmc,ci,type
 98c569b0-f011-4570-9eb8-b819f8fe54f6,Morphic Pool,CLB,603,bd004c9d-771e-4e63-a97d-a2259c096af8,0,BU,Land
 98fba951-c5bb-497c-9292-ce1b2a1e1247,Blaze of Glory,LEA,6,b330ac89-790e-4cc9-96a5-532c48252088,1,W,Instant
 9904ef62-3328-4474-a3b4-21428fb9d911,Mycosynth Lattice,SLD,1434,ae1f2ab5-c6a5-4d49-a746-3cb4668bf805,6,,Artifact
+99078ecc-f50a-43e0-93c1-63240cd97bf7,Darksteel Forge,DST,110,9b3bec05-441f-4fdf-8b51-69fa8613fcd4,9,,Artifact
 9914836e-2fa6-4390-94b2-431427848a54,Ice Storm,LEA,201,a0b97e33-2d0c-4800-a9f5-9cd9be651ea8,3,G,Sorcery
 992b2dd3-87e7-48a4-bd8d-84973ff0ee1f,"Rin and Seri, Inseparable",SLD,1910,28c46eb7-bdfc-44b9-b7e9-b073260851f0,4,GRW,Legendary Creature — Dog Cat
 9941f83b-2903-4eab-ac6d-5313e3978fa3,Guardian Beast,ARN,26,34c3aebe-a224-426a-ae06-f3145193313e,4,B,Creature — Beast
@@ -2253,6 +2257,7 @@ d465597a-362e-4bd0-b547-f11d8807e597,Trinisphere,DST,154,69d994f2-b8f6-425f-9655
 d4bf05c4-a924-4006-835e-42f8468ba869,"Wan Shi Tong, Librarian",TLA,320,2bace3ea-7d28-4a1c-857a-d3c3a1c11b59,2,U,Legendary Creature — Bird Spirit
 d4f1cc9e-4f99-4c26-ac1b-8ef069fa8ceb,Llanowar Elves,LEA,210,68954295-54e3-4303-a6bc-fc4547a4e3a3,1,G,Creature — Elf Druid
 d4f6027a-003a-4f9d-929a-0b6da1fa42c9,Bloodletter of Aclazotz,LCI,92,469956a2-7cd4-4695-b8f4-c841526f160d,4,B,Creature — Vampire Demon
+d4fb722f-40af-4bd1-b660-e8186b98f233,Sea of Clouds,CLB,360,672e190d-8ea0-4a2e-b74f-5d35304631e4,0,UW,Land
 d50d803f-6dad-4e4a-8f16-7be31a206170,Witch-king of Angmar,LTR,736,2eb1b429-8d11-42f3-8815-5a60b6a4e2d5,5,B,Legendary Creature — Wraith Noble
 d515da5d-90b5-435b-8e86-c95c8f30a9eb,Pestilence,SUM,122,dafe63ef-f3d6-45e7-877a-573da92ba85e,4,B,Enchantment
 d53b20b0-67bc-4587-817b-efbf21cb2512,Land Tax,LEG,26,d2d9ecea-7925-420e-98b9-2f87f41f387c,1,W,Enchantment
@@ -2341,6 +2346,7 @@ deb95b6f-db1d-40bd-8eff-62b6362ab744,Phyrexian Tower,PLST,USG-322,1861e642-21d5-
 dec5fc59-73d8-4735-88f1-3dbd1f15a546,Agatha's Soul Cauldron,WOE,366,c259e16f-2a44-4552-8678-815f757a02e8,2,,Legendary Artifact
 df2c5d5c-f1c9-4639-bf72-3f6bde554864,Armageddon,2ED,2,c9ed8b01-959a-47d6-891e-0abbdccf6e4f,4,W,Sorcery
 df323b67-e5f9-4958-90de-1af722c482dd,Food Chain,SLD,1369,5c8e5092-962e-49ef-ab82-8434e475e4e7,3,G,Enchantment
+df84f2d5-51ae-4fec-a9c1-e791f972173a,"The Theorist, Jace Beleren",PFRA,43p,89a6e876-0b00-4671-9652-766fd7ef9bf2,4,U,Legendary Planeswalker — Jace
 dfaaa58d-89bb-4cb3-96a6-b480e6f6954e,Scroll Rack,CMR,337,648bd03d-247e-4d6f-87a9-12a67688cbf5,2,,Artifact
 dfb6176a-3938-4c59-b485-8751969358ad,Sword of Feast and Famine,ACR,99,d0901053-6de0-46d0-9ee3-8d40510236c1,3,,Artifact — Equipment
 dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe,Cyclonic Rift,RVR,40,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,2,U,Instant
