@@ -14,6 +14,7 @@ id,name,set,cn,oid,cmc,ci,type
 019b51b0-e5c6-4208-922b-7736686dddcd,Agatha's Soul Cauldron,WOE,242,c259e16f-2a44-4552-8678-815f757a02e8,2,,Legendary Artifact
 01a4a36a-f10a-411b-9558-cbbb62e8b4ae,Dawn of a New Age,LTR,731,37df5ade-6a21-4b0c-89f8-e2e917589a8d,2,W,Enchantment
 01bda3d7-122a-48a0-bab3-676c4a557b74,Timetwister,2ED,85,c823e687-6311-4c99-974b-fd77d204141a,3,U,Sorcery
+01e7b0bc-1c6c-48f4-8b72-1a809f536c6c,Birds of Paradise,3ED,187,d3a0b660-358c-41bd-9cd2-41fbf3491b1a,1,G,Creature — Bird
 02335747-54e3-4827-ae19-4e362863da9b,Green Sun's Zenith,MBS,81,0d96b60b-a060-48ee-bb83-93f1c4a10669,1,G,Sorcery
 024110ee-5520-49f8-afab-54dcce87c650,Elvish Spirit Guide,SLD,423,6b0e23cf-7d68-4329-86db-7adc26abd86b,3,G,Creature — Elf Spirit
 0254bff2-a3a7-434e-980a-2d30355793fc,Library of Leng,LEB,258,867def48-4be8-4056-bcf1-d6b00450b9a3,1,,Artifact
@@ -781,6 +782,7 @@ id,name,set,cn,oid,cmc,ci,type
 4aaac603-6c4f-46fb-85f4-d6b51c966524,Kaldra Compleat,PSPL,2,7359e82b-db79-488d-a1d4-75a00f12a4cf,7,,Legendary Artifact — Equipment
 4aeebaea-a2b2-48a3-8bd3-b605684d41b6,Air Elemental,SUM,47,7744bae4-a8b7-44a5-9b4c-0048ad4cc448,5,U,Creature — Elemental
 4b60630c-f97c-43be-8410-53a68613b735,Will-o'-the-Wisp,LEB,136,8b60fcfe-fb90-4a00-a708-25b59bfc9b5a,1,B,Creature — Spirit
+4b71ff49-ee0a-4065-9131-380468d62a30,Flying Carpet,ARN,63,453524fb-2ffa-421f-883c-b77ae2850c52,4,,Artifact
 4b73009e-1ded-4614-af7a-0ad8e2afa7b1,Burnt Offering,SLD,7047,86eb30a0-0beb-42db-9ddf-cf8be6c99dd3,1,BR,Instant
 4b81c23e-8177-4a0c-907c-23b2ab359417,Goblin Mutant,JP1,1,540e1371-baa9-412f-a17a-22ea833ea3e8,4,R,Creature — Goblin Mutant
 4b851c17-55ed-4671-b471-dc7b34944432,Show and Tell,USG,96,b83a3ba0-249e-4c39-bbf0-cb005413f7d2,3,U,Sorcery
@@ -858,6 +860,7 @@ id,name,set,cn,oid,cmc,ci,type
 51d86875-420d-4e82-b69c-4feeb99c9428,Seasoned Cryomancer,FRA,38,c3936db3-d3b6-4a92-9773-6f3c52dc419d,3,U,Creature — Human Wizard
 51f8f6e1-a451-4262-90d3-5107caf54175,Howling Mine,LEA,247,d26b27db-a567-4631-b4b6-7294222fbdd1,2,,Artifact
 520db5fb-d961-45a3-af74-6f054b8be3ab,Eureka,LEG,185,917f2b4b-79ec-4ded-b4c8-cbcf363cb23b,4,G,Sorcery
+521cfb69-806d-4ad7-9c14-963e370d9eff,"Animar, Soul of Elements",SLD,2760,725880b2-1675-414f-b61b-cf6533797dbf,3,GRU,Legendary Creature — Elemental
 5249f9dc-d5e2-4e1f-b7da-8fcbf574f276,Omniscience,WOT,70,730e39e6-c61d-48b5-8827-bfd952bf1be7,10,U,Enchantment
 52593d64-182f-45ff-82c6-fb7649d36736,The Meathook Massacre,MID,348,127de52b-df75-4342-95a0-20d84c5bf916,2,B,Legendary Enchantment
 5261e0f6-55bf-4d45-92ea-7acbab41162c,Cavern of Souls,ZNE,22,89ca686a-7c72-4d8f-9290-e89635624a83,0,,Land
@@ -1367,6 +1370,7 @@ id,name,set,cn,oid,cmc,ci,type
 814cf35c-f1ad-4bf4-8c10-a5592c3b1be8,Shanodin Dryads,LEA,216,998484cc-fefc-4da5-9987-5d6e89599c34,1,G,Creature — Nymph Dryad
 81564970-23ad-41a3-b5e0-21bdf13f6248,"Yawgmoth, Thran Physician",TSR,336,a1e232c0-dc38-47be-a5a0-f68bc1d86a29,4,B,Legendary Creature — Human Cleric
 81706879-ec5d-4b17-b4bc-5f7cb37557a5,Watery Grave,UNF,278,fc9ec820-4245-4a96-b009-5308a818ca58,0,BU,Land — Island Swamp
+81886cb8-2c7b-41fa-8512-5e16d46a0fd6,"Lotho, Corrupt Shirriff",LTR,664,135cc078-1c45-465e-b0b9-7168c89f56f4,2,BW,Legendary Creature — Halfling Rogue
 81917a2b-9bf6-4aa6-947d-36b0f45d6fe3,Sylvan Library,REN,158,92eed395-62ca-4293-882b-8565c40daab5,2,G,Enchantment
 819798cf-f685-49b6-b1fd-6bb75fc1f050,Super Shredder,TMT,217,b7ee76bf-d15a-489e-8f05-414788f8f649,2,B,Legendary Creature — Mutant Ninja Human
 81ad48fa-9464-40bf-8bf5-af31a6a38fb3,Arid Mesa,SLU,4,c5acf2a5-40f4-433d-a74d-1cb56c521464,0,,Land
