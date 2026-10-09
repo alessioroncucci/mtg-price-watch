@@ -748,6 +748,7 @@ id,name,set,cn,oid,cmc,ci,type
 47a6234f-309f-4e03-9263-66da48b57153,Solitude,MH2,32,dcb9c2a7-ae54-4ddc-a567-640bf4bf4366,5,W,Creature — Elemental Incarnation
 47a6c502-08ba-4c0d-aee9-98ce40058227,"Karlach, Fury of Avernus",SLD,1802,037355be-71e7-4866-80a6-80352c304970,5,R,Legendary Creature — Tiefling Barbarian
 47dd5c4b-5972-43e1-ae2a-ebf275006458,Yavimaya Hollow,UDS,143,53d6113d-acdb-4754-9641-f7991a96c7b9,0,G,Legendary Land
+47ebc3bc-113f-437c-b60a-9597939d91ea,Exalted Flamer of Tzeentch,40K,119,6591a589-deb4-462f-a4f1-f6261f3433c3,4,RU,Creature — Demon
 4800ebc2-d5a7-4c26-a2f7-943a540ae47e,Admonition Angel,SLD,154,78a7bb30-fc60-410c-b086-862b5521c1aa,6,W,Creature — Angel
 483fa1cb-1e35-44f2-a143-98c0f107f5ca,Teferi's Protection,2X2,32,0d4ecdb1-ec90-497f-a7a4-1c68092b8757,3,W,Instant
 485cef94-d7aa-4bb3-b2e6-61d0ccf8007e,Sinkhole,2ED,130,5a46ad2a-35b1-4dd5-b7c3-fec36b7c67ab,2,B,Sorcery
@@ -953,6 +954,7 @@ id,name,set,cn,oid,cmc,ci,type
 5b43bdc7-e49e-4848-9101-6cad2ecab4dc,Bruvac the Grandiloquent,JMP,10,274b999f-f193-48fd-9a4a-0fdaf535e6c3,3,U,Legendary Creature — Human Advisor
 5b6ddce7-b9c5-431d-a0b0-46d4aa93cbcb,Armageddon,LEA,2,c9ed8b01-959a-47d6-891e-0abbdccf6e4f,4,W,Sorcery
 5b93c8f6-75a4-47e5-bf7f-c3db20c6d7c9,Pearled Unicorn,SUM,30,c071be90-0531-40cc-af46-0cbe80c4ddd4,3,W,Creature — Unicorn
+5bcd1591-b5b9-49fc-9f2a-45f31ed1871e,The Reaver Cleaver,DMC,8,37a2a31d-51e6-4c07-b4c2-b206ad40eb42,3,R,Legendary Artifact — Equipment
 5bd38716-874c-4e3c-a315-837839a6258c,Instill Energy,LEA,202,8695c3c1-fb4b-4429-ae33-ec186f68796b,1,G,Enchantment — Aura
 5bded615-62bc-40f6-9a54-7c9d0d551d4c,Lich,2ED,114,5b7515f2-7a5a-4e2a-9784-6cbacd768172,4,B,Enchantment
 5c18591d-a8e2-49ea-b31e-7358e4143024,Warren Soultrader,MH3,332,ace86e56-efde-4eb7-8815-71456a4c3abe,3,B,Creature — Zombie Goblin Wizard
@@ -1203,6 +1205,7 @@ id,name,set,cn,oid,cmc,ci,type
 71e491c5-8c07-449b-b2f1-ffa052e6d311,Scalding Tarn,MH2,254,cb027150-848c-4a66-88ad-e20222304dd8,0,,Land
 71f1efaa-b92f-495d-8c6f-eb6c7481afd0,Mental Misstep,SLD,1179,1a0770e6-b093-4439-baff-6889a50ba12e,1,U,Instant
 71fc8dff-4d26-4dfd-b279-d06e10cba54f,Torment of Hailfire,SLD,9992,30a0a6c2-1fbb-4784-ab96-22611d57e62c,2,B,Sorcery
+7204e5b5-fdd1-4831-8dfa-d4d02ccaaf4d,Baleful Strix,BLC,86,37688720-03de-4eca-a82d-a0afe8d58adc,2,BU,Artifact Creature — Bird
 720ecba0-a9dd-4adf-ad9d-0c068bf526fa,"Emeria, the Sky Ruin",SLD,1291,cc999cf2-c99b-4911-8c52-6cc4a99fcc7b,0,W,Land
 723a163e-97c1-4177-a067-873bebd9a87d,Marsh Flats,SLU,1,dab520d0-20b4-4273-ba6b-eb07f85ea433,0,,Land
 72450f69-9f56-44da-8aed-0edccc6ab142,Sensei's Divining Top,PLST,EMA-232,13575cf9-65c1-4861-b21e-eb2155e07766,1,,Artifact
@@ -2330,6 +2333,7 @@ dc6f98e8-49ca-4a12-9376-54365f49c857,Mithril Coat,LTR,696,3dc364f3-3094-4660-80c
 dccfc3b7-235c-4680-aabf-4cb2e8d9a2fe,Wayward Swordtooth,SLD,1392,3875aef0-3102-4fbf-be90-e4139f7a2348,3,G,Creature — Dinosaur
 dcd6a291-5282-4f49-8203-d9b416083c48,Juggernaut,LEA,255,4ac9116f-36bc-4d71-b696-d6ee064e1d58,4,,Artifact Creature — Juggernaut
 dce4819c-7f2f-4bed-b02d-d2b7a6c2ad9a,The Meathook Massacre,DBL,112,127de52b-df75-4342-95a0-20d84c5bf916,2,B,Legendary Enchantment
+dcf7a304-4a45-42ed-9b1e-d36ae1963b66,"Kibo, Uktabi Prince",SLD,2401,0b9be4fa-5238-4afd-a9f6-f9022e67e5ab,3,GR,Legendary Creature — Monkey Noble
 dd27f0fe-c032-4f61-9f3d-98a6d2e2c426,Planar Gate,LEG,290,632f1034-d2ad-432a-a79a-4bd1307be24a,6,,Artifact
 dd295cd3-36e5-411d-aaf0-3b64d15fcc9a,Concordant Crossroads,BCHR,60,ff01b408-6d17-40a3-9efd-a1b341ec1307,1,G,World Enchantment
 dd4b4019-b73d-4be3-991e-2deb811ee675,"Vorinclex, Monstrous Raider",KHM,333,5a3fdf5a-bff8-4896-b288-3f43f9a72d9b,6,G,Legendary Creature — Phyrexian Praetor
@@ -2678,5 +2682,6 @@ ff727bfb-8cd8-43dd-afdf-eb74a4631eac,Necropotence,WOT,31,94a844d2-0574-45a7-b347
 ff76ac86-8a8a-47fe-9388-8950ca3e26c3,Underground Sea,LEA,285,4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b,0,BU,Land — Island Swamp
 ff7e30c8-b3fc-430f-ac63-d376d9e47a8d,The Great Henge,ELD,370,78427103-9543-41fb-b6d4-72963fe87275,9,G,Legendary Artifact
 ff9d0f64-2bc2-42da-a2f3-f56235c2bf54,Wheel of Misfortune,SLD,1300,10aff3f6-8347-4e1b-b8e7-c204c9e46657,3,R,Sorcery
+ffd7ca8e-6437-4b85-81dd-7173200dcec7,Sengir Vampire,2ED,128,749141aa-f6c4-4ad8-b146-406e68ae9b0b,5,B,Creature — Vampire
 ffde74fb-cc20-4d82-bf6a-b18081047b0a,"Mikaeus, the Unhallowed",CMM,675,5d27c63e-d1ef-48af-b51d-01ebc6daeac9,6,B,Legendary Creature — Zombie Cleric
 ffe0f77f-5092-4372-83fb-269dfb11f9b5,"Ulamog, the Infinite Gyre",UMA,7,b817bc56-9b4d-4c50-bafa-3c652b99578f,11,,Legendary Creature — Eldrazi
