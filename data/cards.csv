@@ -531,6 +531,7 @@ id,name,set,cn,oid,cmc,ci,type
 30f6058b-777b-4216-959e-d9435152aed2,Mishra's Factory,4BB,361,5963e0ef-e0bc-4611-ad4f-813a4c0eacfb,0,,Land
 30fcbb16-f8e7-4f6e-a806-541ef54aa025,Two-Headed Giant of Foriys,LEB,180,38aa31bd-7145-43b9-9409-463d9ad6cd69,5,R,Creature — Giant
 310de1ef-f1b6-4b61-9d6c-6b70382a7f95,Lightning Bolt,4BB,208,4457ed35-7c10-48c8-9776-456485fdf070,1,R,Instant
+312a6058-de08-487d-95bd-b3c56807fdd6,Crucible of Worlds,5DN,114,33c722cf-b4bf-431f-aefd-ee96241a7fbf,3,,Artifact
 31415b9b-fb30-4132-a9a3-795b4573a901,Cursed Scroll,TMP,281,514752ea-d453-41d4-97cf-b1dcdb4b4a08,1,,Artifact
 314671b3-26c6-463e-934c-93f62e704db6,Get Lost,PSPL,5,522dd417-364b-44ab-8ca9-fb55db5f26a6,2,W,Instant
 31540016-1896-47f7-9c4d-f07598c75421,"Aragorn and Arwen, Wed",LTR,394,b8a3440a-03c5-444c-a1de-252524c3db82,6,GW,Legendary Creature — Human Elf Noble
@@ -584,6 +585,7 @@ id,name,set,cn,oid,cmc,ci,type
 35c3a78d-cc79-4187-929a-8aa1d1469990,Simulacrum,LEA,128,20d69989-7250-40c7-a064-8ed78ccbe556,2,B,Instant
 35dbe45e-16df-4ebb-a76a-df24124de23b,Bloom Tender,SLD,284,0c23fefe-9891-4dd8-9bb1-eebdb3274e31,2,G,Creature — Elf Druid
 35e56360-6104-48f3-a54d-ad2d4fab900e,"Lu Bu, Master-at-Arms",PPTK,115b,ff959f1f-0982-4761-a6b0-3044dff1d617,6,R,Legendary Creature — Human Soldier Warrior
+35f229b2-5246-4399-8468-eb030842a17b,"Magda, Brazen Outlaw",SLD,1688,3d268e48-3004-4384-bf52-e63243fb5e02,2,R,Legendary Creature — Dwarf Berserker
 35f76198-f04c-433b-823f-e99ea54c01ee,Luxury Suite,CLB,602,819e1765-8325-4e6f-89c1-63ea86de369f,0,BR,Land
 36204ddd-ddf7-4b44-ae3c-b4a5a41ac9cb,Mahamoti Djinn,LEA,64,c39ea5f9-6ec0-4697-897b-779e326754a7,6,U,Creature — Djinn
 362f1fe9-20af-434c-9957-7a1a564d89e6,Hellfire,LEG,105,e7b1975d-9574-4333-8530-33167948078a,5,B,Sorcery
@@ -1464,6 +1466,7 @@ id,name,set,cn,oid,cmc,ci,type
 89f612d6-7c59-4a7b-a87d-45f789e88ba5,Force of Will,DMR,50,956381ba-6d37-4a8a-846c-bad79222dbee,5,U,Instant
 8a1dff82-de5c-4b1d-b87f-6ddb4551f820,Psionic Blast,2ED,75,7f221ad6-7ec4-483d-a6b5-1456c95c1cad,3,U,Instant
 8a3ea83c-2978-4a2a-a109-915b9a738a13,Birds of Paradise,FBB,187,d3a0b660-358c-41bd-9cd2-41fbf3491b1a,1,G,Creature — Bird
+8aa902a7-a361-4207-b32c-45a2a3420eca,Hexhaven Invigorator,PFRA,106p,12d617b1-c95b-4b1c-a586-ccfdf5898b03,4,G,Creature — Chimera Horror
 8abe7d62-6a99-4d1f-9b81-cff0485997a8,Sacrifice,LEB,125,068b3692-411b-44d4-a7e9-005262760cfc,1,B,Instant
 8b0336f5-e6a2-49e0-8d8e-760adf7112b7,Opposition Agent,PCMR,141p,1f438b8f-fe23-4f3b-ab2e-f6c33676c462,3,B,Creature — Human Rogue
 8b28572c-d2ba-4834-8630-3d82202ebb6f,Black Market Connections,CLB,620,d2664f28-49e1-46f8-a863-b217e961a57c,3,B,Enchantment
@@ -2142,6 +2145,7 @@ c8a8e37b-0b97-4355-8e00-169a82c38ea0,Nyxbloom Ancient,THB,330,8b610f8f-c8dd-4eeb
 c8b26b25-27a6-4e8b-ac4a-fd743f8aac1c,Stone Rain,SUM,180,6e880df6-fc00-43d2-a9c8-f575f40b78c6,3,R,Sorcery
 c8d5d6a5-6807-4a80-9460-7633dc430ee9,Demonic Tutor,2ED,105,82004860-e589-4e38-8d61-8c0210e4ea39,2,B,Sorcery
 c94a3780-74aa-4e1d-b08e-951db045b22f,Dauthi Voidwalker,SCH,23e,f1c2dbe2-fbe0-4058-bdf1-91d1b1832786,2,B,Creature — Dauthi Rogue
+c966c8a0-e73d-4484-9307-a793a65222ea,Craterhoof Behemoth,TDM,346,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
 c972abe6-c732-4745-bde4-8b51698f05be,Flawless Maneuver,C20,26,4e183439-17d2-47ff-9d99-5e22821d91e3,3,W,Instant
 c977fb5f-4436-41d0-af68-93b6d05897e5,The Queen of Dale,HOB,24,a2ec1dd0-86c7-423d-b562-ed95b79bf8f7,2,W,Legendary Creature — Human Noble
 c993c74c-a574-423b-81c8-96b0a7a6e529,Jovial Evil,LEG,109,274c5367-f02e-44a0-be8a-5ed03c831bda,3,B,Sorcery
@@ -2285,6 +2289,7 @@ d6914dba-0d27-4055-ac34-b3ebf5802221,Rhystic Study,JMP,169,53236dd7-845a-444c-96
 d6914ed2-9207-4689-9166-11d2f8949fdd,Lady Caleria,LEG,239,74284bbc-b011-4e16-b8d5-7ddacc77f9d7,7,GW,Legendary Creature — Elf Archer
 d6a1907c-59c4-4c72-b0f0-9e2402c05719,Counterspell,SLD,7117,cc187110-1148-4090-bbb8-e205694a39f5,2,U,Instant
 d6d5e36f-0049-4be8-bf85-8dc0186339a4,Spinal Villain,LEG,164,990c0359-c2d6-4a3c-aa0b-1904da805e15,3,R,Creature — Beast
+d6f6dca3-c618-4916-b93c-17c83ac3af0b,The Black Gate,LTC,160,40eb9904-dea3-47cf-963a-04821f98ba64,0,B,Legendary Land — Gate
 d7183700-6941-4a3d-a581-4f33bea795e9,Jeweled Lotus,CMM,396,23216e59-f147-4bb7-a698-12777c2f8584,0,,Artifact
 d745f592-8d4d-46f4-b631-c014da1ab3a9,"Gandalf, Friend of the Shire",SLD,1294,7f7c917b-f940-4f43-bafa-31f50a6d9d6f,4,U,Legendary Creature — Avatar Wizard
 d79f7ecc-c43b-48de-9d90-1085cf2bce5d,Realmwalker,SLD,1724,b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f,3,G,Creature — Shapeshifter
