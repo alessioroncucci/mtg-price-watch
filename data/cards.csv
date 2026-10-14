@@ -461,6 +461,7 @@ id,name,set,cn,oid,cmc,ci,type
 2b234903-d7bf-4136-891a-0d66f49c2477,Celestial Prism,SUM,239,eb228a6c-bceb-45c3-a258-3f209682e1c6,3,,Artifact
 2b347ecf-d032-4d6c-9b4b-6e33c08a0722,Displacer Kitten,PCLB,63p,09ef446c-a13d-49d9-a94c-cd5f5a2d440b,4,U,Creature — Cat Beast
 2b42c421-da39-41e1-af2e-005aebb3a7c7,Swamp,PALP,10,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp
+2b6471ba-b724-42d8-8db5-a719b4f79dd6,Chronicle of Victory,PECL,253p,e949b362-4988-4482-ac51-c1049af9040c,6,,Legendary Artifact
 2b7002f2-6846-4a53-921e-663ca5f99363,Doubling Cube,PLST,10E-321,9afd8f12-0796-4500-aaa3-10b4a46ef6ec,2,,Artifact
 2b827094-fb2c-46db-b898-02e0c308601f,Merchant Ship,ARN,17,69556f6c-c05b-4902-bac7-012f0ed81b75,1,U,Creature — Human
 2b871039-6a66-4ac3-95e7-24759c1f2f92,Merfolk of the Pearl Trident,LEA,66,218d9277-c179-4de3-9c7f-79b5a6d4fa38,1,U,Creature — Merfolk
@@ -473,6 +474,7 @@ id,name,set,cn,oid,cmc,ci,type
 2bd93079-b10e-4be3-9545-17fa3bc3bfd2,Arid Mesa,SPG,109,c5acf2a5-40f4-433d-a74d-1cb56c521464,0,,Land
 2be38927-637b-4dce-b228-83ce4f50c4a4,Ravenous Tyrannosaurus,REX,18,9cfac390-4638-4654-8b50-65c0f0886b18,6,GR,Creature — Dinosaur
 2be8d24e-1370-4e85-90f2-66b6d6e9c4a4,Sword of Truth and Justice,MH1,229,7a8baaf9-e21f-41a0-9f15-80764f6e5e68,3,,Artifact — Equipment
+2c093ce0-2561-4847-ab58-f6f1650d743e,Ichormoon Gauntlet,ONE,56,9fc7aba7-eda2-4134-9c10-31ee35201b72,3,U,Artifact
 2c1dbc62-ceb5-4540-ae38-901e5deafc75,Arcades Sabboth,LEG,218,8ead94c5-8447-4f20-87ec-efdccde689fc,8,GUW,Legendary Creature — Elder Dragon
 2c23b39b-a4d6-4f10-8ced-fa4b1ed2cf74,"Nicol Bolas, Dragon-God",PS19,207,581eedc4-efe4-4ae4-baf2-88071e7e6f6d,5,BRU,Legendary Planeswalker — Bolas
 2c7ea1c6-30b2-4612-8911-03fde5ecbb2a,"Samut, Voice of Dissent",SLD,1451,b1eee275-5106-4c8d-a497-d7945ad81d74,5,GRW,Legendary Creature — Human Warrior
@@ -808,6 +810,7 @@ id,name,set,cn,oid,cmc,ci,type
 4cbcf6db-52e5-4e7d-87af-b6980f25930b,Titania's Song,SUM,220,30ac0f06-3dd3-4827-8136-4cf8adbf9b12,4,G,Enchantment
 4cd54279-57f5-4cd9-b524-4f094bd2fc36,Exquisite Blood,AVR,102,8f933fae-6c0c-42d7-a817-14760d8285cd,5,B,Enchantment
 4cee07c5-0651-4dfb-861d-3fd016e3bf63,Nevinyrral's Disk,4BB,338,96230edf-568a-47dd-b877-9d92aa58fac8,4,,Artifact
+4d0bf49d-3730-4f03-bd94-4095068aa2fc,Jace Reawakened,SCH,53,cbd483b5-5554-43ed-a729-535d01b0d5d3,2,U,Legendary Planeswalker — Jace
 4d227cd3-ebfe-4dd3-929a-4f8ff7c8981e,Blightsteel Colossus // Blightsteel Colossus,SLD,1079,,,,
 4d2354ee-2ce0-4adb-b48c-0e30b952e545,Orcish Artillery,LEB,166,c000811e-bde7-4840-a3bb-9714d5c977eb,3,R,Creature — Orc Warrior
 4d393cc4-0e6b-44fe-a74a-822c52678ec9,Luminous Broodmoth,IKO,371,28c7c816-07e7-42fb-923c-bf149ba28b38,4,W,Creature — Insect
@@ -1949,6 +1952,7 @@ b734cb11-2024-411f-9885-dafda14bb431,Dark Ritual,STA,89,53f7c868-b03e-4fc2-8dcf-
 b7518bcf-766a-457d-a627-dbfb0207309c,Last March of the Ents,LTR,623,3999cd64-ff5c-4e2c-8aa6-d14f9f8a2b4c,8,G,Sorcery
 b7623c00-144b-4a8f-9c6c-f5e9e4f65ece,Fireball,LEA,149,aa7714b0-2bfb-458a-8ebf-37ec2c53383e,1,R,Sorcery
 b7848325-c46e-4e63-90d0-c9524380eb63,"Greymond, Avacyn's Stalwart",SLX,18,739a5220-50cd-4148-be58-1bbdeef2954e,4,W,Legendary Creature — Human Soldier
+b7995204-c277-4137-ba5a-55875aee5fe1,Second Harvest,LTC,530,61a6341e-0d36-44b6-8026-9c87c8ef61cb,4,G,Instant
 b7b7aa34-b4f8-41b4-82ce-ab2e204c3bf4,Regeneration,LEA,213,89390a33-b289-4edd-a114-6616e49a49c2,2,G,Enchantment — Aura
 b7ba7d7e-c285-4e99-9ee1-135bf343677d,Witch Enchanter // Witch-Blessed Meadow,SLD,2655,0355249a-8e4e-41db-9cea-1b901faffbe6,4,W,Creature — Human Warlock // Land
 b7f6b20c-9871-433c-8557-44493447e914,Consecrated Sphinx,MBS,21,311a449d-dc74-46e6-9a47-6a597931f736,6,U,Creature — Sphinx
@@ -2320,6 +2324,7 @@ da3f051c-6be3-4f92-8f66-9f72d75dbcf5,Verduran Enchantress,LEB,223,cd98a31b-cc7e-
 da507391-4dbd-4fff-8c81-db64bfa4162f,Shadowspear,SLD,1505,8b27326f-e7b8-4a4d-b589-df459246d19a,1,,Legendary Artifact — Equipment
 da56fdf3-6a8f-4833-a5c3-197650cc4889,Wall of Air,LEA,89,b2d3da40-e2f7-4480-9da9-33019d6f4071,3,U,Creature — Wall
 da65d83c-67bd-4d54-9c9a-50d57ca115bb,Smothering Tithe,CMM,693,153376c9-dffd-458c-8ce3-a4c8269bc4e9,4,W,Enchantment
+da7c29a0-5512-4188-acbc-af5f9194f264,Sheltered by Ghosts,SLD,2653,d13fc657-c6fc-4394-bc70-691050550226,2,W,Enchantment — Aura
 da9a69ed-02d3-40af-9925-31f48f4e9b48,Mind Twist,4BB,147,78f9c223-9982-4282-a496-a6f892f0a5bf,1,B,Sorcery
 daac2a6b-27c8-4567-9e0c-7b262628d331,North Star,LEG,288,9109437a-da80-463f-a92a-77d693d05d91,4,,Artifact
 dac080ef-8f40-43a2-8440-b457b6074b69,"Atraxa, Praetors' Voice",2XM,353,7e6b9b59-cd68-4e3c-827b-38833c92d6eb,4,BGUW,Legendary Creature — Phyrexian Angel Horror
@@ -2450,6 +2455,7 @@ e869da95-2c47-4796-aadc-50652ebb4d03,Enlightened Tutor,6ED,19,c5229c17-b7be-4b05
 e87dff94-71ed-469e-a10e-3ddfbd4a8bec,"Ojer Taq, Deepest Foundation // Temple of Civilization",LCI,314,486bb9a5-73f1-4cec-b097-fb07ac80b72e,6,W,Legendary Creature — God // Land
 e897473b-b687-413c-a951-39bbefb1e451,Careful Study,SLD,2823,32e9aa23-fc0a-4b82-82f9-1659c304428c,1,U,Sorcery
 e8c8039f-dad5-4ca9-a2ab-e4189a36fbdd,Snapcaster Mage,PR23,2,2bb2eda7-3b38-4c56-870f-c3218a1056f5,2,U,Creature — Human Wizard
+e8f4435a-8604-45b5-a537-dfdfcb922e16,Craterhoof Behemoth,CMM,280,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
 e9245b0e-f99e-46dd-90ad-87489197629e,Palantír of Orthanc,LTR,749,7798a4d9-1c1d-48e6-b9a2-ecd6aec1efa7,3,,Legendary Artifact
 e92cce01-b3bd-4307-aae5-9a7c8fa386ab,Thicket Basilisk,LEA,218,c4822813-cd81-465d-9fe8-3a4c2dcd31ef,5,G,Creature — Basilisk
 e9a213c8-f9b5-4fcb-969c-b6c574810f21,Urza's Saga,SLC,21,4c6a0c30-b547-4eff-8ff4-0ca25803c076,0,,Enchantment Land — Urza's Saga
@@ -2612,6 +2618,7 @@ f7f84dc2-5a29-447d-97ab-a10afd9ee538,Web,LEB,229,5aa12aff-db3c-4be5-822b-3afdf53
 f7f99277-a65a-489e-9db4-7865f1b9c50b,Greater Auramancy,WOT,64,e6e888ea-9935-4df2-a344-c54637e55f43,2,W,Enchantment
 f7fefff7-2ff5-4abf-a9ec-0e2e737ee225,Lord of the Pit,SLD,715,ea152809-85a2-4fde-8251-3b1f267e4443,7,B,Creature — Demon
 f82fce56-307a-44bf-8c46-0e1328550e17,Fanatic of Rhonas,MH3,458,7973820b-fdaf-46ec-9e3e-d4c0e77b5067,2,G,Creature — Snake Druid
+f857a00a-82e0-4227-86ee-1f9c7ca232ae,Mana Vortex,DRK,31,98b88734-09e2-4209-a787-9b5b345391f9,3,U,Enchantment
 f8914ba3-5e76-4392-bc8d-05d14585918a,Rise of the Eldrazi,CMM,749,982f70af-077f-40df-b2fe-7c80ebcc7712,12,,Sorcery
 f8aa8193-abed-4e78-9e1a-70e4c2c0c670,Kor Haven,LTC,368,276cece9-f9f2-46e6-ae76-daddaa2fb9ab,0,W,Legendary Land
 f8ac5006-91bd-4803-93da-f87cf196dd2f,Serra Angel,LEA,39,4b7ac066-e5c7-43e6-9e7e-2739b24a905d,5,W,Creature — Angel
@@ -2644,6 +2651,7 @@ fb3d9b29-948c-4768-b5ea-db2512817c30,Land's Edge,LEG,158,82d58f2d-66a4-4154-9826
 fb4da609-6c08-4a18-b7d9-fb2f9b11bab2,Sleight of Mind,LEB,79,99dba614-40d3-41c1-a3b2-edc8777b010f,1,U,Instant
 fb97e2a1-0e86-4c12-8d31-6ff7b825ca10,"Kratos, God of War",SLD,2207,42e55b84-8250-441d-a09e-7c61bf7661cc,3,R,Legendary Creature — God Warrior
 fbd25e79-d29b-4b51-9653-3932c980b931,"Purphoros, God of the Forge",FCA,14,4fdbbec2-e921-4b63-958d-f9ba1e417197,4,R,Legendary Enchantment Creature — God
+fbf0dded-552a-4ad2-bb62-f1bfabad9bac,Grim Tutor,M21,315,e62f8d69-a559-4f13-a5c9-5fb750b4af2c,3,B,Sorcery
 fbfd1278-1486-4516-8846-007ce1985ee9,Dakkon Blackblade,LEG,225,1aa78e3b-bf7e-4645-9521-4b3537c93f46,6,BUW,Legendary Creature — Human Warrior
 fc2b2b9e-5abf-4c41-a85c-ef95e6ab84d6,Thoughtlace,LEB,83,6452b6a6-6235-46a3-a712-a26592450438,1,U,Instant
 fc5be7df-16e0-494c-b960-19fd64d57b35,"Sheoldred, the Apocalypse",DMU,290,34f34409-326d-4994-a0ea-1a69aa278f03,4,B,Legendary Creature — Phyrexian Praetor
