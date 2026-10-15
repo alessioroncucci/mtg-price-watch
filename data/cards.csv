@@ -426,6 +426,7 @@ id,name,set,cn,oid,cmc,ci,type
 2722d7e2-61c6-4934-9c21-875ee78fd06c,Disenchant,LEA,18,a7e97fa9-4b72-4548-b854-5be5f18a6f1a,2,W,Instant
 272f65a3-3c0c-417d-b5b6-276a643d643e,Earthquake,POR,124,9a40614b-50a3-422c-849e-53c8b7d3d204,1,R,Sorcery
 273fb2b6-3d11-4f0d-9fb0-0364353c2060,Island Sanctuary,LEB,26,7d1769d0-d942-45b3-a31c-2bbe45e68661,2,W,Enchantment
+2750bee4-7dfa-4128-989c-5f81af1b322a,Craterhoof Behemoth,SLD,375,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
 27611498-176f-435a-91ad-f97e8c5d26de,Bruvac the Grandiloquent,SLD,2181,274b999f-f193-48fd-9a4a-0fdaf535e6c3,3,U,Legendary Creature — Human Advisor
 2765545b-5e2d-4d4c-b126-93415774a2e9,Necropotence,WOT,74,94a844d2-0574-45a7-b347-e0e329767c42,3,B,Enchantment
 276f5cee-a501-4658-bd4d-7a044bf1ccbc,Craterhoof Behemoth,TDM,138,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
@@ -695,6 +696,7 @@ id,name,set,cn,oid,cmc,ci,type
 414d3cae-b8cf-4d53-bd6b-1aa83a828ba9,Dandân,ARN,12,88929373-b2c8-4a81-a809-fed87fd5b0d7,2,U,Creature — Fish
 416d2d51-8f29-4e95-b037-e8c32b081e6c,Mana Drain,IMA,65,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
 4176a761-7542-49f2-85c1-95e9ffa54ef3,Shatter,SUM,175,84d32e68-72b9-432d-a023-7bc6a26b8ad0,2,R,Instant
+4182556f-3a01-41b5-a469-50ce5363c863,"Toothy, Imaginary Friend",SLD,1049,41d6cce0-b852-4d0e-aee2-081df13dd9b8,4,U,Legendary Creature — Illusion
 419be5b4-bfff-4761-a3d7-6abcc3894476,Glasses of Urza,SUM,249,af7fabf4-8d55-4b06-9c21-472f4a5775b4,1,,Artifact
 41faed1a-ded8-49ee-8e2a-c60d377775d7,Wall of Water,LEA,90,608cc65c-f99a-4ca3-be24-190d2556b411,3,U,Creature — Wall
 42027613-d261-4ce2-8ba1-7a2480c660f8,Ali from Cairo,ARN,36,6517edb3-30e2-40ba-b6e4-4554b4bbb342,4,R,Creature — Human
@@ -1588,6 +1590,7 @@ id,name,set,cn,oid,cmc,ci,type
 952ba126-0915-47f0-9b6a-a0a6dcd22c6f,Moat,LEG,28,42208fea-8c24-451f-861d-6d70c0a7a502,4,W,Enchantment
 952cb0b3-a6b7-4279-8833-3d8890b2d005,"Preston, the Vanisher",J22,8,2e00ccc9-6d5f-4de3-bbec-48b49d363244,4,W,Legendary Creature — Rabbit Wizard
 95318d85-4a08-47ac-a43d-ea83c0bea81c,Summon: Bahamut,FIN,1,fe9f6825-597b-4d80-ab7c-f4ee4e824b6f,9,,Enchantment Creature — Saga Dragon
+953428a0-ad0e-4061-a43c-715c26b79e9a,"Shadowheart, Dark Justiciar",SLD,2483,180919a5-67b2-473a-9b90-a828bdc2477c,4,B,Legendary Creature — Human Elf Cleric
 95702503-8f2d-46c8-abdb-6edd6c431d19,Thoughtseize,2XM,344,edd8d1e8-be43-4c38-bb3a-83081fbaf0b5,1,B,Sorcery
 9591f2ab-e09c-48d5-9c87-d27368e60750,Armageddon,P02,12,c9ed8b01-959a-47d6-891e-0abbdccf6e4f,4,W,Sorcery
 9592c31e-179e-43d3-b2b8-b83c0dbea922,Fog,SUM,195,27e9db49-7af7-4bef-ad4c-bf5dfb92030d,1,G,Instant
@@ -1732,6 +1735,7 @@ a30c266d-579e-4757-a4d6-6722fa343a6c,Deadly Rollick,CMM,695,0456ec64-2c81-4763-a
 a31d1338-3085-47c5-ac7b-6aa34b91314a,Wrenn and Six,SLP,15,108ae90a-50fa-4cfd-b751-d630e41425fe,2,GR,Legendary Planeswalker — Wrenn
 a3393436-3426-4903-8f41-7abcbf6c18c2,Badlands,LEB,278,13ff3222-91cb-4796-a34e-899ed817694c,0,BR,Land — Swamp Mountain
 a33a1695-db21-4dc5-9dc1-dd05d12e6b40,Fork,3ED,153,50c53ae0-51ba-4046-ac74-87c65e688032,2,R,Instant
+a35108d8-f6c5-4474-9049-64fd7e3b1310,"Slicer, Hired Muscle // Slicer, High-Speed Antagonist",BOT,21,fa716557-8e75-4617-8310-ab23a9ca1af1,5,R,Legendary Artifact Creature — Robot // Legendary Artifact — Vehicle
 a3544148-49b2-4320-8e3a-5bab81e0f7fd,Swamp,LEB,296,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp
 a3617338-1c7e-445f-8efd-ecd17315c1ff,Healing Salve,SUM,22,8da8644c-75a1-4fe9-8e94-900d948d631c,1,W,Instant
 a374b6ef-bd75-4eae-ac7a-09332b0a653d,Mana Confluence,EOS,25,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,0,,Land
@@ -1976,6 +1980,7 @@ ba00ab71-f686-46eb-af3a-7d70f22e13b6,"Zellix, Sanity Flayer",CLB,619,4dde484a-8d
 ba149706-cd17-4da6-8403-ccfe2d6cb437,"Avacyn, Angel of Hope",AVR,6,216cb26e-8da9-478b-bfbc-8030f7adee72,8,W,Legendary Creature — Angel
 ba3ff39b-b591-4434-8d41-4826d0809ca7,The Arkenstone // Seek the Heart,HOB,234,09f09d0a-6054-4545-b81e-0295773cc5f0,5,W,Legendary Artifact // Sorcery — Adventure
 ba5de5eb-442d-48de-bb5a-e316ea44520d,Overgrown Tomb,UNF,284,975ec9a3-6f20-4177-8211-82526e092538,0,BG,Land — Swamp Forest
+ba5fcfc5-0715-4c6c-8325-3b54a138634e,Nevinyrral's Disk,3ED,267,96230edf-568a-47dd-b877-9d92aa58fac8,4,,Artifact
 ba6706ed-f05b-411f-afa5-f6154f718c80,Worldly Tutor,DMR,353,e8863518-0bfa-49c3-8c6e-6c9116a81051,1,G,Instant
 ba6f1263-d598-49fb-b5f8-09f11822ebd0,Karplusan Forest,ICE,356,bd912666-f37f-4767-af6f-9e6d0fcccacf,0,GR,Land
 ba874c0c-f66f-4edc-9859-40273487aef0,Mana Drain,CMR,80,74d3277a-38e5-4732-afed-084a56148f20,2,U,Instant
