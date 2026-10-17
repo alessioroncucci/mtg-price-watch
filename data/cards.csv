@@ -1057,6 +1057,7 @@ id,name,set,cn,oid,cmc,ci,type
 63c0e240-07b0-45fb-90af-f4fce18c604e,Gauntlet of Might,LEB,245,d38ad188-515e-4865-a0ed-5d0fd4c7b453,4,R,Artifact
 63c4675f-1fcc-49ea-a43f-8540140689c8,Cyberman Patrol,WHO,550,1e51fab7-3ca5-4fbb-a1e9-b39c842895e8,2,,Artifact Creature — Cyberman
 63c59228-c742-4abd-b4d7-9f7880190e95,Windswept Heath,ZNE,5,29737a60-3ebd-40d9-b935-c4f54b90d45d,0,,Land
+63c5e1dd-2fe6-4734-8406-7bcdf17aa60c,No Mercy,DMR,95,b9538d53-480b-481a-abbf-83ab17e1a45b,4,B,Enchantment
 640770d9-c0f8-40fd-9467-ebc099a27a4b,Gloom,LEB,111,4d022f53-b1fb-4071-afcc-0af3214fe604,3,B,Enchantment
 640be32d-dcc8-408a-b8a6-077472f1e70b,Craterhoof Behemoth,SLD,376,8c52bd39-0586-48ca-b263-17210cf9feb6,8,G,Creature — Beast
 6430c61b-407d-471d-9012-07f1ddef28aa,Ancient Brass Dragon,CLB,111,7d79fb4e-2ca0-404a-9663-1f5abce6e733,7,B,Creature — Elder Dragon
@@ -1083,6 +1084,7 @@ id,name,set,cn,oid,cmc,ci,type
 65ffb473-0a11-44c2-9311-f39d69eef713,The Cabbage Merchant,TLE,203,e31808bb-fb6e-487b-a973-db44961c84ee,3,G,Legendary Creature — Human Citizen
 66024e69-ad60-4c9a-a0ca-da138d33ad80,Mox Amber,DOM,224,7a43bd27-fdd8-41f0-9bc4-92568f3408f1,0,,Legendary Artifact
 6602b025-d795-4fa4-9094-f21b2ff1b5cf,Wall of Wood,SUM,226,aa5e6894-8c97-46f8-a0fd-07c6db51e9a7,1,G,Creature — Wall
+661aed55-4dc4-4785-bdde-e1f375d5f571,Black Vise,4BB,299,de7839fb-7040-48ab-a6d4-d1952972943d,1,,Artifact
 66233963-7b57-414b-8e8a-1e1ab2453bd2,Kormus Bell,SUM,260,d2d477a5-f055-4d47-a852-26e8239f2a01,4,,Artifact
 664b46f5-0424-4f4e-9f26-6bd2cf5e0357,Animate Artifact,LEA,48,2dd7a4dc-902a-4e85-8a3b-c96a898fba86,4,U,Enchantment — Aura
 6674c7f7-8022-4457-9a8a-6b87ff3348b0,"Gishath, Sun's Avatar",SLD,320,a311daab-40dc-4433-9ed8-feab7c558bbf,8,GRW,Legendary Creature — Dinosaur Avatar
@@ -1741,6 +1743,7 @@ a3544148-49b2-4320-8e3a-5bab81e0f7fd,Swamp,LEB,296,56719f6a-1a6c-4c0a-8d21-18f7d
 a3617338-1c7e-445f-8efd-ecd17315c1ff,Healing Salve,SUM,22,8da8644c-75a1-4fe9-8e94-900d948d631c,1,W,Instant
 a374b6ef-bd75-4eae-ac7a-09332b0a653d,Mana Confluence,EOS,25,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,0,,Land
 a3b123fa-c232-4bb4-ba9d-2cde4a0eef99,"Karlach, Fury of Avernus",CLB,400,037355be-71e7-4866-80a6-80352c304970,5,R,Legendary Creature — Tiefling Barbarian
+a3d1f470-058d-41b7-acaf-4f68431de9ed,Reverberation,LEG,74,d3088e1d-62c9-4478-9ef7-fc3c9e5cfadb,4,U,Instant
 a3da57d0-1ae3-4f05-a52d-eb76ad56cae7,"Animar, Soul of Elements",2X2,171,725880b2-1675-414f-b61b-cf6533797dbf,3,GRU,Legendary Creature — Elemental
 a3eedc11-0b47-430c-8391-577a2d05c2ae,Mana Matrix,LEG,285,256cea34-4691-4367-a789-17d15460f664,6,,Artifact
 a3f1c52b-87d2-42fc-8fa0-4557aa00b7b0,Clockwork Beast,SUM,240,eb97c8db-ac6c-476c-b14d-87785e9c82f0,6,,Artifact Creature — Beast
