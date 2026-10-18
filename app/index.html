@@ -99,6 +99,9 @@ h3{font-size:13.5px;font-weight:640;margin:16px 0 6px}
 .row:last-child{border-bottom:0}
 .row:hover{background:var(--surface-2)}
 .ci{flex:0 0 4px;align-self:stretch;border-radius:0 3px 3px 0;background:var(--mC);margin-right:2px}
+.thumb{flex:0 0 auto;width:30px;height:42px;object-fit:cover;object-position:center 22%;
+  border-radius:3px;background:var(--surface-3)}
+.tr{color:var(--ink-2);font-weight:560}
 .row .nm{flex:1;min-width:0}
 .row .nm>b{display:block;font-weight:580;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 /* figlio diretto: altrimenti la regola colpisce anche i badge dentro il sottotitolo */
@@ -172,6 +175,7 @@ h3{font-size:13.5px;font-weight:640;margin:16px 0 6px}
   background:linear-gradient(transparent,rgba(0,0,0,.84) 55%);color:#fff}
 .gcard .cap b{display:block;font-size:12.5px;font-weight:620;font-variant-numeric:tabular-nums}
 .gcard .cap span{display:block;font-size:10.5px;opacity:.82;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gcard .cap .tr{color:#fff;opacity:.95;font-weight:600}
 .gcard .star{position:absolute;top:2px;right:2px;font-size:19px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.9)}
 .gcard .star.on{color:var(--warning)}
 .gcard .gd{position:absolute;top:5px;left:5px;font-size:11px;font-weight:700;padding:1px 5px;border-radius:5px;
@@ -224,6 +228,8 @@ table.prints th{text-align:left;font-weight:600;color:var(--muted);font-size:11.
 table.prints td{padding:5px 6px;border-bottom:1px solid var(--grid);font-variant-numeric:tabular-nums}
 table.prints td:last-child,table.prints th:last-child{text-align:right}
 table.prints tr.best td{color:var(--good-text);font-weight:600}
+table.prints tr.self td{background:var(--surface-2)}
+table.prints .tr2{display:block;font-size:11.5px;color:var(--muted);font-weight:400}
 .tgt{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;font-size:13.5px;
   padding:7px 0;border-bottom:1px solid var(--border)}
 .tgt input{width:106px;text-align:right;background:var(--surface-2);border:1px solid var(--border);
@@ -386,7 +392,7 @@ footer{max-width:960px;margin:0 auto;padding:18px 14px 34px;font-size:11.5px;col
       <p class="sub">Il collector raccoglie i prezzi ogni giorno anche ad app chiusa: così lo storico non ha buchi.</p>
       <div class="field"><label>Modalità<small id="srcNote">—</small></label>
         <select id="sSrc"><option value="auto">Collector, poi Scryfall</option><option value="remote">Solo collector</option><option value="local">Solo Scryfall</option></select></div>
-      <div class="field"><label>Indirizzo di history.json<small>Lascia <code>./history.json</code> se apri l'app dal sito che la pubblica</small></label></div>
+      <div class="field"><label>Indirizzo dei dati<small>La cartella che contiene <code>meta.json</code>. Lascia <code>./</code> se apri l'app dal sito che la pubblica</small></label></div>
       <input id="sUrl" class="wide" spellcheck="false" style="margin-top:-4px">
     </div>
     <div class="card">
@@ -450,7 +456,7 @@ const store = {
 };
 
 const DEFAULTS = { thr:3, max:2100, keep:120, pct:20, sigma:2, win:30, minObs:5,
-                   view:"list", favView:"list", src:"auto", srcUrl:"./history.json",
+                   view:"list", favView:"list", src:"auto", srcUrl:"./",
                    theme:"auto", lang:"it",
                    movSort:"move", favSort:"move", qSort:"pdesc" };
 
@@ -582,10 +588,54 @@ function dayIndex(d){
   }
   return i;
 }
+/* --------------------------- trattamento della stampa ---------------------------
+   Quattro stampe della stessa carta nello stesso set si distinguono solo per il
+   numero di collezione, che non dice niente a nessuno. Scryfall però descrive il
+   trattamento in campi espliciti: da lì si ricava un'etichetta leggibile.      */
+const PROMO_IT = {
+  surgefoil:"Surge foil", galaxyfoil:"Galaxy foil", halofoil:"Halo foil",
+  confettifoil:"Confetti foil", rainbowfoil:"Rainbow foil", doublerainbow:"Double rainbow",
+  textured:"Textured foil", oilslick:"Oil slick", neonink:"Neon ink", gilded:"Gilded",
+  embossed:"Embossed", ripplefoil:"Ripple foil", raisedfoil:"Raised foil",
+  invisibleink:"Invisible ink", stepandcompleat:"Step-and-compleat", serialized:"Serializzata",
+  glossy:"Glossy", silverfoil:"Silver foil", golden:"Golden", magnified:"Magnified",
+  concept:"Concept art", poster:"Poster", thick:"Thick display"
+};
+const FRAME_IT = {
+  showcase:"Showcase", extendedart:"Extended art", inverted:"Invertita",
+  shatteredglass:"Shattered glass", etched:"Etched", legendary:"", nyxtouched:"Nyx",
+  companion:"", devoid:"", tombstone:"", colorshifted:"Colorshifted",
+  miracle:"", snow:"", draft:"", fullart:"Full art", textless:"Senza testo"
+};
+const pretty = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+function treatment(c){
+  if(!c) return [];
+  const out = [];
+  if(c.border_color === "borderless") out.push("Borderless");
+  for(const f of c.frame_effects || []){
+    const lbl = FRAME_IT[f]; if(lbl) out.push(lbl);
+    else if(!(f in FRAME_IT)) out.push(pretty(f));
+  }
+  if(c.full_art && !out.includes("Full art")) out.push("Full art");
+  if(c.textless && !out.includes("Senza testo")) out.push("Senza testo");
+  for(const p of c.promo_types || []){
+    if(p === "boosterfun" || p === "promo") continue;
+    out.push(PROMO_IT[p] || pretty(p));
+  }
+  if(c.frame === "1997" || c.frame === "1993") out.push("Cornice retrò");
+  if(!out.length && c.promo) out.push("Promo");
+  /* stampe che esistono solo in foil: informazione utile davanti a un prezzo */
+  const fin = c.finishes || [];
+  if(!out.length && fin.length && !fin.includes("nonfoil")) out.push("Solo foil");
+  return [...new Set(out.filter(Boolean))].slice(0, 3);
+}
+
 function meta(c){
   return { n:c.name, s:c.set.toUpperCase(), cn:c.collector_number, oid:c.oracle_id,
            tl:c.type_line || "", cmc:c.cmc ?? null,
-           ci:c.color_identity || (c.colors || []) };
+           ci:c.color_identity || (c.colors || []),
+           tr:treatment(c).join(" · "), ar:c.artist || "" };
 }
 function record(card, day){
   const v = priceOf(card);
@@ -598,17 +648,38 @@ function record(card, day){
   e.p[i] = Math.round(v*100)/100;
   return true;
 }
-function series(id){
-  const e = HIST.cards[id];
+/* REMOTE tiene i frammenti scaricati dal collector e vive solo in memoria:
+   con decine di migliaia di carte, scriverlo nello spazio locale del browser
+   lo saturerebbe in pochi giorni. HIST resta per i preferiti e per la
+   scansione diretta da Scryfall, ed è l'unico archivio che viene salvato. */
+let REMOTE = { days:[], cards:{} };
+
+function seriesFrom(src, id){
+  const e = src.cards[id];
   if(!e || !e.p) return [];
   const out = [];
-  for(let i = 0; i < HIST.days.length; i++) if(e.p[i] != null) out.push({ d:HIST.days[i], v:e.p[i] });
+  for(let i = 0; i < src.days.length; i++) if(e.p[i] != null) out.push({ d:src.days[i], v:e.p[i] });
   return out;
 }
+function series(id){
+  const r = seriesFrom(REMOTE, id);
+  const h = seriesFrom(HIST, id);
+  if(!h.length) return r;
+  if(!r.length) return h;
+  const map = new Map();
+  for(const x of r) map.set(x.d, x.v);
+  for(const x of h) map.set(x.d, x.v);    // il locale è più fresco del frammento
+  return [...map.entries()].sort((a,b) => a[0] < b[0] ? -1 : 1).map(([d,v]) => ({ d, v }));
+}
+const cardMeta = id => REMOTE.cards[id] || HIST.cards[id] || FAV[id] || null;
+/* Le carte conosciute stanno in due posti: i frammenti scaricati e l'archivio
+   locale. Serve l'unione, altrimenti il ripiego al formato precedente — che
+   riempie solo i frammenti — mostrerebbe una lista vuota. */
+const knownIds = () => [...new Set([...Object.keys(REMOTE.cards), ...Object.keys(HIST.cards)])];
 
 /* --------------------------- valutazione --------------------------- */
 function evaluate(id){
-  const e = HIST.cards[id] || FAV[id];
+  const e = cardMeta(id);
   const s = series(id);
   const base = { id, e, obs:s.length, s, last:s.length ? s[s.length-1].v : null };
   if(s.length < 2) return Object.assign(base, { insufficient:true, dMed:null });
@@ -634,43 +705,139 @@ function evaluate(id){
     alert: hitPct || hitSig || hitBelow || hitAbove,
     insufficient: s.length - 1 < CFG.minObs });
 }
-function allAlerts(){
+/* Le segnalazioni globali le calcola il collector: qui restano solo quelle
+   che il collector non può conoscere, cioè i target sulle singole carte. */
+function localTargetAlerts(){
   const out = [];
-  for(const id in HIST.cards){ const r = evaluate(id); if(r.alert) out.push(r); }
-  for(const id in FAV) if(!HIST.cards[id]){ const r = evaluate(id); if(r.alert) out.push(r); }
+  for(const id in FAV){
+    const t = FAV[id].target;
+    if(!t || (t.below == null && t.above == null)) continue;
+    const r = evaluate(id);
+    if(r.hitBelow || r.hitAbove) out.push(r);
+  }
+  return out;
+}
+function allAlerts(){
+  const seen = new Set(), out = [];
+  for(const r of localTargetAlerts()){ seen.add(r.id); out.push(r); }
+  for(const m of MOVERS) if(m.alert && !seen.has(m.id)){ seen.add(m.id); out.push(moverRow(m)); }
+  if(!MOVERS.length){
+    for(const id of knownIds()){
+      const r = evaluate(id);
+      if(r.alert && !seen.has(id)){ seen.add(id); out.push(r); }
+    }
+  }
   return out;
 }
 
-/* --------------------------- sorgente remota --------------------------- */
+/* --------------------------- sorgente remota ---------------------------
+   Il collector pubblica tre cose: meta.json (giorni e conteggi), movers.json
+   con le carte in movimento gia' calcolate, e lo storico spezzato in
+   frammenti sotto h/. L'apertura costa solo i primi due; i frammenti si
+   scaricano quando apri una carta o guardi i preferiti.                  */
 let ORIGIN = null;
+let META = null;
+let MOVERS = [];
+const SHARDS = new Map();     // chiave -> promessa, per non scaricare due volte
 
-function mergeHist(remote){
-  const days = [...new Set([...HIST.days, ...remote.days])].sort();
-  const at = Object.fromEntries(days.map((d,i) => [d,i]));
-  const cards = {};
-  const absorb = src => {
-    for(const id in src.cards){
-      const e = src.cards[id]; if(!e) continue;
-      const t = cards[id] || (cards[id] = { n:e.n, s:e.s, cn:e.cn, oid:e.oid, tl:e.tl, cmc:e.cmc, ci:e.ci });
-      for(const f of ["n","s","cn","oid","tl","ci"]) if(e[f] != null && e[f] !== "") t[f] = e[f];
-      if(e.cmc != null) t.cmc = e.cmc;
-      if(!e.p) continue;
-      if(!t.p) t.p = new Array(days.length).fill(null);
-      for(let i = 0; i < src.days.length; i++){ const v = e.p[i]; if(v != null) t.p[at[src.days[i]]] = v; }
-    }
-  };
-  absorb(HIST); absorb(remote);
-  for(const id in cards) if(cards[id].p) while(cards[id].p.length < days.length) cards[id].p.push(null);
-  HIST = { days, cards };
+function baseUrl(){
+  let u = (CFG.srcUrl || "./").trim();
+  if(/\.json(\?|$)/i.test(u)) u = u.replace(/[^/]*$/, "");
+  if(!u.endsWith("/")) u += "/";
+  return u;
+}
+const bust = u => u + (u.includes("?") ? "&" : "?") + "t=" + Date.now();
+
+async function getJSON(url, { fresh = false } = {}){
+  const r = await fetch(fresh ? bust(url) : url, fresh ? { cache:"no-store" } : {});
+  if(!r.ok) throw new Error(url.split("/").pop() + " non disponibile (" + r.status + ")");
+  return r.json();
 }
 
-async function pullRemote(url){
-  const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), { cache:"no-store" });
-  if(!r.ok) throw new Error("history.json non disponibile (" + r.status + ")");
-  const d = await r.json();
-  if(!d || !Array.isArray(d.days) || !d.cards) throw new Error("history.json non valido");
-  mergeHist(d);
-  return d;
+/* fonde un frammento in REMOTE, allineando le serie sui giorni comuni */
+function absorbShard(doc){
+  const days = [...new Set([...REMOTE.days, ...doc.days])].sort();
+  const at = Object.fromEntries(days.map((d,i) => [d,i]));
+  const cards = {};
+  const take = src => {
+    for(const id in src.cards){
+      const e = src.cards[id]; if(!e) continue;
+      const t = cards[id] || (cards[id] = {});
+      for(const f of ["n","s","cn","oid","tl","ci","tr","ar","cmc"])
+        if(e[f] != null && e[f] !== "") t[f] = e[f];
+      if(!e.p) continue;
+      if(!t.p) t.p = new Array(days.length).fill(null);
+      for(let i = 0; i < src.days.length; i++){
+        const v = e.p[i];
+        if(v != null) t.p[at[src.days[i]]] = v;
+      }
+    }
+  };
+  take(REMOTE); take(doc);
+  for(const id in cards) if(cards[id].p) while(cards[id].p.length < days.length) cards[id].p.push(null);
+  REMOTE = { days, cards };
+}
+
+function shardKey(id){
+  const n = (META && META.shardHex) || 2;
+  return String(id).slice(0, n).toLowerCase();
+}
+function ensureShard(id){
+  if(!META || !id) return Promise.resolve(false);
+  if(REMOTE.cards[id] && REMOTE.cards[id].p) return Promise.resolve(true);
+  const key = shardKey(id);
+  if(!SHARDS.has(key)){
+    SHARDS.set(key, getJSON(baseUrl() + "h/" + key + ".json")
+      .then(doc => { absorbShard(doc); return true; })
+      .catch(() => { SHARDS.delete(key); return false; }));
+  }
+  return SHARDS.get(key);
+}
+function ensureShards(ids){
+  const keys = new Set(ids.filter(Boolean).map(shardKey));
+  return Promise.all([...keys].map(k => ensureShard(k.padEnd(8, "0"))));
+}
+
+/* riga di movers.json -> stessa forma che si aspetta il resto dell'app */
+function moverRow(m){
+  const e = { n:m.n, s:m.s, cn:m.cn, oid:m.oid, tl:m.tl, ci:m.ci, cmc:m.cmc, tr:m.tr };
+  const days = (MOVERS_DAYS || []).slice(-(m.sp || []).length);
+  const t = (FAV[m.id] && FAV[m.id].target) || {};
+  return { id:m.id, e, obs:m.obs, last:m.last, med:m.med, dMed:m.dMed, z:m.z,
+           vol:m.vol, pctl:m.pctl, sig:m.med && m.vol ? m.med * m.vol : 0,
+           s:(m.sp || []).map((v,i) => ({ d:days[i] || "", v })),
+           hitPct:!!m.pct, hitSig:!!m.sigma,
+           hitBelow: t.below != null && m.last <= t.below,
+           hitAbove: t.above != null && m.last >= t.above,
+           alert: !!m.alert || (t.below != null && m.last <= t.below) || (t.above != null && m.last >= t.above),
+           insufficient:false, fromCollector:true };
+}
+let MOVERS_DAYS = [];
+
+async function pullRemote(){
+  const base = baseUrl();
+  try{
+    const [meta, mov] = await Promise.all([
+      getJSON(base + "meta.json", { fresh:true }),
+      getJSON(base + "movers.json", { fresh:true })
+    ]);
+    if(!meta || !Array.isArray(meta.days)) throw new Error("meta.json non valido");
+    META = meta;
+    MOVERS_DAYS = mov.days || meta.days.slice(-30);
+    MOVERS = mov.movers || [];
+    SHARDS.clear();
+    REMOTE = { days:[], cards:{} };
+    return { format:"movers", cards:meta.cards, generated:meta.generated, alerts:mov.alerts || 0 };
+  }catch(e){
+    /* ripiego sul formato precedente, finche' il nuovo collector non ha girato */
+    const d = await getJSON(base + "history.json", { fresh:true });
+    if(!d || !Array.isArray(d.days) || !d.cards) throw new Error("nessun dato pubblicato");
+    META = { days:d.days, cards:Object.keys(d.cards).length, shardHex:2, generated:d.generated };
+    MOVERS = []; MOVERS_DAYS = d.days.slice(-30);
+    REMOTE = { days:[], cards:{} };
+    absorbShard(d);
+    return { format:"history", cards:Object.keys(d.cards).length, generated:d.generated, alerts:0 };
+  }
 }
 
 /* --------------------------- sincronizzazione --------------------------- */
@@ -683,11 +850,12 @@ async function sync(){
     syncing = true;
     $("#syncBtn").disabled = true; $("#syncBtn").textContent = "Aggiorno…";
     try{
-      const d = await pullRemote(CFG.srcUrl || "./history.json");
+      const d = await pullRemote();
       ORIGIN = "remoto"; LAST = d.generated || new Date().toISOString();
-      store.set("last", LAST); saveHist();
+      store.set("last", LAST);
+      await hydrateFavSeries();
       const al = allAlerts(); notify(al);
-      toast(`${Object.keys(d.cards).length} carte dal collector · ${al.length} segnalazioni`);
+      toast(`${d.cards} carte dal collector · ${al.length} segnalazioni`);
       return;
     }catch(e){
       if(mode === "remote"){ toast("Collector non raggiungibile: " + e.message, 4200); return; }
@@ -891,16 +1059,30 @@ function chips(r){
   if(r.vol >= 0.03) out.push(`<span class="chip">oscilla ${num1(r.vol*100)}%</span>`);
   return out.join(" ");
 }
+/* sottotitolo: prima l'identità della stampa (set, numero, trattamento),
+   poi lo stato (segnalata, target, volatilità) */
+function subtitle(e, r){
+  const id = [esc(e.s || ""), e.cn ? "#" + esc(e.cn) : ""].filter(Boolean).join(" · ");
+  const tr = e.tr ? `<span class="tr">${esc(e.tr)}</span>` : "";
+  const st = r ? chips(r) : "";
+  return [id, tr, st].filter(Boolean).join(" · ");
+}
+const thumbHTML = (img, name) => img
+  ? `<img class="thumb" src="${esc(img)}" alt="" loading="lazy" decoding="async"
+       onerror="this.style.visibility='hidden'">`
+  : "";
+
 function rowHTML(r){
   const e = r.e || HIST.cards[r.id] || FAV[r.id] || {};
   const fav = !!FAV[r.id];
-  const bits = [esc(e.s || ""), esc(e.cn || "")].filter(Boolean).join(" · ");
+  const img = (FAV[r.id] && FAV[r.id].img) || e.img;
   return `<div class="row" data-id="${r.id}">
     <span class="swipehint" aria-hidden="true">★</span>
     <span class="ci" style="${ciStyle(e.ci)}"></span>
     <button class="star ${fav ? "on" : ""}" data-fav="${r.id}"
       aria-label="${fav ? "Rimuovi dai preferiti" : "Aggiungi ai preferiti"}">${fav ? "★" : "☆"}</button>
-    <div class="nm"><b>${esc(shownName(e))}</b><span>${bits}${bits && chips(r) ? " · " : ""}${chips(r)}</span></div>
+    ${thumbHTML(img, e.n)}
+    <div class="nm"><b>${esc(shownName(e))}</b><span>${subtitle(e, r)}</span></div>
     ${sparkline(r.s || series(r.id))}
     <div class="pr"><b>${eur(r.last)}</b>${deltaTag(r)}</div>
   </div>`;
@@ -914,7 +1096,9 @@ function gridHTML(items){
       ${o.badge ? `<span class="gd">${o.badge}</span>` : ""}
       <button class="star ${fav ? "on" : ""}" data-fav="${o.id}"
         aria-label="${fav ? "Rimuovi dai preferiti" : "Aggiungi ai preferiti"}">${fav ? "★" : "☆"}</button>
-      <div class="cap"><b>${eur(o.price)}</b><span>${esc(o.s || "")} · #${esc(o.cn || "")}</span></div>
+      <div class="cap"><b>${eur(o.price)}</b>
+        <span>${esc(o.s || "")} · #${esc(o.cn || "")}</span>
+        ${o.tr ? `<span class="tr">${esc(o.tr)}</span>` : ""}</div>
     </div>`;
   }).join("");
 }
@@ -960,34 +1144,47 @@ function sortList(list, mode, pinAlerts = false){
 function renderMovers(){
   $("#movFilters").innerHTML = filtersHTML("mov");
   $("#movSort").value = CFG.movSort;
-  const ids = Object.keys(HIST.cards);
-  const evals = ids.map(evaluate).filter(r => r.obs >= 2 && passes(r.e || {}, "mov"));
+  /* Le righe arrivano gia' calcolate dal collector: con cinquantamila carte
+     ricalcolarle nel browser vorrebbe dire scaricarle tutte. Quando il
+     collector non c'e' (modalita' solo Scryfall) si ripiega sul locale. */
+  const ids = knownIds();
+  const evals = MOVERS.length
+    ? MOVERS.map(moverRow).filter(r => passes(r.e || {}, "mov"))
+    : ids.map(evaluate).filter(r => r.obs >= 2 && passes(r.e || {}, "mov"));
   const alerts = evals.filter(r => r.alert);
   const mode = CFG.movSort;
 
   let list = evals;
   if(mode === "up")   list = list.filter(r => r.dMed > 0);
   if(mode === "down") list = list.filter(r => r.dMed < 0);
+  const matched = list.length;
   list = sortList(list, mode, true).slice(0, 80);
 
-  $("#tCards").textContent  = ids.length || "—";
-  $("#tCardsN").textContent = ids.length ? `finitura ${finishLabel()}` : "nessun rilevamento";
-  $("#tDays").textContent   = HIST.days.length || "—";
-  $("#tDaysN").textContent  = HIST.days.length > 1 ? `dal ${HIST.days[0].split("-").reverse().join("/")}` : "serve più di 1 giorno";
-  $("#tAlerts").textContent = HIST.days.length > 1 ? allAlerts().length : "—";
+  const days = (META && META.days) || HIST.days;
+  const total = (META && META.cards) || ids.length;
+  $("#tCards").textContent  = total ? total.toLocaleString("it-IT") : "—";
+  $("#tCardsN").textContent = META && META.floor != null
+    ? `da ${eur(META.floor)} in su` : (total ? `finitura ${finishLabel()}` : "nessun rilevamento");
+  $("#tDays").textContent   = days.length || "—";
+  $("#tDaysN").textContent  = days.length > 1 ? `dal ${days[0].split("-").reverse().join("/")}` : "serve più di 1 giorno";
+  $("#tAlerts").textContent = days.length > 1 ? allAlerts().length : "—";
   const favVals = Object.keys(FAV).map(id => { const s = series(id); return s.length ? s[s.length-1].v : null; }).filter(v => v != null);
   $("#tMed").textContent = favVals.length ? eur(median(favVals)) : "—";
 
   const nAl = allAlerts().length;
   const bm = $("#bMov"); bm.hidden = !nAl; bm.textContent = nAl;
-  $("#movCount").textContent = list.length
-    ? `${list.length} carte${alerts.length ? ` · ${alerts.length} segnalate` : ""}` : "";
+  /* il conteggio deve dire quante carte passano i filtri, non quante se ne
+     mostrano: con centinaia di movers la lista e' tagliata alle prime 80 */
+  $("#movCount").textContent = matched
+    ? `${matched} carte${alerts.length ? ` · ${alerts.length} segnalate` : ""}`
+      + (matched > list.length ? ` · prime ${list.length}` : "")
+    : "";
 
   const hint = $("#movHint");
-  if(!ids.length){
+  if(!ids.length && !MOVERS.length){
     hint.hidden = false;
     hint.innerHTML = "<strong>Primo avvio.</strong> Premi <em>Aggiorna</em>: l'app scarica le carte sopra la soglia e registra la fotografia di oggi. Le segnalazioni compaiono dal secondo giorno, quando c'è qualcosa con cui confrontare.";
-  } else if(HIST.days.length < 2){
+  } else if(days.length < 2){
     hint.hidden = false;
     hint.innerHTML = `<strong>Base di partenza registrata</strong> (${ids.length} carte). Da domani ogni prezzo viene confrontato con la mediana dei giorni precedenti.`;
   } else if(!alerts.length){
@@ -1001,6 +1198,7 @@ function renderMovers(){
 }
 
 function renderFav(){
+  if(META && !favSeriesDone && Object.keys(FAV).length) hydrateFavSeries().then(renderFav);
   $("#favFilters").innerHTML = filtersHTML("fav");
   $("#favSort").value = CFG.favSort;
   const grid = CFG.favView === "grid";
@@ -1011,8 +1209,10 @@ function renderFav(){
   const b = $("#bFav"); b.hidden = !ids.length; b.textContent = ids.length;
   const term = ($("#favQ").value || "").trim().toLowerCase();
 
+  const byId = Object.fromEntries(MOVERS.map(m => [m.id, m]));
   let list = ids.map(id => {
-    const r = evaluate(id);
+    let r = evaluate(id);
+    if(r.obs < 2 && byId[id]) r = moverRow(byId[id]);   // riga gia' pronta dal collector
     if(!r.e) r.e = FAV[id];
     return r;
   }).filter(r => {
@@ -1042,7 +1242,7 @@ function renderFav(){
       /* l'immagine sta sul preferito, non nello storico: per le carte già
          tracciate `r.e` è il record dello storico e non la contiene */
       const img = (FAV[r.id] && FAV[r.id].img) || e.img;
-      return { id:r.id, n:e.n, oid:e.oid, s:e.s, cn:e.cn, img, price:r.last,
+      return { id:r.id, n:e.n, oid:e.oid, s:e.s, cn:e.cn, tr:e.tr, img, price:r.last,
                badge: r.dMed != null && isFinite(r.dMed) && Math.abs(r.dMed) >= 0.01 ? pct(r.dMed) : "" };
     }));
     hydrateFavImages(list.map(r => r.id));
@@ -1050,6 +1250,18 @@ function renderFav(){
     box.className = "rows";
     box.innerHTML = list.map(rowHTML).join("");
   }
+}
+
+/* I preferiti possono stare ovunque nell'archivio: si scaricano i frammenti
+   che li contengono, una volta per sessione, in parallelo. */
+let favSeriesDone = false;
+async function hydrateFavSeries(){
+  const ids = Object.keys(FAV);
+  if(!META || !ids.length) return;
+  const missing = ids.filter(id => !(REMOTE.cards[id] && REMOTE.cards[id].p));
+  if(!missing.length){ favSeriesDone = true; return; }
+  await Promise.all(missing.map(id => ensureShard(id)));
+  favSeriesDone = true;
 }
 
 /* le immagini dei preferiti non stanno nello storico: si recuperano una volta e si tengono */
@@ -1155,10 +1367,8 @@ function renderResults(){
     box.innerHTML = `<div class="empty">Cerca una carta per nome: i risultati arrivano ordinati dal prezzo più alto.</div>`;
     return;
   }
-  let list = RESULTS.map(c => ({
-    id:c.id, n:c.name, oid:c.oracle_id, s:c.set.toUpperCase(), sn:c.set_name,
-    cn:c.collector_number, tl:c.type_line || "", cmc:c.cmc ?? null,
-    ci:c.color_identity || c.colors || [], img:imgOf(c,"normal"),
+  let list = RESULTS.map(c => Object.assign(meta(c), {
+    id:c.id, sn:c.set_name, img:imgOf(c,"normal"), thumb:imgOf(c,"small"),
     price:priceOf(c), released:c.released_at || "", card:c
   })).filter(o => passes(o, "q"));
 
@@ -1180,12 +1390,15 @@ function renderResults(){
     box.className = "rows";
     box.innerHTML = list.length ? list.map(o => {
       const fav = !!FAV[o.id];
+      const bits = [esc(o.sn), "#" + esc(o.cn)].join(" · ")
+        + (o.tr ? ` · <span class="tr">${esc(o.tr)}</span>` : "");
       return `<div class="row" data-id="${o.id}">
         <span class="swipehint" aria-hidden="true">★</span>
         <span class="ci" style="${ciStyle(o.ci)}"></span>
         <button class="star ${fav ? "on" : ""}" data-fav="${o.id}"
           aria-label="${fav ? "Rimuovi dai preferiti" : "Aggiungi ai preferiti"}">${fav ? "★" : "☆"}</button>
-        <div class="nm"><b>${esc(shownName(o))}</b><span>${esc(o.sn)} · #${esc(o.cn)}</span></div>
+        ${thumbHTML(o.thumb, o.n)}
+        <div class="nm"><b>${esc(shownName(o))}</b><span>${bits}</span></div>
         <div class="pr"><b>${eur(o.price)}</b></div></div>`;
     }).join("") : `<div class="empty">Nessun risultato con questi filtri.</div>`;
   }
@@ -1205,7 +1418,11 @@ async function openCard(id){
     ${skeleton(3)}`;
 
   let card = null;
+  /* lo storico di questa carta sta in un frammento: si scarica ora, in
+     parallelo alla scheda, e vale per tutte le carte dello stesso frammento */
+  const shardReady = ensureShard(id);
   try{ card = await api("/cards/" + id); }catch(e){}
+  await shardReady;
   const r = evaluate(id);
   const pts = r.s || series(id);
   const price = priceOf(card) ?? r.last;
@@ -1229,7 +1446,8 @@ async function openCard(id){
     try{
       const res = await api(`/cards/search?q=${encodeURIComponent("oracleid:" + card.oracle_id + " -is:digital game:paper")}&unique=prints&order=released`);
       if(res && res.data) prints = res.data
-        .map(c => ({ set:c.set.toUpperCase(), sn:c.set_name, cn:c.collector_number, id:c.id, v:priceOf(c) }))
+        .map(c => ({ set:c.set.toUpperCase(), sn:c.set_name, cn:c.collector_number, id:c.id,
+                     v:priceOf(c), tr:treatment(c).join(" · ") }))
         .filter(p => p.v != null);
       medPrints = median(prints.map(p => p.v));
     }catch(e){}
@@ -1248,6 +1466,7 @@ async function openCard(id){
       : [imgOf(card,"normal")].filter(Boolean)) : [];
   SHEET_FACE = 0;
 
+  const treat = treatment(card);
   const name = (it && it.printed_name) || (card && card.name) || known.n || "Carta";
   const tl   = (it && it.printed_type_line) || (card && card.type_line) || known.tl || "";
   const txt  = (it && it.printed_text) || (card && card.oracle_text) || "";
@@ -1263,6 +1482,8 @@ async function openCard(id){
       <div style="flex:1;min-width:0">
         <h3>${esc(name)}</h3>
         <p>${esc(card?.set_name || known.s || "")} · #${esc(card?.collector_number || known.cn || "")}${card?.rarity ? " · " + esc(card.rarity) : ""}</p>
+        ${treat.length ? `<p style="color:var(--ink-2);font-weight:560">${esc(treat.join(" · "))}</p>` : ""}
+        ${card?.artist ? `<p>Illustrazione di ${esc(card.artist)}</p>` : ""}
       </div>
       <button class="btn sm icon" id="closeSheet" aria-label="Chiudi">✕</button>
     </div>
@@ -1308,9 +1529,11 @@ async function openCard(id){
 
     ${prints.length > 1 ? `<h3>Stampe in circolazione</h3>
       <p class="sub">La mediana tra le stampe dice subito se questa versione è fuori linea, anche senza storico.</p>
-      <table class="prints"><thead><tr><th>Set</th><th>N.</th><th>Prezzo</th></tr></thead><tbody>
+      <table class="prints"><thead><tr><th>Set e trattamento</th><th>N.</th><th>Prezzo</th></tr></thead><tbody>
       ${prints.slice().sort((a,b) => b.v - a.v).map(p =>
-        `<tr class="${cheapest && p.id === cheapest.id ? "best" : ""}"><td>${esc(p.sn)}</td><td>${esc(p.cn)}</td><td>${eur(p.v)}</td></tr>`).join("")}
+        `<tr class="${cheapest && p.id === cheapest.id ? "best" : ""}${p.id === id ? " self" : ""}">` +
+        `<td>${esc(p.sn)}${p.tr ? `<span class="tr2">${esc(p.tr)}</span>` : ""}</td>` +
+        `<td>${esc(p.cn)}</td><td>${eur(p.v)}</td></tr>`).join("")}
       </tbody></table>` : ""}
   `;
   wireSheet(id);
@@ -1537,7 +1760,7 @@ $("#sTheme").addEventListener("change", e => { CFG.theme = e.target.value; saveC
 $("#sLang").addEventListener("change",  e => { CFG.lang = e.target.value; saveCfg(); renderAll(); });
 $("#sSrc").addEventListener("change",   e => { CFG.src = e.target.value; saveCfg(); renderSettings(); });
 $("#sUrl").addEventListener("change",   e => {
-  CFG.srcUrl = e.target.value.trim() || "./history.json"; e.target.value = CFG.srcUrl; saveCfg();
+  CFG.srcUrl = e.target.value.trim() || "./"; e.target.value = CFG.srcUrl; saveCfg();
 });
 
 $("#notifBtn").addEventListener("click", async () => {
@@ -1581,7 +1804,7 @@ function renderSettings(){
   $("#sTheme").value = CFG.theme || "auto";
   $("#sLang").value = CFG.lang || "it";
   $("#sSrc").value = CFG.src || "auto";
-  $("#sUrl").value = CFG.srcUrl || "./history.json";
+  $("#sUrl").value = CFG.srcUrl || "./";
   $("#srcNote").textContent = CFG.src === "local"
     ? "L'app scarica da sola: lo storico avanza solo quando la apri."
     : CFG.src === "remote" ? "Solo il file pubblicato dal collector, nessuna scansione locale."
@@ -1591,7 +1814,8 @@ function renderSettings(){
   $("#sWin").value = CFG.win; $("#sMin").value = CFG.minObs;
   const kb = Math.round(store.bytes()/1024);
   $("#storeInfo").textContent =
-    `${Object.keys(HIST.cards).length} carte · ${HIST.days.length} giorni · ${kb} KB usati` +
+    `${(META ? META.cards : Object.keys(HIST.cards).length).toLocaleString("it-IT")} carte pubblicate · `
+    + `${((META && META.days) || HIST.days).length} giorni · ${Object.keys(FAV).length} preferiti · ${kb} KB usati` +
     (STORE_OK ? " nello spazio locale del browser." : " (archiviazione non disponibile in questa anteprima).");
   if("Notification" in window && Notification.permission === "granted"){
     $("#notifBtn").textContent = "Attive"; $("#notifBtn").disabled = true;
@@ -1606,9 +1830,10 @@ renderAll();
 (async function boot(){
   if(CFG.src === "local") return;
   try{
-    const d = await pullRemote(CFG.srcUrl || "./history.json");
+    const d = await pullRemote();
     ORIGIN = "remoto"; LAST = d.generated || LAST;
-    store.set("last", LAST); saveHist(); renderAll();
+    store.set("last", LAST); renderAll();
+    hydrateFavSeries().then(renderAll);
     const al = allAlerts();
     if(al.length) toast(`${al.length} carte in movimento dall'ultimo giro`);
   }catch(e){ /* offline o collector non configurato: si resta sui dati locali */ }

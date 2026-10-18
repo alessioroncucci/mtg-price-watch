@@ -5,7 +5,7 @@
    - history.json va chiesto sempre alla rete, perché il punto è avere i prezzi
      di stamattina; la copia in cache serve solo se la rete non c'è.          */
 
-const CACHE = "mpw-v1";
+const CACHE = "mpw-v2";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest"];
 
 self.addEventListener("install", e => {
@@ -29,7 +29,7 @@ self.addEventListener("fetch", e => {
   if(url.hostname.endsWith("scryfall.com") || url.hostname.endsWith("scryfall.io")) return;
 
   // dati del collector: prima la rete, la cache è solo la rete di sicurezza
-  if(url.pathname.endsWith("history.json") || url.pathname.endsWith("alerts.json")){
+  if(/\/(meta|movers|alerts|history)\.json$/.test(url.pathname) || /\/h\/[0-9a-f]+\.json$/.test(url.pathname)){
     e.respondWith(
       fetch(req).then(r => {
         const copy = r.clone();
