@@ -20,8 +20,13 @@ apertura per guardarne dieci. Con movers.json gia' calcolato piu' i frammenti
 presi solo quando servono, l'apertura costa meno di prima pur coprendo venti
 volte piu' carte.
 
+Formato del bulk: da settembre 2026 Scryfall pubblica JSON Lines compressi in
+gzip, indicati dal campo `jsonl_download_uri`. Prima era un array JSON sotto
+`download_uri`. Il collector accetta entrambi, e riconosce il formato dal
+contenuto del file invece che dal nome del campo.
+
 Dipendenze: solo libreria standard. `ijson`, se presente, serve unicamente da
-ripiego se il formato del file bulk cambia.
+ripiego se il formato del file bulk cambia ancora.
 """
 
 import csv
@@ -74,7 +79,7 @@ SPARK_N   = int(cfg("MPW_SPARK", 30))         # punti di storico dentro movers.j
 MAX_MSG   = int(cfg("MPW_MAX_MSG", 15))       # righe massime nel messaggio Telegram
 SHARD_HEX = int(cfg("MPW_SHARD_HEX", 2))      # caratteri dell'id usati per il frammento
 
-UA = "MTGPriceWatch/2.0 (collector; +https://github.com/)"
+UA = "MTGPriceWatch/2.1 (collector; +https://github.com/)"
 API = os.environ.get("MPW_API_BASE", "https://api.scryfall.com")
 
 # ---------------------------------------------------------------- trattamento
@@ -166,33 +171,73 @@ def download_bulk(dest):
     entry = next((b for b in cat["data"] if b.get("type") == "default_cards"), None)
     if entry is None:
         raise RuntimeError("Nel catalogo bulk manca 'default_cards'")
-    url = entry["download_uri"]
-    size = entry.get("size") or 0
+
+    # Settembre 2026: `download_uri` e `size` sono diventati `jsonl_download_uri`
+    # e `compressed_size`. Si accettano entrambe le generazioni, la nuova prima.
+    url = entry.get("jsonl_download_uri") or entry.get("download_uri")
+    if not url:
+        raise RuntimeError("Nessun indirizzo di download per 'default_cards'. "
+                           "Campi presenti nel catalogo: " + ", ".join(sorted(entry)))
+    size = entry.get("compressed_size") or entry.get("size") or 0
     print(f"  bulk: {url} ({size / 1048576:.0f} MB dichiarati, "
           f"aggiornato {entry.get('updated_at', '?')})", flush=True)
 
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "gzip"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Accept": "*/*", "Accept-Encoding": "gzip"})
     with urllib.request.urlopen(req, timeout=300) as r:
         raw = r
+        # compressione di trasporto: va tolta qui. Se invece e' il file stesso
+        # a essere un .gz, resta compresso su disco e lo apre open_bulk().
         if (r.headers.get("Content-Encoding") or "").lower() == "gzip":
             raw = gzip.GzipFile(fileobj=r)
         with open(dest, "wb") as f:
             shutil.copyfileobj(raw, f, length=1 << 20)
     mb = dest.stat().st_size / 1048576
-    print(f"  scaricati {mb:.0f} MB", flush=True)
+    print(f"  scaricati {mb:.0f} MB su disco", flush=True)
     return dest
+
+
+def open_bulk(path):
+    """Apre il file bulk compresso o no, riconoscendolo dai primi due byte."""
+    with open(path, "rb") as f:
+        magic = f.read(2)
+    if magic == b"\x1f\x8b":
+        return gzip.open(path, "rb")
+    return open(path, "rb")
+
+
+def first_significant_byte(path):
+    with open_bulk(path) as f:
+        while True:
+            ch = f.read(1)
+            if not ch:
+                return b""
+            if not ch.isspace():
+                return ch
 
 
 def iter_cards(path):
     """
     Itera le carte del file bulk senza caricarlo in memoria.
 
-    Percorso veloce: i file di Scryfall hanno un oggetto JSON per riga dentro
-    l'array. Lo si verifica sulle prime righe prima di impegnarsi; se il formato
-    non e' quello si ripiega su ijson, che e' un parser a flusso generico.
+    Tre formati, riconosciuti dal contenuto e non dal nome del campo:
+      - JSON Lines (attuale): un oggetto per riga, il primo byte utile e' '{';
+      - array JSON con un oggetto per riga (fino ad agosto 2026): primo byte '[';
+      - qualunque altro JSON valido: si ripiega su ijson, parser a flusso.
+    Tutti e tre funzionano sia sul file compresso sia su quello in chiaro.
     """
-    def line_mode_ok():
-        with open(path, "rb") as f:
+    lead = first_significant_byte(path)
+
+    if lead == b"{":
+        with open_bulk(path) as f:
+            for line in f:
+                s = line.strip()
+                if s:
+                    yield json.loads(s)
+        return
+
+    def array_per_line_ok():
+        with open_bulk(path) as f:
             head = f.readline()
             if head.strip() != b"[":
                 return False
@@ -208,8 +253,8 @@ def iter_cards(path):
                     return False
             return True
 
-    if line_mode_ok():
-        with open(path, "rb") as f:
+    if lead == b"[" and array_per_line_ok():
+        with open_bulk(path) as f:
             f.readline()
             for line in f:
                 s = line.strip().rstrip(b",")
@@ -220,7 +265,7 @@ def iter_cards(path):
 
     print("  formato bulk inatteso: passo al parser a flusso (ijson)", flush=True)
     import ijson
-    with open(path, "rb") as f:
+    with open_bulk(path) as f:
         for obj in ijson.items(f, "item"):
             yield obj
 
@@ -575,7 +620,7 @@ def main():
     print(f"  soglia {THRESHOLD:g} EUR"
           + (f", tetto {MAX_CARDS}" if MAX_CARDS else ", nessun tetto"))
 
-    tmp = Path(tempfile.mkdtemp()) / "bulk.json"
+    tmp = Path(tempfile.mkdtemp()) / "bulk.data"
     try:
         download_bulk(tmp)
         harvested = harvest(tmp)
