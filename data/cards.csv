@@ -848,6 +848,7 @@ id,name,set,cn,oid,cmc,ci,type
 4fcc913e-f736-460a-b24b-022fa2e861b9,Bloodline Recollector // Ancestral Craving,FRA,49,c8e9a7e1-28ae-40e3-8715-1bb0aa2057c7,2,B,Creature — Vampire Warlock // Instant
 4ffcef6f-4498-4f2a-8557-caaecb5593a3,Sylvan Library,SLD,2058,92eed395-62ca-4293-882b-8565c40daab5,2,G,Enchantment
 4fff6e6f-4ebd-4ec8-9443-59efb22d376c,Resurrection,LEA,34,837417d8-8260-486d-a3ed-3b5711eaf34a,4,W,Sorcery
+50191314-ad97-4758-895a-5fc61714de32,Dolmen Gate,SPG,145,d53d000f-c92f-4d70-ae60-8be3791da8a2,2,,Artifact
 503256f8-3aab-49d0-b78b-6502aa29ce52,Rasputin Dreamweaver,LEG,253,fef452ee-9018-4175-bb79-476544e48433,6,UW,Legendary Creature — Human Wizard
 504a69eb-3c2d-4bb1-b117-252b15acf0c2,Mana Confluence,JOU,163,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,0,,Land
 507dddd9-6576-482d-86c9-88564723b554,Wall of Stone,SUM,184,cd4cadb4-3156-49bd-b36e-12ba5c85938b,3,R,Creature — Wall
@@ -1960,6 +1961,7 @@ b728cdab-e4fe-478b-b7b2-5912bd6a80a3,Grave Pact,WOT,29,6f4ac4a4-53ec-4bc9-8f5c-d
 b7331b03-be66-419c-94bc-ed494c042ea3,Plains,LEB,288,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains
 b734cb11-2024-411f-9885-dafda14bb431,Dark Ritual,STA,89,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,1,B,Instant
 b7518bcf-766a-457d-a627-dbfb0207309c,Last March of the Ents,LTR,623,3999cd64-ff5c-4e2c-8aa6-d14f9f8a2b4c,8,G,Sorcery
+b7599783-c240-4425-9f3d-bd6970658a82,"Aminatou, the Fateshifter",PLST,2X2-169,3a30089d-cd2d-49be-9b06-7a2454117692,3,BUW,Legendary Planeswalker — Aminatou
 b7623c00-144b-4a8f-9c6c-f5e9e4f65ece,Fireball,LEA,149,aa7714b0-2bfb-458a-8ebf-37ec2c53383e,1,R,Sorcery
 b7848325-c46e-4e63-90d0-c9524380eb63,"Greymond, Avacyn's Stalwart",SLX,18,739a5220-50cd-4148-be58-1bbdeef2954e,4,W,Legendary Creature — Human Soldier
 b7995204-c277-4137-ba5a-55875aee5fe1,Second Harvest,LTC,530,61a6341e-0d36-44b6-8026-9c87c8ef61cb,4,G,Instant
@@ -1997,6 +1999,7 @@ bb2926dd-ce40-4afe-8e2f-3e009d931dc8,Goblin King,4BB,198,d236b3fc-0d3f-4d99-875d
 bb2b74a2-cb74-4b54-b9c6-78c63f14cf5b,Aladdin's Ring,ARN,57,7810915f-df4d-445a-8ba8-fe6ed3abf1ae,8,,Artifact
 bbc46960-fdf1-4227-93b8-3fd778be896b,Solitude,H2R,3,dcb9c2a7-ae54-4ddc-a567-640bf4bf4366,5,W,Creature — Elemental Incarnation
 bbdfbd21-61b1-4ebd-8d37-bce2a391a7e9,"Codsworth, Handy Helper",PIP,14,f496ff42-3644-494a-9f21-27f781ee880b,3,W,Legendary Artifact Creature — Robot
+bc010302-e715-4946-89eb-a214e0b836ba,"Aminatou, the Fateshifter",2X2,169,3a30089d-cd2d-49be-9b06-7a2454117692,3,BUW,Legendary Planeswalker — Aminatou
 bc1f42a2-fe11-45da-9552-069803b4068a,"Mikaeus, the Unhallowed",CMM,173,5d27c63e-d1ef-48af-b51d-01ebc6daeac9,6,B,Legendary Creature — Zombie Cleric
 bc2570a4-eef9-430d-b6c2-cd51d29b9d01,Timber Wolves,LEA,219,35d07ac9-b184-4b5f-8192-34b1db042f69,1,G,Creature — Wolf
 bc45f2cb-c256-4a0f-879a-c7db5b1a0b94,Null Rod,WTH,154,2f83ca86-e23d-40f7-8085-6928d8cfef9b,2,,Artifact
