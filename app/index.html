@@ -1491,7 +1491,7 @@ async function openCard(id){
     <div class="acts">
       <button class="btn sm" data-fav="${id}">${fav ? "★ Nei preferiti" : "☆ Aggiungi ai preferiti"}</button>
       ${card?.scryfall_uri ? `<a class="btn sm" href="${esc(card.scryfall_uri)}" target="_blank" rel="noopener">Scryfall ↗</a>` : ""}
-      ${card?.purchase_uris?.cardmarket ? `<a class="btn sm" href="${esc(card.purchase_uris.cardmarket)}" target="_blank" rel="noopener">Cardmarket ↗</a>` : ""}
+      ${card ? `<a class="btn sm" href="https://www.cardmarket.com/${CFG.lang === "en" ? "en" : "it"}/Magic/Products${card.cardmarket_id ? "?idProduct=" + card.cardmarket_id : "/Search?searchString=" + encodeURIComponent(String(card.name || "").split(" // ")[0]).replace(/'/g, "%27")}" target="_blank" rel="noopener noreferrer">Cardmarket ↗</a>` : ""}
     </div>
 
     ${(tl || txt) ? `<div class="oracle">` +
