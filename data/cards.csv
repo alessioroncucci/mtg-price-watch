@@ -86,6 +86,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 009661e7-c704-43a1-82e3-7da0b609844e,"Lady Zhurong, Warrior Queen",PTK,139,531e6ffb-28e0-4e8e-ad88-2f3a243789cf,5,G,Legendary Creature — Human Soldier Warrior,Cornice retro,Miao Aili
 009a2276-0014-45c2-90b7-064594009780,Rally the Galadhrim,LTC,499,84b2d0f6-ad98-4a71-a3d5-645b0f2db6c6,4,GU,Sorcery,Borderless · Invertita · Universesbeyond,Alexander Mokhov
 009b1aff-a8c7-4032-ab29-a77c94c5af59,Manabarbs,10E,218,0f1afedd-c60f-454f-b84a-c8117aec0128,4,R,Enchantment,,Jeff Miracola
+009d2fb8-6144-46d9-9085-26232c174109,Necrotic Hex,CMR,137,a6e720a2-9819-40ec-a811-7812898b531a,7,B,Sorcery,,Nils Hamm
 009f7603-a6a3-461b-bc73-810db1ab2898,Reconnaissance Mission,40K,193,11bf211c-95a3-4e7f-bd08-13f979d54e73,4,U,Enchantment,Universesbeyond,Billy Christian
 00a4ffc1-7731-42d9-b970-2a8d84cba14d,Nature's Lore,5ED,316,78826359-fe63-44ad-adc4-a17ffcd710e4,2,G,Sorcery,Cornice retro,Alan Rabinowitz
 00a87f71-8dbe-44e1-b69b-a03f6ab62055,Otepec Huntmaster,LCC,229,41623eab-38b5-4058-8de2-e6b8706de7a2,2,R,Creature — Human Shaman,,Daarken
@@ -352,6 +353,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 02c532e8-21f1-4d6f-a931-1ea48a6aeea2,Coalition Relic,A25,223,008cb342-79f5-4df6-a6b7-0e9e22ed693f,3,,Artifact,,Jason Felix
 02c78898-094e-4271-8e21-c4be2b9bf1a4,Mountain,PSAL,C60,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain,Mediainsert,Rob Alexander
 02cb5cfd-018e-4c5e-bef1-166262aa5f1d,Swamp,THB,252,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Full art,Sam Burley
+02cb9420-fbfb-4123-a830-a992ff470db6,Arcane Signet,SCD,257,0bc7f093-bef0-4f1a-852c-4b75ebf54838,2,,Artifact,,Dan Murayama Scott
 02ce7345-6a4b-4927-8d34-1c6fba6d5759,Rampaging War Mammoth,LTC,117,05e910aa-cf84-468c-8a48-256588cbbf08,7,R,Creature — Elephant,Extended art · Universesbeyond,Simon Dominic
 02d07692-9a18-434a-876f-7311349178c2,"Katara, Waterbending Master",TLE,180,2e3af413-6706-4023-871a-e5e49da5beab,2,U,Legendary Creature — Human Warrior Ally,Extended art · Universesbeyond,Yueko
 02d6d693-f1f3-4317-bcc0-c21fa8490d38,"Jace, Vryn's Prodigy // Jace, Telepath Unbound",ORI,60,594f6881-c059-46f8-aa4e-7151d502de73,2,U,Legendary Creature — Human Wizard // Legendary Planeswalker — Jace,Originpwdfc,Jaime Jones
@@ -428,6 +430,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 034bfd23-8f10-4d98-9500-47d392531c69,Leyline of the Void,WOT,30,f4e32fc1-1b8d-441e-8e76-71f19f98e925,4,B,Enchantment,Borderless · Showcase · Invertita,Matteo Marjoram
 034c5944-aad3-4bf2-b79d-8da61ab1bd52,Battlefield Forge,ORI,244,6b75b94e-83b7-457e-ac41-7ca90b5a59aa,0,RW,Land,,Darrell Riche
 034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1,"Sauron, the Dark Lord",LTR,224,9f8f29ba-7e64-455d-be05-ec7973f2bd0a,6,BRU,Legendary Creature — Avatar Horror,Universesbeyond,Kieran Yanner
+034e0edc-fec5-49d3-b773-76e2bfecfb8b,"Doran, Besieged by Time",PECL,215p,dd35a377-0865-4b25-bd0f-aaead29a9f0e,4,BGW,Legendary Creature — Treefolk Druid,Promopack · Stamped,Carl Critchlow
 034f75c7-bb57-426a-8e3f-4b7f0110f02b,"Minsc, Beloved Ranger",AFR,344,2cd10c6c-f946-457e-9175-92501322f7a5,3,GRW,Legendary Creature — Human Ranger,Showcase,Phil Stone
 034fb5f8-a121-4145-9650-75c278a4bb19,Idyllic Tutor,SPG,129,57c9ff89-dd30-467b-bb3e-499eeea8cb94,3,W,Sorcery,Borderless · Invertita,Ryan Riller
 03522b6b-31ec-4126-8885-5dbb2248688b,Revitalizing Repast // Old-Growth Grove,MH3,256,8dd6d060-d023-48a6-85cb-7a5521b6257b,1,BG,Instant // Land,,Raoul Vitale
@@ -728,6 +731,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 05adec4c-882a-4630-9654-b5af4e5fe9c0,Chaos Dragon,AFC,299,a04f46b4-b0b0-4aef-907f-1df1a2e261de,3,R,Creature — Dragon,Extended art,Grzegorz Rutkowski
 05af8b37-6588-42dc-a5e5-e81ccd0abb91,Empty the Warrens,SOA,108,3a59c882-8bb8-49ba-862f-125020dd5bec,4,R,Sorcery,Borderless · Showcase,Jed Henry
 05b2cc68-1d20-421f-9800-af0996071554,Phyrexian Tower,JMP,493,1861e642-21d5-4232-89f3-b5557f2946c1,0,B,Legendary Land,,Dimitar Marinski
+05b39d89-9902-4a45-a774-bea1c17ca5e4,Ashroot Animist,FDN,345,3f008b57-6471-4785-9571-3b90193da7e2,4,GR,Creature — Lizard Druid,Borderless · Invertita,Lie Setiawan
 05b50907-41e2-4613-b030-7c6556874bd2,Zombify,SLD,2389,bb95db4d-5017-4121-bf79-d68476602d8c,4,B,Sorcery,Borderless,Hisashi Momose
 05b5c8a2-7713-47c1-b426-c4ced59aeb49,Political Trickery,WC97,jk81sb,e0eaa43f-1c46-4299-9ecd-5f4a32d292cd,3,U,Sorcery,Cornice retro,Scott Kirschner
 05b5e975-bd75-4f7c-829d-e87f8b24bc2f,Ohran Frostfang,CMM,650,b99ada26-9a61-4175-9fb8-15a106960220,5,G,Snow Creature — Snake,Borderless · Invertita,Ron Spears
@@ -1090,6 +1094,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 08580488-686a-48cd-9a15-757fa0e4ff83,"Baylen, the Haymaker",SLD,2377,73dc28a7-37ac-4b16-aa00-967c9c44d979,3,GRW,Legendary Creature — Rabbit Warrior,Borderless · Invertita,Stan Sakai
 085b4641-62fb-4820-aded-ccc9403d319e,Swamp,SLD,417,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Borderless · Full art · Senza testo,Ben Schnuck
 08605ffa-de04-4831-a078-5b3d65c2526f,Darksteel Mutation,CMM,623,05a4f8ff-49da-42af-add5-6248c4b0644b,2,W,Enchantment — Aura,Borderless · Invertita,Richard Kane Ferguson
+0861a74a-a4d5-4b9f-8c62-74cdfcc67825,"Iraxxa, Empress of Mars",WHO,89,52925539-423a-42ec-91b9-0d39e7df565c,4,R,Legendary Creature — Alien Warrior,Universesbeyond,Borja Pindado
 0868f94e-235d-4f65-a7af-8aacd58dd61e,Withering Torment,FDC,134,ffce81c5-1b58-4882-a4e7-6f8d7cb170de,3,B,Instant,,Inkognit
 0869d024-a4cc-44f3-8731-bccd68649a4a,"Alpharael, Stonechosen",PEOE,87p,ed43f1f9-ef96-47bc-8a54-e59154319f9d,5,B,Legendary Creature — Human Cleric,Promopack · Stamped,Kieran Yanner
 086b6003-6d90-426b-809e-ea837d868290,The Walls of Ba Sing Se,TLA,329,af7d7da5-aff5-48e1-901a-f81257a85f71,8,,Legendary Artifact Creature — Wall,Borderless · Invertita · Universesbeyond,Ben Hill
@@ -1417,6 +1422,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 0ac7e199-c32e-4479-a92f-df52f1182c9a,All-Seeing Arbiter,SNC,286,f15460d9-0133-436c-b0fe-1661989124f0,6,U,Creature — Avatar,Borderless · Invertita,Anato Finnstark
 0ad0e168-ac5c-4e1b-83f2-0488067a58d7,"Niv-Mizzet, Ghost Counsel",FRC,10,a5350327-e84c-44b6-8359-87882e521048,6,BW,Legendary Creature — Spirit Dragon,,Brian Valeza
 0ad198cb-32e5-4e3e-9581-d764ca6a8983,Springheart Nantuko,PMH3,171p,8a3ad2ef-8bcb-40c0-85de-f03328c2b644,2,G,Enchantment Creature — Insect Monk,Enchantment · Promopack · Stamped,Valera Lutfullina
+0ad288a7-321d-41a5-a66e-fd984b922bea,Sunbird's Invocation,PXLN,165p,10d482fd-e034-4187-b148-51fe15885360,6,R,Enchantment,Setpromo · Promopack · Stamped,Christine Choi
 0ad40aed-f247-41b3-8198-6367fdeee953,Alseid of Life's Bounty,THB,353,d371031e-78be-4964-b521-b1eaa22a5480,1,W,Enchantment Creature — Nymph,Enchantment · Invertita · Promopack,Magali Villeneuve
 0ad783ed-69b9-48b5-9610-4fa4d8f9a6e6,Commander's Sphere,SLD,315,0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b,3,,Artifact,Borderless · Invertita,Tyler Walpole
 0ad7a961-d3a1-471a-8472-8407d1057de0,Overrun,TMP,243,204f9afe-c20b-4933-b5cd-aa572784762a,5,G,Sorcery,Cornice retro,Jeff Miracola
@@ -1451,6 +1457,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 0b09dc9b-ed01-49de-9675-48c41f428385,Ring of Gix,ULG,131,e01fe9e9-a76c-4909-924c-a0cba403f975,3,,Artifact,Cornice retro,Mark Tedin
 0b0a7009-bf57-4367-b59e-314348876f8c,Secrets of the Dead,SLD,7099,b9720c63-5aa7-4fb8-8d71-8f55d8b1337b,3,U,Enchantment,Borderless · Invertita · Sldbonus,Alix Branwyn
 0b0c12dc-3978-4c3e-a3a2-a81db878f4ad,Divine Visitation,RVR,16,5917216f-5b42-41fa-8976-401bdbeb782e,5,W,Enchantment,,Cristi Balanescu
+0b0d8543-78c9-4d7f-b45e-44ecf023d276,Syphon Mind,ONS,175,abc37d6c-6300-47b5-a679-9db5b83eb54f,4,B,Sorcery,Cornice retro,Jeff Easley
 0b0f389a-cf11-48da-b3a8-e082d39ff297,Unholy Strength,30A,425,090d88a9-7f2d-4bd1-a30a-7c48d05068be,1,B,Enchantment — Aura,Cornice retro,Douglas Shuler
 0b101b5e-d478-4686-b3cf-bdc545f089e5,Wave of Reckoning,MMQ,56,24f7143c-d43a-4120-baa0-0235b15d8186,5,W,Sorcery,Cornice retro,Bradley Williams
 0b107c80-0c9a-46cd-8f00-26c37f080ce7,Personal Incarnation,4ED,40,6e49a5b8-6bc4-4c7b-82c1-957f1fb0ca5f,6,W,Creature — Avatar Incarnation,Cornice retro,Kev Brockschmidt
@@ -2393,6 +2400,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 119d05de-5043-4fc3-ade4-78816cb75420,Seal of Cleansing,WC00,nl18sb,a75dbe70-7e3e-446f-9a76-9fbb414f2e7c,2,W,Enchantment,Cornice retro,Christopher Moeller
 119ea61b-8575-4491-a422-2eadebe8b261,Sulfurous Springs,LTC,334,f5c38c01-4a40-469f-91a0-7479daf4e8e7,0,BR,Land,Universesbeyond,Jeremy Paillotin
 119f8eee-3cd7-4f3c-9834-e831dcf59e71,Wooden Sphere,30A,569,0bd8917c-bec4-4603-bc3f-8e0c2afae56a,1,,Artifact,Cornice retro,Mark Tedin
+11a0e1a6-2d74-4b1c-9e00-b399e90a2954,Mana Short,MB2,166,48207d1c-448a-4e1b-974a-642dfea75933,3,U,Instant,,Greg Staples
 11a18883-8990-40a0-bcb2-e01d0e82bfad,Curse of Stalked Prey,ISD,136,7971a2a6-f89f-46a5-9008-96cfa49de41a,2,R,Enchantment — Aura Curse,,Christopher Moeller
 11a1cfc1-0bfc-40e8-b57f-f267bf9b6542,"Sheoldred, the Apocalypse",PDMU,107p,34f34409-326d-4994-a0ea-1a69aa278f03,4,B,Legendary Creature — Phyrexian Praetor,Promopack · Stamped,Chris Rahn
 11a23578-165c-4156-ad0d-102bb1dda2ac,Ebon Stronghold,PTC,ll95,4d4b9512-d29d-4b99-9249-d37e1199a1f5,0,B,Land,Cornice retro,Mark Poole
@@ -2922,6 +2930,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 15d2d7cd-d29d-4f19-8490-88bd526ff1c5,Pyroblast,5ED,262,ecc435e2-deb1-420a-a79f-01dd08747314,1,R,Instant,Cornice retro,Kaja Foglio
 15d49ad9-3600-4f64-b284-4f096ed90b4d,Fleshbag Marauder,SLD,1175,4b1bf05e-753e-4350-a913-894cf3cecc0c,3,B,Creature — Zombie Warrior,,Kev Walker
 15d4eec2-8587-4ec6-aea5-21804a998375,Godless Shrine,PRNA,248p,73864fcc-1bde-4bc0-831e-2b93e546e417,0,BW,Land — Plains Swamp,Setpromo · Promopack · Stamped,Ravenna Tran
+15d56042-db45-40dc-a197-e2b7a3e6ab06,Sister of Silence,40K,26,fcc38b0b-d54a-4ecf-96f7-e09709227735,5,U,Creature — Human Knight,Universesbeyond,Games Workshop
 15d9fb74-9f2d-40f1-88b8-514a460a4f86,All That Glitters,PIP,155,a4d751e0-41c1-4e90-853d-512f385acd81,2,W,Enchantment — Aura,Universesbeyond,Kieran Yanner
 15dc03b5-ad30-4556-ac56-91e3266c827c,Timberwatch Elf,PSAL,B18,50cee3ac-cba0-4abb-babf-de1928b1590e,3,G,Creature — Elf,Mediainsert,Dave Dorman
 15dd9a36-55df-4942-a7eb-1c49a7999e68,Plains,HOB,316,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains,Full art · Universesbeyond,David Petersen
@@ -3005,6 +3014,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 1685e8ee-1c6a-4d9c-8ca7-e08590089818,Timber Protector,LTC,533,9bc8a69b-6065-4ef7-a580-adb1e7c72ef4,5,G,Creature — Treefolk Warrior,Borderless · Invertita · Silver foil,Greg Hildebrandt & Tim Hildebrandt
 1687ea64-fcc0-4bd8-aa7e-3c893d4ef2a8,Goblin Spymaster,CLB,795,ec08df88-3c13-4940-a090-0c502b9b12f1,3,R,Creature — Goblin Rogue,,Wayne Reynolds
 168918a6-a8b8-4cc3-89a2-22e22476c488,Raise Dead,CED,123,cbc9c731-181a-4f00-a7b0-eb7e56eac2ea,1,B,Sorcery,Cornice retro,Jeff A. Menges
+16891fb5-1388-465c-8d86-97de0ee94ef1,Samwise the Stouthearted,LTR,449,0e26b429-0469-474a-818a-2d4696c38a05,2,W,Legendary Creature — Halfling Peasant,Borderless · Invertita · Universesbeyond,Marta Nael
 168cbca9-0124-478b-8dd7-0bd9dc711c6d,Herald of Secret Streams,XLN,59,366a218e-84d3-4cf9-bbc8-f2f8ecce92a3,4,U,Creature — Merfolk Warrior,,Sara Winters
 168d7532-c925-4a96-a756-2ce4dd0fec33,"Trynn, Champion of Freedom",C20,1,76771556-3eb7-4f87-aaeb-32ea81105aa2,4,W,Legendary Creature — Human Soldier,,Jesper Ejsing
 168ef687-5797-4b45-b75b-393d8117cebd,Sacred Foundry,RAV,280,45181cb8-2090-4471-ba90-e5a8f04d525f,0,RW,Land — Mountain Plains,,Rob Alexander
@@ -3040,6 +3050,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 16cd6bde-29ec-4de2-b369-bb3e1d2714d9,Territory Forge,BIG,45,a14d89b6-23eb-4337-8dee-93c39b0efbf1,5,R,Artifact,Showcase · Vault,David Astruga
 16cd79f1-88dd-40a0-b348-6eb6757e3b13,Goblin Lackey,SLD,1311,213fbbdd-f1bc-4bba-9124-7b26e9a706c8,1,R,Creature — Goblin,Borderless · Full art · Poster,Wizard of Barge
 16ce2a80-f711-40de-a6bb-c142c239bd51,Enlightened Confidant,PFRA,5p,a139eb7f-3853-490c-a839-35d0e5aed7b5,2,W,Creature — Kor Cleric,Promopack · Stamped,Denman Rooke
+16d2448c-1b2e-466a-a0ab-e20ba1de6bc9,Helvault,DKA,151,fa3d8a6f-dc5b-4890-a806-f785a41660c7,3,,Legendary Artifact,,Jaime Jones
 16d49e21-dbe6-41da-b4b0-fd587e3326a5,Talisman of Hierarchy,LCC,315,b693c3de-2eaf-4850-b405-e79d00adefda,2,BW,Artifact,,Lindsey Look
 16dc5d83-ccd4-4f25-a7aa-ea5fa90e1ab6,Karlov of the Ghost Council,RVR,437,647d7988-9a5d-4700-9238-938d0d5fae12,2,BW,Legendary Creature — Spirit Advisor,Borderless · Invertita,Dai-XT
 16dd0d87-6f54-41eb-94ed-62488a7f85ab,"Iron Monger, Sadistic Tycoon",MSC,350,7324d8c0-3a30-452b-b05d-ec7b6a98666c,3,B,Legendary Artifact Creature — Human Villain,Extended art · Universesbeyond,Bartek Fedyczak
@@ -3561,6 +3572,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 1a8c02ab-6348-4b04-8ce0-b36309a14a5e,Generous Gift,CMM,26,fae37e28-e137-4177-b973-fa8b4dd8f409,3,W,Instant,,Kev Walker
 1a8e47b9-6735-4e46-b3fd-ac69edc39745,Elvish Piper,A25,168,872ef617-7cdb-4a7a-85f5-efc9e12bece5,4,G,Creature — Elf Shaman,,Rebecca Guay
 1a910c14-d95d-4365-a983-c3c356620446,Chromatic Lantern,PGRN,233p,539f5396-d99a-417d-a84c-dff7930b5900,3,,Artifact,Setpromo · Promopack · Stamped,Jung Park
+1a91ea47-0c06-4333-a309-ac360c5cc9bd,Unbreathing Horde,ISD,121,e6cd9203-e4d3-4d9f-b59f-4e454fc5a477,3,B,Creature — Zombie,,Dave Kendall
 1a9232ae-9f32-4bbc-a020-554b3f9cbbd3,Epicenter,ODY,192,264cb7f6-6d36-4e58-87f4-83ccaa998a32,5,R,Sorcery,Cornice retro,Anthony S. Waters
 1a93e9bd-6c31-4363-93b0-b7d355bd2867,Mishra's War Machine,3ED,266,18b1f96f-de35-4f0a-8b0e-81576471fd15,7,,Artifact Creature — Juggernaut,Cornice retro,Amy Weber
 1a93f587-ab72-42da-88c4-31af1c9cdf1b,"Lae'zel, Vlaakith's Champion",CLB,29,c066f921-e349-45d1-8ec3-0955d10bbf19,3,W,Legendary Creature — Gith Warrior,,John Stanko
@@ -3927,6 +3939,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 1d4fe072-81a7-424e-8d21-aaca010d5b1d,Hot Springs,ICE,248,123880ad-7b54-4ab0-82eb-c78b12ab89a7,2,G,Enchantment — Aura,Cornice retro,Nicola Leonard
 1d504bb1-d8ed-4be5-be36-3f071c2f88bc,"Vraska, Soul of Stone",PFRA,277p,cad63b31-667b-4518-bc49-be4ffb82bc63,3,RUW,Legendary Creature — Gorgon Wizard,Promopack · Stamped,Kieran Yanner
 1d50bf06-97ab-4874-a484-9289f41dc98e,Dwarven Armorer,FEM,50,5bbd27b1-0afd-4d98-a73c-c348c8f08625,1,R,Creature — Dwarf,Cornice retro,Bryon Wackwitz
+1d512f5c-0327-4d49-8a26-672574a49102,Wrath of Marit Lage,ICE,109,740cafc6-9521-403a-ab5f-11582bf55af0,5,U,Enchantment,Cornice retro,Mike Raabe
 1d513dde-7c5f-46f1-b871-5290595bdbbe,Clone,ONS,75,42226b87-0746-4ebf-9fd0-108d508462af,4,U,Creature — Shapeshifter,Cornice retro,Carl Critchlow
 1d58d08d-cd62-416d-8d8e-7d9c56d5c4da,Evolution Sage,ECC,105,b45fdeab-00cc-4422-af9f-66f30a880a7c,3,G,Creature — Elf Druid,,Simon Dominic
 1d5a46d0-09fe-454c-a920-0343f846b832,Overwhelming Stampede,M11,189,e1e96802-fd0c-41f1-aa21-3287d75a0e88,5,G,Sorcery,,Steven Belledin
@@ -4313,6 +4326,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 206fd18a-f263-42cd-a77a-e40ae31a468a,Path to Exile,SS2,3,d683d985-9888-4d21-8b5f-69e69ce4a03b,1,W,Instant,Invertita,Daarken
 207128b3-2de3-495a-bf29-eec50c3bd752,Twinflame,JOU,115,83cf1169-5853-4332-b897-7b17d72d76ab,2,R,Sorcery,,Chase Stone
 2073ca8b-2bca-4539-94d7-989da157e4b8,Armageddon,POR,5,c9ed8b01-959a-47d6-891e-0abbdccf6e4f,4,W,Sorcery,Cornice retro,John Avon
+2076308f-0f4e-4b31-9e75-c2965942e7d1,Zhur-Taa Ancient,DGM,119,6543b60c-12b0-4e69-9074-6a2b468c5234,5,GR,Creature — Beast,,Adam Paquette
 2078d569-47c1-43c8-b34f-ef84951b7566,Hellkite Tyrant,RVR,428,d9b066ff-9519-415c-ae17-bfea703c9889,6,R,Creature — Dragon,Borderless · Invertita,Ishikawa Kenta
 207a468f-79c3-486e-ac5a-4516361b7b4d,Mountain,MIR,344,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain,Cornice retro,John Avon
 207a9a0c-4cae-4f96-ac41-3a7d501c6cd1,Healing Technique,C21,390,1b99c32d-1d02-410e-84bf-9db2ca05f576,4,G,Sorcery,Extended art,Michele Parisi
@@ -4850,6 +4864,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 248f0108-e936-4286-95a9-f11b679ebaa0,Serra Avatar,DMR,272,c363725f-15cf-4955-aaf1-536b1f8daaed,7,W,Creature — Avatar,Cornice retro,Victor Adame Minguez
 249104ba-65fc-42d6-ad8b-d97640545d89,Forest,SLD,388,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest,Full art,Jeanne D'Angelo
 2495b60a-7cd0-4514-84ff-f82f28602d42,Gix's Command,BRO,327,9270eb03-4600-40cc-83a5-ea987d5d4978,5,B,Sorcery,Extended art,Dominik Mayer
+2498b591-4a80-459f-a639-fe4cf8880be2,Rootwire Amalgam,BRO,203,7644148f-3b26-447d-9f52-28c94c111b69,5,G,Artifact Creature — Golem,,Leon Tukker
 249a7560-7899-4531-a4cc-499a7aeb3372,Serra Angel,FBB,40,4b7ac066-e5c7-43e6-9e7e-2739b24a905d,5,W,Creature — Angel,Cornice retro,Douglas Shuler
 249a844d-0e93-4ee0-abb5-c69bce2d6708,Sulfurous Springs,WC01,jt345,f5c38c01-4a40-469f-91a0-7479daf4e8e7,0,BR,Land,Cornice retro,Rob Alexander
 249c188d-c11d-46f7-a2d8-a67df4ba401b,Rafiq of the Many,ALA,185,c6e17443-2379-419d-8c32-13ea9bf52993,4,GUW,Legendary Creature — Human Knight,,Michael Komarck
@@ -4884,6 +4899,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 24c9126a-463b-4e5f-b456-a26fc36d3b22,"Rabanastre, Royal City // Rabanastre, Royal City",AFIN,18,1d34a522-8e6c-446c-9fe3-e056eebfce10,0,,Card // Card,Borderless · Invertita · Universesbeyond,Shahab Alizadeh
 24cb1383-6e05-4f87-b05c-53d6050f7edc,Skullclamp,PLST,C17-222,65986c1b-8e51-4604-b685-d82fa7d1263a,1,,Artifact — Equipment,,Daniel Ljunggren
 24cdb28b-85f3-41ae-b1f5-fac766b2dcd2,Ruby Medallion,TMP,305,0c367958-729e-416d-988b-098e90e7a1fd,2,,Artifact,Cornice retro,Sue Ellen Brown
+24ce6fec-d712-494d-8623-6acc0cc0056a,Scavenger Grounds,MKC,287,5ece7d03-9ee7-4953-a06e-9d8e41874903,0,,Land — Desert,,Steven Belledin
 24cf121b-c6ad-4425-a2fc-7ce185cd30ef,Aggressive Biomancy,M3C,69,9080a7bb-2b8b-42af-9f5b-a9f374ecb801,2,GU,Sorcery,Extended art · Ripple foil,Dominik Mayer
 24cf4c50-d576-41fb-b45c-5bc25d54247b,Dawn's Truce,SLD,2803,37c06f89-db36-4937-9404-2b07cd22e1a6,2,W,Instant,Borderless · Universesbeyond,ConcernedApe
 24d33360-0a38-4ee0-b716-dd739ecccdaf,Thoughtlace,CED,83,6452b6a6-6235-46a3-a712-a26592450438,1,U,Instant,Cornice retro,Mark Poole
@@ -5294,6 +5310,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 27b95a76-688c-4bd9-a759-f83f1aa18e2a,Hulking Raptor,LCI,327,9f2e7533-cfc1-4dd8-a9b8-09cdc712ef2f,4,G,Creature — Dinosaur,Borderless · Invertita,Sidharth Chaturvedi
 27bb371f-d49f-41bd-bbe0-d5e1e2067e36,"Sorin, Lord of Innistrad",DKA,142,5c780dda-ee76-482a-a610-53c321c4fdec,4,BW,Legendary Planeswalker — Sorin,,Michael Komarck
 27bd54ab-5512-4011-a60f-ec2899b34327,Mechanized Production,MAR,57,39d8406a-90c3-460c-b4e8-0f590573db51,4,U,Enchantment — Aura,Borderless · Enchantment · Invertita,George Pérez & Tom Smith
+27be522d-bdef-4a95-a405-98247c58b71a,Persistent Petitioners,RVR,53,0e488c6c-aae2-450f-b969-7bb5a1b37a66,2,U,Creature — Human Advisor,,Jason Rainville
 27bf5e61-87d4-446e-8583-cece83d3aacd,Thought-Knot Seer,SPG,39,cef7396d-2168-4282-bf38-670ca9eebd91,4,,Creature — Eldrazi,Borderless · Invertita,Antonio José Manzanedo
 27c01d57-2bd4-433e-bea7-1acc70d14be3,Rebirth,4ED,267,d17576b2-4a47-4848-8908-3152c8b4afe2,6,G,Sorcery,Cornice retro,Mark Tedin
 27c2a1f9-7846-4f96-b20d-ceb638e9ed42,Kitesail Larcenist,LCI,364,2452be47-cc23-47f7-a3a1-fec900bb0119,3,U,Creature — Human Pirate,Extended art,Sidharth Chaturvedi
@@ -5382,6 +5399,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 287f9f55-829d-4b29-b1d2-34d20d23b3d5,Nature's Resurgence,7ED,259,276f49ee-7cf3-4a4d-9b14-74aedcbef69f,4,G,Sorcery,Cornice retro,Gary Ruddell
 2881c507-aa8f-40a7-9995-6170ee85c7ed,Dawn of a New Age,HOC,162,37df5ade-6a21-4b0c-89f8-e2e917589a8d,2,W,Enchantment,Enchantment · Universesbeyond,Anato Finnstark
 288323c1-13f1-481e-940e-5e4ecebb404e,Sacrifice,2ED,125,068b3692-411b-44d4-a7e9-005262760cfc,1,B,Instant,Cornice retro,Dan Frazier
+2884abe5-80f4-4beb-850a-98f91ee929e3,Leonardo's Technique,TMT,224,e98c2af9-1393-487d-b8e9-f49a67bb7296,4,W,Sorcery,Borderless · Invertita · Showcase,Gregg Schigiel
 28854f0f-48d3-4a54-8811-c6329ad2e88e,Inkfathom Infiltrator,SHM,167,2b43c7de-8c21-4137-b6b8-45965e4bb558,2,BU,Creature — Merfolk Rogue,,Jesper Ejsing
 2887fc25-22cd-48c9-ad2b-6539c8139e27,Personal Tutor,CMM,110,90f54959-2c9b-4b8a-84c9-d6893eb43553,1,U,Sorcery,,Julie Dillon
 2889e0ad-0ea1-4ace-b795-b26811b9d2bc,"Mari, the Killing Quill",NCC,97,5f1fdc23-9af0-41a1-aeba-7288f9642734,3,B,Legendary Creature — Vampire Assassin,Extended art,Rob Rey
@@ -5517,6 +5535,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 29a69b1a-e7c9-4ae0-a9f9-4758daf02a86,Xenic Poltergeist,4BB,173,fb8f80cc-6214-4ab9-a9a9-1873ab9feb0c,3,B,Creature — Spirit,Cornice retro,Dan Frazier
 29a6db88-a11d-49b4-8692-28b24d23f3c7,Umbilicus,USG,312,c9132e72-d016-4cb7-8662-a16b7d932bef,4,,Artifact,Cornice retro,Dermot Power
 29a75dc8-1c24-4063-8944-d7e71b4a5755,Phyrexian Marauder,VIS,151,405674c5-607a-43d3-8b46-8741d2339f80,0,,Artifact Creature — Phyrexian Construct,Cornice retro,David Seeley
+29ab8737-151f-4702-a95d-7f7b60a5ee8a,Increasing Savagery,DKA,120,616c7f45-5295-4b8c-a828-ff3a5ba4d917,4,G,Sorcery,,Steve Prescott
 29ac1abc-7a13-48e4-b939-fbfb7466cd21,Earthquake,FBB,148,9a40614b-50a3-422c-849e-53c8b7d3d204,1,R,Sorcery,Cornice retro,Dan Frazier
 29b25772-8512-4270-851b-289cd182d819,Jet Medallion,MH3,346,bccb06f1-8839-4104-9ffa-c79a817f8378,2,,Artifact,Borderless · Invertita · Full art,Sean Vo
 29b33e43-ffd5-4697-8261-9b4f5de36a19,Sawhorn Nemesis,M3C,60,2f9107c5-991a-4c20-9b77-2e2fb4b9dc53,4,R,Creature — Dinosaur,Extended art · Ripple foil,Monztre
@@ -5742,6 +5761,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 2b8189ad-6b00-49b3-be39-b98cf6bfa2a5,Thieving Varmint,OTC,59,b9f3cf9f-24c7-43ed-9ba1-f4570df3d09e,2,B,Creature — Varmint,Extended art,Néstor Ossandón Leal
 2b827094-fb2c-46db-b898-02e0c308601f,Merchant Ship,ARN,17,69556f6c-c05b-4902-bac7-012f0ed81b75,1,U,Creature — Human,Cornice retro,Tom Wänerstrand
 2b8414f7-22c3-4e1c-934b-4a0e7acf951d,"Atla Palani, Nest Tender",DMC,142,b56cebe0-3752-4ce5-afbd-911543784015,4,GRW,Legendary Creature — Human Shaman,,Ekaterina Burmak
+2b86b538-0766-440d-a2cd-f5d5bfcfb010,"Millicent, Restless Revenant",VOC,1,71766a05-62a5-4839-b9bf-f5dcde710251,7,UW,Legendary Creature — Spirit Soldier,,Denman Rooke
 2b86e588-86f1-4b65-9e84-522f9cae9997,Time Sieve,PLST,ARB-31,3da5977a-36d4-4f32-ab9b-8b93809d818d,2,BU,Artifact,,Franz Vohwinkel
 2b87069b-ebaf-4705-b5da-446932af9b73,Knight of Stromgald,ICE,138,8cf57287-21b0-4194-8da3-62d00160234f,2,B,Creature — Human Knight,Cornice retro,Mark Poole
 2b871039-6a66-4ac3-95e7-24759c1f2f92,Merfolk of the Pearl Trident,LEA,66,218d9277-c179-4de3-9c7f-79b5a6d4fa38,1,U,Creature — Merfolk,Cornice retro,Jeff A. Menges
@@ -6992,6 +7012,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 3506e1f2-cb41-4908-9272-3151cddd5571,Hypnotic Specter,ATH,24,759af941-f6a3-4726-91f2-9b1e4e55ea71,3,B,Creature — Specter,Cornice retro,Douglas Shuler
 3507e128-f8a1-4429-951d-2dc98b225118,Timber Paladin,WOC,56,0be44c76-9e3f-45c2-9b2c-6a5f00678780,2,G,Artifact Creature — Knight,Extended art,Johan Grenier
 35090ce1-6fb4-438c-88e9-dd116d550a92,"Ardyn, the Usurper",FIN,379,9ae13026-960a-4d31-b775-d47209a1e313,8,B,Legendary Creature — Elder Human Noble,Borderless · Invertita · Ffxv,Rorubei
+35095a68-b7c0-4805-b0b6-6ca15a338692,Haughty Djinn,DMU,52,44036bb5-f300-40bd-9180-6b246315d886,3,U,Creature — Djinn,,Mike Jordana
 35148573-7788-4023-a63c-4a09f48273c1,Dimir Signet,SLD,287,7d881c57-0bd9-4c57-aa4a-b10808b86143,2,BU,Artifact,Cornice retro,Dan Frazier
 351a6e6a-758d-417d-82c9-2c78db37d91e,Elminster's Simulacrum,CLB,68,3bb32408-81d3-4d0c-8674-1a1c5e3feb3b,6,U,Instant,,Irina Nordsol
 351b47f5-1c85-4e21-9ede-cb13ac96fbc4,Baleful Strix,BRC,120,37688720-03de-4eca-a82d-a0afe8d58adc,2,BU,Artifact Creature — Bird,Cornice retro,Nils Hamm
@@ -7311,6 +7332,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 37468ade-27b1-4128-9a62-1293ec2aab41,Doom Blade,P11,3,59e7f2ae-4535-4191-98be-3e65b6b2befa,2,B,Instant,Full art · Senza testo · Playerrewards,Carl Critchlow
 37478625-dd07-476d-bd9b-b2e0d71ac0d1,Abundant Countryside,ECC,22,e3eb6f90-ccfc-41e7-bff6-0b378226bc7e,0,,Land,,Iris Compiet
 374877d1-167a-42ea-adf3-a707ea0300e8,"Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",FIN,399,3998a60d-9521-4100-8d41-3e612972a3de,4,BR,Legendary Creature — Human Mutant Wizard // Legendary Creature — Avatar Wizard,Borderless · Invertita · Universesbeyond,Masateru Ikeda & Robert Cornelius
+374b5642-8fd2-414b-b634-9a9cba801846,"Thrun, Breaker of Silence",ONE,331,789b7af5-ac15-40b6-b5b7-f3fcdcfb52e1,5,G,Legendary Creature — Troll Shaman,Borderless · Invertita · Showcase,Yuki Fujisawa
 374b5d57-fd20-4062-9ec2-24ac557d9dde,"Mina and Denn, Wildborn",ZNC,94,e091718c-0c26-46d9-b694-f95effbac3e5,4,GR,Legendary Creature — Elf Ally,,Izzy
 374c9fc8-081d-4b14-9db8-be1a63abb68f,Thran Dynamo,WC00,jf139b,a699c663-8131-4045-9265-a83e86609374,4,,Artifact,Cornice retro,Ron Spears
 374d2d74-1209-4822-b370-ab8b049d4ce0,Glen Elendra Liege,2X2,217,946bba74-0951-408c-b06f-167739b10934,4,BU,Creature — Faerie Knight,,Kev Walker
@@ -7365,6 +7387,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 37bc0128-a8d0-477c-abcf-2bdc9e38b872,God-Eternal Rhonas,PS19,163,fc4f2cdb-966c-4576-8b37-b3d138f5710e,5,G,Legendary Creature — Zombie God,Borderless · Invertita · Convention,Adam Paquette
 37bce60d-2cb0-4772-9f5c-122a7ed426a0,"Valakut, the Molten Pinnacle",ZEN,228,1bc44216-4e06-4f66-89b7-5c327004604e,0,R,Land,,Kieran Yanner
 37c1ad56-cf6e-4717-a56e-feeb7339b8c3,"Gisa, the Hellraiser",OTJ,288,696363c9-e8a7-4c65-b65c-4a94891ec43d,5,B,Legendary Creature — Human Warlock,Borderless · Showcase,Greg Staples
+37c2ab54-e856-41d5-86ba-c6a7d2774546,Genemorph Imago,EOE,299,bf3a0585-3976-4078-8beb-6afa79f97027,2,GU,Creature — Insect Druid,Borderless · Invertita,Benjamin Ee
 37c2b1d1-faa0-40fd-82f4-216604ce7635,Rest in Peace,RTR,18,087f9ad7-e74f-40e2-8102-1ed2925d0418,2,W,Enchantment,,Terese Nielsen
 37c2e68f-3f40-45b1-9afe-cc1c5fb41203,Salvation Engine,DFT,295,7903666e-7803-4cfc-9ed9-482a6b577c96,5,W,Artifact — Vehicle,Borderless · Invertita,Adam Volker
 37c7890a-86dc-4a97-a7ce-1436fa22d0c0,Web,LEA,228,5aa12aff-db3c-4be5-822b-3afdf536b33e,1,G,Enchantment — Aura,Cornice retro,Rob Alexander
@@ -7937,6 +7960,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 3c2a1519-86f7-4b82-810c-1c89fbdb0c07,"Mirri, Cat Warrior",PS11,148,f01efb04-ad2b-46fb-852c-dfb7e523e1b7,3,G,Legendary Creature — Cat Warrior,Mediainsert,Daren Bader
 3c2a1e82-4922-4075-a869-3a1b607498c3,Nightmare,6ED,146,375932e6-1b3e-48dc-8154-9b664c3add34,6,B,Creature — Nightmare Horse,Cornice retro,Melissa A. Benson
 3c2fa512-3665-460a-bfbf-35a5cabdfd8f,Kei Takahashi,BCHR,78,f3229980-994e-4492-be98-267b781614c1,4,GW,Legendary Creature — Human Cleric,Cornice retro,Scott Kirschner
+3c308e5c-40f1-4100-8f7b-8529bbbfcfb4,Honor-Worn Shaku,DMC,187,babeeaf6-0fe4-491f-bbf5-63a0568b3d6e,3,,Artifact,,Tony Szczudlo
 3c31a957-ad1e-40cc-b3c4-2f4caa492b77,Living Armor,DRK,104,7a32b0d1-d9dc-4d24-ae60-3f3a0e18ec03,4,,Artifact,Cornice retro,Anson Maddocks
 3c340ba8-9287-4072-937a-438251b5ff1d,Bloodthirsty Conqueror,FDN,318,fd505c02-c59e-476d-8e88-35da862ddc23,5,B,Creature — Vampire Knight,Borderless · Invertita,Alexander Mokhov
 3c344d03-d609-421d-abd9-45548a720ab0,Orcish Artillery,CED,166,c000811e-bde7-4840-a3bb-9714d5c977eb,3,R,Creature — Orc Warrior,Cornice retro,Anson Maddocks
@@ -8172,6 +8196,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 3de11222-c2fa-4544-a501-a02b31797259,"Grazilaxx, Illithid Scholar",CLB,723,d22ff377-d282-4a28-9dce-96f25913dc96,3,U,Legendary Creature — Horror,,Alexander Mokhov
 3de308cc-14ac-407e-99e7-568572ecd0e7,Mulldrifter,ECC,67,24d0f5e7-0d9e-4b76-900e-a7274e80312d,5,U,Creature — Elemental,,Eric Fortune
 3de472d0-cca2-4bc3-ab0a-9f79fa6325ce,Bloodstained Mire,MH3,463,fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57,0,,Land,Extended art,Bruce Brenneise
+3de55b97-059c-4d7b-afd0-44fd8380df4c,Tempest Djinn,FDN,749,b94c233e-11d3-4556-a1da-bd193e58b663,3,U,Creature — Djinn,Setextension,Zezhou Chen
 3de8387d-a707-4c2b-9661-c586b7d0db50,Windswept Heath,MH3,466,29737a60-3ebd-40d9-b935-c4f54b90d45d,0,,Land,Extended art,Alexander Forssberg
 3dea5b45-925c-4732-8e9d-fa8232792736,Brightglass Gearhulk,DFT,191,0c7019a7-3cca-481a-9af0-abedb89c15ad,4,GW,Artifact Creature — Construct,,José Parodi
 3dec1c4d-0d81-4aee-91ca-a0f3aa2e2a3b,Sengir Vampire,CED,128,749141aa-f6c4-4ad8-b146-406e68ae9b0b,5,B,Creature — Vampire,Cornice retro,Anson Maddocks
@@ -8534,6 +8559,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 41023495-d3cb-4cb0-b95c-f717480a76a5,Gray Ogre,LEB,157,83c8a3a6-2e1a-4e26-8847-6d066f42d906,3,R,Creature — Ogre,Cornice retro,Dan Frazier
 4102d28e-437b-440b-bf9b-8b4f6fb85a6c,HELIOS One,PIP,149,cfb1a656-0bf1-484d-b099-33087914250b,0,,Land,Universesbeyond,Brian Valeza
 41040541-b129-4cf4-9411-09b1d9d32c19,Swiftfoot Boots,FDN,258,c8b143ad-43ec-4e0d-a440-e348daa31391,2,,Artifact — Equipment,,Svetlin Velinov
+410533d8-e591-4f81-baab-1981106fbbbe,Colossification,PIKO,148p,05c5ee65-651b-4bfb-b57f-305026507135,7,G,Enchantment — Aura,Promopack · Stamped,Johan Grenier
 4105785e-cbaa-4017-ae93-ba5ac8f2fd4c,Ferrous Lake,TDC,361,62c15af0-40e1-407d-b056-7a3d909e3fdb,0,RU,Land,,Grady Frederick
 410a214b-09c4-49bd-a461-3330d0249ae5,Soulless One,HOP,41,27d98b94-a8a1-442b-8940-4ffab51b5164,4,B,Creature — Zombie Avatar,,Thomas M. Baxa
 410ac9e6-fbc1-4cc8-84db-84e2eb1bab97,Rock Hydra,LEA,171,aff84707-f5f8-4f53-869e-feec78da8d8d,2,R,Creature — Hydra,Cornice retro,Jeff A. Menges
@@ -8634,6 +8660,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 41bba882-39b8-42db-9a01-54c6712b8019,Helm of Awakening,VIS,145,f2fcef65-4873-4b1f-a257-b8648097c990,2,,Artifact,Cornice retro,Adam Rex
 41bfd51a-0aca-4686-a9c5-11288f409a22,Peach Garden Oath,PTK,15,ad66a99b-c7e7-4b2c-8525-299d3609d1df,1,W,Sorcery,Cornice retro,Qiao Dafu
 41c42be7-84fe-4d9d-bf5c-e75e4d5635fa,"Elenda, the Dusk Rose",SLD,1411,ce35f262-b93f-4409-8b33-26a7ed7abac8,4,BW,Legendary Creature — Vampire Knight,Showcase,rishxxv
+41c50b99-4a29-4bef-8d41-c548c8a61dac,Azorius Signet,TDC,312,e018773f-95b3-49a3-9674-6f04ddef2092,2,UW,Artifact,,Raoul Vitale
 41c57f8a-6592-49b4-acb1-9b30500d1e8c,Magical Hack,4ED,83,cba229fa-9035-405b-b091-3798898a37ee,1,U,Instant,Cornice retro,Julie Baroh
 41c6687d-3148-4343-8e42-934846c37072,"Sab-Sunen, Luxa Embodied",PDFT,221p,07e15387-f346-4fa0-b556-d1c52d4acc07,5,GU,Legendary Creature — God,Promopack · Stamped,Valera Lutfullina
 41c79afa-8f88-48bd-9122-984327d3e54d,Exhume,BRB,24,fbe61f74-1b3c-4e12-8758-7029872c9ff1,2,B,Sorcery,Cornice retro,Carl Critchlow
@@ -8785,6 +8812,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 42d09ab8-6696-47d5-9c0f-409bcd7b04e1,Unsummon,CED,87,837182db-1bf3-4a2c-bd01-1af9d9873561,1,U,Instant,Cornice retro,Douglas Shuler
 42d1579e-a587-4397-bd9a-cda52fcf6a1b,Blue Elemental Blast,2ED,50,65e1558c-6b09-4ddc-b520-f19f4fb972af,1,U,Instant,Cornice retro,Richard Thomas
 42d92674-2664-411c-b9c5-b04da7c845f4,Great Hall of the Biblioplex,SOS,257,a8c70dab-1e27-4a9c-bd2d-910d5720d02d,0,,Land,,Constantin Marin
+42dc14d0-60e2-419a-a6cf-ba155c51c310,Deal Broker,CNS,61,1269f7dc-a5d6-48e9-8887-b581ce38c204,3,,Artifact Creature — Construct,,Cliff Childs
 42dcceee-2a47-4eaa-a6a3-2931b3d50244,Maze of Ith,DRK,117,38a12bd7-4394-44a8-91a0-6a4ff7fa4f71,0,,Land,Cornice retro,Anson Maddocks
 42df23b1-7d28-403f-bf12-d4ec81500c36,Lys Alana Huntmaster,J22,686,3f3439e1-75ce-482d-881f-836492dca6e9,4,G,Creature — Elf Warrior,,Pete Venters
 42dfc4d1-7043-4859-b177-8ad4027ef835,Tolaria West,PLST,FUT-173,46eefc72-2d9e-4389-8ae1-26d9ee472b5c,0,U,Land,,Khang Le
@@ -9856,6 +9884,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 4b32891f-ea17-4543-92ea-54097996a3cb,Dance of the Manse,NEC,136,fdfac093-a5c0-47b4-9052-e0af517d83cf,2,UW,Sorcery,,Yeong-Hao Han
 4b332e3d-dcf4-4f62-8130-124ec5d23b90,Goblin Piledriver,ORI,151,4d74d12b-1ffb-482f-8bac-635a8d4d32e9,2,R,Creature — Goblin Warrior,,Matt Cavotta
 4b346178-64f8-49bc-bb50-fa1e2004ae18,Dragon Tempest,GN3,74,b9bacb46-fd1d-459b-81c2-d7d08fe73848,2,R,Enchantment,,Willian Murai
+4b35c0f4-5633-4ea9-9bda-daaf787aebdd,Hallowed Ground,ICE,29,ee8fd844-4551-4e44-9740-00d2e76eb337,2,W,Enchantment,Cornice retro,Douglas Shuler
 4b379771-e16f-4ca4-b656-9f66a8128970,Depthshaker Titan,EOC,29,23bf0648-7097-41df-a539-1d36ac42cf9c,7,R,Artifact Creature — Robot,Extended art,PINDURSKI
 4b39d43d-2a02-4edb-915a-6a7c002c945f,Bloodbraid Challenger,M3C,70,6e111622-c7cc-49cf-83e8-3555e06518c1,5,GR,Creature — Elf Berserker,Extended art · Ripple foil,Lie Setiawan
 4b3ae08c-aa65-441e-a1cd-8bcb8bda5e33,Immaculate Magistrate,CMR,679,e6e38bd4-e6dc-400b-8e08-956726842dc4,4,G,Creature — Elf Shaman,Extended art,Jim Nelson
@@ -10188,6 +10217,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 4d9b3d8d-4941-44ca-b829-d53242feba1e,Memory Plunder,CLB,849,36b67014-0507-4976-ad52-a2a36676197d,4,BU,Instant,,Dan Murayama Scott
 4d9b4ad1-3d5c-43b6-9284-9ec427936dd2,Ezuri's Predation,C15,36,d0dd425b-fdba-41b4-b9e6-f5161610bd7e,8,G,Sorcery,,Svetlin Velinov
 4d9dbadd-c1b6-44fe-92ac-6f69d7178342,Talisman of Creativity,MH1,231,14d2979d-5728-42d7-a027-0eb1f754655d,2,RU,Artifact,,Lindsey Look
+4d9e1c1b-bc7c-41b8-a983-b1c60f558547,Gaea's Liege,4ED,247,8d134a60-e1e5-4163-8bdc-36af91567185,6,G,Creature — Avatar,Cornice retro,Dameon Willich
 4d9f1bb8-c91b-40cd-a416-abbff0d65306,Nulldrifter,MH3,13,ef8d9c3a-5860-45bf-8205-14e2df9a6fc8,7,U,Creature — Eldrazi Elemental,,Johann Bodin
 4da3b0bc-84da-4b85-992b-d0700c97157c,Elvish Clancaller,M19,179,a8f5440e-5d4b-420a-8cfd-27a3c72be0d2,2,G,Creature — Elf Druid,,Matt Stewart
 4da4f9a8-024b-4707-b300-ccb11bd87cea,Mana Short,LEB,66,48207d1c-448a-4e1b-974a-642dfea75933,3,U,Instant,Cornice retro,Dameon Willich
@@ -10324,6 +10354,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 4eb064da-aba8-445c-bde7-e0f2172b3176,Consecrated Sphinx,SLD,1657,311a449d-dc74-46e6-9a47-6a597931f736,6,U,Creature — Sphinx,Cornice retro,JRZ251
 4eb1e16f-002e-4a81-ba41-cfe41f3a9071,Trip Wire,PTK,156,5751df7a-aa9a-4a27-b7ab-445ec4bcbdee,3,G,Sorcery,Cornice retro,Hong Yan
 4eb25311-a07c-48bf-8013-392d0811abbc,"Loot, Exuberant Explorer",PFDN,106p,f6476884-f73f-465f-8e7f-ea312a5b306d,3,G,Legendary Creature — Beast Noble,Promopack · Stamped,Arif Wijaya
+4eb7707b-e779-4429-b741-5d3b842a50cb,Dread Return,DMR,80,352b64d2-2ae5-44ee-a64f-94932ef545d3,4,B,Sorcery,,Kev Walker
 4eb88d79-048b-4f7c-9ca0-4d9066af805e,Drudge Skeletons,2ED,107,c180ed02-07f4-4538-9bea-8c249234a8e2,2,B,Creature — Skeleton,Cornice retro,Sandra Everingham
 4ebcd681-1871-4914-bcd7-6bd95829f6e0,Dark Ritual,ICE,120,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,1,B,Instant,Cornice retro,Justin Hampton
 4ebf5f38-527b-4f7d-9980-4aca116e5b88,Swamp,WC03,pk339,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,,Bob Eggleton
@@ -11137,6 +11168,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 54e0c2cd-fa5f-427d-8e15-6066f002a8e3,Chainsaw,DSK,128,3db40361-5f55-417e-a7cd-7e360cc91b4d,2,R,Artifact — Equipment,,J.P. Targete
 54e0d969-3e4d-4ff9-8bda-3a6ac8df01b2,Soltari Monk,TMP,45,5fed5377-07cf-4ad9-86fd-1efe1f182088,2,W,Creature — Soltari Monk Cleric,Cornice retro,Janet Aulisio
 54e12165-f09b-49b1-b834-9cb4ee096a48,Warrior's Resolve // Warrior's Resolve,AFIC,24,60e517bd-43b8-49e8-8ff1-7df408491abe,0,,Card // Card,Borderless,Winona Nelson
+54e1b2c0-76c6-42d9-9a2b-0ebb605ad1a0,"Hulk, Bruce Banner",MSC,850,1f14d336-71ef-4e3f-b8e0-42585af8db40,5,R,Legendary Creature — Gamma Berserker Hero,Universesbeyond,Riccardo Federici
 54e4017b-51b1-47b0-90a6-47d680bac963,Living Hive,HOP,75,1aa5df06-a61d-47e8-b12d-34009854d088,8,G,Creature — Elemental Insect,,Anthony S. Waters
 54e4c8c7-19ae-498d-a4f0-f7601d4b8bc1,Stormscale Scion,PTDM,123p,cf37426d-b0ad-42c3-81be-79701aa4e0cf,6,R,Creature — Dragon,Promopack · Stamped,Andrew Mar
 54e5e882-02d4-4d69-aabf-ae9bf31f2923,Bringer of the Black Dawn,5DN,43,a9f98ad5-e8d4-4142-a19f-3368b85d1c95,9,BGRUW,Creature — Bringer,,Carl Critchlow
@@ -11836,6 +11868,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 5a1d3cb7-cd6a-4a81-b2b1-8fb5eeb49595,"Green Goblin, Back for More",MSC,657,622fbc01-9099-4b6c-b2ce-e41247fc7355,5,B,Legendary Creature — Goblin Human Villain,Universesbeyond,Colin Boyer
 5a2240d4-8996-4cb9-8068-47e6eb7ab648,Weatherlight,SLD,2100,73b3682f-396a-4ebe-aaac-6ce3ee36283a,4,,Legendary Artifact — Vehicle,Borderless · Invertita · Universesbeyond,Tracy Yardley
 5a23656c-3af3-49e3-ad15-aa1056027df7,"Liliana, the Last Hope Emblem",TMED,G5,78d9bb73-904b-483e-9279-5f3f43b4bdf3,0,,Emblem — Liliana,,Kieran Yanner
+5a240d1b-8430-4986-850d-32afa0e812b2,Mountain,3ED,302,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain,Cornice retro,Douglas Shuler
 5a242eb1-8625-4063-9376-a1df32547b58,Throne of Bone,2ED,274,f73c7edf-ed2c-41e8-ac83-c83ddd543f14,1,,Artifact,Cornice retro,Anson Maddocks
 5a24af58-5d75-4b41-a226-60abc415ff71,Wyluli Wolf,6ED,270,00185f3b-2777-4417-a8e0-4691f41c0ec1,2,G,Creature — Wolf,Cornice retro,Susan Van Camp
 5a28e4f9-3b68-40bb-bf77-850b08c6b096,Distant Melody,MOR,32,ac6c5852-71c7-4f19-8c87-ccb345052862,4,U,Sorcery,,Omar Rayyan
@@ -12100,6 +12133,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 5c0305f6-a0c6-4197-9aa6-789fa855cb17,"Witch-king, Bringer of Ruin",LTR,391,afcb21bb-aeb3-4024-9ce1-68ba7fb64b2d,6,B,Legendary Creature — Wraith Noble,Extended art · Universesbeyond,Denman Rooke
 5c06f58f-0419-4637-8060-4a93670a4c68,Mistblade Shinobi,BOK,43,16856e22-6f9e-4f8e-b4ee-622a7c2ee453,3,U,Creature — Human Ninja,,Kev Walker
 5c07c384-8ce9-4be0-a739-699a294fcf47,Urza's Mine,RIN,177,33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0,0,,Land — Urza's Mine,Cornice retro,Anson Maddocks
+5c0848dc-dd4c-48d0-a22f-bd1fba070b21,Soul Collector,TSB,47,7b7b3a34-13ff-45d4-ad0d-ac4bad9d0581,5,B,Creature — Vampire,Cornice retro,Matthew D. Wilson
 5c087beb-99c0-403e-bb44-33cfc549a831,Myr,TNPH,4,bf690282-125f-431c-a363-39f6772324c8,0,,Token Artifact Creature — Myr,Setpromo,Matt Stewart
 5c0b0c96-959b-4bf3-b472-9223e0fa0e34,Fellwar Stone,PTC,et319,95560508-7ac9-4be9-8a3f-3c7d5b52807b,2,,Artifact,Cornice retro,Quinton Hoover
 5c0c3860-1dab-4897-8f36-f9be263bba03,"Jirina, Dauntless General",MAT,32,fda76032-7e6f-416f-8874-2a0642837522,2,BW,Legendary Creature — Human Soldier,,Cristi Balanescu
@@ -12180,6 +12214,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 5ca23782-80d3-4656-afba-f8440c813253,Blast from the Past,UNH,72,08638828-ce88-44d4-a6b2-1effb68ccbdf,3,R,Instant,Cornice retro,Douglas Shuler
 5ca2ebe7-3e53-4cd0-8d75-2b6395612756,Lifetap,CED,62,52ac09af-2aa7-4d80-be26-3e6a6efd5c23,2,U,Enchantment,Cornice retro,Anson Maddocks
 5ca71ce3-8633-428a-8d9e-9b807b77a8e2,False Defeat,PTK,4,8b119579-38e1-4509-9dcb-019d5a160ac2,4,W,Sorcery,Cornice retro,Li Wang
+5ca83110-d583-417d-b9e3-a253aca3fb20,Rampant Growth,HOP,76,8539f295-5d58-4436-a73a-b9277c4c7795,2,G,Sorcery,,Steven Belledin
 5caae5ae-845f-42c2-b1ae-956df2739433,Archdruid's Charm,MKM,151,3c1ef404-e2c6-486d-a5a2-d5779c71d498,3,G,Instant,,Liiga Smilshkalne
 5cad8671-4761-4014-a8a3-af45627e6e79,Disruptor Flute,MH3,209,d6c46906-1339-4440-8cd0-2bb9890d4975,2,,Artifact,,Xavier Ribeiro
 5caeb415-0e90-4f5b-ada4-a46241cf5dda,Dakmor Ghoul,S99,70,6b25b7d7-ebb1-474c-9898-e027dbf0bbdd,4,B,Creature — Zombie,Cornice retro,Dana Knutson
@@ -12241,6 +12276,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 5d272051-f442-4f6e-8c64-df28b398d2e8,Aegis of the Meek,ICE,307,0cf78877-bf08-413c-8ecb-8c3265ac1c4a,3,,Artifact,Cornice retro,Allen Williams
 5d275f04-cc60-4e3f-95cc-3d02bc916b82,Wurmcoil Engine,2XM,308,d1a60f44-7696-49ee-91fb-cab5b3102962,6,,Artifact Creature — Phyrexian Wurm,,Raymond Swanland
 5d2a48f9-4f14-4d19-b3dc-3bf3fafac32d,Minion Reflector,ALA,211,0124977f-06e6-430a-a874-f7d05883a97c,5,,Artifact,,Mark Tedin
+5d2abab5-c4f0-41ec-ae6f-e42721ca2cfd,Count on Luck,DFT,385,73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf,3,R,Enchantment,Enchantment · Extended art,Michal Ivan
 5d2bb101-e0b5-4c9c-9f94-ee4f605ddff0,Blood Crypt,PECL,262p,43985bbc-a0f6-4812-984e-392bc8562633,0,BR,Land — Swamp Mountain,Promopack · Stamped,Adam Paquette
 5d2d0033-1a73-4927-93a9-76d00ae7c6a8,Enduring Tenacity,DSK,374,98e698ae-1a69-469c-9cfb-0e3fedeb71d4,4,B,Enchantment Creature — Snake Glimmer,Extended art · Enchantment,Isis
 5d32989c-197d-49c8-8435-d9fbafdf3a8a,"Elbrus, the Binding Blade // Withengar Unbound",PLST,DKA-147,da5881ca-b86e-4582-ae0e-1570c59773ae,7,B,Legendary Artifact — Equipment // Legendary Creature — Demon,Sunmoondfc,Eric Deschamps
@@ -12312,6 +12348,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 5da88d23-8650-4b55-a3f9-e964427660ed,Woodfall Primus,UMA,195,2f70f1bb-29fa-4abb-afc2-653acd0a08b9,8,G,Creature — Treefolk Shaman,,Adam Rex
 5dabcc2f-7536-44e3-a495-bbfc526fdc5d,Gatecreeper Vine,RTR,124,0f539127-535f-4e0d-abaa-e884521098d2,2,G,Creature — Plant,,Trevor Claxton
 5dabdea9-2015-49b9-853d-4f7e1262eab3,"Kaito, Cunning Infiltrator",FDN,44,f6d3f145-00e0-47cd-91d8-0381c19a000d,3,U,Legendary Planeswalker — Kaito,,Evyn Fong
+5dac6967-e4db-40c1-9556-0a85f5422dd4,Dungrove Elder,PLST,M12-171,32083c9f-04c6-4b6f-9e24-cc8f3cae3e3e,3,G,Creature — Treefolk,,Matt Stewart
 5dae5e16-d2fc-488c-9c53-d35c377d6a00,Planar Chaos,JUD,97,f0864dbb-4d91-4282-a774-7b225e649ca8,3,R,Enchantment,Cornice retro,Ron Spencer
 5daeb14a-dcc5-4761-84a4-a60d22a6c944,Phyrexian Midway Bamboozle,SUNF,18,dde09abb-e3d3-4c76-b7e8-812949dd67f3,0,,Stickers,,Larissa Hasenheit & Mina Jeon
 5dafe2f2-9b1e-484b-a60e-9cf9ec875a6b,Rabble Rousing,SNC,409,2e420001-2b3d-4eb7-b01c-3a49d5e241c2,5,W,Enchantment,Extended art,Néstor Ossandón Leal
@@ -13008,6 +13045,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 62c6f930-15e7-4ea2-8c0c-7a1b4b1aad26,Fealty to the Realm,LTC,104,c0128941-240a-4ca1-9816-b32f47523fdb,5,U,Enchantment — Aura,Extended art · Universesbeyond,Lorenzo Mastroianni
 62c8fa9c-d8ba-4ce0-946c-42fdc26b49d1,Saruman of Many Colors,HOC,35,c2d04138-cc17-4dd0-9a4c-9c87df72ed01,6,BUW,Legendary Creature — Avatar Wizard,Borderless · Invertita · Universesbeyond,rk post
 62cb333b-593e-4adf-b1f6-8cd63708e8e2,Mountain,PSAL,D47,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain,Mediainsert,John Avon
+62cd82da-badb-420b-8ea8-681db86afbbc,We Ride at Dawn,OTC,48,5675ac63-b69b-41b9-a7ed-4085a4e431b2,3,W,Enchantment,Extended art,Miguel Mercado
 62cef25e-0a24-43f8-9d88-53f9d38c854f,Firemane Commando,FDC,31,ac675899-25bb-4f06-9c8c-bf188024495f,4,W,Creature — Angel Soldier,,Andrew Mar
 62d0d6a4-783f-4ec3-99c5-6c21aefdb997,Rancor,PCA,76,9d2d6479-531c-4ce1-b52b-00e36fa63b64,1,G,Enchantment — Aura,,Kev Walker
 62d1a0da-40b9-4e79-bace-b93f98ae4695,Second Chance,ULG,41,aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b,3,U,Enchantment,Cornice retro,Mark Tedin
@@ -13152,9 +13190,11 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 63db7360-fe6e-430f-bfee-a2f80bcb6fec,Thran Tome,WTH,160,78d2a3fd-864c-49f3-b531-c71dc3b35977,4,,Artifact — Book,Cornice retro,Donato Giancola
 63dc0698-e92f-4134-80e4-5cc37b80e37c,"Kokusho, the Evening Star",CHK,122,cf631c93-b7fb-4e4f-b405-3778c15b1117,6,B,Legendary Creature — Dragon Spirit,,Tsutomu Kawade
 63de147c-2e62-41b9-8ada-93406387f08b,Remove Soul,LEG,72,b13c0f76-fbda-4911-9442-c3d7e97f1aac,2,U,Instant,Cornice retro,Brian Snõddy
+63de9e39-3c16-452f-9f06-4c1298752f57,Intellectual Offering,C14,15,73ec7a0b-274a-4a10-a173-ff1625d62fce,5,U,Instant,,Mark Winters
 63e08eb1-de6e-4f31-a523-86b1e013b1ca,"Toski, Bearer of Secrets",SLD,1930,a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f,4,G,Legendary Creature — Squirrel,Borderless · Invertita · Universesbeyond,Caleb Meurer
 63e25534-2bc3-4813-ae63-63cadfe36df6,Mizzix's Mastery,STA,106,40362fe0-a1a9-4d76-8c35-eac474b91af5,4,R,Sorcery,Borderless,Hiro Suda
 63e3de28-d6e9-4f27-a544-0434fb4b55bb,"Karn, Scion of Urza",SLD,1419,060209fa-4b7d-4e08-bf8b-8759bba5641b,4,,Legendary Planeswalker — Karn,Borderless,Uta Natsume
+63e4dc07-c742-41bd-8301-861637908fd1,Breeding Pool,TRK,279,20283c4a-f1f0-42f0-bc08-6da87474426b,0,GU,Land — Forest Island,Universesbeyond,Cliff Nielsen
 63e806ee-3c32-48bf-97a1-160a74765e76,"Pol Jamaar, Illusionist",J25,38,2f200a14-7e5b-4b7c-a283-5cf9abb1f95d,6,U,Legendary Creature — Human Illusion Wizard,,Kuregure
 63e96e3b-645a-4440-8db7-29751ae77d1d,Hedge Shredder,PDSK,183p,f22665cd-4710-48df-83c1-3c9081097cb5,4,G,Artifact — Vehicle,Promopack · Stamped,Cristi Balanescu
 63ea55e3-71c5-4444-a307-76c8ccc0a02b,"Karumonix, the Rat King",ONE,307,c017f54c-e4c0-411e-b8c1-eb20b1b86c56,3,B,Legendary Creature — Phyrexian Rat,Borderless · Showcase · Invertita,Flavio Girón
@@ -13194,6 +13234,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 642b5ac7-e678-4286-b83d-dc67cb46d56e,Swamp,PSAL,A32,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Mediainsert,John Avon
 642c6354-4dab-45c9-a1a6-57bd16f16e30,Knight of the White Orchid,ALA,16,7d0efc64-151f-45b4-8c0b-c32609f9d862,2,W,Creature — Human Knight,,Mark Zug
 642d9239-82e0-4696-ad99-10796042d1f8,Simoon,VIS,136,128e201a-f520-4917-a1a4-2f3836f1f92d,2,GR,Instant,Cornice retro,Randy Gallegos
+64300b71-050f-47a3-83be-f24480bdc01d,Nomad Stadium,ODY,322,4034bec6-e3c7-4d3f-81df-7c903977a606,0,W,Land,Cornice retro,David Martin
 6430c61b-407d-471d-9012-07f1ddef28aa,Ancient Brass Dragon,CLB,111,7d79fb4e-2ca0-404a-9663-1f5abce6e733,7,B,Creature — Elder Dragon,,Johan Grenier
 6431a83f-715f-449d-a985-60b5cea68dac,Swords to Plowshares,GN3,19,b1544f21-7e98-461b-aed5-e748b0168c52,1,W,Instant,,Jesper Ejsing
 6431d2f1-44e7-4699-bc38-2e5222a5e243,The Reaver Cleaver,HOC,94,37a2a31d-51e6-4c07-b4c2-b206ad40eb42,3,R,Legendary Artifact — Equipment,Borderless · Invertita · Universesbeyond,Alexander Mokhov
@@ -13216,6 +13257,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 644a88e3-2f5f-40ee-b94b-e550dd2bb3dc,Mask of Memory,HOP,119,d6b2c998-a226-426c-a40d-6e6007041bfe,2,,Artifact — Equipment,,Alan Pollack
 644e5b24-394a-43f1-8384-186d6108f540,Regal Behemoth,CN2,69,797c2b1c-c373-4735-b397-f561559c7c61,6,G,Creature — Dinosaur,,Jakub Kasper
 644fb0ed-f434-4cc4-b7e9-a60db5ece2b7,Overgrown Farmland,TDC,381,709d2f10-1585-48c3-9058-ddd5f62f0452,0,GW,Land,,Jonas De Ro
+64513f0a-067d-4b70-bb23-9ebe606bda1a,Phantom Steed,AFC,18,22c643b1-62dd-477c-8944-97b3becdfdbe,4,U,Creature — Horse Illusion,,Brian Valeza
 645297d1-ee77-4879-83eb-8114fbabb9a4,Bottle Gnomes,TMP,278,54b5e429-7a44-480d-bea4-4f8eeb7449b5,3,,Artifact Creature — Gnome,Cornice retro,Kaja Foglio
 6453140c-6588-41d8-b43f-1858d70d9761,God-Eternal Oketra,DRC,66,3b03358d-f87e-4939-afc9-5ee3f044146a,5,W,Legendary Creature — Zombie God,,Grzegorz Rutkowski
 64553587-e707-41d2-a2f4-768dfa47e893,Jhoira of the Ghitu,MMA,177,ad3f4ec9-9905-421b-98ed-78bb6fc9b450,3,RU,Legendary Creature — Human Wizard,,Kev Walker
@@ -14180,6 +14222,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 6c127765-1ff7-4f64-85e7-80e356ff13b4,Ornithopter,WC04,ap224,a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba,0,,Artifact Creature — Thopter,,Dana Knutson
 6c13ef0e-c035-4d34-b87f-ed632971708e,Lifeforce,30A,202,07ae1fe5-5c3e-4d94-b809-8defd2ef44e3,2,G,Enchantment,,Dameon Willich
 6c151ff8-4bc3-4855-acc3-efe698078d93,Slippery Karst,BRB,73,58bfd9a1-67ce-41d0-be38-f05addd1dd9e,0,G,Land,Cornice retro,Stephen Daniele
+6c156edc-bc88-431c-901b-fda8d4804d20,Swan Song,SLD,2829,8ddfc283-c9b4-41a5-af88-cf0068e986cc,1,U,Instant,Borderless · Invertita · Universesbeyond,NETFLIX
 6c180888-6acd-401b-815a-6ed434482681,Tribute Mage,MH1,73,c2b51295-8820-425f-a517-55231123c7de,3,U,Creature — Human Wizard,,Scott Murphy
 6c184959-a1e5-40d7-8faa-99310c4156ef,Shadow the Hedgehog,SLD,2086,0c12abcc-6ada-43b3-8750-9cb6ce2b0785,4,BR,Legendary Creature — Hedgehog Mercenary,Borderless · Invertita · Universesbeyond,Tracy Yardley
 6c1c2ea2-09ba-4a0e-b5b6-c06068f0da75,Bottle of Suleiman,3ED,237,f32d19d6-8ac1-4744-b2c2-5c9d4cd0da70,4,,Artifact,Cornice retro,Jesper Myrfors
@@ -14225,6 +14268,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 6c6df9db-0a46-40a5-ae9d-59f47dae9056,Coral Helm,ATQ,47,aa2970c8-f2ea-4e06-8b8f-ec89af0012a0,3,,Artifact,Cornice retro,Amy Weber
 6c6ef042-1a69-4b16-abae-4f436dbadbbd,"Freyalise, Llanowar's Fury",C14,43,659dfdbf-5e9d-4828-a967-348cb3bcf05a,5,G,Legendary Planeswalker — Freyalise,,Adam Paquette
 6c6efe95-ae57-4ff1-8f8a-0d6f3bd36d9c,Clockwork Beast,LEB,237,eb97c8db-ac6c-476c-b14d-87785e9c82f0,6,,Artifact Creature — Beast,Cornice retro,Drew Tucker
+6c6f1a8b-329e-4094-8141-6bc88311a08c,Archwing Dragon,AVR,126,a0a706b2-b237-4183-82fa-2140a23b89e3,4,R,Creature — Dragon,,Daarken
 6c726c70-058d-4d11-92ec-50348b1048c4,Yavimaya Coast,WC02,shh143,40b36bc6-c185-4bda-99e7-0118953c2c97,0,GU,Land,Cornice retro,Anthony S. Waters
 6c727f49-833a-4b79-9946-bfbc6b06999c,"Ob Nixilis, Unshackled",2X2,84,73021bd2-3b60-4fe4-8858-6eb525be1422,6,B,Legendary Creature — Demon,,Karl Kopinski
 6c73a30d-23b0-42e4-934d-e54dbd22d98a,"Gyruda, Doom of Depths",PIKO,221p,25eaa977-ca85-4f8d-8be5-9297a3edb14f,6,BU,Legendary Creature — Demon Kraken,Promopack · Stamped,Tyler Jacobson
@@ -14800,6 +14844,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 7109092e-52c3-417b-a2c0-340eabb5af9d,Ancient Greenwarden,SLD,2059,3bcf090c-e890-4a9f-a8aa-6079e4ec9947,6,G,Creature — Elemental,Borderless · Invertita,Ernanda Souza
 7110406b-72ac-4e59-aa9f-903510e352a3,Echoing Assault,BLC,58,d15dba3a-3b85-43fb-b5f3-c4d8d1e23b1d,5,R,Enchantment,Extended art,Bram Sels
 7110cae6-b0ed-4495-9f36-751ce25c9538,"Ashling, Rekindled // Ashling, Rimebound",ECL,290,31fc5d8b-94bc-4688-8a84-f15800e717a8,2,RU,Legendary Creature — Elemental Sorcerer // Legendary Creature — Elemental Wizard,Borderless · Invertita,Chuck Lukacs
+711135d0-7769-4154-873a-e2505f8795f0,Stroke of Midnight,FCA,26,9a107e48-3d50-4941-95b1-10f2b29a4245,3,W,Instant,Borderless · Invertita · Full art,Square Enix
 7111e3e9-7175-4231-976c-c73e7d4cb40d,Splinter's Technique,TMT,233,532ee9c3-391c-44db-8ed5-a1d28fd7f876,4,B,Sorcery,Borderless · Invertita · Showcase,Daniel Elson
 71180ace-14e8-4aee-b616-a6b3444d000d,Jandor's Saddlebags,FBB,257,3aa0e73f-ac88-47a5-9cc5-0c941a939eae,2,,Artifact,Cornice retro,Dameon Willich
 711843d5-307f-4266-b2fe-dd19d93aefbd,Windfall,C15,111,08becc07-28bc-4a2f-a6b0-28a2998d2f50,3,U,Sorcery,,Pete Venters
@@ -14926,6 +14971,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 71ef2271-d9fc-4444-bc47-eb4ecfd1d860,Growth Spiral,SLD,2472,34bcc217-dd91-45a0-90d7-a94d02f1f317,2,GU,Instant,Borderless · Invertita,Andrew Mar
 71efb776-e4c6-4844-a69f-eff79725a72c,"Leovold, Emissary of Trest",PLST,CN2-77,d5d91377-fd66-4dbe-a092-07f2ea379ca7,3,BGU,Legendary Creature — Elf Advisor,,Magali Villeneuve
 71f05793-9e6f-4815-9a13-f791cb4b6aa0,Angelic Arbiter,M11,4,34dd789c-4d80-4ccc-a4f7-2e5388a9689d,7,W,Creature — Angel,,Steve Argyle
+71f10049-8fd2-48f4-9319-d747546cf22d,Kami of Transience,NEO,391,7baffe00-78a4-4675-9c74-29eb3882bd01,2,G,Creature — Spirit,Showcase · Invertita,Kemonomichi
 71f13f67-e852-4a6a-8f32-b16195e53ec3,Fade from History,BRO,177,533767ca-7208-4c88-b160-375479b68285,4,G,Sorcery,,Alessandra Pisano
 71f1efaa-b92f-495d-8c6f-eb6c7481afd0,Mental Misstep,SLD,1179,1a0770e6-b093-4439-baff-6889a50ba12e,1,U,Instant,Borderless · Invertita,Ori Toor
 71fc8dff-4d26-4dfd-b279-d06e10cba54f,Torment of Hailfire,SLD,9992,30a0a6c2-1fbb-4784-ab96-22611d57e62c,2,B,Sorcery,Borderless · Invertita · Rainbow foil,Raymond Swanland
@@ -14958,6 +15004,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 721f76bb-3296-4ed0-8f51-204d09c7cbe3,Voodoo Doll,BCHR,111,4d330c40-3d72-4528-a254-d036683958d3,6,,Artifact,Cornice retro,Sandra Everingham
 72204934-f5aa-4559-8f7e-7b0b223580d0,Spellskite,CLB,873,e0aa6ce0-ca31-433b-ac6c-32b8675cdb71,2,U,Artifact Creature — Phyrexian Horror,,Chippy
 72216dfe-f14c-45ef-84f7-71fc1204e4cf,Huntmaster of the Fells // Ravager of the Fells,SLD,495,582328cd-660d-47a4-bb23-e91e80b9a907,4,GR,Creature — Human Werewolf // Creature — Werewolf,Sunmoondfc,Chris Rahn
+72232b23-d59b-4bf4-aa55-b8f5ab691504,Rootbound Crag,WHO,300,9516c4c1-d72d-434f-97e1-6a862434a169,0,GR,Land,Universesbeyond,Jeremy Paillotin
 72244e95-5422-41f4-a1b6-fbf5c88d7747,Sea of Sand,OHOP,33,edd21d18-98d2-4e3f-8da1-1ba645b8f69c,0,,Plane — Rabiah,,Jim Nelson
 7224bb1b-167c-47e5-8314-84aebca054b6,Serah Farron // Crystallized Serah,FIN,506,a8a7a3b7-015c-4fbd-8b90-e0ddf71663e4,3,GW,Legendary Creature — Human Citizen // Legendary Artifact,Extended art · Ffxiii · Universesbeyond,Carissa Susilo
 7225ae44-1357-44a6-9244-1cf43c199f15,Etherium Sculptor,DDU,37,96b87445-6362-4a17-91b2-cbf203fd03fd,2,U,Artifact Creature — Vedalken Artificer,,Steven Belledin
@@ -15025,6 +15072,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 7284dccf-6a92-4d29-98db-246ef5cad12e,Clockwork Beast,FBB,240,eb97c8db-ac6c-476c-b14d-87785e9c82f0,6,,Artifact Creature — Beast,Cornice retro,Drew Tucker
 728520b3-fd90-46e4-ad51-3121a2557e86,"Lord Skitter, Sewer King",WOE,339,f5bed085-bb7a-4250-9599-b2a8a95e6b6f,3,B,Legendary Creature — Rat Noble,Extended art,Jesper Ejsing
 72859ec4-718e-4acb-9923-d607e77f525a,Font of Mythos,PLST,CON-136,7194a262-5e7a-4c12-b271-2bc5e0799477,4,,Artifact,,Dave Allsop
+7286819f-6c57-4503-898c-528786ad86e9,Scrying Glass,UDS,137,ca16b32c-3f1e-4f8d-821a-064f922c45d8,2,,Artifact,Cornice retro,Patrick Ho
 7286bd95-0d8e-4b1a-b319-052fe2ae1951,Maze of Ith,DMR,456,38a12bd7-4394-44a8-91a0-6a4ff7fa4f71,0,,Land,Borderless · Invertita,Mark Tedin
 7288ff56-0e1a-4cd1-95b1-78cb71d94d78,Paralyze,30A,413,e9b4e857-39e5-4a06-89ad-3dd94b3f252a,1,B,Enchantment — Aura,Cornice retro,Anson Maddocks
 728952a5-5f50-4ee6-a1ce-38d7e97023cb,Loxodon Warhammer,ONC,135,dba35ac5-7ad3-488a-a006-6b9a1d54eea5,3,,Artifact — Equipment,,Jeremy Jarvis
@@ -15229,6 +15277,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 74050cb3-ba99-475d-9124-726e498fb68e,"Karametra, God of Harvests",BNG,148,984e763c-5a83-4231-8ec4-1be76846479a,5,GW,Legendary Enchantment Creature — God,Enchantment,Eric Deschamps
 74053281-6581-4a8d-b8bd-4352c78b1de6,Voldaren Epicure,DBL,449,cef82674-1f61-407b-801b-a76a3803e598,1,R,Creature — Vampire,Invertita,Martina Fačková
 7407e4cb-e867-44c9-b78b-efd9eb794803,Flood of Tears,PM20,59p,3d92f2e6-27df-4329-b552-cf905f7616ba,6,U,Sorcery,Promopack · Stamped,Adam Paquette
+74087795-0b38-4fd2-9841-147583baca41,"Jace, Reality Sculptor",FRA,216,bf0e9e00-fba5-448a-9052-ae730aea4bf8,5,U,Legendary Planeswalker — Jace,,Martina Fačková
 740b8085-7459-49fc-ab89-601136408f2e,Praetor's Grasp,SLD,1861,6d56aeb1-0a50-46b6-abdb-cd6575a98dc3,3,B,Sorcery,Borderless · Invertita · Ffxv,Néstor Ossandón Leal
 740b85ff-61a3-4de0-a055-60daad13ac2a,Mana Clash,7ED,202,a2f5a5fd-14dc-48e8-bdb0-984a83288023,1,R,Sorcery,Cornice retro,Larry Elmore
 740dbebf-9e0b-4918-850b-8c1aa0b06c18,Karn Liberated,J22,97,0ca233f4-1b7f-4807-ab6e-2b1f5439b3db,7,,Legendary Planeswalker — Karn,,Dai-XT
@@ -15539,6 +15588,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 7687a201-0ecc-4739-86e3-3b4090d345a8,Dragon Mage,SCG,87,eab71e4e-27c3-4c41-b95f-259c1d14b97a,7,R,Creature — Dragon Wizard,Cornice retro,Matthew D. Wilson
 7688ad33-62b2-46ab-b15b-2e20c28710de,Banefire,J22,495,5eff8a06-e0d6-435a-a7c0-db9f9d98636a,1,R,Sorcery,,Raymond Swanland
 7689ca02-1dcd-43d6-851d-c5ccea31e016,Wall of Fire,4BB,230,f38c8b47-e8e0-4d2f-b1da-d8d986805a48,3,R,Creature — Wall,Cornice retro,Richard Thomas
+768c4d8f-5700-4f0a-9ff2-58422aeb1dac,Forest,ICE,382,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest,Cornice retro,Pat Lewis
 768d3cf6-c6a2-4c37-a442-29b98536c222,Blue Elemental Blast,30A,346,65e1558c-6b09-4ddc-b520-f19f4fb972af,1,U,Instant,Cornice retro,Richard Thomas
 768ef947-85fc-4fb2-bda9-e0e446cd8886,"Helga, Skittish Seer",BLB,332,0a0d25a8-4f28-453b-9270-4d449fe0ca65,3,GUW,Legendary Creature — Frog Druid,Borderless · Showcase · Invertita,David Petersen
 768f3a05-bd06-4a23-b9f2-94f6e618fd9f,Vesuvan Doppelganger,LEA,87,aeaccab9-3e2c-4a40-a483-52c4972b2014,5,U,Creature — Shapeshifter,Cornice retro,Quinton Hoover
@@ -16162,6 +16212,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 7b3f0e26-7784-452d-acc8-9f7181e0f7d5,"Nissa, Resurgent Animist",MAT,162,c1fc5923-c3cd-448a-98d1-c154661c2812,3,G,Legendary Creature — Elf Scout,Extended art,Tuan Duong Chu
 7b3ff07c-9653-4197-ad3d-638e712e8465,Heartless Hidetsugu,CMM,231,b68e965a-96f4-447a-99be-35dbd27846e9,5,R,Legendary Creature — Ogre Shaman,,Carl Critchlow
 7b43ac5a-21b9-4abe-b8be-86b9056ad70d,Quest for Pure Flame,ZEN,144,71220cc2-5f3d-4c97-ae66-05b1b79adef1,1,R,Enchantment,,Cyril Van Der Haegen
+7b44099c-0b24-423a-b8c0-5d5e8687fe61,Venomcrawler,40K,68,f3a07ae4-b0f8-43e6-adba-217f220cc2d0,4,B,Artifact Creature — Demon,Universesbeyond,Ivan Dedov
 7b469eaa-21f4-44a2-a1e9-a44dad2b5099,Shatterstorm,SUM,176,96ce2403-4607-440a-92ae-80aceb458c5d,4,R,Sorcery,Cornice retro,Dan Frazier
 7b47cbce-717c-4edc-ac6e-1df5b0f5e678,"Rakdos, Patron of Chaos",PMKM,224p,d08ce18a-0fd9-47ac-ad2f-6934b60070f1,6,BR,Legendary Creature — Demon,Promopack · Stamped,Joshua Raphael
 7b49ffbe-e87f-4a61-a283-2f54b6b19aff,Wild Growth,CED,230,706ae742-1807-44b7-a4fa-f2e26f61519a,1,G,Enchantment — Aura,Cornice retro,Mark Poole
@@ -16182,6 +16233,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 7b7283bc-6407-4715-9d0a-19c3cca1dbd0,Aetherize,DDO,36,7c779721-cd1b-4696-9ae9-68ccc284ed2a,4,U,Instant,,Ryan Barger
 7b73036e-3426-46e8-8591-a39ce7dfeb06,Hurl Through Hell,AFC,318,4254c048-7207-4ca0-bd20-ebb418d9ed1a,4,BR,Instant,Extended art,Olena Richards
 7b7610f3-f182-404e-80b9-ccd94e174db0,Flood Plain,MIR,326,9043d8d5-b38a-406f-a44c-49f579c644f0,0,,Land,Cornice retro,Pat Lewis
+7b761f97-3690-497a-b6ab-c71f61b8e841,Searing Wind,PCY,103,b196045d-ece1-46ac-a647-b65f04225c10,9,R,Instant,Cornice retro,John Matson
 7b76dafa-46ed-4b22-908a-8932505d4f4c,Lurrus of the Dream-Den,Q06,9,3bc757c1-3adb-4321-8832-8e1cc9e687f7,3,BW,Legendary Creature — Cat Nightmare,,Slawomir Maniak
 7b782865-b9d1-41ed-8a7b-a36c17022190,Platinum Angel,M10,218,b148578c-c0bf-4785-b97c-4b6f83028008,7,,Artifact Creature — Angel,,Brom
 7b7a348a-51f7-4dc5-8fe7-1c70fea5e050,"Urza, Lord High Artificer",CMM,130,e87906d2-db1a-4e19-b910-adb4eb339945,4,U,Legendary Creature — Human Artificer,,Grzegorz Rutkowski
@@ -16516,6 +16568,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 7e0fb42a-9faf-4873-bf46-c80af7d34934,Haunting Voyage,KHM,296,334c284e-7bc3-4c18-9f8d-4d846f80008e,6,B,Sorcery,Borderless · Invertita,Randy Vargas
 7e0fd96c-fb06-44d1-b8e3-f06ecdaa484c,Drowned Catacomb,WHO,492,819fc966-434e-470f-91e9-a38df974ad17,0,BU,Land,Extended art · Universesbeyond,Victor Harmatiuk
 7e10f8c5-d2bd-491e-827f-145a1bacc258,Gysahl Greens // Gysahl Greens,AFIN,10,e86b5d0e-ff01-40cc-bde2-4408501736a7,0,,Card // Card,Borderless · Invertita · Universesbeyond,Andrea Tentori Montalto
+7e137566-5033-48e8-88ba-65e3821b3cec,Hanweir Militia Captain // Westvale Cult Leader,SOI,21,2d8eba16-cfca-4a38-bde0-6ee36c67231a,2,W,Creature — Human Soldier // Creature — Human Cleric,Sunmoondfc,David Palumbo
 7e17b8ee-9de9-44d8-958b-3fced717ed32,Pyrohemia,CMD,132,9ac57a10-3402-4656-9079-f713884cde35,4,R,Enchantment,,Stephen Tappin
 7e17e172-3a46-4957-b711-edc53f70a284,Splendid Reclamation,EMN,171,13fe5e46-77a6-45d8-ac0b-c3d740eccf86,4,G,Sorcery,,Wesley Burt
 7e18d625-0950-4062-8d41-f8b681eff234,Scrubland,2ED,282,c8d95ca8-7d12-4072-aeaf-e20f248c7e39,0,BW,Land — Plains Swamp,Cornice retro,Jesper Myrfors
@@ -16872,6 +16925,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 80d6b500-8146-4102-9a60-5f0164d6bb52,Rousing Refrain,C21,383,515c522f-51d5-4f6d-b9b1-ea3c7f6a378e,5,R,Sorcery,Extended art,Izzy
 80d88d83-d614-4995-ad3e-7ac062f4a93c,"Circu, Dimir Lobotomist",GK1,9,c87d547b-00a4-4fdd-ade4-f3f032e5ea3b,4,BU,Legendary Creature — Human Wizard,,Cyril Van Der Haegen
 80dd2950-502c-4859-85fe-9fbef09aef43,Primevals' Glorious Rebirth,DOM,201,8de8027b-072a-474b-b76b-dc49c417cc55,7,BW,Legendary Sorcery,,Noah Bradley
+80e1d85a-18e5-4c6a-85fd-a009bd8fda38,Goblin Kaboomist,M15,144,5209e1da-aeed-45b3-9640-c2db121d6612,2,R,Creature — Goblin Warrior,,Kev Walker
 80e4203a-ff11-4075-a03a-11448779b413,Dregs of Sorrow,TMP,131,8126e60b-cf3d-4bf0-bfb5-f1e914d3e20e,5,B,Sorcery,Cornice retro,Thomas Gianni
 80e7d9a3-06a1-400d-958c-9b5302e046a6,Living Death,CM2,68,9e6a3df4-67a3-452e-a6ef-f04dbadb21ef,5,B,Sorcery,,Charles Gillespie
 80eccbe9-f197-4ec0-b8c1-45a36a063e30,Plagiarize,9ED,89,ba4f9450-d468-4686-9f48-00fa08c6ac52,4,U,Instant,,Jeremy Jarvis
@@ -17042,6 +17096,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 822db9a8-4549-4892-ba3c-a082f0ed6a74,Duelist's Flame // Duelist's Flame,AFIC,11,7860d999-1668-40a8-b751-b354f2609eb0,0,,Card // Card,Borderless,Lius Lasahido
 822e30db-40c5-4099-868b-185ad9b7c7dc,Imperial Seal,PTK,78,16cd0b90-f70c-4efa-b252-8de8784ef9a3,1,B,Sorcery,Cornice retro,Li Tie
 82320dae-924e-4887-945e-7875b78a6cf5,Roc of Kher Ridges,CEI,171,01f07ab9-3c3e-4fea-9cd6-543a5b7056b8,4,R,Creature — Bird,Cornice retro,Andi Rusu
+82331a8a-c0f1-4d89-87f8-1b1d0fccabb8,Well of Discovery,PCY,140,d63185ac-c7cd-4501-9248-54d6caf7d091,6,,Artifact,Cornice retro,Alan Rabinowitz
 8234ea77-9ed6-4f3e-acc2-f52fb7003ed2,"Starscream, Power Hungry // Starscream, Seeker Leader",BOT,5,3e924a35-0e08-4050-b33a-a143d2ab5aea,4,B,Legendary Artifact Creature — Robot // Legendary Artifact — Vehicle,Convertdfc · Universesbeyond,Volta Creation
 82351724-2814-4d9e-b065-bb72c761b2e7,Ihsan's Shade,HML,53,5eb29367-4ec3-4bd2-887e-13eeeecae8fa,6,B,Legendary Creature — Shade Knight,Cornice retro,Christopher Rush
 8235349d-0f92-4af4-ab8d-2f645fe32934,Idol of Oblivion,CMM,392,c232d974-9c65-4bce-b045-e5a7cc0c62e0,2,,Artifact,,Piotr Dura
@@ -17346,6 +17401,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 84683f38-a3df-41fb-a700-e752f32c16be,Sea Serpent,30A,373,c16495fc-784d-4bac-9a68-ed437008df73,6,U,Creature — Serpent,Cornice retro,Jeff A. Menges
 846a66d8-bb52-46a4-aa79-e57d5153623f,Fatestitcher,PLST,ALA-43,55765934-07be-4f03-a2e8-8292c0b601ae,4,U,Creature — Zombie Wizard,,E. M. Gist
 846c5d5b-af62-4e57-83b2-980f18e27b87,"Saheeli, Filigree Master",PBRO,219p,68cf7415-b434-4284-89b4-c7d44a003eb8,4,RU,Legendary Planeswalker — Saheeli,Promopack · Stamped,Aurore Folny
+846e8657-7435-44c6-a997-b8b156d0cd2c,Go Blank,STX,72,60186579-285b-4034-a782-431f79df5b07,3,B,Sorcery,,Wylie Beckert
 84701927-799f-4af4-85b8-389f903c5bc0,"Erebos, Bleak-Hearted",CMM,868,a5690dc9-f12e-4ecc-b528-f2f83c79c3c8,4,B,Legendary Enchantment Creature — God,Enchantment,Chase Stone
 84722185-dffb-498e-8ce7-f50236b716f5,Forest,PTK,180,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest,Cornice retro,Ji Yong
 847340fb-9251-4439-b33b-f86bff507dcd,Carnival of Souls,UDS,55,95b10ca7-7360-4da5-bd93-686ae3051833,2,B,Enchantment,Cornice retro,Brian Snõddy
@@ -17667,6 +17723,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 86999e06-62a3-4878-8db0-dc36b52d9794,Starnheim Unleashed,KHM,294,495ebe60-f0e5-4f0f-9d99-b2c64c95dbf4,4,W,Sorcery,Borderless · Invertita,Rudy Siswanto
 869a6c06-eae5-418e-9a5c-26598a929416,Peek,10E,94,873abbf4-c9b5-4b8f-8cd0-613cf3b9b1d5,1,U,Instant,,Adam Rex
 869ec7dc-dbf5-4ed4-a368-328da384ecae,City of Brass,2X2,403,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land,Borderless · Invertita,Mark Poole
+86a06831-0cbd-48f9-a817-4c5a36fa782a,Street Wraith,DMR,311,bd7867f4-4f58-49c2-9c24-a124dfdb506d,5,B,Creature — Wraith,Cornice retro,Jim Pavelec
 86a27af5-cb26-4f39-8648-193bb116e3d6,Orcish Squatters,5ED,258,ce936736-915f-44bb-a709-b3bdcf90a3be,5,R,Creature — Orc,Cornice retro,Richard Kane Ferguson
 86a27d68-3e58-4ade-976d-36381beed451,The Abyss,LEG,120,a02a7816-c967-4503-bb08-f8db44915250,4,B,World Enchantment,Cornice retro,Pete Venters
 86a3866e-68a8-402c-baf0-1908e98e3995,"Lyra, Archangel of Dawn",FRA,201,0fca3328-484f-4050-925e-91840710b5d6,3,W,Legendary Creature — Angel Knight,,Victor Adame Minguez
@@ -17905,6 +17962,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 884e19fb-67a4-42d8-b163-720a99cb8506,Carrionette,TMP,111,24315f60-731a-40bb-85ba-eedba1b011ff,2,B,Creature — Skeleton,Cornice retro,Pete Venters
 884ee8d8-4c0d-4e44-8321-bccd18195693,Wall of Shards,CSP,23,8fab68ad-169d-46d3-93c4-5bdee4eea2ce,2,W,Snow Creature — Wall,,Alex Horley-Orlandelli
 884f3feb-994f-4a65-b0e1-958e2fb38af1,Pinnacle Starcage,EOE,322,10e0b563-4dfc-4530-a010-0ba40bdf02ac,3,W,Artifact,Extended art,Leon Tukker
+884f6948-3e03-48c6-8be2-6f2539386c9d,Aetherworks Marvel,KLD,193,470ec98e-120c-446d-ade6-7d80aa836b55,4,,Legendary Artifact,,James Paick
 885098d1-f9b4-429b-97b5-c5c448111e22,Entity Tracker,DSK,307,c9db5293-4866-46ec-9ae8-059d27bd50fc,3,U,Creature — Human Scout,Showcase · Invertita,Ivan Shavrin
 88549b0e-063a-4faf-984e-efff33522f14,Heavenly Blademaster,C18,3,56940b6c-90ab-491b-a88a-4cd4a8adfbdb,6,W,Creature — Angel,,Zack Stella
 8854e9a7-a799-47d0-8662-95aa527d3210,Skullclamp,C20,251,65986c1b-8e51-4604-b685-d82fa7d1263a,1,,Artifact — Equipment,,Daniel Ljunggren
@@ -17933,6 +17991,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 8889e1ca-eec1-408b-b11e-98cc0a357a97,"Koma, World-Eater",FDN,347,1ebf2142-f171-40cd-8143-15f50084b707,7,GU,Legendary Creature — Serpent,Borderless · Invertita,Néstor Ossandón Leal
 888bc7ca-f9fa-4da4-b466-b9dc273d5319,Scepter of Dominance,CON,17,60bf80f9-78b1-4869-afd9-e769b1b0f5ea,3,W,Artifact,,Howard Lyon
 888ca52b-1270-4587-804d-1d08b07d7c5d,Leeching Sliver,M15,102,f104b361-8000-4eda-b530-1502528e09f9,2,B,Creature — Sliver,,Svetlin Velinov
+888e366f-6c64-423d-92fc-1a1e2806e4c3,Spiritmonger,DMR,370,3913c7f2-86b7-4dd4-84a6-9bd4c1c66781,5,BG,Creature — Beast,Cornice retro,Glen Angus
 888f32ad-3bdd-4c46-b3f0-522ac9763591,Plains,MIR,331,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains,Cornice retro,Tom Wänerstrand
 88910aa1-180d-41ab-a6ea-57fd66a955aa,Water Elemental,SUM,92,c470fbe1-0538-46ec-8741-3143f5e78af8,5,U,Creature — Elemental,Cornice retro,Jeff A. Menges
 8891277a-5f8a-4d8c-b0a3-88227a0a3732,"Ajani, Sleeper Agent",PDMU,192p,37714eb9-a39d-4534-a2d3-27908c418f8a,4,GW,Legendary Planeswalker — Ajani,Promopack · Stamped,Matt Stewart
@@ -18174,6 +18233,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 8a5edac3-855a-4820-b913-44de5b29b7d0,Sol Ring,ZNC,120,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact,,Mike Bierek
 8a5f2bbc-fe5f-40e9-9610-6297607822a0,Cephalid Coliseum,WC02,cr317,c733873e-77db-471f-8061-139db24f7e7c,0,U,Land,Cornice retro,John Avon
 8a634388-8dee-415a-9d4f-09ac122e0eac,Eerie Ultimatum,PIKO,184p,5674f6ae-ed5d-441e-a534-b5dd415165fd,7,BGW,Sorcery,Promopack · Stamped,Jason A. Engle
+8a63fab4-8e9d-4972-9e3d-51ce8575535b,Auratog,TSB,2,fe47535e-e50c-49ad-beda-46750d33e6f4,2,W,Creature — Atog,Cornice retro,Jeff Miracola
 8a6439a6-288d-427e-b14b-a99e8ef8c5cd,Brotherhood Regalia,ACR,71,d169738e-af0b-4488-a399-3aa1d1933aa1,2,,Artifact — Equipment,Universesbeyond,Xabi Gaztelua
 8a65f1b1-56b5-4a4c-acc7-d1b8933244a4,"Ultron, Artificial Malevolence",MSH,344,a8f25e67-2112-4355-9298-363ed04a5cb8,3,,Legendary Artifact Creature — Robot Villain,Borderless · Invertita · Universesbeyond,Johan Grenier
 8a676db5-9911-4dc6-bcf2-6c5588027b14,Ponder,SLD,2292,02090581-61aa-4348-ad57-451be8ee91c2,1,U,Sorcery,Borderless · Invertita · Universesbeyond,John Di Giovanni
@@ -18396,6 +18456,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 8c3d4d71-c750-4146-80fb-7cfd2427c62f,Sakashima's Student,PC2,24,afcc68e2-3634-43ce-ae99-dd2ec735d146,4,U,Creature — Human Ninja,,Brian Snõddy
 8c40d24d-a81d-46b9-87ef-d5304d438c0e,Mountain,POR,208s,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain,Schinesealtart · Cornice retro,康羽
 8c41769e-5ebb-42b2-ac55-fa471cd7201e,Elves of Deep Shadow,PLST,GK1-56,20347559-95a9-4689-bb79-c5bb3809b719,1,BG,Creature — Elf Druid,,Justin Sweet
+8c418159-b5d1-48e9-9a31-707f49d6733b,Lashwrithe,NPH,143,066ba81e-b32d-4808-97ab-0b5f52d557e4,4,B,Artifact — Equipment,,Jason Felix
 8c4306e0-afdb-4911-9dae-7ea7e6ad9a0a,Custodi Lich,CN2,41,0d95ee14-9ff0-4d7f-be56-361a500ce36f,5,B,Creature — Zombie Cleric,,Bastien L. Deharme
 8c449a9c-d6ab-4b7b-89b2-447307180823,Regrowth,CEI,215,e6e4a8bd-5c40-4654-8de1-0da9afed90fd,2,G,Sorcery,Cornice retro,Dameon Willich
 8c44ecce-6019-47f6-b3e8-1394a88ff81e,Strip Mine,4BB,363,d21a89eb-7c5b-459a-acc7-12b20b13bf79,0,,Land,Cornice retro,Daniel Gelon
@@ -19053,6 +19114,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 90e72f86-9f09-40af-838c-3d344c50f607,Whirlwind of Thought,MOC,344,6467cbb7-1e4e-482d-a20f-6cb9fc0f1ad1,4,RUW,Enchantment,,Bram Sels
 90e7626d-0b49-4ab8-91f6-4921448a4520,Creature Bond,30A,352,70492e32-ba4d-4314-b016-892fb15f7a23,2,U,Enchantment — Aura,Cornice retro,Anson Maddocks
 90eb0859-d24e-4703-8930-1cd4ac1fb3b6,"Nahiri, Forged in Fury",MAT,36,87966759-206a-4a2d-bf78-86f727c29972,6,RW,Legendary Creature — Kor Artificer,,Marta Nael
+90ebfcb3-d048-4fde-bc05-1e2ef808c099,Conservator,4BB,309,1940e56d-0972-4ca4-946c-bbd42dde1dcb,4,,Artifact,Cornice retro,Amy Weber
 90ecb93b-547f-496f-8a4e-bd5a69f8088f,Starke,PVAN,207,0c668c8f-4eaf-46d1-97d5-3b91040ef9bd,0,,Vanguard,Instore · Cornice retro,Donato Giancola
 90ee46cc-12fc-499f-8c13-a289d5fdbaba,"Raubahn, Bull of Ala Mhigo",FIN,388,d81d5749-ab4d-42c5-8903-0b400f10fe33,2,R,Legendary Creature — Human Warrior,Borderless · Invertita · Ffxiv,Penekor
 90f148e6-1a5e-46fc-9557-40c5c0038069,"Emeria, the Sky Ruin",SOC,368,cc999cf2-c99b-4911-8c52-6cc4a99fcc7b,0,W,Land,,Jaime Jones
@@ -19098,6 +19160,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 913977c2-73f9-466b-bd01-827c1736e070,Aurora Awakener,ECL,165,cf9d13e2-bdcc-4c66-95ad-654ef795dbd3,7,G,Creature — Giant Druid,,Paolo Parente
 913e09a2-2eaf-4103-b266-9c70cb279896,Riders of Rohan,LTC,148,688a559d-249f-4d03-98e6-581843e7ddc3,5,RW,Creature — Human Knight,Extended art · Universesbeyond,Stanislav Sherbakov
 913e6724-4860-4795-a079-f8141e25f225,Forest,WC01,jt347,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest,Cornice retro,John Avon
+913ec23f-02b0-4ccb-804a-2d678d8fb024,Deserted Beach,PFRA,176p,f0ec8681-da50-466b-8cdd-1dc710deccd9,0,UW,Land,Promopack · Stamped,Sarah Finnigan
 913f0aca-ac61-4377-b3b1-cd556b950df2,Mechtitan Core // Mechtitan Core,SLD,1965,,,,,Borderless · Full art · Poster,Ivan Shavrin & Rob Pavic
 913f761f-dd7b-4c91-b4e9-5903f86079f0,Swamp,PALP,5,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Instore · Cornice retro,"Edward P. Beard, Jr."
 91413f57-38fd-4bd6-b37e-b3323943ef84,Emptiness,PECL,222p,dc5dd7f7-375e-4d51-85cb-1abf16ca3854,6,BW,Creature — Elemental Incarnation,Promopack · Stamped,Ryan Pancoast
@@ -19458,6 +19521,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 941fa83a-cb61-47b1-83a7-7ce7e894c338,Plated Slagwurm,GVL,12,4aec7624-e406-45a4-b2b6-2e8d29f6268a,7,G,Creature — Wurm,,Justin Sweet
 94236a68-c989-4759-a432-611e40002555,Compost,WC02,rl235sb,4681bcc2-8a46-44cd-8b04-6ab140904dea,2,G,Enchantment,Cornice retro,Marc Fishman
 942bbb43-2280-4a8e-852f-e20759cac312,Wildfire Awakener,MOC,131,d22196b5-b111-45ce-ae51-a06ca02533b6,3,RW,Creature — Human Wizard,Extended art,Andrew Mar
+9430b849-cee9-4fda-84c1-0777db82fe58,Mechtitan Core,NEO,497,f1eb489d-104c-4801-b6d2-3f1a7ee73a75,2,,Artifact — Vehicle,Extended art,Victor Adame Minguez
 94333bbf-3945-4f4c-858e-f1ca3f254079,Mirkwood Spider,LTR,629,07fb2903-b239-43d0-864b-c4437b7a5230,1,G,Creature — Spider,Showcase · Silver foil · Scroll,Alexander Ostrowski
 94345aab-b9f2-463e-91ab-acd8b99a7ec0,Bog Wraith,2ED,96,508248d1-09a4-4e41-a4c9-286618e5061e,4,B,Creature — Wraith,Cornice retro,Jeff A. Menges
 94389b94-1514-44d1-b19b-7be104db9bba,Hallowed Burial,CN2,91,dcaaddee-00b1-495c-9161-40c91c900aac,5,W,Sorcery,,Dave Kendall
@@ -19471,6 +19535,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 943c3b7d-d6f2-41ce-9980-d54827c6f26b,Arch of Orazca,PRIX,185p,3bb518ff-399b-4ce7-b9ad-a1d563dd7792,0,,Land,Setpromo · Promopack · Stamped,Titus Lunter
 9443c31e-9f36-44ef-bc59-6d1d3a5499bb,Swords to Plowshares,WOC,78,b1544f21-7e98-461b-aed5-e748b0168c52,1,W,Instant,,Jesper Ejsing
 94449d88-2df4-4850-8ffa-d6d193835dda,The Cloning of Shredder,TMT,60,bd768e8f-8f04-487e-85e9-2828d6fd8745,6,B,Enchantment — Saga,Enchantment · Universesbeyond,Chris Seaman
+9445d57a-da77-4456-9e69-c898c4d57853,Bloodbraid Elf,TSR,372,3f0c9466-5ab9-4205-a84f-b4b27b5a678e,4,GR,Creature — Elf Berserker,Cornice retro,Dominick Domingo
 944ca6e7-084b-424a-80c1-e88de192fd98,Goblin Engineer,PLST,MH1-128,c1d6cce8-085f-42cb-8b0c-b6fbbf88b16a,2,R,Creature — Goblin Artificer,,Jehan Choo
 944db708-6b7d-4dc0-b3c0-2ddf130e4be3,Prismatic Ending,SLD,1868,2cb98ca9-d7bb-416b-a17e-ee5f8e4d78f2,1,W,Sorcery,Borderless · Invertita · Ffx,Anna Steinbauer
 944ddbe5-45bf-44c3-aad5-b051ec79ae8b,The Legend of Yangchen // Avatar Yangchen,TLA,354,521a63cf-5e83-4649-9800-c62b2fc474d6,5,W,Enchantment — Saga // Legendary Creature — Avatar,Borderless · Enchantment · Invertita,Sija Hong
@@ -19760,6 +19825,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 9672caeb-5cf8-4b40-a371-005c911a67d9,Drain Power,LEB,57,0669172d-396b-4f5a-9703-129c5c849b55,2,U,Sorcery,Cornice retro,Douglas Shuler
 9679442a-ecd4-4220-aae4-01b95dc18486,"Yidaro, Wandering Monster",IKO,326,6c0e22f2-f0f3-43e6-87c5-c543032112d8,7,R,Legendary Creature — Dinosaur Turtle,Extended art,Jesper Ejsing
 96794470-31ea-478f-b11c-dc8342a508e2,Liberate,INV,21,f17e6c85-4813-4b0f-a0e9-d295822e9bb5,2,W,Instant,Cornice retro,Alan Pollack
+967a4f27-8cd6-437d-8c05-8aedbc7ddc4b,Collector's Vault,WOE,244,f460ff80-8175-43f7-9810-540cf3817085,2,,Artifact,,Artur Nakhodkin
 967a6608-6e5d-40b3-b0c6-2e79b97f10ba,Mystic Sanctuary,MB2,110,17b60106-a4c7-410a-8ac3-ec8e74e29a7c,0,U,Land — Island,,Randy Vargas
 967b7272-33a6-46e9-b0aa-4757aee54b3a,"Vraska, Relic Seeker",XLN,232,3c037103-5af0-40a8-bbbe-7f3f5958b6e9,6,BG,Legendary Planeswalker — Vraska,,Chris Rahn
 967c446e-986a-4345-aeec-28f4cd8c801b,"Kyodai, Soul of Kamigawa",NEO,438,d89bd776-8489-4c34-94ea-db1b088d9379,4,BGRUW,Legendary Creature — Dragon Spirit,Extended art,Daniel Zrom
@@ -19999,6 +20065,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 98392aac-2c1c-4cff-ad14-0e2f51439012,Chakra Meditation,TLE,91,12c57ebe-35a7-4cb3-936b-99c148a3cfed,3,U,Enchantment,Enchantment · Universesbeyond,Hori Airi
 983abbf8-4966-47ae-9e72-72f400a49f3b,Thousand-Faced Shadow,PNEO,86p,98636623-bbc6-4935-a2bb-2234691eb6d8,1,U,Creature — Human Ninja,Promopack · Stamped,Ekaterina Burmak
 983c1308-d81b-444f-9806-a9723b987af1,Black Lotus,30A,525,5089ec1a-f881-4d55-af14-5d996171203b,0,,Artifact,Cornice retro,Christopher Rush
+983d129b-809b-436e-bb66-3c7028709e50,Shivan Reef,C20,310,0fe16212-66c3-4e45-a641-7391e9b2e304,0,RU,Land,,Rob Alexander
 983f4711-20a8-4023-8201-9a74deab10be,Generous Gift,MH1,11,fae37e28-e137-4177-b973-fa8b4dd8f409,3,W,Instant,,Kev Walker
 98423ff9-48e3-4985-9fe4-7c095c3ceee0,Gut Shot,PLST,MM2-117,9afb3b6e-4909-4efa-aa79-81c0229411c9,1,R,Instant,,Greg Staples
 9843e0d8-2e71-431f-a389-7573027441d1,Enduring Courage,PDSK,133p,b3de29cb-7d7d-4566-b5bf-37e571bd5d78,4,R,Enchantment Creature — Dog Glimmer,Enchantment · Promopack · Stamped,Yigit Koroglu
@@ -20125,6 +20192,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 991f614e-7550-46ca-9091-96167d780c6c,Crovax,PVAN,202,f9831319-0f61-4b10-b5fb-163e6d5b54c6,0,,Vanguard,Instore · Cornice retro,Ron Spencer
 99216d56-29aa-49b6-aebb-48da9604ca5f,Mogg Fanatic,WC99,mlp190,7efd5d62-6da2-428a-98e3-5b842f668656,1,R,Creature — Goblin,Cornice retro,Brom
 992244dc-d988-41ce-9e3d-cd8034ccc50f,Breathkeeper Seraph,VOC,31,a41e632f-9d36-44d2-b1dd-e17df0d2486e,6,W,Creature — Angel,,Alexander Mokhov
+99255a66-b868-45fc-a2a9-0c89bd851b69,Tarrian's Journal // The Tomb of Aclazotz,LCI,126,a75b02ba-b0c8-47e3-a05c-e9ba221a7578,2,B,Legendary Artifact — Book // Legendary Land — Cave,,Randy Gallegos
 99263917-25ca-4d54-b1f9-d6d316747088,Swords to Plowshares,40K,190,b1544f21-7e98-461b-aed5-e748b0168c52,1,W,Instant,Universesbeyond,Diego Gisbert
 99264beb-2149-4cd4-9880-f0dc5c570c1b,Caves of Koilos,DMU,244,33de01e9-ce5a-42d4-afcb-343cd54a6d80,0,BW,Land,,Julian Kok Joon Wen
 9928034e-7910-4ae3-8080-5007237e225b,"Jaya, Fiery Negotiator",PDMU,133p,2458aa66-5b20-4811-a4a4-8375ad0a6498,4,R,Legendary Planeswalker — Jaya,Promopack · Stamped,Marta Nael
@@ -20514,6 +20582,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 9c1624f7-8275-46d3-ab7e-7b162e27593f,"Selenia, Dark Angel",TMP,270,3db1ac09-e35a-4f50-97c4-f65dbc28daef,5,BW,Legendary Creature — Phyrexian Angel,Cornice retro,Matthew D. Wilson
 9c173f4b-6533-419d-9523-232b8fcadfda,Magus of the Wheel,C19,149,df13dafb-f82e-42ac-b6dc-efe82af5db58,3,R,Creature — Human Wizard,,Carl Frank
 9c17b6f3-c460-4214-b3fc-232d4514bcf0,Sneak Attack,PLST,USG-218,e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d,4,R,Enchantment,Cornice retro,Jerry Tiritilli
+9c17c3bb-aa20-43b0-8a28-b46a18b060ef,"Gwaihir, Greatest of the Eagles",LTC,15,77572e70-4b8b-46ae-8c8d-f71b7dd456e0,5,W,Legendary Creature — Bird Noble,Universesbeyond,Jesper Ejsing
 9c1832a4-b746-4da8-85b0-7edacf09d11e,Fellwar Stone,PLST,CMD-248,95560508-7ac9-4be9-8a3f-3c7d5b52807b,2,,Artifact,,John Avon
 9c19303a-89eb-4d05-bc0a-13a7e283d408,Hullbreaker Horror,PIP,344,d4a84e78-d9b9-4c67-8a4b-4329e65f0f15,7,U,Creature — Kraken Horror,Showcase · Invertita · Universesbeyond,Tomas Duchek
 9c198ffd-50c8-46ae-a4bd-75c9d39f40de,Path of Ancestry,CMR,708,b473e293-59e3-4e04-acf2-622604aeb25f,0,,Land,Extended art,Alayna Danner
@@ -20981,6 +21050,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 9f7983bf-2a3b-4428-8c01-35285f589da8,Sudden Substitution,C19,11,e5ddacfb-e5a8-4885-a4c9-fa117f321293,4,U,Instant,,Noah Bradley
 9f7a6dfb-a8f8-4899-b2db-c48d542dfd55,Inkwell Leviathan,2XM,55,dbdd0963-b395-4cb8-ad9a-ed85a3e9f2e5,9,U,Artifact Creature — Leviathan,,Anthony Francisco
 9f7b9f50-2b6c-4ef5-8b72-0bf7e160909e,Weather the Storm,STA,121,3a091f7b-efc9-4aaa-9da8-157ef8099a36,2,G,Instant,Borderless,Kukka
+9f7c3571-925d-486e-80dd-bac47aa48283,Apostle's Blessing,NPH,2,ea393815-0202-4edc-aa1e-6885fe9b20ab,2,W,Instant,,Brad Rigney
 9f800b59-640c-447a-b0d1-3904bc91b61f,Idol of Oblivion,NCC,368,c232d974-9c65-4bce-b045-e5a7cc0c62e0,2,,Artifact,,Piotr Dura
 9f80efa6-769f-4205-b69e-9cf0e78b7bcd,"Jenova, Ancient Calamity",FIN,346,9370f6bf-d6a0-4c5b-828f-7229f563cc07,4,BG,Legendary Creature — Alien,Borderless · Invertita · Universesbeyond,Karo ARAI
 9f838603-f7cd-497d-8d2b-d4cca03c1af7,Agate Instigator,BLC,21,e1a2bd31-b800-47cd-8866-1b849a601b09,2,R,Creature — Lizard Rogue,,Quintin Gleim
@@ -21105,6 +21175,7 @@ a084d0fb-8db2-4873-a2f9-e6e5fecdd38c,Sinkhole,EMA,106,5a46ad2a-35b1-4dd5-b7c3-fe
 a08a1377-dede-47c8-8447-c9df125f3b14,"Wort, Boggart Auntie",LRW,252,6f477e2e-220e-48d9-9236-9564478e796a,4,BR,Legendary Creature — Goblin Shaman,,Larry MacDougall
 a08b578d-cc45-421e-86cf-9e3c9066a726,"Sokka, Swordmaster",TLE,174,90b4d288-e950-4182-af62-516549a8712c,3,W,Legendary Creature — Human Warrior Ally,Extended art · Universesbeyond,Jason Kiantoro
 a08b7a1e-b404-41ea-875f-b3468501cb4b,Temporal Trespass,FRF,55,c216b924-88ac-4853-9e95-0c345c09eeb6,11,U,Sorcery,,Clint Cearley
+a08becd3-ca5e-4150-8d28-52436a3eaffd,Sisay's Ring,VIS,154,8f5822ae-651f-410e-9316-5522eeb52d72,4,,Artifact,Cornice retro,Donato Giancola
 a09030ee-415c-45af-bf08-7623197a314f,Aeolipile,FEM,81,0897adea-2759-40e8-a05a-c722473e1cf3,2,,Artifact,Cornice retro,Heather Hudson
 a0923d9e-efd8-4c02-b08c-631b1f94a5b9,Sage's Nouliths // Sage's Nouliths,AFIN,5,9dd97dcd-b225-42f8-86a7-240ae1c57c9b,0,,Card // Card,Borderless · Invertita · Universesbeyond,Justyna Dura
 a0931eb3-b403-4b1a-ad46-a7b0a51bb9a4,Treasure Vault,AFR,261,3c43efd6-b1a8-452c-ae20-9a936c3340ab,0,,Artifact Land,,Johannes Voss
@@ -21126,6 +21197,7 @@ a0b107dc-387e-4c92-a273-6cb44a485caa,"Sokrates, Athenian Teacher",ACR,121,f4a9d5
 a0b2f2d4-fd89-452a-aa9f-ac290fed05d7,Raise the Palisade,MSC,340,f55a3781-fe33-4301-9bb5-6a54b9c13c4f,5,U,Sorcery,Extended art · Universesbeyond,Arthur Yuan
 a0b46ef1-5bec-43cd-9146-f95a1c2401e7,Kormus Bell,4BB,332,d2d477a5-f055-4d47-a852-26e8239f2a01,4,,Artifact,Cornice retro,Christopher Rush
 a0b6a71e-56cb-4d25-8f2b-7a4f1b60900d,"Uro, Titan of Nature's Wrath",THB,229,ee302659-59ed-4eef-babe-451b9ccf7f14,3,GU,Legendary Creature — Elder Giant,,Vincent Proce
+a0ba5018-e082-45c8-b255-6b0ddf4a95ac,Dosan the Falling Leaf,SLD,2404,70e4025f-41de-4b47-a590-3c922dc1e209,3,G,Legendary Creature — Human Monk,Borderless · Invertita,Gene Luen Yang
 a0ba7e85-84e3-47e3-8199-438a42520f60,Nalathni Dragon,PRED,1,0887dc95-3e75-4f72-bf05-4067d3785376,4,R,Creature — Dragon,Cornice retro,Michael Whelan
 a0bb89e2-0d28-4483-b5a7-fddf83d5eac3,Indulgent Tormentor,DDR,53,8b202c63-c961-4590-958f-d17e76610ab5,5,B,Creature — Demon,,Wesley Burt
 a0bd6b4a-4470-4e4d-9f7b-9b6f1d1dcde7,Solemn Simulacrum,SLD,791,00c0543c-2a1f-4425-8283-4062d74a1637,4,,Artifact Creature — Golem,Borderless · Invertita · Sldbonus,Dani Pendergast
@@ -21531,6 +21603,7 @@ a3b1da84-9c26-4c3c-b90f-43a0b2b20103,Swiftfoot Boots,LCC,314,c8b143ad-43ec-4e0d-
 a3b1fc65-3620-4052-a1f8-1779d95029c7,Snuff Out,FIC,285,324824cb-f938-401c-b9b5-d8908b431ef0,4,B,Instant,Ffxiv · Surge foil · Universesbeyond,Thanh Tuấn
 a3b42202-548e-46f2-90a6-6f952315d157,Snap,PLST,DDS-10,ac914d98-221e-426c-8a50-342896b15f9e,2,U,Instant,,Véronique Meignaud
 a3b4cc0d-328f-40c3-ba34-23d67488e741,Woodland Chasm,PLST,KHM-274,bf5482b6-dd3e-4fb7-bc62-29e23b417a5f,0,BG,Snow Land — Swamp Forest,,Titus Lunter
+a3b9f5dd-3f2b-4071-a22b-0d4fa39fb64b,Merciless Eviction,CM2,160,3c8d4999-e18b-48d8-8ed9-f2feaa38300d,6,BW,Sorcery,,Richard Wright
 a3ba79d6-7da0-46ba-a26a-dc484bdae41d,Glorious Anthem,M21,341,e3886fe8-9b76-4613-8891-4ec74657c087,3,W,Enchantment,Extended art,Raymond Swanland
 a3baaf97-171a-40c0-a1dc-74ae05db0e25,"Isshin, Two Heavens as One",FCA,54,65114758-9a75-43a7-96e8-0aa68faa6b24,3,BRW,Legendary Creature — Human Samurai,Borderless · Invertita · Full art,Tetsuya Nomura
 a3bad7f1-0b02-4499-a2e2-4625d01e3710,Feed the Swarm,DSC,78,5825997b-10d7-4a36-972c-a80ddd90b8ed,2,B,Sorcery,,Nino Is
@@ -21600,6 +21673,7 @@ a451a459-18e0-4c53-a171-3e9da534ebf1,The Endstone,EOE,240,57ee0730-3ac5-4f17-ac8
 a4540796-7d1b-4a1f-8870-0f6d0eaf6d94,Rejuvenating Springs,MSC,488,d1620449-930a-4895-a143-fd2a0a3c8b17,0,GU,Land,Extended art · Universesbeyond,Sveta Pikul
 a456d0a8-1328-43ba-9b60-36dc533115b9,Wakanda Forever!,MSC,388,b8add484-8ed1-4a1c-aff9-dec65d60e4b1,6,G,Sorcery,Extended art · Universesbeyond,Eli Minaya
 a457f404-ddf1-40fa-b0f0-23c8598533f4,Counterspell,PLST,CMR-395,cc187110-1148-4090-bbb8-e205694a39f5,2,U,Instant,,Zack Stella
+a459833f-8cf4-43c0-9523-eb37de450bc1,Brutal Cathar // Moonrage Brute,MID,286,1ed2d8e0-462b-468e-8fd3-1f3c6d99fb8a,3,RW,Creature — Human Soldier Werewolf // Creature — Werewolf,Showcase · Sunmoondfc,Steve Ellis
 a45997b5-880e-4df0-8001-8118972c2fcc,Tunnel of Love,UNF,234b,e6dd25bd-8017-4691-86ba-466c68d9fd8a,0,,Artifact — Attraction,,Vladimir Krisetskiy
 a45b4ca9-4355-4690-84c3-a7d44c367dbf,Sneak Attack,DMR,139,e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d,4,R,Enchantment,,Jerry Tiritilli
 a45b534b-8442-4074-a8d2-f38e83f24868,Song of Freyalise,DOM,179,9fe1f3ef-2c30-4ccc-9a67-5349e98e2502,2,G,Enchantment — Saga,,Min Yum
@@ -21844,6 +21918,7 @@ a602f394-2bfa-4383-b1aa-2715cc36683d,Steelshaper's Gift,SLD,1632,d9abda7e-6ca2-4
 a60313ca-10cc-4c33-a557-1401c5721e3b,Symbiotic Wurm,ONS,289,99e3b8ee-29e3-41de-af31-a4e8800c4619,8,G,Creature — Wurm,Cornice retro,Matt Cavotta
 a60634dc-3237-4638-aeb1-44f53149e984,"Franklin Richards, Ascendant",MSC,362,af20f452-5cb9-47cc-9a81-71f23204ddd0,6,R,Legendary Creature — Mutant Hero,Extended art · Universesbeyond,Julia Vasilyeva
 a6070239-54a7-49d4-bd3c-d5c4cda971db,Glaring Spotlight,GTC,229,21570481-190e-4cfa-a5fd-a0642e2af569,1,,Artifact,,Adam Paquette
+a60834b0-38ab-40c9-9fd9-db3a23b13076,Grand Crescendo,FRC,26,dc600c06-8239-409e-b53d-20f813a3f5e7,2,W,Instant,,Raluca Marinescu
 a609f37f-4466-45eb-93b1-01b649f8a0a1,"Narset, Parter of Veils",BLC,76,ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f,3,U,Legendary Planeswalker — Narset,Borderless · Imagine,Adam Vehige
 a60e591e-5673-4504-9b1e-8448fae664ea,Mossborn Hydra,FDN,471,84122d81-9634-4d3f-85a5-f6cf4303691a,3,G,Creature — Elemental Hydra,Extended art,Monztre
 a60e8f23-90b2-4bc6-bd54-a95055556389,The Legend of Yangchen // Avatar Yangchen,TLA,27,521a63cf-5e83-4649-9800-c62b2fc474d6,5,W,Enchantment — Saga // Legendary Creature — Avatar,Enchantment · Universesbeyond,Kuno
@@ -21989,6 +22064,7 @@ a73d1cb0-d0dc-4f2a-9cf2-954d5889dd08,Rug of Smothering,CLB,336,da1035c4-bafe-434
 a740d70c-b877-44cf-beb4-774ec66236c5,Skullclamp,MSC,451,65986c1b-8e51-4604-b685-d82fa7d1263a,1,,Artifact — Equipment,Extended art · Universesbeyond,Lordigan
 a742bc7c-7f0d-4dff-b229-f16d54fe1347,Call of the Wild,WTH,122,882ee72e-2149-4778-a81c-8bf09beb5d66,4,G,Enchantment,Cornice retro,Brom
 a742e23c-1991-4dce-b670-dea92a1cf4ec,Fabricate,MRD,35,422e1869-134f-463d-9fa1-86b66a998b3e,3,U,Sorcery,,Glen Angus
+a743a3b6-3278-4644-a2d5-acf495c273ed,Falkenrath Pit Fighter,MID,137,46d6bc30-9a21-4476-947b-87951cd9c882,1,R,Creature — Vampire Warrior,,Anna Fehr
 a744d247-cece-4eaa-bc13-e3fb84658d24,Skirk Prospector,EVG,51,c18013e4-0b99-44e3-a2b2-027ace68723a,1,R,Creature — Goblin,,Doug Chaffee
 a747e6cf-c687-4c4f-8e07-d51165d6cb62,Lizard Blades,NEO,153,f6314e50-a610-4fff-8f60-803d23460ff0,2,R,Artifact Creature — Equipment Lizard,,Jason Kang
 a748366b-654a-488b-8431-8f44c7e2e0ec,Mana Vault,FBB,263,736892cb-a34b-4bb9-b56c-e26e3db207a2,1,,Artifact,Cornice retro,Mark Tedin
@@ -22006,6 +22082,7 @@ a762e84d-db04-4ede-bc0b-ddcfff9549af,Mirrorworks,BRC,149,fd9c4ebe-cc9c-427c-8105
 a7647150-24a7-4497-9870-7f0ee6435213,Hour of Reckoning,PIP,450,3bc13640-03f8-4b19-b0a4-7e7cb5271c0c,7,W,Sorcery,Extended art · Universesbeyond,Jason Kang
 a767f185-bf9c-450a-b699-9a20bb3686c6,"Torbran, Thane of Red Fell",SLD,463,8c3495bf-02e7-4ad9-949d-92eb3d2b662a,4,R,Legendary Creature — Dwarf Noble,,Wayne Reynolds
 a76c4fdf-a0ba-4e78-a939-1b03bfc05992,Deep Analysis,WC03,dh36,579cbd92-797f-4cdf-91ed-fca7a523eae5,4,U,Sorcery,,Daren Bader
+a76c56a3-db5c-4884-8c6a-bf8105b62421,Skyclave Apparition,BLC,154,d90af00a-d322-4265-9954-7b1e80702e18,3,W,Creature — Kor Spirit,,Donato Giancola
 a76c7f02-43dd-437d-82c7-79ef7de5b916,Robe of the Archmagi,CLB,566,570de99a-7c65-4052-bc4b-cfb8caef40b3,3,U,Artifact — Equipment,Extended art,Dallas Williams
 a76d49f7-2860-4972-ab97-1e798ea017d1,Ravenous Brute Head,TFTH,2,c118040f-b7e6-4caf-a09c-df8a1382887c,0,,Elite Creature — Head,Instore,Richard Wright
 a76ecc4f-5e77-4d96-9df7-fe703bbc39df,"Uthros, Titanic Godcore",EOE,285,df08ac72-010f-42f8-beb3-6d645c638e1e,0,U,Land — Planet,Borderless · Showcase · Invertita,Piotr Dura
@@ -22258,6 +22335,7 @@ a958971e-5678-4858-b08c-81b5b419fa89,Kor Skyfisher,DDO,16,054a0193-861e-4644-ab0
 a9592fd1-0b19-4d20-bbd2-6fedf166084f,Phantom Monster,CEI,70,bbd30183-524c-4b93-b953-90853ec3f39f,4,U,Creature — Illusion,Cornice retro,Jesper Myrfors
 a959b40d-dd8c-49d8-8003-744d0c877b04,"Nezahal, Primal Tide",CMR,401,c45e96cb-2539-4e00-9fff-782a182c2f4b,7,U,Legendary Creature — Elder Dinosaur,,Sam Burley
 a95b7645-154f-4904-bf71-db7eb24d4df2,Academy Ruins,2XM,309,a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2,0,U,Legendary Land,,Zoltan Boros & Gabor Szikszai
+a9601594-1efb-4cf7-ad94-76fe6ebfe8ad,Sunset Revelry,LTC,177,65779f3b-7fc5-4847-99d7-78f697d34c3d,2,W,Sorcery,Universesbeyond,Viko Menezes
 a960acea-3404-4834-9296-d6715add49af,Chronomancer,40K,32,9833e3bd-6e7f-41b7-bf7e-ffb74ff17844,2,B,Artifact Creature — Necron Wizard,Universesbeyond,Alexey Kruglov
 a96abfdf-21fa-46dc-9632-37add4c10c2a,Altaïr Ibn-La'Ahad,ACR,137,43dc4b0c-e437-4abc-a3fb-48bd3098de88,3,BRW,Legendary Creature — Human Assassin,Borderless · Showcase · Universesbeyond,Alex Negrea
 a96d0c67-e9f4-46d9-bd74-13a8606fdfe3,"Garruk, Caller of Beasts",M14,172,8e2fbc26-5373-4fd7-8e9e-41af5bb9ff18,6,G,Legendary Planeswalker — Garruk,,Karl Kopinski
@@ -22403,6 +22481,7 @@ aa6592b0-c809-4711-bb39-4c9a9e55657e,"Emry, Lurker of the Loch",BRC,81,da3e7d3d-
 aa65e964-8ca5-4e56-b770-b50cddbc7365,Charismatic Conqueror,LCC,38,3dcc35f3-74dc-46a8-8aa9-3411189f0547,2,W,Creature — Vampire Soldier,Extended art,Bram Sels
 aa686c34-1c11-469f-93c2-f9891aea521f,Veil of Summer,M20,198,002965be-a36f-4a09-9ce0-c6535bca1703,1,G,Instant,,Lake Hurwitz
 aa6b4b26-f5a1-4932-b1a8-afff458d206b,Swamp,WC99,js339,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Cornice retro,John Avon
+aa6c3c8a-aa35-46b3-8769-27b4244457b0,Jhoira of the Ghitu,TSR,256,ad3f4ec9-9905-421b-98ed-78bb6fc9b450,3,RU,Legendary Creature — Human Wizard,,Kev Walker
 aa710039-5378-440c-b584-e9d72d1683c9,Living Lands,3ED,210,8f0179fe-6d7d-49cc-ab06-d3b402c6fc8d,4,G,Enchantment,Cornice retro,Jesper Myrfors
 aa718734-4e2f-4b88-abf9-46a061c6a4bd,Planar Engineering,PSOS,158p,dc48079a-b1c4-4c43-a989-418c78a264ec,4,G,Sorcery,Promopack · Stamped,Liiga Smilshkalne
 aa7252a6-0add-4bba-a0cc-9068f8701775,Svyelun of Sea and Sky,MH2,393,872bebff-720d-459b-8f86-fb9129a8d1fb,3,U,Legendary Creature — Merfolk God,Cornice retro,Seb McKinnon
@@ -23820,6 +23899,7 @@ b5474dc6-d81e-4d10-81b9-84135ae8dd21,Berserk,30A,181,8b67d192-9a05-4a47-82ae-5fc
 b5489e26-6aec-4706-9c3e-8454878fa6c3,Rukh,P03,7,b8df27be-118b-4a76-95ec-9d6220314533,0,R,Token Creature — Rukh,Playerrewards,"Edward P. Beard, Jr."
 b548e817-912b-4922-8b73-f1009aeb2ab8,Knight of the White Orchid,C20,93,7d0efc64-151f-45b4-8c0b-c32609f9d862,2,W,Creature — Human Knight,,Mark Zug
 b54a2a39-83ec-4dd8-8599-6ce7ca338bb3,Thought Vessel,SCD,285,9965d9c5-2ebf-4a6c-930e-55c5890979be,2,,Artifact,,rk post
+b54c6054-bf05-4347-aa9c-07c6ab79e6df,Cleansing Nova,MSC,297,aff34f28-f707-4458-8af3-1bd5b13a6b10,5,W,Sorcery,Extended art · Universesbeyond,Vlad Petruchik
 b54d72ba-05ce-4299-a7c3-a9e9f126fffb,Starstorm,ONS,238,34d112c3-cc2d-4428-bd7f-568bda61bd30,2,R,Instant,Cornice retro,David Martin
 b54e69e4-c6c9-4735-ab86-c437eba8d4e2,Talion's Messenger,WOE,335,3a721a4c-696b-44d1-858d-20040bd01909,3,U,Creature — Faerie Noble,Extended art,Marta Nael
 b5545882-6963-4729-b2c6-fb4bdc75ffcc,Brainstorm,TLE,155,36cd2364-d113-47d1-b2c4-b088d9eb88dd,1,U,Instant,Universesbeyond,Arthur Yuan
@@ -23931,6 +24011,7 @@ b6269968-0f58-4e20-94d0-678d39207988,Hell's Caretaker,9ED,137,2f0d797e-d897-453d
 b626c1c8-8ccb-4072-9fa9-8f7e82cb4193,Vesuvan Doppelganger,30A,87,aeaccab9-3e2c-4a40-a483-52c4972b2014,5,U,Creature — Shapeshifter,,Quinton Hoover
 b6297104-b73c-439c-ac0c-b7fac01d49dc,"Delney, Streetwise Lookout",MKM,337,245d0ccf-87b6-460a-8b99-9e2079f2d375,3,W,Legendary Creature — Human Scout,Showcase · Dossier,Jack Hughes
 b62a4703-9e8d-4164-a529-b2dbc4069aa8,Sunrise Sovereign,LRW,192,c9abbb90-e3ae-4e7c-87ca-06ebebf65edb,6,R,Creature — Giant Warrior,,William O'Connor
+b62abd0c-ec3e-45d7-989d-da269812aeef,Unearth,MH1,113,4e0b647a-6e1a-421b-bca9-8d5e346bda80,1,B,Sorcery,,Jehan Choo
 b62c7e94-25ef-4859-88db-05b085744dc0,Hurkyl's Recall,5ED,93,ed1e5d24-c8a8-48fe-a88f-1003ad432477,2,U,Instant,Cornice retro,NéNé Thomas
 b62e9c2c-62ed-46bf-9c1c-e4dc14e275c6,Swords to Plowshares,ATH,16,b1544f21-7e98-461b-aed5-e748b0168c52,1,W,Instant,Cornice retro,Jeff A. Menges
 b631b71b-78f6-41bc-a26a-c761ee1671a1,Trench Gorger,CMD,65,a5e37c6e-ae42-4c98-ba20-840ea3c4a6ab,8,U,Creature — Leviathan,,Hideaki Takamura
@@ -24207,6 +24288,7 @@ b81ae822-13a5-44ed-a6be-7b64f5ea90f9,Pinnacle Starcage,SLP,54,10e0b563-4dfc-4530
 b81c3f08-9319-4265-a75b-5b12b09aba89,"Garland, Royal Kidnapper",FIC,442,ab914053-4384-415f-b1e8-09fecb5a30b8,4,BU,Legendary Creature — Human Knight,Borderless · Invertita · Ffi,David Rapoza
 b81e9fd2-a539-4756-8146-b2e8311c095d,Meteor Golem,SLD,2225,d9f11aa1-9219-42a8-85a9-a8f204160706,7,,Artifact Creature — Golem,Borderless · Invertita · Universesbeyond,Narendra Bintara Adi
 b821e604-f9fd-47a4-b5ff-bfb5022834c2,Temple Garden,RTR,248,f413a83d-a40d-434c-b20a-4c707c0527fa,0,GW,Land — Forest Plains,,Volkan Baǵa
+b8238e36-625f-460d-9e39-fd501e65490c,Drogskol Captain,DKA,136,c33604ac-636a-43ad-9efe-8d7b3a28bf81,3,UW,Creature — Spirit Soldier,,Peter Mohrbacher
 b825db05-7e95-400b-944b-526cfa6addc0,Glistening Sphere,ONC,20,15679808-baba-4a11-b111-f313ce24197f,3,,Artifact,,Tuan Duong Chu
 b82666ab-bf22-4471-90af-1da24f809e77,Norn's Dominion,OPC2,27,9d58f647-3f83-4f65-a944-c6236db7c422,0,,Plane — New Phyrexia,,Igor Kieryluk
 b826de8b-ed21-4e2b-b99a-e860c1cb876b,Insight Engine,EOC,6,83409a22-10de-4d51-90a3-e0579ca8cbea,3,U,Artifact,,Gaboleps
@@ -24247,6 +24329,7 @@ b851d5b4-7991-49d4-8a52-bf233f960cbf,Johan,LEG,236,ad33ada7-4f89-4cab-88db-1f4d0
 b85635e0-fb5b-42ea-8a30-d67922cbca95,"Rakdos, the Muscle",OTJ,297,e2c141af-925e-42bd-8d83-e1a71f4c9794,5,BR,Legendary Creature — Demon Mercenary,Borderless · Showcase,Greg Staples
 b8571901-a2e9-428b-a022-13e38c84bf28,City of Brass,BCHR,112,f25351e3-539b-4bbc-b92d-6480acf4d722,0,,Land,Cornice retro,Mark Tedin
 b85d2921-16ee-48bf-abd3-f49fae163855,Murkfiend Liege,CMA,204,61d28182-498f-4bbc-bb7a-c5e1ef872dda,5,GU,Creature — Horror,,Carl Critchlow
+b85e0aed-bfb2-4aa8-a754-849c4d9a6a58,Restless Bivouac,WOE,257,b3c7b46f-c9ab-40ca-b50b-a4e0d0bd9be8,0,RW,Land,,Sergey Glushakov
 b8630ae1-8fe9-4d6e-899b-a28d86d4d729,"Anowon, the Ruin Sage",VOC,118,0c201f79-9eca-48c8-88ba-a20fa6918a07,5,B,Legendary Creature — Vampire Shaman,,Dan Murayama Scott
 b8652a52-d9f6-42ad-9746-6827845b540e,Sunken Ruins,FRC,86,e6415ffb-8b7a-41c3-bedf-0d4112b7b795,0,BU,Land,,Warren Mahy
 b8656aab-e22d-4f97-a8e6-a69f1dbffd09,The Ruinous Powers,40K,139,283054ed-5fbd-4202-bc02-294079aaff03,4,BR,Enchantment,Universesbeyond,Lie Setiawan
@@ -24433,6 +24516,7 @@ b9ac7673-eae8-4c4b-889e-5025213a6151,"Ygra, Eater of All",BLB,241,62511d43-8eaf-
 b9ad8c5b-07e0-4960-af07-802004ccf425,Ley Druid,30A,498,a4ae41c7-9631-407d-8fd3-04f403d940a8,3,G,Creature — Human Druid,Cornice retro,Sandra Everingham
 b9b12da4-7c5c-4dce-932d-0683bf04df7d,Ran and Shaw,TLA,325,a728685f-8670-4db2-ae02-3cf74eb3c402,5,R,Legendary Creature — Dragon,Borderless · Invertita · Universesbeyond,Antonio José Manzanedo
 b9b6ec63-7df4-450e-b849-920121fe245c,Nazgûl,LTR,730,48a62778-7c11-486f-a0e1-020c283a7ef9,3,B,Creature — Wraith Knight,Showcase · Silver foil · Scroll,Lorenzo Mastroianni
+b9b96782-5216-4914-bc39-7e9ac9a97a60,Soul-Guide Lantern,ONC,142,1b5e6560-ff2e-4475-96cb-63f64c8a86db,1,,Artifact,,Cliff Childs
 b9be1142-3ba8-4915-9541-757e59ed046c,Battlegrace Angel,ALA,6,40216d09-ae4d-4a41-b3f6-1a8035093045,5,W,Creature — Angel,,Matt Stewart
 b9c03336-a321-4c06-94d1-809f328fabd8,Leyline Axe,FDN,129,4f597675-0f6d-438c-990c-337171927a5e,4,,Artifact — Equipment,,Edgar Sánchez Hidalgo
 b9c09886-a733-4797-a489-46150cecfc13,Sylvan Basilisk,P02,146,4f348e7a-fe13-4621-bd88-5d2fb5b597f2,5,G,Creature — Basilisk,Cornice retro,Ron Spencer
@@ -24705,6 +24789,7 @@ bbb94426-4e89-4ae1-98f2-d3a66f18784b,"Radha, Heart of Keld",PM21,224p,927fb139-0
 bbbbfc7f-51b6-4925-a0f7-b2873366653e,"Talrand, Sky Summoner",CMM,673,ea1eb902-a23c-44ff-9169-19baf71de238,4,U,Legendary Creature — Merfolk Wizard,Borderless · Invertita · Portrait,Tyler Walpole
 bbbc5c9d-110a-44cd-a2c9-8bad7dac4b5f,Blood Money,LCC,183,75f5d372-4ff9-430c-8302-72472439e0d2,7,B,Sorcery,,Inka Schulz
 bbbfadff-43a1-4c46-9426-d3417715baae,Mystic Forge,BRR,99,994bc16d-fdc6-475c-96df-beeb4d5aa03e,4,,Artifact,Cornice retro,Titus Lunter
+bbc0f3e7-a287-4624-8266-ca617448fcaa,Guttersnipe,M19,145,c6bdaf76-6a03-4695-9c4b-f040e73435af,3,R,Creature — Goblin Shaman,,Mathias Kollros
 bbc27860-05c2-4b13-9a6e-9ae986d558e3,Glasses of Urza,CED,246,af7fabf4-8d55-4b06-9c21-472f4a5775b4,1,,Artifact,Cornice retro,Douglas Shuler
 bbc46960-fdf1-4227-93b8-3fd778be896b,Solitude,H2R,3,dcb9c2a7-ae54-4ddc-a567-640bf4bf4366,5,W,Creature — Elemental Incarnation,Cornice retro,Evan Shipard
 bbc536ff-3e12-4e1b-b96f-b0c32dcb6734,Rowen,7ED,266,eb44f5eb-1c6a-49f0-9751-23d167bf8288,4,G,Enchantment,Cornice retro,Franz Vohwinkel
@@ -24788,6 +24873,7 @@ bc60e209-aa29-48aa-9128-9bb175403c0c,Nova Pentacle,LEG,289,db121503-8a34-498a-82
 bc6146bf-f0c6-4557-af6a-74c643d5fc01,Fire Lord Azula,TLA,220,2631130e-63e2-43a3-914a-648e76722203,4,BRU,Legendary Creature — Human Noble,Universesbeyond,Fahmi Fauzi
 bc6765e4-0bbd-4711-b77e-b7628efcfb07,Leyline Immersion,MAT,161,aa6c4079-72e1-4b2e-bd26-9399298c6105,4,G,Enchantment — Aura,Extended art,Wisnu Tan
 bc6ac0e9-7419-4a77-a144-d2983fc6aa6d,"O-Kagachi, Vengeful Kami",MB2,138,300715a0-4f95-4212-9e13-558434c9d1a4,6,BGRUW,Legendary Creature — Dragon Spirit,,Daarken
+bc6be107-b3e3-4f71-880c-79755fafe98d,Rise of the Deathbringer,FRA,326,57ea9f63-8267-4303-a3dd-9ded220294dc,5,B,Instant,Borderless · Invertita · Full art,Kieran Yanner
 bc6c0c64-e65e-4b7b-8134-39067cff53b4,"Iroas, God of Victory",SLD,2215,36041cf2-159f-4809-9377-930ac4db545f,4,RW,Legendary Enchantment Creature — God,Borderless · Invertita · Universesbeyond,Joshua Raphael
 bc6c3170-9e84-46ea-8311-911145f9c48a,Battlefield Forge,OTC,271,6b75b94e-83b7-457e-ac41-7ca90b5a59aa,0,RW,Land,,Thomas Stoop
 bc6d966e-fa6b-4eb4-b854-7425f5553518,Scrap Mastery,CM2,116,62dac700-49f7-4745-af67-37d2a81dcebc,5,R,Sorcery,,Dan Murayama Scott
@@ -24869,6 +24955,7 @@ bce78225-9dbf-46c1-b63d-083c1858eb98,Austere Command,MOC,172,09cc8709-fe10-472a-
 bce84a87-093a-42de-9696-8c3250e0f33b,Goblin Rabblemaster,DDT,46,24661b81-6bee-4ad8-b3ab-53cb65005c51,3,R,Creature — Goblin Warrior,,Svetlin Velinov
 bcea5e09-6385-41df-970b-ac26c9b46127,Breath of Life,POR,10,30d9e200-b944-43ff-89b8-a550a788ae03,4,W,Sorcery,Cornice retro,DiTerlizzi
 bceab6b3-6b64-4964-a501-ce806a6c13ad,Dispel,BFZ,76,6d7be242-a072-40ce-b540-95880506cccd,1,U,Instant,,Chase Stone
+bcece5e2-1676-4452-b8fc-e4c80a0f8887,Castle,4BB,12,f3179c3c-7e53-44d2-b579-b9e677efe9d9,4,W,Enchantment,Cornice retro,Dameon Willich
 bcedbfc9-dd0c-4298-976e-a66fd5d4d2a5,Tributary Instructor,LCC,64,1c70b9d8-b04e-48f8-a4e0-12ce077d22f2,4,G,Creature — Merfolk Shaman,Extended art,Christina Kraus
 bcf0514e-63b3-4695-93ae-527524d48c25,Rowan Kenrith,CLB,805,e191976c-6ab1-4a23-aeb8-8a88bd4bd203,6,R,Legendary Planeswalker — Rowan,,Anna Steinbauer
 bcf09714-89cf-4feb-b941-74f791bbdf6e,Clone,2ED,52,42226b87-0746-4ebf-9fd0-108d508462af,4,U,Creature — Shapeshifter,Cornice retro,Julie Baroh
@@ -24987,6 +25074,7 @@ bdd2c783-1483-490a-ae93-c4664a0a9564,The One Ring,HOC,44,3aa83ed2-f48b-4ce6-a614
 bdd2f0f6-9e7b-4401-a760-0285b999365c,Temple of Plenty,PIP,523,e521322b-0e83-458c-8936-7021a80ee279,0,GW,Land,Extended art · Universesbeyond,Jeremy Paillotin
 bdd581e3-6ed4-4a2c-91d6-ef3aa304b7e8,Gemstone Mine,PLST,WTH-164,0c828f10-4775-492f-9224-1e2814ad2cad,0,,Land,Cornice retro,Brom
 bdd634f0-2373-4747-8b16-92dbf279e1ff,"Shigeki, Jukai Visionary",NEO,480,cbad3570-5417-42e6-b3ef-f42194098314,2,G,Legendary Enchantment Creature — Snake Druid,Extended art · Enchantment,Anna Podedworna
+bddcc7a7-bebf-4b57-9e6c-4637bca88bd6,Frostboil Snarl,LTC,312,7137aae6-260d-41de-8b4e-42a8cf752697,0,RU,Land,Universesbeyond,Alexander Forssberg
 bddcec63-a60a-4d73-af6d-9ac978703811,Fauna Shaman,UMA,164,35b8fa77-4e85-418b-b335-cd1af127075c,2,G,Creature — Elf Shaman,,Steve Prescott
 bddeac3f-f4ee-432b-9d69-8533a28e7f46,Fire Elemental,2ED,149,3912d21e-1ebc-4a81-9dc9-f404248d564a,5,R,Creature — Elemental,Cornice retro,Melissa A. Benson
 bde037b9-4947-4ff7-8ea4-e9f1a7e4ab88,Martyrs of Korlis,ATQ,6,7ca54a23-f8eb-4982-b4ee-7392e2f2a1b3,5,W,Creature — Human,Cornice retro,Margaret Organ-Kean
@@ -25075,6 +25163,7 @@ be71e1a2-ba83-4c07-b7e5-c13dc51be639,Skred,PLST,CSP-97,026318be-e3dd-4d5c-bd77-5
 be73364e-d833-410f-b460-c36fe14c52ca,Archangel,P02,11,9971697b-2acc-4bc2-a44e-074d03a51df7,7,W,Creature — Angel,Cornice retro,rk post
 be77b98a-dd79-477c-8ab2-7ebf5637a89e,Headliner Scarlett,CLU,4,f5420901-b5e6-4d54-b3e8-5f45e37f1fab,4,R,Legendary Creature — Human Warlock,Borderless · Invertita · Universesbeyond,Heonhwa
 be77edac-9a8b-4b7f-a859-27df76b10aa6,Enduring Renewal,ICE,23,47a080c4-ff04-4f52-aca0-2b8e4f4d931e,4,W,Enchantment,Cornice retro,Harold McNeill
+be7e4b30-7f45-4109-b5ed-9223a9422d95,Mountain,USG,344,a3fb7228-e76b-4e96-a40e-20b5fed75685,0,R,Basic Land — Mountain,Cornice retro,John Avon
 be8061c6-21b8-4146-8917-c73a82060ffe,Will Kenrith,BBD,1,20dbfc9a-172e-4065-bfde-d40de3131787,6,U,Legendary Planeswalker — Will,,Anna Steinbauer
 be8177e1-b0b4-4c8f-90b9-034313c7b271,Doctor Doom,MSH,336,9e4fa592-71f8-4c71-8c91-78e6326cd736,6,B,Legendary Creature — Human Scientist Villain,Borderless · Invertita · Universesbeyond,Johan Grenier
 be819c83-5534-44ec-aa44-d3365bfc89db,Sakashima's Student,PLST,PCA-24,afcc68e2-3634-43ce-ae99-dd2ec735d146,4,U,Creature — Human Ninja,,Brian Snõddy
@@ -25483,6 +25572,7 @@ c17f714a-d36a-42b7-9bea-897ad5cfd5c3,"Gandalf, Westward Voyager",LTC,89,4563ae4b
 c180f9bd-7dd7-4318-8625-2fa674cbc528,Propaganda,C16,94,ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd,3,U,Enchantment,,Clint Cearley
 c1835cd8-16c1-467b-a613-a4df6f752894,Scrawling Crawler,FDN,486,1d60c80d-9a95-4051-bbf7-02ca51ee1be2,3,,Artifact Creature — Phyrexian Construct,Extended art,Miro Petrov
 c1862c47-71cc-45a3-8805-a5ddc62e55ea,Channel,LEA,188,d1b815d1-2848-40d4-a555-66822d1becbc,2,G,Sorcery,Cornice retro,Richard Thomas
+c187b12a-391b-41fb-9728-053909f69f66,Farhaven Elf,LTC,243,4ce2357f-93e6-40ca-beca-8f4e15adc464,3,G,Creature — Elf Druid,Universesbeyond,Christina Kraus
 c18804c4-fa18-4e2c-82ea-1e3d8ce13d95,Farseek,PLST,RAV-163,495e52e6-4c2b-4574-9474-eadbdcc8b4ac,2,G,Sorcery,,Martina Pilcerova
 c18cbbdd-7aaf-4999-870c-2b59ee5816d2,Isochron Scepter,PLST,MRD-188,ddd649f4-dbaf-48ec-8ff7-95581257772d,2,,Artifact,,Mark Harrison
 c18d2a4a-cfde-434e-85eb-f9aae0da9dce,"Ashiok, Nightmare Muse",THB,256,ebc9ff52-c914-4c48-9d35-0e4cd07741cb,5,BU,Legendary Planeswalker — Ashiok,Borderless,Chuck Lukacs
@@ -25499,6 +25589,7 @@ c19e0ebf-ca94-4684-8b2c-68e592b65a24,Drumbellower,SOC,143,03dee43b-6377-4f7b-956
 c1a09ea4-8d5c-48d9-b159-cbc31674ddfd,Squirrel Mob,PLST,ODY-273,451486df-6160-4ff7-b47c-dd3760417a31,3,G,Creature — Squirrel,Cornice retro,Carl Critchlow
 c1a31d52-a407-4ded-bfca-cc812f11afa0,Mana Vault,2X2,308,736892cb-a34b-4bb9-b56c-e26e3db207a2,1,,Artifact,,Christine Choi
 c1a6d1c9-7779-4165-ad82-f7c4c5fe529c,Gravecrawler,PLST,DDQ-59,09ff28b1-b6c9-48e6-b12e-2f0e644f709f,1,B,Creature — Zombie,,Steven Belledin
+c1a80504-d991-4eef-8407-2acf444401f0,Curse of Vitality,C17,3,6d2eb412-e09b-4ab3-8653-b458e9f38eff,3,W,Enchantment — Aura Curse,,Kieran Yanner
 c1a9fe23-09c3-4fc9-ae2b-77692695a238,"Basandra, Battle Seraph",CNS,184,4a480736-4cdc-4e3a-a8cb-d1c726982f9f,5,RW,Legendary Creature — Angel,,Terese Nielsen
 c1aa161d-9cce-4e0a-a2f9-bd40ee5878ce,Ley Druid,FBB,206,a4ae41c7-9631-407d-8fd3-04f403d940a8,3,G,Creature — Human Druid,Cornice retro,Sandra Everingham
 c1aab711-c113-458c-848e-9369c0149d61,"Azula, Ruthless Firebender",TLE,101,7139ead5-86f0-46ae-8a6d-ad66d0408f73,3,B,Legendary Creature — Human Noble,Universesbeyond,Rose Benjamin
@@ -25542,6 +25633,7 @@ c1ec13cf-e164-4222-90b1-af3e92e03b2e,Twilight Prophet,SLD,1304,a3afd8b9-d499-40f
 c1f0544c-0124-497c-a8f1-5d5fb959ca39,Vaultborn Tyrant,BIG,50,e8d0accc-b320-4c07-8a71-a09db860351e,7,G,Creature — Dinosaur,Showcase · Vault,Simon Dominic
 c1f2bc4d-e0ff-4415-93a0-58af6e1debe9,Tsabo Tavoc,SLD,2762,f98f1f71-99ec-4ffb-9d8e-acbab173f972,7,BR,Legendary Creature — Phyrexian Horror,Borderless · Invertita,Ian Miller
 c1f2eaf7-7f08-446b-892f-5a844f74808f,Everglades,VIS,162,ef3b8b0c-cea7-4bae-934c-9c65fd64245d,0,B,Land,Cornice retro,Bob Eggleton
+c1f38104-a699-4bb9-930a-699f7bbc338a,Tek,INV,313,f85aef9b-b6ad-4716-b48b-5e26b474a59d,5,,Artifact Creature — Dragon,Cornice retro,Chippy
 c1f53d7a-9dad-46e8-b686-cd1362867445,"Westvale Abbey // Ormendahl, Profane Prince",SOI,281,04eeb9ad-5c59-411b-8809-db8349838588,0,B,Land // Legendary Creature — Demon,Sunmoondfc,Min Yum
 c1f56192-f9a4-4fb9-937f-7dfc6a83f361,Noxious Gearhulk,PKLD,96p,a77b5be2-f361-4135-ba25-670a74d268ac,6,B,Artifact Creature — Construct,Setpromo · Promopack · Stamped,Lius Lasahido
 c1f93f78-645b-4f21-a80b-5542f3328111,Sol Ring,TLE,316,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact,Borderless · Showcase · Universesbeyond,Barbara Rosiak
@@ -26022,6 +26114,7 @@ c5798e7d-a0e2-4a5e-a796-1b408c81091a,Crypt Ghast,RVR,423,a3c8d817-7949-4dae-b9f5
 c579956f-900a-4574-a68b-3c1d92ea67b6,Lithoform Engine,BRC,146,0bf299da-1854-4153-baea-3cee2eb01ee8,4,,Legendary Artifact,Cornice retro,Colin Boyer
 c57b152e-c94e-4c10-9f0d-d960e878a430,Atarka's Command,2X2,176,1943cbb0-2b12-4450-90af-060b8c8627c3,2,GR,Instant,,Chris Rahn
 c57b4876-5387-4f73-b8e2-8e7bdca8b0bc,"Jin-Gitaxias, Progress Tyrant",NEO,59,f5daadc1-98ff-480a-82bb-fe7bfaa7b60e,7,U,Legendary Creature — Phyrexian Praetor,,Chase Stone
+c58064fd-4d8b-4f54-812f-0bb1d7e2ddc2,"Sarkhan, the Dragonspeaker",KTK,119,80c26f58-04b0-4db0-b84e-9b136609abe0,5,R,Legendary Planeswalker — Sarkhan,,Daarken
 c58623cb-8b49-470c-9622-dd6e09d47599,Of Herbs and Stewed Rabbit,LTC,17,2efb908f-d069-4041-930b-5c1ccec00db2,3,W,Enchantment — Saga,Universesbeyond,Dan Murayama Scott
 c58a738c-3f39-4556-ae9a-90f240e3062b,Vow of Malice,CM2,82,894bc28a-6627-43dd-9650-86300b6fe5e6,3,B,Enchantment — Aura,,Jesper Ejsing
 c58ff93f-7135-40af-92ce-358da48694dc,Nesting Dovehawk,MOC,17,fe8fc442-ed17-40b2-8624-69f2eed3f9be,4,W,Creature — Bird,,Alessandra Pisano
@@ -26110,6 +26203,7 @@ c62990d7-a337-4fc3-859c-63bc1dade1b9,"Zurzoth, Chaos Rider",NCC,278,a7da9ec5-f82
 c62fa778-ce44-4a3e-958a-91dfe5398944,Retraced Image,TOR,46,a97f2f2a-5a8c-4f8a-99d1-83ebc4b0bdba,1,U,Sorcery,Cornice retro,Greg Staples
 c630a2ba-9009-4463-91f8-a0eb4af3c1b0,King of the Oathbreakers,LTR,662,3ee451e7-2b2f-4ce7-af96-540bba555c60,4,BW,Legendary Creature — Spirit Noble,Showcase · Silver foil · Scroll,Tatiana Veryayskaya
 c6314a8b-d14a-4bd7-a43f-7ec17d07059e,Time Sidewalk,CMB2,31,f3b10d09-50d5-4c79-9dff-6c194ac119f1,8,U,Sorcery,Playtest,Steve Sunu
+c632f5a4-7f5f-4d77-9364-58ea03dfdcad,Artisan of Kozilek,M3C,153,19409704-09c4-4a4b-a5a7-f95120b425db,9,,Creature — Eldrazi,Ripple foil,Jason Felix
 c633ffe8-2198-4d62-969c-9a44a7ca132d,"Mondrak, Glory Dominus",ONE,299,fe83087d-c6c1-40be-9295-baaa1c6b2db1,4,W,Legendary Creature — Phyrexian Horror,Borderless · Showcase · Invertita,Flavio Girón
 c634273a-94b0-4104-9d10-ae522ece1fc7,"Adagia, Windswept Bastion",EOE,250,70d35dbd-1d91-4a2a-a643-6870d168f4f5,0,W,Land — Planet,,Adam Paquette
 c6348e42-9082-4c62-bd0e-0239b588533b,Seize the Spoils,SLD,2556,58f83528-9110-4895-b5ea-51b90af30a8d,3,R,Sorcery,Borderless · Invertita · Universesbeyond,Jordan Speer
@@ -26155,6 +26249,7 @@ c67088f4-4cbf-47f5-a4f8-a00f8aae305c,Storm of Saruman,LTR,733,cf5f4860-e805-46a3
 c6717954-35d8-4d7e-95aa-f7d26d15d4b2,"Jarad, Golgari Lich Lord",CMA,179,87e65e36-9483-49fe-b644-2caca092107f,4,BG,Legendary Creature — Zombie Elf,,Eric Deschamps
 c6721419-70aa-4137-98d5-98ef17720c8e,Sol Ring,ONC,140,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact,,Mike Bierek
 c673009f-569c-40c2-9546-16a25c95fc69,Tainted Wood,C15,312,fa6d05a1-3df4-4751-b1a0-8d9693faec73,0,BG,Land,,Rob Alexander
+c6751671-9ef9-45f2-8e27-8c896936929a,Serra's Blessing,6ED,42,49cdd05c-feeb-4c24-9d88-069f5d2e08c3,2,W,Enchantment,Cornice retro,Rebecca Guay
 c676a0eb-7307-48af-ba6b-6b35863dec42,Enter the Infinite,RVR,449,2adbb56a-45e9-4fbe-b586-3488ef8014a3,12,U,Sorcery,Cornice retro,Jake Murray
 c67da5c8-3668-4585-b149-fa2ddf33f4b5,Wooden Sphere,4BB,359,0bd8917c-bec4-4603-bc3f-8e0c2afae56a,1,,Artifact,Cornice retro,Mark Tedin
 c67e509e-a219-4f7f-b7eb-8c446cc0620a,Cavern-Hoard Dragon,LTC,31,939e8448-013a-4aef-9a92-7c883a77a1a0,9,R,Creature — Dragon,Universesbeyond,Antonio José Manzanedo
@@ -27060,6 +27155,7 @@ cd1a7802-92bd-401d-a1a6-705c398359bb,Temur Sabertooth,SLD,308,8bf8e846-9d10-4dbc
 cd1deda0-c99d-4570-a5dd-f51eb5d12570,Karn Liberated,MM2,4,0ca233f4-1b7f-4807-ab6e-2b1f5439b3db,7,,Legendary Planeswalker — Karn,,Jason Chan
 cd20aae9-9de0-498b-8325-f8e8290d56e3,Terror of the Peaks,OTJ,337,f8e17f4f-080d-4bba-bd05-ca27e94ccecc,5,R,Creature — Dragon,Extended art,Joshua Raphael
 cd212de7-25f6-4b3b-a35b-df7d87fe205b,Rhystic Study,FCA,31,53236dd7-845a-444c-96d5-f41ed7325d8f,3,U,Enchantment,Borderless · Enchantment · Invertita,Square Enix
+cd21dc3d-c9e6-4592-a655-1a20ee13ae73,Sleight of Mind,4ED,102,99dba614-40d3-41c1-a3b2-edc8777b010f,1,U,Instant,Cornice retro,Mark Poole
 cd25e18c-0cf5-449a-ad3b-5ea6d7ac6add,Abomination,4BB,117,2c57c4e9-0a46-45d6-92db-9203fb722b60,5,B,Creature — Horror,Cornice retro,Mark Tedin
 cd264040-c10d-4244-9229-e11238f7cd5c,Bladewing the Risen,PLST,IMA-193,c22cc70a-9533-4bfc-b3ce-b2d43a73f0c1,7,BR,Legendary Creature — Zombie Dragon,,Seb McKinnon
 cd2abff9-6927-42cc-8cf1-a0876d3a45d7,Magister Sphinx,CON,116,1d86ae29-4705-4bbc-8922-9b4e031df5b1,7,BUW,Artifact Creature — Sphinx,,Steven Belledin
@@ -27452,6 +27548,7 @@ cff8b0c5-5457-432a-8c27-f193c9922aec,Agility Bobblehead,PIP,126,83a3897c-c245-4f
 cffae8d0-7b4e-42ed-8124-24a86b38f490,"Ketramose, the New Dawn",DFT,209,de41ad94-b9d7-4c2b-bfa6-394d18737228,3,BW,Legendary Creature — God,,Maaz Ali Khan
 cffc9b01-2f61-4eb1-8bfa-cbe746a7104b,Karplusan Forest,DRC,163,bd912666-f37f-4767-af6f-9e6d0fcccacf,0,GR,Land,,Sam Burley
 d002b29b-c3a6-4c91-86e1-96a50ce29966,"Yargle, Glutton of Urborg // Yargle, Glutton of Urborg",SLD,1542,,,B,,Borderless · Full art · Poster,Mike Burns & Scott Okumura
+d0049f19-d75b-46da-96e5-5ead39b3e061,Silklash Spider,C14,214,2d0c73da-ed8c-44fc-abd9-7c344b1f890d,5,G,Creature — Spider,,Iain McCaig
 d005f6e3-ee7e-4076-a1df-1a76c1a5e779,Lost in Memories,TLE,195,69ac3757-66f8-47d4-af7b-dda66c96c254,2,R,Enchantment — Aura,Enchantment · Extended art · Universesbeyond,Tubaki Halsame
 d007da5a-6bd9-433b-b04e-b740e61dfc50,Shriekmaw,TSR,331,717bbb9d-0a5b-4979-a24b-9d54aac7657a,5,B,Creature — Elemental,Cornice retro,Steve Prescott
 d008aac8-0e84-49ae-8905-68db2b2900ef,Voice of the Blessed,VOW,354,01e742ed-660c-43c6-b393-e589a54cbe1b,2,W,Creature — Spirit Cleric,Extended art,Anastasia Ovchinnikova
@@ -28118,6 +28215,7 @@ d515da5d-90b5-435b-8e86-c95c8f30a9eb,Pestilence,SUM,122,dafe63ef-f3d6-45e7-877a-
 d51634e0-84ee-4432-9ef4-c3f3cff01647,Cemetery Reaper,ARC,12,70fa209f-5e79-44de-81ce-1d8d0d8c1006,3,B,Creature — Zombie,,Dave Allsop
 d516b248-c0be-4c49-83ab-393354c33563,Steam Vents,SLD,129,17039058-822d-409f-938c-b727a366ba63,0,RU,Land — Island Mountain,,John Avon
 d5178a1b-588b-4414-a370-ac6eed51187a,The Shire,LTR,260,9abf9a0e-8e7d-406b-a01d-d4870b30134e,0,G,Legendary Land,Universesbeyond,Jonas De Ro
+d518e2fd-7767-43d7-92e3-62a4a465154c,Dark Suspicions,PLS,40,cf5cf174-d976-4cd8-9721-c30fe784fb70,4,B,Enchantment,Cornice retro,Matt Cavotta
 d51a8325-3b68-4608-b466-d94023f5de88,Demilich,PAFR,53p,eeb50bfc-8443-482b-bfc1-ea96b37809cd,4,U,Creature — Skeleton Wizard,Promopack · Stamped,Daniel Zrom
 d51b956a-acca-4aee-92ff-bd90a9814988,"Kenrith, the Returned King",FCA,23,d209b948-9afb-4fd1-a961-72c87282878c,5,BGRUW,Legendary Creature — Human Noble,Borderless · Invertita · Full art,Square Enix
 d51bacdd-040e-45f7-9256-85f93801a10e,Containment Priest,M21,314,8a76a9b9-3127-45fe-b20f-a8f643276281,2,W,Creature — Human Cleric,Borderless · Invertita,Jesper Ejsing
@@ -28302,6 +28400,7 @@ d672cfad-e656-47f8-bf93-64f262aff33e,"Electro, Assaulting Battery",SPM,76,3db16f
 d674a92e-b268-48f7-b082-f8ca2e63d43b,Ogre Taskmaster,P02,112,5604f04e-fd72-41bf-906f-eb89d4a3475d,4,R,Creature — Ogre,Cornice retro,Dan Frazier
 d678e736-7c29-433a-9a2a-b78749252377,Prisoner's Dilemma,MKC,34,fecbbc79-2f74-46b3-a049-45736f904f58,5,R,Sorcery,,Serena Malyon
 d6794f92-1895-41fe-931f-42b0744e9f2e,Soul of the Harvest,W16,16,6b9194dd-2296-4879-ac5e-f89b18431df6,6,G,Creature — Elemental,Starterdeck,Eytan Zana
+d67a4d51-ad47-4c63-966a-c5d860d02b1c,Reunion of the House,TDC,55,ad5ff61f-79d6-4dd9-b4fe-17f7a0055c44,7,W,Sorcery,Extended art,Quintin Gleim
 d67be074-cdd4-41d9-ac89-0a0456c4e4b2,"Sheoldred, the Apocalypse",DMU,107,34f34409-326d-4994-a0ea-1a69aa278f03,4,B,Legendary Creature — Phyrexian Praetor,,Chris Rahn
 d6862005-32d1-473e-a28b-5dfc4b7782cd,Land Grant,MMQ,255,e36f4649-934d-4e8a-bd5f-39f164ea6937,2,G,Sorcery,Cornice retro,D. Alexander Gregory
 d6876c7a-8bbe-484e-b733-70229fa336cd,"Thassa, God of the Sea",THS,66,69e5df2f-be1f-4608-a90f-3e2f51e2fea4,3,U,Legendary Enchantment Creature — God,Enchantment,Jason Chan
@@ -28497,6 +28596,7 @@ d81bace1-28d2-4429-ae8d-b867c202afbd,"Kozilek, the Broken Reality",MH3,382,39f4b
 d81bcabd-7bbe-463c-a35a-992c12c4e4bf,Leering Emblem,EVE,171,a5cfd1e4-cd14-454a-9734-b5f6952d6a50,2,,Artifact — Equipment,,Ron Brown
 d81bce60-78f6-4f42-9fcd-383f66f85de5,Arbor Elf,SLD,1317,4567a528-75f0-4ea6-b927-3a500caf76ac,1,G,Creature — Elf Druid,Borderless · Invertita,Andrew MacLean
 d81c4b3f-81c2-403b-8a5d-c9415f73a1f9,"Journey to Eternity // Atzal, Cave of Eternity",RIX,160,7d6ccd0b-df16-40b2-930b-bcde0b6ef73f,3,BG,Legendary Enchantment — Aura // Legendary Land,Compasslanddfc,Deruchenko Alexander
+d81ca098-2dca-48a2-876d-06e89c2b1d1c,Gloom Ripper,ECL,312,78e1beca-840d-47b2-8759-cc31454fdf5a,5,B,Creature — Elf Assassin,Borderless · Showcase,Isabella Mazzanti
 d81da23b-b0c1-4e28-ab87-2aaac9b12bb3,Sigarda's Vanguard,MIC,8,147d8a1f-fe82-4078-a281-29a2eed4c750,5,W,Creature — Angel,,Martina Fačková
 d81f685a-3149-4326-b900-4973a2029415,Assassin's Trophy,PMKM,187p,ac10d218-f9a6-4058-9cda-a15ca1b0b7b5,2,BG,Instant,Promopack · Stamped,Dmitry Burmak
 d820fed7-fbe8-4175-834a-33b6742481ea,Bribery,TLE,10,6d194882-ca37-49bb-ac9f-a751c53850a8,5,U,Sorcery,Borderless · Invertita · Full art,Viacom
@@ -28545,6 +28645,7 @@ d88c61cb-dbf9-46c3-8795-8896ba1208d5,Rotting Regisaur,M20,111,acdbaa99-18c9-4aa1
 d88c66de-a153-4317-9589-2db861bb9640,Silence,SLD,1445,8aed54cb-d1bb-45ad-adbe-38e55d84ff31,1,W,Instant,Borderless · Invertita · Universesbeyond,Sam Hogg
 d88e1616-e480-46c3-9aa7-dad032dde577,Prairie Stream,WHO,508,5330e24a-8568-446e-840a-594cd08bd1bc,0,UW,Land — Plains Island,Extended art · Universesbeyond,JB Casacop
 d88ef895-1fb8-4abe-835a-7c6e9ae781de,Pestilence,4BB,152,dafe63ef-f3d6-45e7-877a-573da92ba85e,4,B,Enchantment,Cornice retro,Jesper Myrfors
+d88f8449-748f-4843-b4a2-480f6ebd384d,Dryad Militant,PRTR,214,b8ca5877-ac9e-4b15-8c23-c70f61b01895,1,GW,Creature — Dryad Soldier,Setpromo · Gameday,Ryan Pancoast
 d890999a-dcc7-479e-b0f0-60388c737043,Eclipsed Steppe,SOC,53,6216635f-8e6e-40a3-9659-ef6352ab92ce,0,BW,Land — Plains Swamp,,Leon Tukker
 d891044d-9e74-4c5d-95e6-83ceb5163ca8,Rakdos the Defiler,GK2,71,789bf406-38f0-4888-b2ff-c4a95ac79283,6,BR,Legendary Creature — Demon,,Zoltan Boros & Gabor Szikszai
 d89133d1-06e7-4b8f-8f42-e0551fd93a5b,Furnace Layer,OPCA,26,1799d361-85e7-4c04-aa04-6f83e6499573,0,,Plane — New Phyrexia,,Kekai Kotaki
@@ -28923,6 +29024,7 @@ db88b6b6-7907-4c40-b712-4fa1456d8ad0,Multiversal Passage,SPM,206,17770eeb-ecbf-4
 db89172e-0542-4858-9e65-38b1bac8cdeb,Sin Prodder,JMP,363,745efa76-7063-4971-9d1b-b2b4cb336a57,3,R,Creature — Devil,,Jack Wang
 db89ae4d-1cc2-41d8-a4de-a54b958c4429,Lotus Bloom,TSR,270,04cf02dc-f053-414e-87d8-1537f25bcbf4,0,,Artifact,,Mark Zug
 db8b3560-4940-40cc-9797-f909dcb1519b,Snuff Out,DDD,53,324824cb-f938-401c-b9b5-d8908b431ef0,4,B,Instant,,Steve Argyle
+db90a5e7-8238-442a-a6a4-78c59a6adb3d,Amber Prison,6ED,272,1c69fdcf-ba87-480a-88df-70aa4ec9fff0,4,,Artifact,Cornice retro,Donato Giancola
 db91a198-49f9-4685-b03f-6f9513bddfd7,Metalwork Colossus,SLD,378,64ffe529-ba53-48ec-8af1-b046fbd1f0cc,11,,Artifact Creature — Construct,,"Hyan Tran, age 6"
 db929e1a-5f5d-4851-95fc-c6114f1abeb9,Thunderfoot Baloth,C16,172,f55334d9-1ec2-4667-bf28-5a0384d6f053,6,G,Creature — Beast,,Marco Nelor
 db92d00c-e5eb-4e69-9ebc-fec6d9c0f71e,Recurring Insight,ROE,82,c6815bbb-24a5-4c9f-bf30-6190bc766d05,6,U,Sorcery,,Zoltan Boros & Gabor Szikszai
@@ -29050,6 +29152,7 @@ dc738689-2ed8-45e1-bdd4-c9d8450e2589,Lignify,LTC,252,63625b26-3a19-4c3c-b18a-912
 dc741a80-a0eb-424c-b9a3-4d5875ccb93b,Council's Judgment,CLU,57,acf4d685-a718-42f7-9a7a-dee069ae8db2,3,W,Sorcery,,Kev Walker
 dc75cd5d-70e1-4507-b767-feb503d0a10f,Duelist's Heritage,C21,90,5cdc4654-b8c5-4599-a1d2-9e9d5f6509cb,3,W,Enchantment,,Lake Hurwitz
 dc7732bc-e168-44d9-923a-db7e985bd6db,Skizzik,INV,169,0c77d37e-791c-415e-b369-55e93147ec34,4,R,Creature — Elemental,Cornice retro,Ron Spencer
+dc7b153e-e036-42ef-8479-f9deebb6a2d6,Hop to It,SOA,71,e8a9350a-07c1-47ed-8c4f-88e4b3b17545,3,W,Sorcery,Borderless · Showcase,Matthew Meyer
 dc7f0181-0c0c-4084-9277-add0a2fe842c,Unmarked Grave,PMH2,106p,134dfb35-0c32-4143-aa63-7701f406b59e,2,B,Sorcery,Promopack · Stamped,James Paick
 dc8037d5-79fa-47e3-9d3b-eb29643ecae7,Hallowed Spiritkeeper,VOC,88,5852ed2f-4332-4c30-b145-373deea471d9,3,W,Creature — Avatar,,Steve Prescott
 dc8077f4-72db-45a3-906c-18d5165f8a76,Throne of Bone,30A,566,f73c7edf-ed2c-41e8-ac83-c83ddd543f14,1,,Artifact,Cornice retro,Anson Maddocks
@@ -29151,6 +29254,7 @@ dd3141de-633e-48e3-a89f-a91339f5e882,Emet-Selch of the Third Seat,FIC,81,634475d
 dd3520a7-a55f-4c00-b4f1-c1c154adfc8f,Chancellor of the Forge,NPH,81,0aedf049-db6b-420e-80e7-591ed38d4fba,7,R,Creature — Phyrexian Giant,,Chippy
 dd370ce8-8e0c-4147-a044-a70bfabf0a4f,Lord of Atlantis,SUM,64,cc7f290f-ca00-4285-9bdb-4b4402444f30,2,U,Creature — Merfolk,Cornice retro,Melissa A. Benson
 dd38662b-06c7-4e75-81c8-a6e071632e0f,Realmwalker,PKHM,188p,b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f,3,G,Creature — Shapeshifter,Promopack · Stamped,Zack Stella
+dd39f563-2ea9-4ddd-8d76-900fa14b480c,Honor-Worn Shaku,CMM,954,babeeaf6-0fe4-491f-bbf5-63a0568b3d6e,3,,Artifact,,Tony Szczudlo
 dd3ccfc6-d642-4ca1-8cab-9178ea51d058,Accumulated Knowledge,WC01,ar26,1ca25379-d194-4670-a7bf-525ad11cf436,2,U,Instant,Cornice retro,Randy Gallegos
 dd3d32b7-672f-4ceb-a1c9-17daefd2cb0c,Pride Sovereign,HOU,126,a131c32d-2b4f-4ee4-aab2-ab05ab010978,3,GW,Creature — Cat,,Ryan Yee
 dd3e42ee-ab13-460b-90fd-86e677abce4f,Sunforger,CMR,473,d1421070-a3cc-4af3-bf91-0f97372f4161,3,RW,Artifact — Equipment,,Darrell Riche
@@ -29577,6 +29681,7 @@ e01bf216-3e4c-4373-8021-26a7110b5421,Urza's Power Plant,CHR,115c,e11966cd-2ee3-4
 e01cc65a-0e38-4f41-b9ed-796ef0355d0b,Wear // Tear,MOC,343,9842734c-1eac-4509-a731-4c22017ae586,3,RW,Instant // Instant,,Ryan Pancoast
 e021e750-74f3-466a-b670-f5cd9cebb84a,Razorlash Transmogrant,BRO,333,580996d4-db9a-4b57-a0e1-a2dbb524121a,2,B,Artifact Creature — Zombie,Extended art,Kekai Kotaki
 e0249e38-fa32-4465-b350-8d906706697a,"Ezuri, Renegade Leader",CMA,108,6734497c-16f0-4c4b-ba24-337333511fc6,3,G,Legendary Creature — Elf Warrior,,Karl Kopinski
+e02506c8-ea5f-4144-bbec-fedc03a38da5,"Garruk, Caller of Beasts",J25,659,8e2fbc26-5373-4fd7-8e9e-41af5bb9ff18,6,G,Legendary Planeswalker — Garruk,,Karl Kopinski
 e0268eea-284b-450a-b334-e57d9080bd3b,Loxodon Gatekeeper,SLD,2358,861f0b1c-3b37-4d38-9232-e42565247076,4,W,Creature — Elephant Soldier,Borderless · Invertita,Kevin Eastman & Jay David Ramos
 e027d1dc-8c7f-4c09-b47b-f68d5a382d95,Shivan Gorge,PLST,USG-326,e90a1381-c9c1-4f57-928c-5d19dc065274,0,R,Legendary Land,Cornice retro,John Matson
 e02aa086-13b2-42cf-acf4-086ba406e886,Wriggling Grub,J25,12,d25e8f54-1915-4d0b-b4b1-93ee40da2cfa,2,B,Creature — Worm,,Caio Monteiro
@@ -29711,6 +29816,7 @@ e107bd35-eddd-40f7-aea8-3a1eec3363c0,Act of Authority,C13,1,c12b8e31-5702-4d3c-8
 e108e7ac-7a4c-4d02-9278-02868997f7f2,Wave of Rats,NCC,142,ccb0f59b-7947-4563-9e16-5d23246f4232,4,B,Creature — Rat,Extended art,Brian Valeza
 e10f2619-e723-4402-ae4e-79d762004477,Jester's Cap,5ED,385,8783a94a-d0b2-4291-a550-dbcf8e16bf4b,4,,Artifact,Cornice retro,Dan Frazier
 e11471f9-6bf4-4b31-8eb6-f5f9e8abd797,Primevals' Glorious Rebirth,DMC,165,8de8027b-072a-474b-b76b-dc49c417cc55,7,BW,Legendary Sorcery,,Yigit Koroglu
+e115baf4-157a-479d-879b-e6d33fe0bae3,Calamity of Cinders,BLC,57,fbcf0c1c-29a7-4e83-8b06-869f83be49cd,7,R,Sorcery,Extended art,Xabi Gaztelua
 e11690e9-a2b7-4c34-adc7-e58b1f52a211,Forest,BRB,101,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest,Cornice retro,David O'Connor
 e11775d9-2636-4726-93ae-a7f130ca0e64,Seething Song,DDG,70,64bf8929-f5f2-4d50-8667-13b1d007bcfc,3,R,Instant,,Jaime Jones
 e1187999-521d-4ed0-8673-6eb8f3c58bb8,Sol Ring,NCC,379,6ad8011d-3471-4369-9d68-b264cc027487,1,,Artifact,,Mike Bierek
@@ -30318,6 +30424,7 @@ e6209ca8-3a2a-4c0a-9f86-54283af9df75,Leyline of Hope,DSK,369,c7ee79c3-a273-45b4-
 e623b058-76d2-476b-9ee6-82807f7992c3,Plains,FIN,295,bc71ebf6-2056-41f7-be35-b2e5c34afa99,0,W,Basic Land — Plains,Full art · Universesbeyond · Ffvii,Jonas De Ro
 e6246cf3-76bd-476b-9cd9-789b6ad48887,Kheru Mind-Eater,C17,17,dfea918b-5702-4c12-ba36-e6aa4ace09c7,3,B,Creature — Vampire,,Igor Kieryluk
 e6273be2-c515-4183-a8d3-23de64d99365,Wild Mongrel,WC02,bk283,e9441ab3-7a17-4f9b-a873-e5e82f6e9690,2,G,Creature — Dog,Cornice retro,Anthony S. Waters
+e628e89b-bee9-408d-bb05-1784fda6b8a1,Restless Vents,LCI,284,696e7ddb-bdc7-40ee-bc5c-59e98f4a7401,0,BR,Land,,Svetlin Velinov
 e6297586-8953-408e-a38c-2239d45807e1,Crown of Skemfar,KHC,13,db961314-fe78-4362-902f-aa0dbf6c487d,4,G,Enchantment — Aura,,Jason Felix
 e62c43bd-59fe-46e3-83f8-c4b37cbc4931,Infernal Contract,MIR,129,4372205f-45e6-49c7-b1fd-13a41e20d4de,3,B,Sorcery,Cornice retro,Roger Raupp
 e62cddab-34ef-46c6-b700-9b59751b9a2c,Sire of Stagnation,M3C,272,ed6607f4-20ab-4d3f-a8af-bcc148423336,6,BU,Creature — Eldrazi,Ripple foil,Tyler Jacobson
@@ -30538,6 +30645,7 @@ e7be1a2a-e4dc-4b08-b46b-275e07fbf61d,Genesis Ultimatum,MSC,402,06f42f49-32f0-413
 e7bf120c-c229-4c97-8d88-09d8a6c7ba78,Guardian Angel,CED,22,1a91ca69-e890-41dc-866b-3aabf10c9a9c,1,W,Instant,Cornice retro,Anson Maddocks
 e7bff40c-cb25-4fdf-aa53-e31fa958005e,Blue Mana Battery,4BB,300,79e91e8a-cee7-411b-b0a3-d3383c0d4a43,4,U,Artifact,Cornice retro,Amy Weber
 e7c0375b-234b-4349-9652-b8f09ae00f2b,Giant Inheritance,WOC,53,6be21185-f85c-49e8-988a-a76b6613fdaa,5,G,Enchantment — Aura,Extended art,Borja Pindado
+e7c15159-8466-43e5-9dc5-a8cc94619931,War Tax,MMQ,113,fd5ff6ad-f3f1-470f-adef-fb4ce6536365,3,U,Enchantment,Cornice retro,Greg Hildebrandt & Tim Hildebrandt
 e7c53ba4-9956-4cd6-85ca-2d6b61a5127c,Dance of the Dead,ICE,118,15d5b198-edbe-40f3-87e2-d72f7f0c58ab,2,B,Enchantment — Aura,Cornice retro,Randy Gallegos
 e7c570c4-6637-4269-a59f-6448d85dfc50,Mayhem Devil,SLP,28,4709f11c-aef8-45ac-b2bf-e640c568dfac,3,BR,Creature — Devil,Borderless · Invertita,Hisashi Momose
 e7c927d6-911d-4a37-89a2-6c500edf4dd7,Zo-Zu the Punisher,DDS,41,0e412b68-9179-4094-960a-95692428855b,3,R,Legendary Creature — Goblin Warrior,,Wayne Reynolds
@@ -30595,6 +30703,7 @@ e83b1b87-01d5-4624-8a2b-4b771e13e59c,"Karn, Living Legacy",DMU,1,09ab1278-811f-4
 e83d49c1-7d84-43f9-8548-5697603fefc0,Bayou,SUM,283,b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b,0,BG,Land — Swamp Forest,Cornice retro,Jesper Myrfors
 e83e50d0-7851-4608-8cfd-63c54d1a7544,Scholar of New Horizons,BRC,6,3c7ea603-c985-4107-806b-a467b5fcca36,2,W,Creature — Human Scout,Cornice retro,Randy Vargas
 e83e6d7a-3af0-4955-8004-2310f051e306,"Kess, Dissident Mage",NCC,344,f5092c14-eec4-472c-999c-ba96c36b2fbb,4,BRU,Legendary Creature — Human Wizard,,Izzy
+e83ee667-7726-42e9-9483-6cfc6f9ce638,Fire Nation Archers,TLE,237,2e735849-1930-4f43-86b4-da660ade15bc,4,R,Creature — Human Archer,Universesbeyond,Shiyu
 e8418418-10bb-48e1-83ed-0081390384b4,Swamp,FRA,388,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Borderless · Invertita · Full art,Daniel Romanovsky
 e8440ca8-73ca-462b-a735-f6fb3d0de603,Phyrexian Tyranny,PLS,118,55082cd0-a33c-4f1d-9f46-9578f63e6bb6,3,BRU,Enchantment,Cornice retro,Kev Walker
 e845f300-6a98-4057-9003-885185f30923,Greater Good,BBD,201,dc0593c2-ccb4-4648-a592-c5bcd121dc72,4,G,Enchantment,,Mathias Kollros
@@ -31020,6 +31129,7 @@ eb68983d-fd8c-4844-8ceb-afd3cae7e4df,Mystic Enforcer,ODY,290,cf3b79cc-ce97-48e9-
 eb69473f-de99-43a7-b094-429465ae735c,The Cauldron of Eternity,ELD,82,a7308a1f-ec46-478e-86ea-33b2ebbd995f,12,B,Legendary Artifact,,Tomasz Jedruszek
 eb6953fd-ee48-49dc-9c9c-bfb9a9dc06d0,Glasses of Urza,LEB,246,af7fabf4-8d55-4b06-9c21-472f4a5775b4,1,,Artifact,Cornice retro,Douglas Shuler
 eb6a101b-be36-4915-beba-64ed09165469,Blasted Landscape,PLST,CM2-238,9c8007ac-4b3d-4444-93e9-f583185e5d81,0,,Land,,Ciruelo
+eb6d8d1c-8d23-4273-9c9b-f3b71eb0e105,Mulldrifter,MKC,111,24d0f5e7-0d9e-4b76-900e-a7274e80312d,5,U,Creature — Elemental,,Eric Fortune
 eb70cd72-88c0-4068-b5de-d8cc594436a1,Mons's Goblin Raiders,CED,165,a37159df-f6d7-4db6-85de-0ea77f425993,1,R,Creature — Goblin,Cornice retro,Jeff A. Menges
 eb79f973-2384-4de4-81fb-14ba5a0e5556,"Tadeas, Juniper Ascendant",SLX,16,b4b5b928-8b98-4f65-9f15-212859874fe4,4,GW,Legendary Creature — Human Monk,,Alexander Mokhov
 eb7a6fc7-f692-41c5-8d36-08fd3b076a34,Temporal Mastery,INR,307,5c58b8e6-c572-461e-893e-a8c05f20ba17,7,U,Sorcery,Borderless · Invertita,Valera Lutfullina
@@ -31652,6 +31762,7 @@ f02cfc75-d0da-403f-835f-9a614e5ed836,Espers to Magicite,FIC,114,06f7ec6d-d70e-44
 f02d297c-d095-4c67-b88c-ef9401d475f6,Contagion,MB2,126,433e86ce-df04-4182-bb63-ad2607d67dbd,5,B,Instant,,Chris Rallis
 f03109b9-54a8-4d68-97c2-e42c7d5c2d41,Cavalier of Night,M20,94,27c2b8ce-17b9-4f6c-8444-3bdc636dd413,5,B,Creature — Elemental Knight,,Viktor Titov
 f0313c44-d4ca-4021-866a-3d5cf58b0e76,Power Sink,2ED,73,39412e6d-2837-4729-abf9-e64a5ba87e40,1,U,Instant,Cornice retro,Richard Thomas
+f0336e07-8eaf-4b90-af54-4764e5ba50f2,Salvaging Station,5DN,148,3501ed98-473c-4a17-8b5f-1e0c00ee75da,6,,Artifact,,Greg Staples
 f033f980-ddc5-4dea-a682-5a823be99aa5,Poppet Stitcher // Poppet Factory,DBL,71,bc2d0702-b140-4b78-8a8f-3a6d19073b59,3,U,Creature — Human Wizard // Artifact,Invertita · Sunmoondfc,Simon Dominic
 f0349a40-d7c9-429e-99d3-709883712c8c,Choose Your Champion,OARC,5★,f860665e-9410-4d68-ad41-c064cf209ad3,0,,Scheme,,Jim Nelson
 f038d13b-5ef6-46e0-b04c-9407a9fed754,Blasphemous Act,PLST,DRC-101,7a2484a9-04fd-41a0-8224-610c1c07ed10,9,R,Sorcery,,Daarken
@@ -31675,6 +31786,7 @@ f05f5d93-50d1-4aa6-af05-383a6808345b,Massacre,NEM,58,ce1866e9-28de-4bcc-9999-119
 f05f904f-9371-4a80-ae6c-14dbf2fa4f00,Power Surge,30A,163,156b2228-f7b2-4816-b894-c4953a32c05f,2,R,Enchantment,,Douglas Shuler
 f06252d1-08ac-415d-b8d8-631568eef17a,Temporal Trespass,SLD,2190,c216b924-88ac-4853-9e95-0c345c09eeb6,11,U,Sorcery,Borderless · Invertita · Universesbeyond,Iron Maiden
 f06268a3-d092-4e4f-8a6f-922a2484bdf8,Smuggler's Buggy,NCC,184,e19e1e83-75e5-4cfa-8d50-8ed0b027a202,4,,Artifact — Vehicle,Extended art,James Paick
+f0654ea5-d192-4c2e-ba48-fa516d4a3f94,Cinder Glade,40K,269,dfac0258-e148-4d7d-8ded-fc2466d9caa6,0,GR,Land — Mountain Forest,Universesbeyond,Sergio Cosmai
 f067bf25-2f95-4c53-8876-00b79fb3d586,Healing Salve,30A,319,8da8644c-75a1-4fe9-8e94-900d948d631c,1,W,Instant,Cornice retro,Dan Frazier
 f06de9e9-3187-4f17-868d-902e4e232638,"Liesa, Forgotten Archangel",PMID,232p,efcaadbe-24e3-4dfc-b08c-a910f003d427,5,BW,Legendary Creature — Angel,Promopack · Stamped,Dmitry Burmak
 f06edd53-f3ac-44b0-a087-5670ba8f0fa5,Idyllic Tutor,THB,24,57c9ff89-dd30-467b-bb3e-499eeea8cb94,3,W,Sorcery,,Jaime Jones
@@ -32070,6 +32182,7 @@ f37c9abd-3d79-4c2e-8d8f-c3157a2a9db6,Batterskull,PLST,NPH-130,d12e5ce0-5705-4c35
 f37f2926-c653-4de4-83f8-3b493317c430,Ancient Cellarspawn,DSC,47,b8510b34-0e5f-4639-9db1-1ba40d84b800,3,B,Enchantment Creature — Horror,Extended art · Enchantment,Alexandre Honoré
 f37f3696-a780-4203-8ae9-06e14235066b,Champion of Lambholt,NEC,115,c549b0fd-1e08-4873-952e-a14dc45a0fd2,3,G,Creature — Human Warrior,,Christopher Moeller
 f3821ab6-495b-4e07-83be-56851170c320,Moon-Blessed Cleric,PLST,AFR-26,89ed0598-a3ee-4d14-9a35-25e0dd80d9fb,3,W,Creature — Human Elf Cleric,,Marta Nael
+f3869752-eade-4e7a-8dd1-68cafb9e10be,"Vraska, Soul of Stone",FRA,277,cad63b31-667b-4518-bc49-be4ffb82bc63,3,RUW,Legendary Creature — Gorgon Wizard,,Kieran Yanner
 f388ad92-fa79-4a1a-b75c-e340dba016f4,Stronghold Assassin,7ED,166,35826db0-b6ff-47b5-be16-c5b878d9e842,3,B,Creature — Phyrexian Zombie Assassin,Cornice retro,Ron Walotsky
 f388c143-8e76-4a13-98ee-496c0bcbede2,City on Fire,PMOM,135p,41eec4e8-92d3-4f98-9346-3a3e3cc602ce,8,R,Enchantment,Promopack · Stamped,Jake Murray
 f38cec83-caae-4cfa-a7dd-12e13091c17d,Aetheric Amplifier,DRC,34,295cd8e1-0830-46c1-9957-556afd4bcee6,3,,Artifact,Extended art,Victor Sales
@@ -32301,6 +32414,7 @@ f54eb705-6326-4bac-bf0e-68d42db7a270,"Brimaz, King of Oreskos",BNG,5,49471b65-be
 f54ecbf1-83df-4486-bd6a-7d1f173b6863,Ureni of the Unwritten,TDC,9,99c2d3ef-e5b4-48cd-b3f5-de9b02c7c36a,7,GRU,Legendary Creature — Spirit Dragon,Borderless · Invertita,Valera Lutfullina
 f54f1c1d-6a22-43e9-a842-0a1ae25b323c,"Orcrist, Goblin-cleaver",HOB,177,cc65821a-1893-4087-b461-35cf9fd26c71,3,,Legendary Artifact — Equipment,Universesbeyond,Erikas Perl
 f550c4e2-a9ba-4bd6-9ba6-94fa5b02e27a,Darkpact,3ED,100,74f10b9a-a286-49b2-bfa1-a427ff041bd4,3,B,Sorcery,Cornice retro,Quinton Hoover
+f550f0dd-9e20-4faf-a374-9d1c5830a52f,Karmic Guide,VOC,90,8c31fec9-e4b3-4761-990e-7be38eb05604,5,W,Creature — Angel Spirit,,Allen Williams
 f5559960-e306-4992-b607-9654327c4507,From Beyond,BFZ,167,31b27775-196b-4022-bff5-25b34290ff7f,4,G,Enchantment,,Mathias Kollros
 f5566c7e-7486-4237-a6e4-f7e641e11b22,Desert,PLST,AFC-233,195107ad-879d-4b02-a44a-a3ba70fedf88,0,,Land — Desert,,Glen Angus
 f556b9b8-6811-4328-9297-f1e7876c2d7d,Dark Ritual,30A,394,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,1,B,Instant,Cornice retro,Sandra Everingham
@@ -32451,6 +32565,7 @@ f64e9259-3d47-4bfd-b781-504eaf7adc66,Hornet Queen,PIP,350,3b1f8108-6911-49e9-8f7
 f64f6100-c26a-4b22-9fa6-ab3f287a94aa,Blessing,3ED,6,5c84d8da-2bfb-4618-89a0-7d9ed604e854,2,W,Enchantment — Aura,Cornice retro,Julie Baroh
 f6589e02-8c84-4069-88d1-ebcc8520cae1,Archivist of Oghma,CLB,4,08b13e1f-27ca-40a8-b5ed-88ac933d24bf,2,W,Creature — Halfling Cleric,,Stella Spente
 f659d464-13dd-49e2-a842-098dcba49659,Searing Blaze,DDI,67,74b08a70-b0bb-4340-98a0-b1d5b7c9d2cc,2,R,Instant,,James Paick
+f65bcf62-48c3-4e4d-b129-8e03b3635326,Damnable Pact,DTK,93,28dd0ae4-fc56-4abf-af24-6c6c8d0a10cd,2,B,Sorcery,,Zack Stella
 f6601ab1-3862-4aff-82be-be15493fe4b0,Weathered Wayfarer,ONS,59,1093fdb6-bd4f-46a8-92e3-5aa46b52bb4f,1,W,Creature — Human Nomad Cleric,Cornice retro,Greg Hildebrandt & Tim Hildebrandt
 f6613bf0-d2be-4a25-805a-d3592fa788e5,Pulse of the Tangle,PSAL,K25,26f034b1-9a96-4371-a28e-be00b02d9d60,3,G,Sorcery,Mediainsert,Wayne England
 f66202ab-cd10-4116-8e22-05b45a45fa85,Bloodforged Battle-Axe,2X2,392,81a7f559-5edd-47ec-91f7-51e5ee998ed0,1,,Artifact — Equipment,Borderless · Invertita,Ron Spencer
@@ -32620,6 +32735,7 @@ f77a14a7-0e77-4445-8d72-be8adcff2f3e,Sword of Truth and Justice,SLD,1096,7a8baaf
 f77a1544-ba6b-41cc-af10-34cf162eac9b,Relic of Progenitus,MD1,21,6a9c3401-570c-41cb-a605-75dfa57d6ab7,1,,Artifact,,Jean-Sébastien Rossbach
 f77ac7fa-718d-425f-a0aa-2f8e2bfc0950,"Kiora, the Crashing Wave",BNG,149,58cc2097-f4b4-4695-9076-78666050cdb6,4,GU,Legendary Planeswalker — Kiora,,Scott M. Fischer
 f77b8e34-e7e9-4ac6-bc21-0ef52c6696c7,Wu Spy,PTK,63,4b681770-eea3-459c-ad5b-138834213f8c,2,U,Creature — Human Soldier Rogue,Cornice retro,Zhao Tan
+f77e5ca7-dde1-435f-9b40-87558dd88749,Vineglimmer Snarl,STX,274,33f52df8-4b44-4422-8b0a-37fead9c894b,0,GU,Land,,Sam Burley
 f77f61a8-0b20-4f2e-8a24-844dc95c3a9e,Braingeyser,3ED,50,9908e597-9470-4c13-8387-39431b380138,2,U,Sorcery,Cornice retro,Mark Tedin
 f77fda65-f70d-44b1-89db-910d2761b81c,Atog,ATQ,23†,3095f2cf-05c3-4381-929f-c526b6fc30a7,2,R,Creature — Atog,Cornice retro,Jesper Myrfors
 f78398af-06b7-41f8-8aaa-81800f490121,Dark Depths,DMR,394,c9b82110-7dfd-4617-9399-9510be449043,0,,Legendary Snow Land,Cornice retro,Mathias Kollros
@@ -33209,6 +33325,7 @@ fbd8a278-1a91-49c7-8681-6611bf937c0c,Innocent Blood,PLST,EMA-94,6791ec3c-c397-40
 fbdaca43-a5be-43e3-8dd9-3a5f2cd8f0d0,Suppressor Skyguard,CLU,46,06c47664-2b4b-468e-a38d-04b62e6edd67,4,UW,Creature — Human Knight,,Valera Lutfullina
 fbdcbd97-90a9-45ea-94f6-2a1c6faaf965,Forest,ICE,380,b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6,0,G,Basic Land — Forest,Cornice retro,Pat Lewis
 fbdef99d-6ce9-495d-a55b-e6ba799d3da7,Feral Ghoul,PIP,44,284db94d-e583-4355-89fd-6c0906f9d17e,3,B,Creature — Zombie Mutant,Universesbeyond,Sergio Cosmai
+fbe04cb8-a8b9-4241-baae-b398a2509a3a,Mystical Dispute,ELD,58,48390b8d-db41-48a5-9bac-316660ab7252,3,U,Instant,,Ekaterina Burmak
 fbe2c9e8-e35a-47a4-bcad-7c1c16dcdfcf,Psychosis Crawler,CLB,869,2876e74f-a242-4995-9702-0b737a1ab67a,5,,Artifact Creature — Phyrexian Horror,,Stephan Martiniere
 fbe47ed7-33a9-4464-b720-d738af997159,Icy Manipulator,CED,249,3608f1f7-8dc5-4dd1-ae91-c830e1de9529,4,,Artifact,Cornice retro,Douglas Shuler
 fbe64367-aca8-45a1-967b-5650520e3e19,Tasha's Hideous Laughter,PAFR,78p,e352f5b9-6406-4914-bc79-f24608be6bc9,3,U,Sorcery,Promopack · Stamped,Ilse Gort
@@ -33522,6 +33639,7 @@ fe584bf8-cb71-42b5-b5c0-dea3fec79c9d,Contagion Engine,OTP,61,482bd55a-ba73-4722-
 fe5d1b77-e0bb-422c-8d69-6bc4bc61a28b,Meren of Clan Nel Toth,PLST,C15-49,0310dfdb-0498-488d-9f1a-279f8239e024,4,BG,Legendary Creature — Human Shaman,,Mark Winters
 fe646123-c399-4ead-96a9-f7b46215f9d9,"Kaheera, the Orphanguard",IKO,353,35428c77-9731-4d4d-8f75-e939a491cf86,3,GW,Legendary Creature — Cat Beast,Extended art,Ryan Pancoast
 fe662a08-a8b1-4f25-b7c0-dca1c7ad7271,Zombie Apocalypse,DKA,80,8241277d-654f-4985-9d49-a22c1e59eec2,6,B,Sorcery,,Peter Mohrbacher
+fe666c86-6734-4c47-9244-bcd26b54068d,Invoke Calamity,NEO,147,5b3f041e-ad4a-47ea-bdc4-1be2353f2e18,5,R,Instant,,Svetlin Velinov
 fe675f03-cbb5-4177-b7d7-64a30260ee2a,"Archangel Avacyn // Avacyn, the Purifier",INR,11,432b37a5-d32a-4b78-91ab-860aa026b7cc,5,RW,Legendary Creature — Angel // Legendary Creature — Angel,,James Ryman
 fe688c90-2dcf-48b9-a8b5-bea3500bb0a5,"Armix, Filigree Thrasher",BRC,103,a1464164-fbda-43b5-988e-6e1da9bd9eef,3,B,Legendary Artifact Creature — Golem,Cornice retro,Daniel Ljunggren
 fe68e08e-8d84-4f87-b2e9-b552788d78e7,Waterbender's Restoration,TLE,99,285046f6-b3c4-4eb7-8712-9dffebabc762,2,U,Instant — Lesson,Lesson · Universesbeyond,Phima
