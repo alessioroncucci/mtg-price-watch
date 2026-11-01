@@ -13008,6 +13008,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 609bcaff-c903-40ce-9b3e-bb7b07bb9125,Alien Insect,TWHO,19,8ae894c0-b2a8-42af-83c6-972f488aa33e,0,GW,Token Creature — Alien Insect,Universesbeyond,Ivan Dedov
 609c34f9-9f53-4773-a02b-517209024fc2,Reanimate,OTP,18,a044474a-cd72-4e9d-bd8d-a08f2de9cdc0,1,B,Sorcery,Borderless · Showcase,Michal Ivan
 609d3ecf-f88d-4268-a8d3-4bf2bcf5df60,Malakir Rebirth // Malakir Mire,ZNR,111,a731e87b-8d99-4b64-8ee3-8e540d652366,1,B,Instant // Land,,Marta Nael
+609ec229-702b-4908-add1-be65c05ecb3c,Suture Priest,PLST,NPH-25,c4d36522-3ace-4bfb-bf2d-1a366f458698,2,W,Creature — Phyrexian Cleric,,Igor Kieryluk
 609f6e06-daaa-4b15-a167-dc3ed6ce33cc,Resurrection,2ED,35,837417d8-8260-486d-a3ed-3b5711eaf34a,4,W,Sorcery,Cornice retro,Dan Frazier
 609fd302-e49e-4ee9-9ae6-3f014b1d0227,"Syrix, Carrier of the Flame",NCC,180,ec97bb0e-0dc8-4b9b-8762-2f1649cc9044,4,BR,Legendary Creature — Phoenix,Extended art,Brian Valeza
 60a24826-55fc-4b1b-98bf-3204ad852765,Arena Rector,BBD,23,6a23963c-21dc-4d21-8d28-5abad7f859a1,4,W,Creature — Human Cleric,,Ryan Pancoast
@@ -21071,6 +21072,7 @@ id,name,set,cn,oid,cmc,ci,type,tr,artist
 9c940a6b-3c5e-4ce2-92b6-63e2cb575c15,Seaside Haven,ONS,323,4adc39dd-8de1-4298-947c-ff666ec3adeb,0,UW,Land,Cornice retro,Mark Brill
 9c94c165-ce61-4c2b-8c08-7df71049a8d9,Haunted Ridge,FRA,398,e2a37967-4212-4553-9f77-bcb613405807,0,BR,Land,Borderless · Invertita,Piotr Dura
 9c9c0796-e03d-4bb9-b1d9-66284e9c156e,Swamp,PSAL,E22,56719f6a-1a6c-4c0a-8d21-18f7d7350b68,0,B,Basic Land — Swamp,Mediainsert,Dan Frazier
+9c9d4ea4-2ca2-46d2-b196-e0f5e1100edf,Rapid Hybridization,PLST,C21-126,06692cd9-ac2f-4a32-8fd1-043ba3c0fe71,1,U,Instant,,Jack Wang
 9c9d5f72-e199-4d5b-ae7e-cc5b9bdfae99,Tundra,3ED,289,02418479-9455-417f-a6a1-004356faff37,0,UW,Land — Plains Island,Cornice retro,Jesper Myrfors
 9c9f2eeb-fea5-4b33-9723-8be3c1914f63,Healing Salve,LEB,23,8da8644c-75a1-4fe9-8e94-900d948d631c,1,W,Instant,Cornice retro,Dan Frazier
 9c9ffcd9-2a99-47ff-9790-05b58cd14475,Curse of Shaken Faith,DBL,134,297494f0-1f79-4f77-b68b-6ed858e21f4e,2,R,Enchantment — Aura Curse,Invertita,Campbell White
